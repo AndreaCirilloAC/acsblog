@@ -275,3 +275,24 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ gita[K add -[K.
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git git commit -m "initial commit"
+git: 'git' is not a git command. See 'git --help'.
+
+Did you mean this?
+	init
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git git commit -m "initial commit"[1P[1P[1P[1P
+[master (root-commit) 3431c4b] initial commit
+ 12 files changed, 411 insertions(+)
+ create mode 100644 .Rproj.user/A16E1F5C/console06/2861B036
+ create mode 100644 .Rproj.user/A16E1F5C/console06/2861B036.env
+ create mode 100644 .Rproj.user/A16E1F5C/console06/INDEX001
+ create mode 100644 .Rproj.user/A16E1F5C/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/A16E1F5C/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/A16E1F5C/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/A16E1F5C/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/A16E1F5C/rmd-outputs
+ create mode 100644 .Rproj.user/A16E1F5C/saved_source_markers
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 acsblog.Rproj
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git [K[K[K[K[KMac-di-Andrea:acsblog andrea_cirillo$ git add -A[K[K.

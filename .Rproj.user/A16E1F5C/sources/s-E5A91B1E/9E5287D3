@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1513659733857.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9E5287D3",
+    "lastKnownWriteTime" : 1513659750,
+    "last_content_update" : 1513659750434,
+    "path" : "~/Dropbox/R_projects/acsblog/.Rprofile",
+    "project_path" : ".Rprofile",
+    "properties" : {
+        "cursorPosition" : "0,62",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
