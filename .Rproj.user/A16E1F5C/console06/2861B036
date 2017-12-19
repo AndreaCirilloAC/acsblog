@@ -1,0 +1,277 @@
+]0;~/Dropbox/R_projects/acsblog[?1034hMac-di-Andrea:acsblog andrea_cirillo$ [KMac-di-Andrea:acsblog andrea_cirillo$ pwd
+/Users/andrea_cirillo/Dropbox/R_projects/acsblog
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   ../basic_website/basic_website.Rproj[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    ../basic_website/basic_website.Rproj[m
+	[31mdeleted:    ../../../HelloWorld.md[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagument.xcodeproj/project.pbxproj[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagument/AppDelegate.swift[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagument/Base.lproj/Main.storyboard[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagument/Images.xcassets/AppIcon.appiconset/Contents.json[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagument/Info.plist[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagument/ViewController.swift[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagumentTests/Info.plist[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/untitled folder/tagument/tagumentTests/tagumentTests.swift[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagument.xcodeproj/project.pbxproj[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagument/AppDelegate.swift[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagument/Base.lproj/Main.storyboard[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagument/Images.xcassets/AppIcon.appiconset/Contents.json[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagument/Info.plist[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagument/ViewController.swift[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagumentTests/Info.plist[m
+	[31mdeleted:    ../../../Library/Mobile Documents/com~apple~CloudDocs/xcode/tagument/tagumentTests/tagumentTests.swift[m
+	[31mdeleted:    ../../../contributors.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m"../../../\r"[m
+	[31m../../../.CFUserTextEncoding[m
+	[31m../../../.R/[m
+	[31m../../../.Rapp.history[m
+	[31m../../../.Trash/[m
+	[31m../../../.Xauthority[m
+	[31m../../../.anaconda/[m
+	[31m../../../.atom/[m
+	[31m../../../.bash_history[m
+	[31m../../../.bash_profile[m
+	[31m../../../.bash_profile-anaconda.bak[m
+	[31m../../../.bash_profile-anaconda2.bak[m
+	[31m../../../.bash_sessions/[m
+	[31m../../../.bashrc[m
+	[31m../../../.cache/[m
+	[31m../../../.canopy/[m
+	[31m../../../.conda/[m
+	[31m../../../.condarc[m
+	[31m../../../.config/[m
+	[31m../../../.cups/[m
+	[31m../../../.dropbox/[m
+	[31m../../../.emacs[m
+	[31m../../../.emacs.d/[m
+	[31m../../../.enstaller4rc[m
+	[31m../../../.geeknote/[m
+	[31m../../../.gem/[m
+	[31m../../../.gitconfig[m
+	[31m../../../.gitignore[m
+	[31m../../../.gitignore_global[m
+	[31m../../../.heroku/[m
+	[31m../../../.hgignore_global[m
+	[31m../../../.ipynb_checkpoints/[m
+	[31m../../../.ipython/[m
+	[31m../../../.ivy2/[m
+	[31m../../../.jupyter/[m
+	[31m../../../.kernel-ae3e2b93-be39-4904-ac12-8532dd787252.json[m
+	[31m../../../.lesshst[m
+	[31m../../../.matplotlib/[m
+	[31m../../../.mkshrc[m
+	[31m../../../.netrc[m
+	[31m../../../.oracle_jre_usage/[m
+	[31m../../../.profile[m
+	[31m../../../.rnd[m
+	[31m../../../.rstudio-desktop/[m
+	[31m../../../.rvm/[m
+	[31m../../../.sbt/[m
+	[31m../../../.serverauth.1146[m
+	[31m../../../.serverauth.1236[m
+	[31m../../../.serverauth.820[m
+	[31m../../../.ssh/[m
+	[31m../../../.subversion/[m
+	[31m../../../.viminfo[m
+	[31m../../../.zlogin[m
+	[31m../../../.zshrc[m
+	[31m../../../AnacondaProjects/[m
+	[31m../../../Applications/[m
+	[31m../../../Calibre Library/[m
+	[31m../../../Desktop/[m
+	[31m../../../Documents/[m
+	[31m../../../Downloads/[m
+	[31m../../.dropbox[m
+	[31m../../BDINTESA2/[m
+	[31m../../Cartella del team Casa/[m
+	[31m"../../Icon\r"[m
+	[31m../../NPL_TOPIX/[m
+	[31m../Afraus/[m
+	[31m../Anomalie Personale Viaggiante/[m
+	[31m../BDINTESA2/[m
+	[31m../BenfordeR/[m
+	[31m../Costi non deducibili/[m
+	[31m../Rstudio for R statistical computing cookbook/[m
+	[31m../TweetIT/[m
+	[31m./[m
+	[31m../active_projects/[m
+	[31m../adsl/[m
+	[31m../analisi_AET_Italia/[m
+	[31m../analisi_cdc/[m
+	[31m../analisi_scostamenti/[m
+	[31m../analytics_insight/[m
+	[31m../baselguys.github.io/[m
+	[31m../bucket_simulator/[m
+	[31m../chess_books/[m
+	[31m../credit_risk.R[m
+	[31m../data_stories_script.R[m
+	[31m../dataviz/[m
+	[31m../default_history_author.zip[m
+	[31m../default_history_author/[m
+	[31m../eba_report.Rmd[m
+	[31m../eba_report.html[m
+	[31m../eba_rules/[m
+	[31m../eba_watchdog/[m
+	[31m../euro_2016_stat/[m
+	[31m../google_ranker/[m
+	[31m../google_ranker_app/[m
+	[31m../installr/[m
+	[31m../ludo/[m
+	[31m../mutuo/[m
+	[31m../new/[m
+	[31m../paletter/[m
+	[31m../paletter_0.0.0.9000.tar.gz[m
+	[31m../paletter_0.0.0.9000.tgz[m
+	[31m../r_data_mining/[m
+	[31m../r_datamining/[m
+	[31m../ramazon.Rcheck/[m
+	[31m../ramazon/[m
+	[31m../random_bucket_simulator/[m
+	[31m../render_pdf_try/[m
+	[31m../scales/[m
+	[31m../search_engine/[m
+	[31m../source_from_rmd/[m
+	[31m../spesa/[m
+	[31m../suicides/[m
+	[31m../text_data_mining/[m
+	[31m../the_blog/[m
+	[31m../the_data_fitter/[m
+	[31m../trip_flow/[m
+	[31m../twitter_analysis/[m
+	[31m../txt_cleaner/[m
+	[31m../updateR/[m
+	[31m../utilities/[m
+	[31m../workfloweR/[m
+	[31m../../archivio_old/[m
+	[31m../../css_projects/[m
+	[31m../../development/[m
+	[31m../../prova.txt[m
+	[31m../../py_projects/[m
+	[31m../../vb_projects/[m
+	[31m../../../Google Drive/[m
+	[31m../../../Library/.localized[m
+	[31m../../../Library/Accounts/[m
+	[31m../../../Library/Address Book Plug-Ins/[m
+	[31m../../../Library/Application Scripts/[m
+	[31m../../../Library/Application Support/[m
+	[31m../../../Library/Assistant/[m
+	[31m../../../Library/Autosave Information/[m
+	[31m../../../Library/Caches/[m
+	[31m../../../Library/Calendars/[m
+	[31m../../../Library/ColorSync/[m
+	[31m../../../Library/Colors/[m
+	[31m../../../Library/Compositions/[m
+	[31m../../../Library/Containers/[m
+	[31m../../../Library/Cookies/[m
+	[31m../../../Library/CoreData/[m
+	[31m../../../Library/CoreFollowUp/[m
+	[31m../../../Library/Developer/[m
+	[31m../../../Library/Dictionaries/[m
+	[31m../../../Library/Dropbox/[m
+	[31m../../../Library/Enthought/[m
+	[31m../../../Library/Family/[m
+	[31m../../../Library/Favorites/[m
+	[31m../../../Library/FileProvider/[m
+	[31m../../../Library/FontCollections/[m
+	[31m../../../Library/Google/[m
+	[31m../../../Library/Group Containers/[m
+	[31m../../../Library/Icons/[m
+	[31m../../../Library/IdentityServices/[m
+	[31m../../../Library/Input Methods/[m
+	[31m../../../Library/Jupyter/[m
+	[31m../../../Library/Keyboard/[m
+	[31m../../../Library/KeyboardServices/[m
+	[31m../../../Library/Keychains/[m
+	[31m../../../Library/LanguageModeling/[m
+	[31m../../../Library/LaunchAgents/[m
+	[31m../../../Library/Logs/[m
+	[31m../../../Library/Mail/[m
+	[31m../../../Library/Messages/[m
+	[31m../../../Library/Metadata/[m
+	[31m../../../Library/Mobile Documents/57T9237FN3~net~whatsapp~WhatsApp/[m
+	[31m../../../Library/Mobile Documents/7F6G8HD9L3~me~tanmay~Write/[m
+	[31m../../../Library/Mobile Documents/F6266T9T75~com~apple~iMovie/[m
+	[31m../../../Library/Mobile Documents/ZRTG2SVSTD~com~limepresso~pomodoro/[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/10_29_luglio_Cirillo Andrea.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/20160729-Presa_in_carico_Bonifico_Europeo_Unico_1000_90172.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/CERT.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/Certificato_impianti_elettrici.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/Consultation Paper on Guidelines on PD LGD estimation and treatment of defaulted assets (EBA-CP-2016-21).pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/Documento Scannable su 09 nov 2016, 13_43_48.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/Modulo_rimborso_nuove_energie.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/Proposta_minasi_cirillo.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/Report2017_details_10.docx[m
+	[31m../../../Library/Mobile Documents/com~apple~CloudDocs/VISURA 06-10-2016.pdf[m
+	[31m../../../Library/Mobile Documents/com~apple~Keynote/[m
+	[31m../../../Library/Mobile Documents/com~apple~Numbers/[m
+	[31m../../../Library/Mobile Documents/com~apple~Pages/[m
+	[31m../../../Library/Mobile Documents/com~apple~Preview/[m
+	[31m../../../Library/Mobile Documents/com~apple~TextEdit/[m
+	[31m../../../Library/Mobile Documents/com~apple~TextInput/[m
+	[31m../../../Library/Mobile Documents/com~apple~mail/[m
+	[31m../../../Library/Mobile Documents/com~apple~shoebox/[m
+	[31m../../../Library/Mobile Documents/iCloud~com~apple~iBooks/[m
+	[31m../../../Library/Mobile Documents/iCloud~com~produkt~thoughts/[m
+	[31m../../../Library/Mobile Documents/iCloud~it~netguru~ibreviaryproterrasancta/[m
+	[31m../../../Library/Mobile Documents/iCloud~net~doo~scanbot/[m
+	[31m../../../Library/PDF Services/[m
+	[31m../../../Library/Passes/[m
+	[31m../../../Library/Personas/[m
+	[31m../../../Library/Preferences/[m
+	[31m../../../Library/Printers/[m
+	[31m../../../Library/PubSub/[m
+	[31m../../../Library/R/[m
+	[31m../../../Library/Receipts/[m
+	[31m../../../Library/Safari/[m
+	[31m../../../Library/Saved Application State/[m
+	[31m../../../Library/Sharing/[m
+	[31m../../../Library/Social/[m
+	[31m../../../Library/Spelling/[m
+	[31m../../../Library/StickiesDatabase[m
+	[31m../../../Library/Suggestions/[m
+	[31m../../../Library/SyncedPreferences/[m
+	[31m../../../Library/TeXShop/[m
+	[31m../../../Library/WebKit/[m
+	[31m../../../Library/Workflows/[m
+	[31m../../../Library/com.apple.internal.ck/[m
+	[31m../../../Library/iTunes/[m
+	[31m../../../Movies/[m
+	[31m../../../Music/[m
+	[31m../../../Pictures/[m
+	[31m../../../Public/[m
+	[31m../../../Untitled.ipynb[m
+	[31m../../../anaconda/[m
+	[31m../../../anaconda2/[m
+	[31m../../../baselguys.github.io/[m
+	[31m../../../blog_srv.py[m
+	[31m../../../geeknote/[m
+	[31m../../../prova.txt[m
+
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git init
+Initialized empty Git repository in /Users/andrea_cirillo/Dropbox/R_projects/acsblog/.git/
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/[m
+	[31macsblog.Rproj[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ gita[K add -[K.
