@@ -392,3 +392,98 @@ error: pathspec 'added website' did not match any file(s) known to git.
  create mode 100644 themes/hugo-lithium-theme/static/images/logo.png
  create mode 100644 themes/hugo-lithium-theme/static/js/math-code.js
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commut [K[K[Ki -m[K[K[Kt -m "a lot of fluff"
+[master a468f2c] a lot of fluff
+ 26 files changed, 687 insertions(+)
+ create mode 100644 .Rproj.user/A16E1F5C/sources/prop/78AA79F5
+ create mode 100644 .Rproj.user/A16E1F5C/sources/prop/CD4038D9
+ create mode 100644 .Rproj.user/A16E1F5C/sources/prop/DFFA9A43
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/5EACF20A
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/5EACF20A-contents
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/B2076E4E
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/B2076E4E-contents
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/E4B0A404
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/E4B0A404-contents
+ create mode 100644 .Rproj.user/shared/notebooks/811E2714-2017-12-19-toc-post/1/A16E1F5CE5A91B1E/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/811E2714-2017-12-19-toc-post/1/s/chunks.json
+ create mode 100644 content/post/2017-12-19-another-one-rmd.md
+ create mode 100644 content/post/2017-12-19-another-onw.md
+ create mode 100644 content/post/2017-12-19-toc-post.Rmd
+ create mode 100644 content/post/2017-12-19-toc-post.html
+ create mode 100644 public/2017/12/19/another-one-rmd/index.html
+ create mode 100644 public/2017/12/19/another-onw/index.html
+ create mode 100644 public/2017/12/19/toc-post/index.html
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch blogdown::html_page:
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$   toc: true
+bash: toc:: command not found
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$   fig_width: 6
+bash: fig_width:: command not found
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$   dev: "svg"touch blogdown::html_page:[14P  dev: "svg"touch blogdown::html_page:[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K_output.yml
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open [K[K[K[K[Kcp ..[KRprofile ../blog
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ xp[K[Kcp out[K[K[K[K_[K :ou[K[K[K_output.yml ../blofg[K[Kg
+git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
+	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/A16E1F5C/pcs/files-pane.pper[m
+	[31mmodified:   .Rproj.user/A16E1F5C/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/A16E1F5C/pcs/workbench-pane.pper[m
+	[31mmodified:   .Rproj.user/A16E1F5C/rmd-outputs[m
+	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/275C0F09[m
+	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/CD4038D9[m
+	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/INDEX[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/5EACF20A[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/5EACF20A-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/72029210-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/7EB9B848[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/7EB9B848-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/843591ED[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/843591ED-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/9E5287D3[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/9E5287D3-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/A4A28E0C-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/AD09E921[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/AD09E921-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/B2076E4E[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/B2076E4E-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/E4B0A404[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/E4B0A404-contents[m
+	[31mdeleted:    .Rproj.user/A16E1F5C/sources/s-E5A91B1E/lock_file[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   acsblog.Rproj[m
+	[31mmodified:   config.toml[m
+	[31mmodified:   public/2015/01/01/lorem-ipsum/index.html[m
+	[31mmodified:   public/2015/07/23/hello-r-markdown/index.html[m
+	[31mmodified:   public/2016/12/30/a-plain-markdown-post/index.html[m
+	[31mmodified:   public/2017/12/19/another-one-rmd/index.html[m
+	[31mmodified:   public/2017/12/19/another-onw/index.html[m
+	[31mmodified:   public/2017/12/19/brand-new-post/index.html[m
+	[31mmodified:   public/2017/12/19/toc-post/index.html[m
+	[31mmodified:   public/about/index.html[m
+	[31mmodified:   public/categories/r/index.html[m
+	[31mmodified:   public/index.html[m
+	[31mmodified:   public/index.xml[m
+	[31mmodified:   public/post/index.html[m
+	[31mmodified:   public/post/index.xml[m
+	[31mmodified:   public/sitemap.xml[m
+	[31mmodified:   public/tags/plot/index.html[m
+	[31mmodified:   public/tags/r-markdown/index.html[m
+	[31mmodified:   public/tags/regression/index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31m_output.yml[m
+	[31maclogo.ico[m
+	[31mcontent/post/2017-12-19-let-it-snow.Rmd[m
+	[31mcontent/post/2017-12-19-let-it-snow.html[m
+	[31mpublic/2017/12/19/let-it-snow/[m
+	[31mpublic/images/aclogo.ico[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git c[Kadd .
