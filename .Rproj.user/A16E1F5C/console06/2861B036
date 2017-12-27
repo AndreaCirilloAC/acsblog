@@ -799,3 +799,77 @@ To https://github.com/AndreaCirilloAC/acsblog
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ hugo version
 bash: hugo: command not found
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ [24P(i-search)`':[C[24@Mac-di-Andrea:acsblog andrea_cirillo$[Chugo versionì[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .[K[K[K[K[Kcommit -am  "ntlif[K[K[K[Ketlify try"
+[master 2f0893e] netlify try
+ 5 files changed, 33 insertions(+), 5 deletions(-)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 2.50 KiB | 0 bytes/s, done.
+Total 13 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   a571fc6..2f0893e  master -> master
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls[K[Kpwd
+/Users/andrea_cirillo/Dropbox/R_projects/acsblog
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls[K[Kcd ../../De[K[K../Desktop/exitwp/
+]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ ls
+README.rst		config.yaml		html2text.py		pip_requirements.txt
+Vagrantfile		exitwp.py		html2text.pyc		wordpress-xml
+]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ open pw[K[Kwordpress-xml/andreacirillo039sblog.wordpress.2017-12-27.post_ttype-post.author-19304842.start_date-2014-07-01.end_date-2017-04-30.status-publish.001.xml 
+]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ open wordpress-xml/andreacirillo039sblog.wordpress.2017-12-27.post_ttype-post.author-19304842.start_date-2014-07-01.end_date-2017-04-30.status-publish.001.xml [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Copen wordpress-xml/andreacirillo039sblog.wordpress.2017-12-27.post_ttype-post.author-19304842.start_date-2014-07-01.end_date-2017-04-30.status-publish.001.xml [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Copen wordpress-xml/ui[K[Kbuild/an[K[Kjekyll/wo[K[Kandreacirilloblog.wordpress.com/_po sts/2014-07-28-parallel_computation_in_r.markdown 
+]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ open wordpress-xml/build/jekyll/andreacirilloblog.wordpress.com/_possts/2014-07-28-parallel_computation_in_r.markdown 
+]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ i[Kgit status[K[K[K[K[K[K[K[K[K[Kpwd
+/Users/andrea_cirillo/Desktop/exitwp
+]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ cd ../Dro[K[K[K../Dropbox/
+]0;~/DropboxMac-di-Andrea:Dropbox andrea_cirillo$ cd R_projects/acsblog/
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git static/[K[K[K[Ktus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
+	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036.env[m
+	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mcontent/post/2014-07-12-how-to-visualize-entertainment-expenditures-on-a-bubble-chart.markdown[m
+	[31mcontent/post/2014-07-28-parallel_computation_in_r.markdown[m
+	[31mcontent/post/2014-09-02-r-subset-data-frame.markdown[m
+	[31mcontent/post/2014-09-11-equations-in-evernote.markdown[m
+	[31mcontent/post/2014-09-13-functions-comparison-in-r.markdown[m
+	[31mcontent/post/2014-10-09-mining-twitter-with-r.markdown[m
+	[31mcontent/post/2014-10-23-learn-dplyr-with-rstudio-and-datacamp.markdown[m
+	[31mcontent/post/2014-10-25-data-visual-1021-plotly.markdown[m
+	[31mcontent/post/2014-10-25-excel-functions-in-r.markdown[m
+	[31mcontent/post/2014-10-27-excel-left-function-in-r.markdown[m
+	[31mcontent/post/2014-10-27-excel-right-function-in-r.markdown[m
+	[31mcontent/post/2014-10-28-download-data-to-excel-from-web.markdown[m
+	[31mcontent/post/2014-11-05-best-pratice-for-scientific-computing.markdown[m
+	[31mcontent/post/2014-11-19-querying-google-with-r.markdown[m
+	[31mcontent/post/2014-12-05-network-visualisation-in-r.markdown[m
+	[31mcontent/post/2014-12-28-using-github-with-rstudio-step-by-step-tutorial.markdown[m
+	[31mcontent/post/2015-02-06-benfords_law_with_r.markdown[m
+	[31mcontent/post/2015-04-01-how-to-list-file.markdown[m
+	[31mcontent/post/2015-05-11-how-to-add-live-chat-to-your-shiny-app.markdown[m
+	[31mcontent/post/2015-07-02-introducing-afraus-an-unsupervised-fraud-detection-algorithm.markdown[m
+	[31mcontent/post/2015-08-18-deploy-your-shiny-app-on-aws-with-a-function.markdown[m
+	[31mcontent/post/2015-09-10-how-to-list-loaded-packages-in-r-ramazon-gets-cleaver.markdown[m
+	[31mcontent/post/2015-10-22-updater-package-update-r-version-with-a-function-on-mac-osx.markdown[m
+	[31mcontent/post/2015-12-14-rename-a-data-frame-within-a-function-passing-an-argument.markdown[m
+	[31mcontent/post/2016-01-01-2015-in-review.markdown[m
+	[31mcontent/post/2016-05-11-over-50-practical-recipes-for-data-analysis-with-r-in-one-book.markdown[m
+	[31mcontent/post/2016-05-17-a-checklist-for-your-weekly-review-gtd-methodology.markdown[m
+	[31mcontent/post/2016-06-21-euro-2016-analytics-whos-playing-the-toughest-game.markdown[m
+	[31mcontent/post/2016-08-09-ggplot2-themes-examples.markdown[m
+	[31mcontent/post/2016-09-21-f09f938a-streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment-f09f96a5.markdown[m
+	[31mcontent/post/2017-04-12-why-are-you-being-so-silent.markdown[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git qd[K[Kadd -A
