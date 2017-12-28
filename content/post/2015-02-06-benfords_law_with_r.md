@@ -1,0 +1,387 @@
+---
+author: andreacirilloac
+comments: true
+date: 2015-02-06 00:00:00+00:00
+excerpt: Using Benford's Law in R as a fraud analytics tool , leveraging BenfordeR,
+  a lean Shiny App.
+
+
+slug: benfords_law_with_r
+title: Catching Fraud with Benford's law (and another Shiny App)
+
+tags:
+- algorithm
+- analytics
+- data
+- data analysis
+- data analytics
+- internal audit
+- R
+- shiny
+- shiny apps
+---
+
+### In the early '900 Frank Benford observed that '1' was more frequent as first digit in his own logarithms manual.
+
+
+
+
+### More than one hundred years later, we can use this curious finding to look for fraud on populations of data.
+
+
+
+
+### **[just give a try to the shiny app](https://andreacirillo.shinyapps.io/BenfordeR/)**
+
+
+
+
+## What 'Benford's Law' stands for?
+
+
+
+
+
+
+Around 1938 [**Frank Benford**](http://en.wikipedia.org/wiki/Frank_Benford), a physicist at the General Electrics research laboratories, **observed** that logarithmic tables were more worn within first pages: was this casual or due to an actual **prevalence of numbers** **near 1 as first digits?**
+
+
+
+
+<!-- more -->
+
+
+
+
+Starting from this intuition/question, **Benford tested the hypothesis** against 30 populations of data, finally coming to what is known as the **Benford Law**:
+
+
+
+
+
+
+#### **the expected frequencies of the digits in lists of numbers**
+
+
+
+
+![LogaritmeTafel](https://andreacirilloblog.files.wordpress.com/2015/02/logaritmetafel.jpg?w=300)
+
+
+
+
+
+
+
+That is to say that using the Benford Law is possible to **make a prediction** about the expected distribution of a population of data, in term of **recurrence of numbers** from 1 to 9 as first digits.
+
+
+
+
+
+
+
+
+The prediction is made in term of probability, and is calculated using the following formula:
+
+
+
+
+
+
+
+
+$latex Probability (D_{1}=d_{1}) = log_{10}(1+(\frac{1} {d_{1}}))&s=1$
+
+
+
+
+
+
+
+
+$latex d_{1}=(1,2,3,...,9)&s=1$
+
+
+
+
+
+
+You can also calculate the conditional probability of having two numbers as the first two digits:
+
+
+
+
+ $latex Probability(D_{2}=d_{2}|D_{1}=d_{1})= \frac {log_{10}(1+(\frac{1} {d_{1}d_{2}}))} {log_{10}(1+(\frac{1} d_{1}))}&s=1$
+
+
+
+
+
+
+
+
+$latex d_{1}=(1,2,3,...,9)&s=1$
+
+
+
+
+$latex d_{2}=(1,2,3,...,9)&s=1$
+
+
+
+
+A typical "**Benford Distribution**" looks really left skewed, having the first two numbers nearly the 50% of probability of being the first digit.
+
+
+
+
+[![benford distribution plot](https://andreacirilloblog.files.wordpress.com/2015/02/plot_benford1.png?w=660)](https://andreacirilloblog.files.wordpress.com/2015/02/plot_benford1.png)
+
+
+
+
+
+## Nice stuff, but what can I do with Benford's Law?
+
+
+
+
+Until a certain point in mathematical history, Benford's Law was regarded as a bizzare feature of some populations of data.
+
+
+
+
+Something really amusing, but not really useful.
+
+
+
+
+Eventually, mainly due to the meritory work of the mathematician[ **Mark Nigrini**](http://www.nigrini.com/), **Benford's law** began to be **used** for  practical purposes, and more precisely for **Fraud** **Analytics purposes**.
+
+
+
+
+
+## You can find fraud with it
+
+
+
+
+The idea of using Benford Law for Fraud Analytics purposes is based on one of the main assumptions in Fraud Analytics:
+
+
+
+
+**"if something is behavouring differently from what it should, it could be due to fraud."**
+
+
+
+
+In the case of Benford's Law the aim of using it for catching fraud is to verify if the law is respected within the population and if not, wich elements are not respecting it.
+
+
+
+
+Of course,  as is always the case for fraud analytics, the anomaly could be due to human error, at least for some of the anomalies ( i.e. **[false alarm](https://www.google.it/search?q=false+alarm+rate&oq=false+alarm+rate&aqs=chrome..69i57j0l5.3333j0j1&sourceid=chrome&es_sm=119&ie=UTF-8)**).
+
+
+
+
+Nevertheless, Benford-based fraud analysis **has proven** to be a **very effective** tool for detecting fraud, especially considering the non compliance as a red-flag on the data integrity.
+
+
+
+
+
+## Some precautions
+
+
+
+
+As pointed out by **[Durtschi, Hillison and Pacini](http://faculty.usfsp.edu/gkearns/Articles_Fraud/Benford%20Analysis%20Article.pdf) **, you have to be cautious when using Benford’s Law.
+
+
+
+
+Particularly, Benford’s Law is unlikely to be useful in the following cases:
+
+
+
+<table >
+<tbody >
+<tr >
+
+<td >Data set is comprised of assigned numbers
+</td>
+
+<td >Check numbers, invoice numbers, zip codes
+</td>
+</tr>
+<tr >
+
+<td >Numbers that are influenced by human thought
+</td>
+
+<td >Prices set at psychological thresholds ($1.99), ATM withdrawals
+</td>
+</tr>
+<tr >
+
+<td >Accounts with a large number of firm-specific numbers
+</td>
+
+<td >An account specifically set up to record $100 refunds
+</td>
+</tr>
+<tr >
+
+<td >Accounts with a built in minimum or maximum
+</td>
+
+<td >Set of assets that must meet a threshold to be recorded
+</td>
+</tr>
+<tr >
+
+<td >Where no transaction is recorded
+</td>
+
+<td >Thefts, kickbacks, contract rigging
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## BenfordeR: another lean shiny application
+
+
+[caption id="attachment_425" align="aligncenter" width="660"][![BenfordeR Screenshot](https://andreacirilloblog.files.wordpress.com/2015/02/benforder_app.png?w=660)](https://andreacirillo.shinyapps.io/BenfordeR/) click to try BenfordeR[/caption]
+
+
+Because **[I am getting used to do it](https://andreacirilloblog.wordpress.com/tag/shiny-apps/)** ( and also because my readers seems to find it useful) , I developed a lean shiny app in R, that let's you play around with Bendford law, loading your own population and looking for Benford's law compliance ( no worry, a demo dataset is also provided).
+
+
+
+
+**[BenfordeR](https://andreacirillo.shinyapps.io/BenfordeR/)**'s main feature includes:
+
+
+
+
+
+
+	
+  * custom dataset upload
+
+	
+  * number of first digits to test option
+
+	
+  * suspected records higlight ( se below 'detecting suspected records)
+
+
+
+
+##  Some code specs ( if you are interested in)
+
+
+
+
+Complete, and commented, Rstudio Project is **[given on GitHub](https://github.com/AndreaCirilloAC/BenfordeR),** but I would like to point out some code details in the following lines.
+
+
+
+
+
+###  performing a benford analysis
+
+
+
+
+**[BenfordeR](https://andreacirillo.shinyapps.io/BenfordeR/)** is based on **[benford.analysis](http://cran.r-project.org/web/packages/benford.analysis/index.html)** package, a well documented package that lets you simply perform a Benford analysis, using a single function: benford().
+
+
+
+
+[code language="r"]
+benford_obj    = reactive({benford(data(),input$digits)})
+[/code]
+
+
+
+### plotting results
+
+
+
+
+`benford()` function returns a benford objects that can be easily visualised using the plot function:
+
+
+
+
+[code language="r"]
+plot(benford_obj())
+[/code]
+
+
+
+[![BenfordeR_App](https://andreacirilloblog.files.wordpress.com/2015/02/benforder_app1.png?w=660)](https://andreacirillo.shinyapps.io/BenfordeR/)
+
+
+
+
+
+### detecting suspected records
+
+
+
+
+Finally, in order to allow the user to easily discover wich records are causing the anomaly, **[BenfordeR](https://andreacirillo.shinyapps.io/BenfordeR/)** selects the first three digits in term of deviance from the expected recurrence and subset the user dataset looking for these digits:
+
+
+
+
+
+
+
+[code language="r"]
+output$benford_suspect = renderDataTable({
+ digits                   = left(data(),input$digits) # extract n digits from the data() table, using the left function
+ data_output     = data.frame(data(),digits)# join the digits with the dataset
+ suspects            = suspectsTable(benford_obj()) # this could be improved using benford_table()
+suspects              = suspects[1:3,] #see above
+suspects_digits = (as.character(suspects$digits))
+data_suspected = subset(data_output,as.character(data_output[,2])%in% suspects_digits)})# filter the data based on first three suspected digits [/code]
+
+
+
+##  What's next
+
+
+
+
+I approached Benford's Law as a part of my **[Internal Audit job](https://it.linkedin.com/in/cirilloandrea)** and as a part of my bachelor's thesis.
+
+
+
+
+More precisely, I am currently developing a fraud-scoring algorithm that take advantage from different anomaly-detection algorithms.
+
+
+
+
+Walking along this path, I have further developed **[BenfordeR](https://andreacirillo.shinyapps.io/BenfordeR/)** as a "module" within the fraud-scoring algorithim and the related Shiny App. The result of this development is Afraus, an unsupervised fraud detection algorithm. Find out more on Afraus reading **[the dedicated post](https://andreacirilloblog.wordpress.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/)**.
+
+
+
+
+[![afraus logo](https://andreacirilloblog.files.wordpress.com/2015/07/logo.png?w=150)](https://andreacirilloblog.wordpress.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/)
+
+
+
+
+
+
+

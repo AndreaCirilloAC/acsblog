@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on ac&#39;s blog</title>
+    <link>/tags/data/</link>
+    <description>Recent content in Data on ac&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jun 2016 15:55:38 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Euro 2016 analytics: Who&#39;s playing the toughest game?</title>
+      <link>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</link>
+      <pubDate>Tue, 21 Jun 2016 15:55:38 +0000</pubDate>
+      
+      <guid>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</guid>
+      <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&amp;rsquo;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
+Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
+      <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
+      <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
+      
+      <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
+      <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
+   on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
+Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
+    </item>
+    
+    <item>
+      <title>Catching Fraud with Benford&#39;s law (and another Shiny App)</title>
+      <link>/2015/02/06/benfords_law_with_r/</link>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/02/06/benfords_law_with_r/</guid>
+      <description>In the early &amp;lsquo;900 Frank Benford observed that &amp;lsquo;1&amp;rsquo; was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What &amp;lsquo;Benford&amp;rsquo;s Law&amp;rsquo; stands for? Around 1938 Frank Benford, a physicist at the General Electrics research laboratories, observed that logarithmic tables were more worn within first pages: was this casual or due to an actual prevalence of numbers near 1 as first digits?</description>
+    </item>
+    
+    <item>
+      <title>download data to excel from web</title>
+      <link>/2014/10/28/download-data-to-excel-from-web/</link>
+      <pubDate>Tue, 28 Oct 2014 13:02:25 +0000</pubDate>
+      
+      <guid>/2014/10/28/download-data-to-excel-from-web/</guid>
+      <description> This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
+Download data into excel select &amp;rdquo;data&amp;rdquo; tab select &amp;rdquo;from web&amp;rdquo;  input the desidered web URL click &amp;rdquo;go&amp;rdquo; button **select **data you want to download click &amp;rdquo;import&amp;rdquo; button Refresh downloaded data select &amp;rdquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
+    </item>
+    
+    <item>
+      <title>excel right() function in R</title>
+      <link>/2014/10/27/excel-right-function-in-r/</link>
+      <pubDate>Mon, 27 Oct 2014 05:29:15 +0000</pubDate>
+      
+      <guid>/2014/10/27/excel-right-function-in-r/</guid>
+      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel right() function in th R language. Feel free to copy and use it.
+[code language=&amp;ldquo;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
+you can find other function in the Excel functions in R post.</description>
+    </item>
+    
+    <item>
+      <title>excel left() function in R</title>
+      <link>/2014/10/27/excel-left-function-in-r/</link>
+      <pubDate>Mon, 27 Oct 2014 05:27:23 +0000</pubDate>
+      
+      <guid>/2014/10/27/excel-left-function-in-r/</guid>
+      <description>as part of the excel functions in R, I have developed this custom function, emulating the excel left() function in th R language. Feel free to copy and use it.
+left = function (string,char){ substr(string,1,char)} you can find other function in theExcel functions in R post.</description>
+    </item>
+    
+  </channel>
+</rss>

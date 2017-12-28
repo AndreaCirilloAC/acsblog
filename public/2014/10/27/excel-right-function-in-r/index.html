@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>excel right() function in R - ac&#39;s blog</title>
+<meta property="og:title" content="excel right() function in R - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">excel right() function in R</h1>
+    
+    
+    <span class="article-date">2014/10/27</span>
+    
+    
+    <div class="article-content">
+      <p>as part of the** <a href="http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/">excel functions in R</a>,** I have developed this custom function, reproducing the excel <em>right()</em> function in th R language. Feel free to copy and use it.</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+right = function (string, char){
+substr(string,nchar(string)-(char-1),nchar(string))}
+[/code]</p>
+
+<p>you can find other function in the <strong><a href="http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/">Excel functions in R post</a></strong>.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

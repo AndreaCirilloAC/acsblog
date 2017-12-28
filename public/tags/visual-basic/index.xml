@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Basic on ac&#39;s blog</title>
+    <link>/tags/visual-basic/</link>
+    <description>Recent content in Visual Basic on ac&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2015 20:29:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/visual-basic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to list file and folders within a folder ( basic file  app)</title>
+      <link>/2015/04/01/how-to-list-file/</link>
+      <pubDate>Wed, 01 Apr 2015 20:29:04 +0000</pubDate>
+      
+      <guid>/2015/04/01/how-to-list-file/</guid>
+      <description>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: have you ever wondered how to list all files and folders within a root folder just hitting a button?
+I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **I am an auditor, **sorry about that): really time-consuming and not really value-adding activity.</description>
+    </item>
+    
+  </channel>
+</rss>

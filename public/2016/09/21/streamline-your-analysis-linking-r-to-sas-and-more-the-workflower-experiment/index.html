@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>streamline your analyses linking R to sas and more: the workfloweR - ac&#39;s blog</title>
+<meta property="og:title" content="streamline your analyses linking R to sas and more: the workfloweR - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">8 min read</span>
+    
+
+    <h1 class="article-title">streamline your analyses linking R to sas and more: the workfloweR</h1>
+    
+    
+    <span class="article-date">2016/09/21</span>
+    
+    
+    <div class="article-content">
+      
+
+<p>we all know <strong>R</strong> is the <strong>first choice</strong> for <strong>statistical analysis</strong> and data visualisation, but what about <strong>big data munging</strong>? <a href="https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0/">tidyverse</a> (or we&rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is <strong>often the case</strong> this kind of activities being handled from some <strong>other coding language</strong>. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .dta .xpt and other). So let’s assume you are <strong>an R enthusiast</strong> like I am, and you do <strong>with R all of your work</strong>, reporting included, wouldn’t be great to have <strong>some</strong> nitty gritty <strong>way to merge</strong> together all these <strong>languages in a streamlined workflow?</strong></p>
+
+<!-- more -->
+
+<p>Yes, we all know <strong>great products</strong> like <strong>microsoft Azure and sas viya</strong>, but you know what? They <strong>don’t come free</strong>, and this can sometime become an obstacle. Moreover all of them involve some kind of <strong>sophisticated setup</strong> to go trough. But what if we could reach some <strong>useful results</strong> just leveraging <strong>a useful r package and a cleaver setup</strong>? We actually can do this and I’ll show you how within coming paragraphs.</p>
+
+<h2 id="the-main-character-rio-package">the main character: rio package</h2>
+
+<p>I met rio package some years ago, and since then, I never stopped using it. What <strong>rio package</strong> basically does is <strong>automagically guessing the file type you are trying to import</strong> and subsequently calling the proper function to effectively import within your R workspace. All you have to do is <strong>running the <em>import()</em> function</strong>, enclosing in brackets the complete path to your data file, or relative path if within your working directory. be sure to include file extension within the path string.</p>
+
+<p>As <em>import(),</em> rio <strong>also</strong> comes with <strong>an <em>export()</em> function</strong>, which does exactly what you are guessing: exporting your r object into a user-defined file. to complete the suite we find <em>convert()</em> which takes a file as input and convert it into a user-defined output file.</p>
+
+<p>how all this comes in help for our purposes? <strong>this is actually our main block</strong>: we are going to <strong>use rio to transform output from one given language</strong> <strong>into the input for R scripts</strong> or any other language. so what about the second block, our cleaver setup?</p>
+
+<h2 id="the-ancillary-character-a-cleaver-setup">the ancillary character: a cleaver setup</h2>
+
+<p>so at the moment we know how to take non-R output as R-input and how to export R output to non-R languages, but how do we structure this in an ordered and clear manner? I came up with the <strong>following logical flow</strong>:</p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/schermata-2016-09-29-alle-22-00-45.png" alt="Schermata 2016-09-29 alle 22.00.45.png" /></p>
+
+<h3 id="the-data-step">the data step</h3>
+
+<p>as you can see we first have a data step. this logical step involves <strong>keeping all data pieces in one physical location</strong> which <strong>all languages</strong> script <strong>will have to reference</strong> to get and release data files. We are going to teach to every language to point to that location when data loading or production is involved.</p>
+
+<h3 id="the-coding-step">the coding step</h3>
+
+<p>the second step is represented by some languages logos. it stands for the logical step involving <strong>actual code production from different languages</strong>. within this step we consider different scripts, each of them performing its tasks pointing to the common data location. For sure we have to <strong>recognise the R script prominence</strong>, since within this script <strong>we convert</strong>, if needed, <strong>data</strong> coming from for instance from sas to data eatable from spss. it could even be the case that a proper R script is set aside only to perform this kind of task, without impacting our “real” R script where real analyses are performed.</p>
+
+<p>Why do we have arrows coming and going from first and second step? simply because <strong>every language can take and put files into data location</strong>.</p>
+
+<h3 id="the-reporting-step">the reporting step</h3>
+
+<p>last step is the reporting one: your analyses are finalised and you want to share them with your stakeholder, what are you going to use for it? If you are a real R enthusiast <strong>you will for sure fire up an Rmarkdown file</strong>, and our logical flow is here to help.</p>
+
+<p><a href="http://rmarkdown.rstudio.com">Rmarkdown</a> is a powerful tool which combines main advantages of markdown with powerful features of R languages. You can actually dynamically embeed R code results within you markdown file, having the R code recompiled every time you compile the main file. This means that if your analyses changes your report will change as well, and everything will always be in sync without requiring you to get trapped within the copy and paste swamp.</p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/laj9kmo.gif?w=300" alt="LaJ9Kmo.gif" /></p>
+
+<p>where your report will take the needed data from? from <em>data</em> location, of course. and this complete our workflow.</p>
+
+<p>But now let&rsquo;s have a look to a real example:</p>
+
+<h2 id="a-real-example-linking-togheter-r-and-sas">A real example: linking togheter R and sas</h2>
+
+<p>We start our analysis munging some heavy data within sas environment. We read our data from a txt/csv file into sas, creating two sas7bdat tables which we need to merge togheter in order to associate dimensional data to some kind of customer list. so we run our two or three data step and we end up having one complete table. This table, in was language will be referenced as data.complete_data. We now want to apply some cool and trending statistical models on this data, just to show we are real data scientists, where should we do this if not in R? So here we go, creating a new R script and loading our data in. How do we do it? Leveraging rio! we will have just to run the following line of code, leaving all the hard job to the package:</p>
+
+<pre><code>complete_data &lt;- import('data/complete_data.sas7bdat')
+</code></pre>
+
+<p>this line of code will create a data.frame object ready to be analysed with our favourite language. and now it&rsquo;s time to go for the last step: reporting analyses results. this is actually an easy step, since we could also merge it with the r script one: once we can read our sas-munged data into R why not readying them directly within the Rmarkdown file? Anyway, we can handle the last step in different complementary ways:</p>
+
+<ul>
+<li><p>producing all final results within a separate R script and saving them to an Rdata object to be loaded within the Rmarkdown file</p></li>
+
+<li><p>producing pieces of results in sas and R joining them only within the Rmarkdown file through the import() function.</p></li>
+
+<li><p>performing the whole analyses from munged data within the Rmarkdown file.</p></li>
+</ul>
+
+<p>the trade-off you have to consider when choosing within this continuum is between weight and flexibility: loading final results into rmarkdown will may results in lighter objects then raw datasets but will also generally reduce the possibility to let the user interact with your data, for instance with interactive components like the ones from shiny framework. as is often the case, the experience  will teach you how to move from one side to the other.</p>
+
+<p>Ok, so everything seems finalised, doesn&rsquo;t it? not quite, since we have a bonus track: the workfloweR experiment.</p>
+
+<h2 id="bonus-track-the-workflower-experiment">bonus track: the workfloweR experiment</h2>
+
+<p>since I often use more than one programming language when performing my <a href="https://it.linkedin.com/in/cirilloandrea">job</a> and I am a lazy programmer, I decided to <strong>automize a bit all the workflow described</strong> within previous paragraph, that is where <strong>workfloweR</strong> comes from.</p>
+
+<p>what it does is asking you ( through a simple shiny app) to <strong>define a path</strong> where you would like <strong>to initialize the analysis workspace</strong> and select languages you are going to use for your analyses. Once the selection is done and the usual _initialize _button is pressed, <strong>workfloweR</strong> takes care of <strong>creating</strong> within submitted path <strong>all needed data folders</strong> <strong>and languages scripts</strong>. It morover <strong>adds proper references to data folder within different scripts</strong>, for instance employing the _libname _statement to create a sas library within the sas script. finally, worflower creates an rmarkdown report ready to be employed to share results of your wonderful work.</p>
+
+<h2 id="how-to-try-workflower">how to try workflower</h2>
+
+<p>an updated version of workflower is currently hosted on Github an you can try it following this steps:</p>
+
+<p><strong>clone or download the repository from <a href="https://github.com/AndreaCirilloAC/workfloweR">https://github.com/AndreaCirilloAC/workfloweR</a></strong></p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/schermata-2016-09-28-alle-06-13-29.png?w=600" alt="schermata-2016-09-28-alle-06-13-29" /></p>
+
+<p><strong>source &lsquo;app.R&rsquo;</strong></p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/schermata-2016-09-28-alle-06-18-13.png?w=600" alt="schermata-2016-09-28-alle-06-18-13" /></p>
+
+<p><strong>specify where to initialize your analysis workspace</strong></p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/schermata-2016-09-28-alle-06-19-30.png?w=600" alt="schermata-2016-09-28-alle-06-19-30" /></p>
+
+<p><strong>specify the languages you are going to use for your analyses</strong></p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/schermata-2016-09-28-alle-06-19-51.png?w=600" alt="schermata-2016-09-28-alle-06-19-51" /></p>
+
+<p><strong>initialize the workspace</strong></p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/schermata-2016-09-28-alle-06-19-57.png" alt="schermata-2016-09-28-alle-06-19-57" /></p>
+
+<p><strong>enjoy !</strong></p>
+
+<p>just open up your pre-initialised R or sas scripts and start performing you analyses. when you will be done with your work an Rmarkdown file will be waiting for you within the deliverable folder.</p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/09/gatsby-leo-051113.gif" alt="gatsby-leo-051113.gif" /></p>
+
+<h2 id="may-i-ask-for-your-help">may I ask for your help?</h2>
+
+<p>if you enjoy the idea of workflower, would you mind <strong>give me an help to further expand it</strong>? as mentioned you can find the project on github, feel free to clone it and work on it. I can see two main developement paths:</p>
+
+<ol>
+<li><p>move the all stuff into <strong>an R package</strong>, which will make its use really easy directly from Github via devtools</p></li>
+
+<li><p>add <strong>more languages</strong> beside R and sas.</p></li>
+</ol>
+
+<p>Languages integration is a powerfull way to let best feature of each one shine, that&rsquo;s why I thought it was a good idea to share this pragmating and simple approach to exchange data an sum up results from analyses performed with R and other languages. Let me know if you find it useful or if you have got any other similar trick.</p>
+
+<p><em>about the featured image: the tower of Babel, by Pieter Bruegel the Elder, c. 1563. the rational? we are trying to join togher different languages, aren&rsquo;t we?</em></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

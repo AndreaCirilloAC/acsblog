@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>how to list loaded packages in R: ramazon gets cleaver - ac&#39;s blog</title>
+<meta property="og:title" content="how to list loaded packages in R: ramazon gets cleaver - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">how to list loaded packages in R: ramazon gets cleaver</h1>
+    
+    
+    <span class="article-date">2015/09/10</span>
+    
+    
+    <div class="article-content">
+      
+
+<p>It <strong>was</strong> around <strong>midnight</strong> here <strong>in Italy</strong>:
+I shared the <strong><a href="https://github.com/AndreaCirilloAC/ramazon">code on Github</a></strong>, published a post on G+, Linkedin and Twitter and then <strong>went to bed</strong>.</p>
+
+<p>In the next hours things got growing by themselves, with pleasant results like the following:</p>
+
+<p><a href="https://twitter.com/DoodlingData/status/635057258888605696">https://twitter.com/DoodlingData/status/635057258888605696</a></p>
+
+<p>The R community found <strong>ramazon</strong> a really <strong>helpful package</strong>.</p>
+
+<p>And I actually think it is: <strong>Amazon AWS</strong> is nowadays one of the <strong>most common</strong> tools for online <strong>web applications</strong> and <strong>websites hosting.</strong></p>
+
+<p>The possibility to get <strong>your Shiny App on it just running a function</strong> make it even more desirable for the amusing R people.</p>
+
+<p>Therefore, even if I developed ramazon for personal purposes , I now <strong>feel some kind of responsibility</strong> to further develop it and take it updated.</p>
+
+<!-- more -->
+
+<p>Well, to be honest: is <strong>not such a bad feeling&hellip;</strong></p>
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/09/giphy-1.gif"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/giphy-1.gif" alt="giphy (1)" /></a></p>
+
+<h2 id="a-matter-of-packages">A matter of packages</h2>
+
+<p>One of the <strong>main issues</strong> with the first release was the <strong>lack of support for multiple packages</strong>:</p>
+
+<p>Shiny Apps often rely on different packages, but ramazon was only able to install the shiny package.</p>
+
+<p><strong>So I developed and just released a new version (0.2.0)</strong> able to **detect and install <strong>on AWS</strong> all required packages**.</p>
+
+<p>You can try this new feature installing ramazon package on your R environment. Find more detailed instruction on <strong><a href="https://andreacirilloblog.wordpress.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">the introductory post</a></strong>.</p>
+
+<p>In the following lines I would like to highlights <strong>some code specs</strong> that could be interesting for the R programmers.</p>
+
+<h2 id="how-ramazon-lists-loaded-packages">How ramazon lists loaded packages</h2>
+
+<p>This is how ramazon detects and installs al required packages.</p>
+
+<h3 id="broom-100-https-andreacirilloblog-files-wordpress-com-2015-09-broom-100-png-https-andreacirilloblog-files-wordpress-com-2015-09-broom-100-png-clean-the-r-environment"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/broom-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/broom-100.png" alt="Broom-100" /></a>clean the R environment</h3>
+
+<p>using the <code>detach()</code> function, with no arguments, we are able to <strong>unload all loaded packages</strong>,</p>
+
+<p>Doing this, we can be sure that <strong>no unneeded package will be installed</strong> on the AWS server.</p>
+
+<h3 id="run-command-100-https-andreacirilloblog-files-wordpress-com-2015-09-run-command-100-png-https-andreacirilloblog-files-wordpress-com-2015-09-run-command-100-png-source-the-app-r-files"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/run-command-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/run-command-100.png" alt="Run Command-100" /></a>source the app .R files</h3>
+
+<p>with this step, ramazon <strong>run the app source files</strong> in order to <strong>load all required packages</strong> within the current R environment.</p>
+
+<p>Shiny apps can be written using:</p>
+
+<ul>
+<li><p>two different files: ui.R and server.R</p></li>
+
+<li><p>one unique file: app.R</p></li>
+</ul>
+
+<p>ramazon can distinguish the two cases and <strong>sourcing only the existing files</strong> thank to the following conditional statement:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+if (file.exists(&ldquo;ui.R&rdquo;)){
+source(&ldquo;ui.R&rdquo;)
+source(&ldquo;server.R&rdquo;)
+}else {
+source(&ldquo;app.R&rdquo;)}
+[/code]</p>
+
+<p>.</p>
+
+<p>In the hypothesis of developer using a <strong>global.R</strong> file in order to make variables available both to UI side and Server side of the app (more on the <strong><a href="http://shiny.rstudio.com/articles/scoping.html">Shiny help page</a></strong>), <strong>one more conditional statement</strong> is introduced with consequent sourcing:</p>
+
+<p>[code language=&ldquo;R&rdquo;]</p>
+
+<p>if (file.exists(&ldquo;global.R&rdquo;)){
+source(&ldquo;global.R&rdquo;)
+}</p>
+
+<p>[/code]</p>
+
+<h3 id="data-sheet-100-https-andreacirilloblog-files-wordpress-com-2015-09-data-sheet-100-png-https-andreacirilloblog-files-wordpress-com-2015-09-data-sheet-100-png-store-all-loaded-packages-within-a-data-frame"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/data-sheet-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/data-sheet-100.png" alt="Data Sheet-100" /></a>store all loaded packages within a data.frame</h3>
+
+<p>Now is time to get a list of all loaded packages.</p>
+
+<p>To get this done, We use the <strong><code>search()</code> function</strong>, assigning the output to a <strong>data.frame object</strong>.</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+environ &lt;- data.frame(&ldquo;envs&rdquo; = search(),stringsAsFactors = FALSE)
+[/code]</p>
+
+<p>the result will be something like the one below:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+               <span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">envs</span></span>
+1 &nbsp; &nbsp; &nbsp; &nbsp;.<span class="hiddenSpellError" pre="1 " data-mce-bogus="1">GlobalEnv</span>
+2 &nbsp; &nbsp; package:stats
+3 &nbsp;package:graphics
+4 package:<span class="hiddenSpellError" pre="" data-mce-bogus="1">grDevices</span>
+5 &nbsp; &nbsp; package:<span class="hiddenSpellError" pre="" data-mce-bogus="1">utils</span>
+6 &nbsp;package:datasets
+7 &nbsp; package:methods
+8 &nbsp; &nbsp; &nbsp; &nbsp; <span class="hiddenSpellError" pre="8 " data-mce-bogus="1">Autoloads</span>
+9 &nbsp; &nbsp; &nbsp;package:base
+[/code]</p>
+
+<p>As you can see, <strong>there are</strong> <strong>some</strong> <strong>unneeded values</strong> (.GlobalEnv and Autoloads), and all packages are preceded by the &ldquo;package:&rdquo; wording. We are going to handle this within the next paragraph.</p>
+
+<h3 id="grid-100-https-andreacirilloblog-files-wordpress-com-2015-09-grid-100-png-https-andreacirilloblog-files-wordpress-com-2015-09-grid-100-png-clean-the-data-frame"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/grid-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/grid-100.png" alt="Grid-100" /></a>clean the data.frame</h3>
+
+<p>Leveraging the <code>grepl()</code> function <strong>ramazon removes all rows not containing &ldquo;package&rdquo;</strong>, excluding that way all non-package records:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+environ &lt;- environ[grepl(&ldquo;package&rdquo;,environ[,1]),]
+[/code]</p>
+
+<p>Finally, <strong>using <code>gsub()</code> the &ldquo;package:&rdquo; wording is removed</strong>:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+packages &lt;- gsub(&ldquo;package:&ldquo;,&rdquo;&ldquo;,environ)
+[/code]</p>
+
+<h3 id="source-code-100-https-andreacirilloblog-files-wordpress-com-2015-09-source-code-100-png-https-andreacirilloblog-files-wordpress-com-2015-09-source-code-100-png-write-the-system-command"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/source-code-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/source-code-100.png" alt="Source Code-100" /></a>write the system command</h3>
+
+<p>The main output of the <code>ramazon()</code> function, as explained in <strong><a href="https://andreacirilloblog.wordpress.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">the previous post</a></strong>, is a bash script.</p>
+
+<p>in order to install all the required packages <strong>ramazon needs to create a system command</strong> similar to the following one:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+<span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">sudo</span></span> su -\-c \&ldquo;R <span class="hiddenSpellError" pre="" data-mce-bogus="1">-e</span> \&ldquo;install.packages(c(&ldquo;shiny&rdquo;,&rdquo;<span class="hiddenSpellError" pre="" data-mce-bogus="1">ggplot2</span>&rdquo;), <span class="hiddenSpellError" pre="" data-mce-bogus="1">repos</span> = &lsquo;<a href="http://cran.rstudio.com/'">http://cran.rstudio.com/'</a>, dep = TRUE)\&ldquo;<br />
+[/code]</p>
+
+<p>First of all we need to create the <strong>vector containing the needed packages</strong>.</p>
+
+<p>This is obtained with a <strong>sequence of <code>paste()</code> functions</strong>:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+packages &lt;- paste(&ldquo;&lsquo;&rdquo;,packages,&ldquo;&rsquo;&rdquo;,sep =&ldquo;&rdquo;)
+packages &lt;- paste(packages,&ldquo;,&rdquo;,collapse = &ldquo;&rdquo;)
+packages &lt;- paste(&ldquo;c(&rdquo;,packages,sep =&ldquo;&rdquo;)
+packages &lt;- <span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">substr</span></span>(packages,1,(<span class="hiddenSpellError" pre="" data-mce-bogus="1">nchar</span>(packages)-1))
+packages &lt;- paste(packages, &ldquo;)&rdquo;,sep =&ldquo;&rdquo;)
+[/code]</p>
+
+<p>finally, we have to <strong>deal with escape characters</strong> contained within the system command.</p>
+
+<p>This is appropriately done using the <strong><code>cat()</code> function</strong>, that makes the <strong>lower number of manipulations</strong> on the given input.</p>
+
+<p>Unfortunately, this function <strong>doesn&rsquo;t give any value as a result</strong>, and therefore we need to <strong>directly catch the console output</strong> and store it within the bash_script file.</p>
+
+<p>Here it is the complete code for this alchemical job:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+sink(&ldquo;bash_script.txt&rdquo;, append = TRUE)
+message &lt;- cat(&rdquo;<span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">sudo</span></span> su -\-c \&ldquo;R <span class="hiddenSpellError" pre="" data-mce-bogus="1">-e</span> \\&ldquo;install.packages(&rdquo;,packages,&ldquo;, <span class="hiddenSpellError" pre="" data-mce-bogus="1">repos</span> = &lsquo;<a href="http://cran.rstudio.com/'">http://cran.rstudio.com/'</a>, dep = TRUE)\\&rdquo;\&ldquo;&rdquo;)
+sink()
+[/code]</p>
+
+<p>And here we are: ramazon automatically detects and install all required packages for your Shiny App on the AWS server.</p>
+
+<h2 id="getting-further">getting further</h2>
+
+<p>Current version is somehow complete since it allows to deploy any kind of shiny app on an Amazon AWS server.</p>
+
+<p>Even so there are some further possible developments:</p>
+
+<ul>
+<li><p>I have been requested of a <strong>Windows version</strong>, and I will try to develop one. that said If anyone out there would like to help with that, just whistle!</p></li>
+
+<li><p>ramazon is still missing some <strong>serious testing</strong>, and a log of all the console output would be really useful to help with debugging tasks.</p></li>
+</ul>
+
+<p>As usual <strong>let me know if anything is going wrong &amp;/| you have got suggestion</strong> for making ramazon a better word :)</p>
+
+<p><a href="https://icons8.com">Icon pack by Icons8</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>Querying Google With R - ac&#39;s blog</title>
+<meta property="og:title" content="Querying Google With R - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">6 min read</span>
+    
+
+    <h1 class="article-title">Querying Google With R</h1>
+    
+    
+    <span class="article-date">2014/11/19</span>
+    
+    
+    <div class="article-content">
+      
+
+<p>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.</p>
+
+<p>Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.</p>
+
+<p>Feeling this way?</p>
+
+<p>[caption id=&ldquo;attachment_273&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;]<a href="https://www.flickr.com/photos/fdctsevilla/3986993934/in/photolist-7yt67z-75jooJ-8csRbm-8cpv3n-7yt69v-7yt4VV-83yhRB-838qAL-7yt5Le-7ywTEw"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/pain_el-bibliomata-e1415634103336.jpg?w=300" alt="" /></a> &ldquo;Pain and fear, pain and fear for me&rdquo; - Oliver Twist[/caption]</p>
+
+<p>I was.</p>
+
+<!-- more -->
+
+<p>Therefore, I have started developing a lean Shiny app, <strong>the <a href="https://andreacirillo.shinyapps.io/google_ranker_app">Google Ranker App</a></strong> that simply asks you for the website and the keyword, carrying on all the rest.</p>
+
+<p><a href="https://andreacirillo.shinyapps.io/google_ranker_app/"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/google_ranker_app_screenshot.png?w=300" alt="Google_Ranker_app_screenshot" /></a></p>
+
+<h2 id="algorithm-specs"><strong>Algorithm specs</strong></h2>
+
+<p><em>If you are not interested in programming stuff, you can skip straight forward this paragraph.</em></p>
+
+<p><em> </em></p>
+
+<p>As all the Shiny Apps , the Google_ranker_app is based on <strong><a href="http://www.r-project.org/">R language</a>.</strong></p>
+
+<p>You  can download the whole reproducible R Studio Project using the button at the end of the post, but I would like to strikeout some of the algorithm components, giving a look to some details and the to the big picture:</p>
+
+<h3 id="search100-https-andreacirilloblog-files-wordpress-com-2014-11-search100-png-w-300"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/search100.png?w=300" alt="search100" /></h3>
+
+<p>querying google via URL</p>
+
+<p>the queryng job is done leveraging the getForm() function in the <strong><a href="http://www.omegahat.org/RCurl/">RCurl package</a></strong>:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+web_page = getForm(&ldquo;<a href="http://www.google.com/search&quot;">http://www.google.com/search&quot;</a>, hl=&ldquo;en&rdquo;, lr=&ldquo;&rdquo;,
+ie=&ldquo;ISO-8859-1&rdquo;, q=gsub(&rdquo; &ldquo;,&rdquo;+&ldquo;,keyword), btnG=&ldquo;Search&rdquo;,start=i)
+[/code]</p>
+
+<p>As you can see, querying Google using the URL lets you specify all the search parameters, and this is quite an useful feature. Altough I haven&rsquo;t found an official Google guide ( please let me know if I am missing it), there are quite a lot of posts regarding the topic. I personally reccomend you <strong><a href="http://searchengineland.com/google-power-user-tips-serp-url-parameters-49736">the one from Search Engine Land</a></strong>, for its completness and clarity.</p>
+
+<p>After obtaining the resulting Search Engine Result Page (SERP) and assigning it to web_page, you need to parse it to a list object, in order to make it readable. This is easily obtained through the htmlTreeParse() function</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+web_page = htmlTreeParse(web_page)
+[/code]</p>
+
+<h3 id="https-andreacirilloblog-files-wordpress-com-2014-11-search100-png-https-andreacirilloblog-files-wordpress-com-2014-11-virtual2-e1415699518337-png"><a href="https://andreacirilloblog.files.wordpress.com/2014/11/search100.png"> </a><img src="https://andreacirilloblog.files.wordpress.com/2014/11/virtual2-e1415699518337.png" alt="" /></h3>
+
+<p>handling error 302</p>
+
+<p>When I started developing the Google Ranker App, one of the first obstacles was the error 302: &ldquo;the document has moved to&hellip;[link]&ldquo;. The error was a message returned by google when I make some subsequent repetion of the query.</p>
+
+<p>Again, no official guide from Google is provided, but the error seems to be something related to repetitive query from the same IP, that let Google think you are some kind of robot.</p>
+
+<p>In order to detect the occurence of this error, I used the grepl() function</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+if (grepl(&ldquo;302 Moved&rdquo;,(web_page[3]))==TRUE){
+scan_result[(i/10)+1] = 200}
+[/code]</p>
+
+<p>the grepl() function, from R base package, return a boolean value after looking for a pattern in a string.</p>
+
+<p>I used this function to look for &ldquo;302 Moved&rdquo; pattern in order to intercept the mentioned error, and distinguish it from the absence of the website on the SERP page.
+As you can see, in case the pattern is present, the scan_result object, at [(i/10)+1] index assume value 200. We will look to the purpose of scan_result  later, at <em>crafting an user-friendly output</em> paragraph.</p>
+
+<h3 id="visibility1-https-andreacirilloblog-files-wordpress-com-2014-11-visibility1-e1415699646701-png-w-75-h-75-crop-1"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/visibility1-e1415699646701.png?w=75&amp;h=75&amp;crop=1" alt="visibility1" /></h3>
+
+<p>evaluating the presence of the given website</p>
+
+<p>in order to evaluate the presence of the given website in the SERP, we use the grep() function, similar to the grepl() function but designed to obtain the matching index of the given pattern in the given string.</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+else if (sum((grep(website,web_page))&gt;0)){
+scan_result[(i/10)+1]= (i/10)+1
+rm(web_page) }
+else
+{scan_result[(i/10)+1] = 100 #just to make the min() function work
+rm(web_page)}}
+[/code]</p>
+
+<p>in case of match, the mentioned scan_result object , at the mentioned index, will assume value [(i/10)+1], in case of none-match it will assume value 100. Just look to the next paragph to see the reason why.</p>
+
+<h3 id="ic-extension-black-48dp-https-andreacirilloblog-files-wordpress-com-2014-11-ic-extension-black-48dp-e1415715636345-png"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/ic_extension_black_48dp-e1415715636345.png" alt="ic_extension_black_48dp" /></h3>
+
+<p>Making things stick togheter: the serp_scanner function</p>
+
+<p>All of the code chunks reproduced togheter are included in a custom function: the serp_scanner() function:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+serp_scanner = function(keyword,website){
+scan_result = rep(0,5) #initialize the scan_result vector
+for (i in seq(from=0,to=40,by=10)){
+#grab the SERP page
+web_page = getForm(&ldquo;<a href="http://www.google.com/search&quot;">http://www.google.com/search&quot;</a>, hl=&ldquo;en&rdquo;, lr=&ldquo;&rdquo;,
+ie=&ldquo;ISO-8859-1&rdquo;, q=gsub(&rdquo; &ldquo;,&rdquo;+&ldquo;,keyword), btnG=&ldquo;Search&rdquo;,start=i)
+#make it readable
+web_page = htmlTreeParse(web_page)
+if (grepl(&ldquo;302 Moved&rdquo;,(web_page[3]))==TRUE){
+scan_result[(i/10)+1] = 200}#error 302
+else if (sum((grep(website,web_page))&gt;0)){
+scan_result[(i/10)+1]= (i/10)+1 #website found
+rm(web_page) }
+else
+{scan_result[(i/10)+1] = 100 #website not found
+rm(web_page)}}
+return(scan_result)}
+[/code]</p>
+
+<p>this function contains a loop made of 5 cycles (i in seq(from=0,to=40,by=10))  that makes the Google Ranker App go through the first 5 SERP for the given keyword, looking for the given website.
+the result of each cycle is assigned to the scan_result object, a vector of length 5:</p>
+
+<ul>
+<li><p><strong>positive result (website found)</strong> the scan_result will assume, at the given index, a number equal to the number of the page (1 of 10, 2 of 10 etc.)</p></li>
+
+<li><p><strong>negative result (website not found)</strong> the scan_result will assume value 100</p></li>
+
+<li><p><strong>error 302 (See above)</strong> the scan_result will assume value 200</p></li>
+</ul>
+
+<p>we are going to look to the reason why of those two last cases in the next paragraph.</p>
+
+<h3 id="user158-https-andreacirilloblog-files-wordpress-com-2014-11-user158-e1415699777761-png"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/user158-e1415699777761.png" alt="user158" /></h3>
+
+<p>Crafting an user friendly output.</p>
+
+<p>The result you see at point 4 in the Google Ranker App user interface, is crafted starting from the serp_scanner() result, for the website and keyword given by the user ( points 1 and 2).
+More precisely, the App looks for the minimum in the scan_result vector:</p>
+
+<ul>
+<li><p>in case of positive result it will be a number from 1 to 5 representing the number of the SERP.</p></li>
+
+<li><p>in case of negative result ( website not present from 1 to 5 SERP), the number will be 100, and this will let the app understand the website is not present.</p></li>
+
+<li><p>in case of Google giving error 302, the minimum will  be 200, and this will be easily intercepted from the app.</p></li>
+</ul>
+
+<p>An if statement does all the job, pasting a different string for the different cases:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+output$rank_1 = renderText({
+result=serp_scanner(input$selected_keyword_1,website())
+if (website()==&ldquo;&rdquo;|input$selected_keyword_1==&ldquo;&rdquo;){&ldquo;&rdquo;}
+else{if (min(result)==200){&ldquo;google is thinking we are robots (error 302)! please try later&rdquo;}
+else if(min( result) ==100){&ldquo;the selected website doesn&rsquo;t appear within the first 5 SERP pages&rdquo;}
+else{ paste(&ldquo;the website appears on SERP page n&rdquo;,min( result),&ldquo;for the given keyword&rdquo;, sep=&rdquo; &ldquo;)}
+}
+})
+[/code]</p>
+
+<h2 id="what-could-be-next"><strong>What (could be) next</strong></h2>
+
+<p>Currently working on those possible development:</p>
+
+<h3 id="in-page-ranking-detection-through-html-analysis"><strong>in-page ranking detection through html analysis.</strong></h3>
+
+<p>thanks to the htmlTreeParse it is quite easy to look inside the html script and define the relative position for the website, ** **</p>
+
+<h3 id="possibility-to-define-some-query-parameters"><strong>possibility to define some query parameters</strong></h3>
+
+<p>like language or local search. This can be obtained thanks to the pecularity of getForm function, that  takes care of bringing the parameters together and constructing the full URI name.</p>
+
+<h3 id="multiple-keywords-allowance"><strong>multiple keywords allowance</strong></h3>
+
+<p>self-explaining, am I right?</p>
+
+<p>In order to obtain full understanding of the code you can download (for free) the whole R Studio project using the button below.</p>
+
+<p>If you found the Google Ranker App useful, you may be interested in <strong>other Shiny Apps I developed</strong> for <strong>analytics and productivity purposes</strong>. Find them out at <strong><a href="https://andreacirilloblog.wordpress.com/software/">software page</a></strong></p>
+
+<h4 id="download-the-r-studio-project-of-google-ranker-app-http-www-evernote-com-l-afx1mdh7u7njsy2i95rwvbixfceff04mjbe"><a href="http://www.evernote.com/l/AFx1mdH7u7NJSY2i95RwVbIXfCEff04MjBE/">download the R studio project of Google Ranker App</a></h4>
+
+<p>Icons made by <a href="http://www.google.com">Google</a> from <a href="http://www.flaticon.com">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

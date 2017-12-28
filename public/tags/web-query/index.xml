@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Query on ac&#39;s blog</title>
+    <link>/tags/web-query/</link>
+    <description>Recent content in Web Query on ac&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/web-query/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Over 50 practical recipes for data analysis with R in one book</title>
+      <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
+      <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
+      
+      <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
+      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
+ changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
+ became dad for the third time (and if you are guessing, it’s a boy!</description>
+    </item>
+    
+    <item>
+      <title>Querying Google With R</title>
+      <link>/2014/11/19/querying-google-with-r/</link>
+      <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
+      
+      <guid>/2014/11/19/querying-google-with-r/</guid>
+      <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
+Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
+Feeling this way?
+[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
+    </item>
+    
+    <item>
+      <title>download data to excel from web</title>
+      <link>/2014/10/28/download-data-to-excel-from-web/</link>
+      <pubDate>Tue, 28 Oct 2014 13:02:25 +0000</pubDate>
+      
+      <guid>/2014/10/28/download-data-to-excel-from-web/</guid>
+      <description> This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
+Download data into excel select &amp;rdquo;data&amp;rdquo; tab select &amp;rdquo;from web&amp;rdquo;  input the desidered web URL click &amp;rdquo;go&amp;rdquo; button **select **data you want to download click &amp;rdquo;import&amp;rdquo; button Refresh downloaded data select &amp;rdquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
+    </item>
+    
+  </channel>
+</rss>

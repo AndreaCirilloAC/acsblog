@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>Saturation with Parallel Computation in R - ac&#39;s blog</title>
+<meta property="og:title" content="Saturation with Parallel Computation in R - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Saturation with Parallel Computation in R</h1>
+    
+    
+    <span class="article-date">2014/07/28</span>
+    
+    
+    <div class="article-content">
+      
+
+<p>I have just saturated all my PC:</p>
+
+<p>full is the 4gb RAM</p>
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2014/07/full-in-e1406577873178.jpg"><img src="https://andreacirilloblog.files.wordpress.com/2014/07/full-in-e1406577873178.jpg" alt="Full-in" /></a></p>
+
+<p>and so is the CPU (I7 4770 @3.4 GHZ)</p>
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2014/07/full-in1-e1406577829980.jpg"><img src="https://andreacirilloblog.files.wordpress.com/2014/07/full-in1-e1406577829980.jpg" alt="full-in" /></a></p>
+
+<h1 id="parallel-computation-in-r"><strong>Parallel Computation in R</strong></h1>
+
+<p>which is my secret?</p>
+
+<p>the <a href="http://cran.r-project.org/web/packages/doParallel/vignettes/gettingstartedParallel.pdf">doParallel package</a> for R on mac</p>
+
+<p>The package lets you make some very useful parallel computation, giving you the possibility to use all the potentiality of your CPU.</p>
+
+<p>As a matter of fact, the standard R option is to use  just on of the cores you have got on your PC.</p>
+
+<p>With parallel computation, just to say it easy, you can take your job, divide it in some smaller jobs, solve them and then put them together  in one new R object.</p>
+
+<h2 id="tutorial-more-or-less"><strong>Tutorial ( More or Less)</strong></h2>
+
+<p>There are some useful tutorial on the web (<a href="https://www.google.it/#q=parallel+computation+in+r&amp;safe=off">try to google it</a>), but let me introduce the stuff in a really basic way so that you can immediately try it out:</p>
+
+<p><code>install.packages(&quot;doParallel&quot;)
+library(doParallel)
+cl = makeCluster(2) # if you want to use all your fire power, put the number of your cores
+registerDoParallel(cl)
+parallelization = function(x){
+n = number #put here the number of repetitions you need
+foreach ( i=1:n,.combine = rbind) { #this '.combine = rbind' let R understand that has to put the results together with an rbind function, you can use cbind as well
+x*2
+}
+}</code></p>
+
+<h3 id="final-warnings"><strong>Final Warnings</strong></h3>
+
+<p>just a tip: DON&rsquo;T  MAKE THE RESULT BE AN OBJECT!</p>
+
+<p>sorry about the capital letters but I have been stacked on this error for quite a long time&hellip;</p>
+
+<p>Finally, are you using Windows? instead of doParallel you can obtain the same result with <a href="http://cran.r-project.org/web/packages/doSNOW/index.html">doSNOW package</a>.</p>
+
+<p>comments are welcome.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

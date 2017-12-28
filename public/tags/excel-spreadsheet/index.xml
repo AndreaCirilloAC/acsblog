@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel Spreadsheet on ac&#39;s blog</title>
+    <link>/tags/excel-spreadsheet/</link>
+    <description>Recent content in Excel Spreadsheet on ac&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Oct 2014 13:02:25 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/excel-spreadsheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>download data to excel from web</title>
+      <link>/2014/10/28/download-data-to-excel-from-web/</link>
+      <pubDate>Tue, 28 Oct 2014 13:02:25 +0000</pubDate>
+      
+      <guid>/2014/10/28/download-data-to-excel-from-web/</guid>
+      <description> This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
+Download data into excel select &amp;rdquo;data&amp;rdquo; tab select &amp;rdquo;from web&amp;rdquo;  input the desidered web URL click &amp;rdquo;go&amp;rdquo; button **select **data you want to download click &amp;rdquo;import&amp;rdquo; button Refresh downloaded data select &amp;rdquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
+    </item>
+    
+    <item>
+      <title>excel right() function in R</title>
+      <link>/2014/10/27/excel-right-function-in-r/</link>
+      <pubDate>Mon, 27 Oct 2014 05:29:15 +0000</pubDate>
+      
+      <guid>/2014/10/27/excel-right-function-in-r/</guid>
+      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel right() function in th R language. Feel free to copy and use it.
+[code language=&amp;ldquo;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
+you can find other function in the Excel functions in R post.</description>
+    </item>
+    
+    <item>
+      <title>excel functions in R</title>
+      <link>/2014/10/25/excel-functions-in-r/</link>
+      <pubDate>Sat, 25 Oct 2014 22:36:08 +0000</pubDate>
+      
+      <guid>/2014/10/25/excel-functions-in-r/</guid>
+      <description>I have started my &amp;rdquo;data-journey&amp;rdquo; from Excel, getting excited by formulas like VLookup(), right() and left().
+then datasets got bigger, and I discovered that little spreadsheets were not enough, and look for something bigger and stronger, eventually coming to R.
+But as you know, ones never forget the first love.
+So, for fun and for practice, I have written down some of excel functions in R.
+I hope you will enjoy.</description>
+    </item>
+    
+  </channel>
+</rss>

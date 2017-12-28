@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>Catching Fraud with Benford&#39;s law (and another Shiny App) - ac&#39;s blog</title>
+<meta property="og:title" content="Catching Fraud with Benford&#39;s law (and another Shiny App) - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">Catching Fraud with Benford&#39;s law (and another Shiny App)</h1>
+    
+    
+    <span class="article-date">2015/02/06</span>
+    
+    
+    <div class="article-content">
+      
+
+<h3 id="in-the-early-900-frank-benford-observed-that-1-was-more-frequent-as-first-digit-in-his-own-logarithms-manual">In the early &lsquo;900 Frank Benford observed that &lsquo;1&rsquo; was more frequent as first digit in his own logarithms manual.</h3>
+
+<h3 id="more-than-one-hundred-years-later-we-can-use-this-curious-finding-to-look-for-fraud-on-populations-of-data">More than one hundred years later, we can use this curious finding to look for fraud on populations of data.</h3>
+
+<h3 id="just-give-a-try-to-the-shiny-app-https-andreacirillo-shinyapps-io-benforder"><strong><a href="https://andreacirillo.shinyapps.io/BenfordeR/">just give a try to the shiny app</a></strong></h3>
+
+<h2 id="what-benford-s-law-stands-for">What &lsquo;Benford&rsquo;s Law&rsquo; stands for?</h2>
+
+<p>Around 1938 <a href="http://en.wikipedia.org/wiki/Frank_Benford"><strong>Frank Benford</strong></a>, a physicist at the General Electrics research laboratories, <strong>observed</strong> that logarithmic tables were more worn within first pages: was this casual or due to an actual <strong>prevalence of numbers</strong> <strong>near 1 as first digits?</strong></p>
+
+<!-- more -->
+
+<p>Starting from this intuition/question, <strong>Benford tested the hypothesis</strong> against 30 populations of data, finally coming to what is known as the <strong>Benford Law</strong>:</p>
+
+<h4 id="the-expected-frequencies-of-the-digits-in-lists-of-numbers"><strong>the expected frequencies of the digits in lists of numbers</strong></h4>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2015/02/logaritmetafel.jpg?w=300" alt="LogaritmeTafel" /></p>
+
+<p>That is to say that using the Benford Law is possible to <strong>make a prediction</strong> about the expected distribution of a population of data, in term of <strong>recurrence of numbers</strong> from 1 to 9 as first digits.</p>
+
+<p>The prediction is made in term of probability, and is calculated using the following formula:</p>
+
+<p>$latex Probability (D<em>{1}=d</em>{1}) = log<em>{10}(1+(\frac{1} {d</em>{1}}))&amp;s=1$</p>
+
+<p>$latex d_{1}=(1,2,3,&hellip;,9)&amp;s=1$</p>
+
+<p>You can also calculate the conditional probability of having two numbers as the first two digits:</p>
+
+<p> $latex Probability(D<em>{2}=d</em>{2}|D<em>{1}=d</em>{1})= \frac {log<em>{10}(1+(\frac{1} {d</em>{1}d<em>{2}}))} {log</em>{10}(1+(\frac{1} d_{1}))}&amp;s=1$</p>
+
+<p>$latex d_{1}=(1,2,3,&hellip;,9)&amp;s=1$</p>
+
+<p>$latex d_{2}=(1,2,3,&hellip;,9)&amp;s=1$</p>
+
+<p>A typical &ldquo;<strong>Benford Distribution</strong>&rdquo; looks really left skewed, having the first two numbers nearly the 50% of probability of being the first digit.</p>
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/02/plot_benford1.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/02/plot_benford1.png?w=660" alt="benford distribution plot" /></a></p>
+
+<h2 id="nice-stuff-but-what-can-i-do-with-benford-s-law">Nice stuff, but what can I do with Benford&rsquo;s Law?</h2>
+
+<p>Until a certain point in mathematical history, Benford&rsquo;s Law was regarded as a bizzare feature of some populations of data.</p>
+
+<p>Something really amusing, but not really useful.</p>
+
+<p>Eventually, mainly due to the meritory work of the mathematician<a href="http://www.nigrini.com/"> <strong>Mark Nigrini</strong></a>, <strong>Benford&rsquo;s law</strong> began to be <strong>used</strong> for  practical purposes, and more precisely for <strong>Fraud</strong> <strong>Analytics purposes</strong>.</p>
+
+<h2 id="you-can-find-fraud-with-it">You can find fraud with it</h2>
+
+<p>The idea of using Benford Law for Fraud Analytics purposes is based on one of the main assumptions in Fraud Analytics:</p>
+
+<p><strong>&ldquo;if something is behavouring differently from what it should, it could be due to fraud.&rdquo;</strong></p>
+
+<p>In the case of Benford&rsquo;s Law the aim of using it for catching fraud is to verify if the law is respected within the population and if not, wich elements are not respecting it.</p>
+
+<p>Of course,  as is always the case for fraud analytics, the anomaly could be due to human error, at least for some of the anomalies ( i.e. <strong><a href="https://www.google.it/search?q=false+alarm+rate&amp;oq=false+alarm+rate&amp;aqs=chrome..69i57j0l5.3333j0j1&amp;sourceid=chrome&amp;es_sm=119&amp;ie=UTF-8">false alarm</a></strong>).</p>
+
+<p>Nevertheless, Benford-based fraud analysis <strong>has proven</strong> to be a <strong>very effective</strong> tool for detecting fraud, especially considering the non compliance as a red-flag on the data integrity.</p>
+
+<h2 id="some-precautions">Some precautions</h2>
+
+<p>As pointed out by <strong><a href="http://faculty.usfsp.edu/gkearns/Articles_Fraud/Benford%20Analysis%20Article.pdf">Durtschi, Hillison and Pacini</a> </strong>, you have to be cautious when using Benford’s Law.</p>
+
+<p>Particularly, Benford’s Law is unlikely to be useful in the following cases:</p>
+
+<table >
+<tbody >
+<tr >
+
+<td >Data set is comprised of assigned numbers
+</td>
+
+<td >Check numbers, invoice numbers, zip codes
+</td>
+</tr>
+<tr >
+
+<td >Numbers that are influenced by human thought
+</td>
+
+<td >Prices set at psychological thresholds ($1.99), ATM withdrawals
+</td>
+</tr>
+<tr >
+
+<td >Accounts with a large number of firm-specific numbers
+</td>
+
+<td >An account specifically set up to record $100 refunds
+</td>
+</tr>
+<tr >
+
+<td >Accounts with a built in minimum or maximum
+</td>
+
+<td >Set of assets that must meet a threshold to be recorded
+</td>
+</tr>
+<tr >
+
+<td >Where no transaction is recorded
+</td>
+
+<td >Thefts, kickbacks, contract rigging
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="benforder-another-lean-shiny-application">BenfordeR: another lean shiny application</h2>
+
+<p>[caption id=&ldquo;attachment_425&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;660&rdquo;]<a href="https://andreacirillo.shinyapps.io/BenfordeR/"><img src="https://andreacirilloblog.files.wordpress.com/2015/02/benforder_app.png?w=660" alt="BenfordeR Screenshot" /></a> click to try BenfordeR[/caption]</p>
+
+<p>Because <strong><a href="https://andreacirilloblog.wordpress.com/tag/shiny-apps/">I am getting used to do it</a></strong> ( and also because my readers seems to find it useful) , I developed a lean shiny app in R, that let&rsquo;s you play around with Bendford law, loading your own population and looking for Benford&rsquo;s law compliance ( no worry, a demo dataset is also provided).</p>
+
+<p><strong><a href="https://andreacirillo.shinyapps.io/BenfordeR/">BenfordeR</a></strong>&rsquo;s main feature includes:</p>
+
+<ul>
+<li><p>custom dataset upload</p></li>
+
+<li><p>number of first digits to test option</p></li>
+
+<li><p>suspected records higlight ( se below &lsquo;detecting suspected records)</p></li>
+</ul>
+
+<h2 id="some-code-specs-if-you-are-interested-in"> Some code specs ( if you are interested in)</h2>
+
+<p>Complete, and commented, Rstudio Project is <strong><a href="https://github.com/AndreaCirilloAC/BenfordeR">given on GitHub</a>,</strong> but I would like to point out some code details in the following lines.</p>
+
+<h3 id="performing-a-benford-analysis"> performing a benford analysis</h3>
+
+<p><strong><a href="https://andreacirillo.shinyapps.io/BenfordeR/">BenfordeR</a></strong> is based on <strong><a href="http://cran.r-project.org/web/packages/benford.analysis/index.html">benford.analysis</a></strong> package, a well documented package that lets you simply perform a Benford analysis, using a single function: benford().</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+benford_obj    = reactive({benford(data(),input$digits)})
+[/code]</p>
+
+<h3 id="plotting-results">plotting results</h3>
+
+<p><code>benford()</code> function returns a benford objects that can be easily visualised using the plot function:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+plot(benford_obj())
+[/code]</p>
+
+<p><a href="https://andreacirillo.shinyapps.io/BenfordeR/"><img src="https://andreacirilloblog.files.wordpress.com/2015/02/benforder_app1.png?w=660" alt="BenfordeR_App" /></a></p>
+
+<h3 id="detecting-suspected-records">detecting suspected records</h3>
+
+<p>Finally, in order to allow the user to easily discover wich records are causing the anomaly, <strong><a href="https://andreacirillo.shinyapps.io/BenfordeR/">BenfordeR</a></strong> selects the first three digits in term of deviance from the expected recurrence and subset the user dataset looking for these digits:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+output$benford_suspect = renderDataTable({
+ digits                   = left(data(),input$digits) # extract n digits from the data() table, using the left function
+ data_output     = data.frame(data(),digits)# join the digits with the dataset
+ suspects            = suspectsTable(benford_obj()) # this could be improved using benford_table()
+suspects              = suspects[1:3,] #see above
+suspects_digits = (as.character(suspects$digits))
+data_suspected = subset(data_output,as.character(data_output[,2])%in% suspects_digits)})# filter the data based on first three suspected digits [/code]</p>
+
+<h2 id="what-s-next"> What&rsquo;s next</h2>
+
+<p>I approached Benford&rsquo;s Law as a part of my <strong><a href="https://it.linkedin.com/in/cirilloandrea">Internal Audit job</a></strong> and as a part of my bachelor&rsquo;s thesis.</p>
+
+<p>More precisely, I am currently developing a fraud-scoring algorithm that take advantage from different anomaly-detection algorithms.</p>
+
+<p>Walking along this path, I have further developed <strong><a href="https://andreacirillo.shinyapps.io/BenfordeR/">BenfordeR</a></strong> as a &ldquo;module&rdquo; within the fraud-scoring algorithim and the related Shiny App. The result of this development is Afraus, an unsupervised fraud detection algorithm. Find out more on Afraus reading <strong><a href="https://andreacirilloblog.wordpress.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/">the dedicated post</a></strong>.</p>
+
+<p><a href="https://andreacirilloblog.wordpress.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/logo.png?w=150" alt="afraus logo" /></a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>How to Visualize Entertainment Expenditures on a Bubble Chart - ac&#39;s blog</title>
+<meta property="og:title" content="How to Visualize Entertainment Expenditures on a Bubble Chart - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">How to Visualize Entertainment Expenditures on a Bubble Chart</h1>
+    
+    
+    <span class="article-date">2014/07/12</span>
+    
+    
+    <div class="article-content">
+      <p><a href="https://andreacirilloblog.files.wordpress.com/2014/07/categorical-bubble-chart.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/07/categorical-bubble-chart.png" alt="Bubble Chart Categorical Variables Expenditures Analytics" /></a></p>
+
+<p>I&rsquo;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.</p>
+
+<p>In response to that request I have developed a <a href="https://andreacirillo.shinyapps.io/Entertainment_Expenditures/">little Shiny app</a> with an interesting reactive Bubble chart.</p>
+
+<p>The plot, made using <a href="http://ggplot2.org">ggplot2</a> package, is composed by:
+a categorical x value, represented by the clusters identified in the expenditures population
+A numerical y value, representing the total amount expended
+Points defined by the total amount of expenditure in the given cluster for each company subject.
+Morover, point size is given by the ratio between amount regularly passed through Account Receivable Process and total amount of expenditure for that subject in that cluster.</p>
+
+<p>The advantage i found in developing such a plot is the possibility to get a lot of information at a glance.</p>
+
+<p>Reactivity is given by two sliders that let you decide the period and the range you want to analyze.</p>
+
+<p><a href="https://github.com/AndreaCirilloAC/Entertainment_Expenditures">Full code</a> (with italian comments, sorry about that) is given on GitHub, but let me underline some details:</p>
+
+<p>Labels are made <a href="http://stat.ethz.ch/R-manual/R-devel/library/base/html/paste.html">pasting</a> subjects names and the amount show, in order to give you both information at once.</p>
+
+<p>Colours are automatically assigned by ggplot function simply by specifying</p>
+
+<p><code>col=factors(Soggetto)</code></p>
+
+<p>Point size is simply obtained by putting
+<code>size=rapporto</code></p>
+
+<p>Hope you will find at least colorful the job.
+Going on talking about colours: does anyone knows how to make point solid in this case?</p>
+
+<p>Any feedback will be appreciated, but please be kind!</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

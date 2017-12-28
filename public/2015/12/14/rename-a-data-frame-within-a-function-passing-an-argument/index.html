@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>Rename a Data Frame Within a Function Passing an Argument - ac&#39;s blog</title>
+<meta property="og:title" content="Rename a Data Frame Within a Function Passing an Argument - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Rename a Data Frame Within a Function Passing an Argument</h1>
+    
+    
+    <span class="article-date">2015/12/14</span>
+    
+    
+    <div class="article-content">
+      <p>This is not actually a real post but rather a code snippet surrounded by text.</p>
+
+<p>Nevertheless I think it is a quite useful one: have you ever found yourself writing a function where <strong>a data frame is created</strong>, wanting to name that data frame based on a custom argument passed to the function?</p>
+
+<p>For instance, the output of your function is a really nice data frame name in a really trivial way, like &ldquo;result&rdquo;.</p>
+
+<p>But your dream is to <strong>let the user</strong> (or some piece of code behind the function) <strong>specify the data frame name, passing it as an argument</strong> of your function.</p>
+
+<p>To achieve that you need to look at <strong>_assign _function</strong>, which let&rsquo;s you access the hash table of a given environment (_pos _argument) and change the value of a given variable.</p>
+
+<p>Find below a working function which applies this idea:</p>
+
+<p>[code language=&ldquo;r&rdquo;]
+rename_df  =  function(choosen_name){
+data_set  =  data.frame(column_A = c(1,4,6,7,8),column_B = c(seq(1:5)))
+title  =  choosen_name
+assign(title,data_set,pos = &ldquo;.GlobalEnv&rdquo;)
+}
+[/code]</p>
+
+<p>Have you found any other way to get here? I would love to here it!</p>
+
+<p>p.s.: wondering why I chose that image? well, is Adam naming animals.. :)</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

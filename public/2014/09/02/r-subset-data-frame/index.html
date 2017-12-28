@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>Code snippet: subsetting data frame in R by vector - ac&#39;s blog</title>
+<meta property="og:title" content="Code snippet: subsetting data frame in R by vector - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Code snippet: subsetting data frame in R by vector</h1>
+    
+    
+    <span class="article-date">2014/09/02</span>
+    
+    
+    <div class="article-content">
+      
+
+<h3 id="problem">Problem:</h3>
+
+<p>you haveto subset a data frame using as criteria the exact match of a vector content.</p>
+
+<p>for instance:</p>
+
+<h4 id="you-have-a-dataset-with-some-attributes-and-you-have-a-vector-with-some-values-of-one-of-the-attributes-you-want-to-make-a-filter-based-on-the-values-in-the-vector">you have a dataset with some attributes, and you have a vector with some values of one of the attributes. You want to make a filter based on the values in the vector.</h4>
+
+<p>Example: sales records, each record is a deal.</p>
+
+<p>The vector is a list of selected customers you are interested in.</p>
+
+<p>Is it possible to make such a kind of filter?</p>
+
+<h3 id="solution">Solution</h3>
+
+<p>Of course it is!</p>
+
+<h4 id="you-just-have-to-use-the-in-operator">you just have to use the %in% operator.</h4>
+
+<p>let’s see how to do it in the short tutorial here below.</p>
+
+<h3 id="tutorial">Tutorial</h3>
+
+<p>suppose you have a <em>sales</em> data frame object like this:</p>
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2014/09/rstats.jpeg"><img src="https://andreacirilloblog.files.wordpress.com/2014/09/rstats.jpeg?w=300" alt="#rstats" /></a></p>
+
+<p>suppose you want to extract sales to Francesca, Tommaso and Gianna.</p>
+
+<p>first, you have to assign those names to a vector.</p>
+
+<h5 id="vector-c-francesca-tommaso-gianna"><code>vector = c(“Francesca&quot;,&quot;Tommaso&quot;,&quot;Gianna&quot;)</code></h5>
+
+<p>then, you can write the filtering statement, using the_%in%_operator.</p>
+
+<h5 id="query-result-sales-sales-customer-in-vector"><code>query_result = sales[sales$customer %in% vector,]</code></h5>
+
+<p>and that&rsquo;s it!</p>
+
+<p>The meaning of _%in%_operator is exactly the one you guess:</p>
+
+<p><em>“ select only values present INthe specified group”.</em></p>
+
+<p>Full code is available as an R workbook for quick reference:</p>
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2014/09/filter_code-r.pdf">filter_code.R</a></p>
+
+<p>Let me know if you use any other method to obtain the same result.</p>
+
+<p>Finally,if you enjoyed the tutorial, you can find more tutorial on page<em><a href="http://andreacirilloblog.wordpress.com/tutorials/">Tutorial</a></em>(quite obvious, isnt&rsquo; it?).</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

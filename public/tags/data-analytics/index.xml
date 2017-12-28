@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analytics on ac&#39;s blog</title>
+    <link>/tags/data-analytics/</link>
+    <description>Recent content in Data Analytics on ac&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Sep 2016 12:22:29 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>streamline your analyses linking R to sas and more: the workfloweR</title>
+      <link>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</link>
+      <pubDate>Wed, 21 Sep 2016 12:22:29 +0000</pubDate>
+      
+      <guid>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</guid>
+      <description>we all know R is the first choice for statistical analysis and data visualisation, but what about big data munging? tidyverse (or we&amp;rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is often the case this kind of activities being handled from some other coding language. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .</description>
+    </item>
+    
+    <item>
+      <title>Euro 2016 analytics: Who&#39;s playing the toughest game?</title>
+      <link>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</link>
+      <pubDate>Tue, 21 Jun 2016 15:55:38 +0000</pubDate>
+      
+      <guid>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</guid>
+      <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&amp;rsquo;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
+Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</description>
+    </item>
+    
+    <item>
+      <title>Over 50 practical recipes for data analysis with R in one book</title>
+      <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
+      <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
+      
+      <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
+      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
+ changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
+ became dad for the third time (and if you are guessing, it’s a boy!</description>
+    </item>
+    
+    <item>
+      <title>how to list loaded packages in R: ramazon gets cleaver</title>
+      <link>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
+      <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
+      
+      <guid>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
+      <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
+In the next hours things got growing by themselves, with pleasant results like the following:
+https://twitter.com/DoodlingData/status/635057258888605696
+The R community found ramazon a really helpful package.
+And I actually think it is: Amazon AWS is nowadays one of the most common tools for online web applications and websites hosting.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
+      <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
+      <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
+      
+      <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
+      <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
+   on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
+Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
+    </item>
+    
+    <item>
+      <title>Catching Fraud with Benford&#39;s law (and another Shiny App)</title>
+      <link>/2015/02/06/benfords_law_with_r/</link>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/02/06/benfords_law_with_r/</guid>
+      <description>In the early &amp;lsquo;900 Frank Benford observed that &amp;lsquo;1&amp;rsquo; was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What &amp;lsquo;Benford&amp;rsquo;s Law&amp;rsquo; stands for? Around 1938 Frank Benford, a physicist at the General Electrics research laboratories, observed that logarithmic tables were more worn within first pages: was this casual or due to an actual prevalence of numbers near 1 as first digits?</description>
+    </item>
+    
+    <item>
+      <title>Network Visualisation With R</title>
+      <link>/2014/12/05/network-visualisation-in-r/</link>
+      <pubDate>Fri, 05 Dec 2014 15:10:34 +0000</pubDate>
+      
+      <guid>/2014/12/05/network-visualisation-in-r/</guid>
+      <description>The main reason why After all,I am still an Internal Auditor. Therefore I often face one of the typical internal auditors problems: understand links between people and companies, in order to discover the existence of hidden communities that could expose the company to unknown risks.
+the solution: linker In order to address this problem I am developing Linker, a lean shiny app that take 1 to 1 links as an input and gives as output a network map:</description>
+    </item>
+    
+    <item>
+      <title>Best Practices for Scientific Computing</title>
+      <link>/2014/11/05/best-pratice-for-scientific-computing/</link>
+      <pubDate>Wed, 05 Nov 2014 04:40:02 +0000</pubDate>
+      
+      <guid>/2014/11/05/best-pratice-for-scientific-computing/</guid>
+      <description>I reproduce here below principles from the amazing paper Best Practices for Scientific Computing, published on 2012 by a group of US and UK professors. The main purpose of the paper is to &amp;ldquo;teach&amp;rdquo; good programming habits shared from professional developers to people that weren&amp;rsquo;t born developer, and became developers just for professional purposes.
+Scientists spend an increasing amount of time building and using software. However, most scientists are never taught how to do this efficiently Best Practices for Scientific Computing    Write programs for people, not computers.</description>
+    </item>
+    
+    <item>
+      <title>excel right() function in R</title>
+      <link>/2014/10/27/excel-right-function-in-r/</link>
+      <pubDate>Mon, 27 Oct 2014 05:29:15 +0000</pubDate>
+      
+      <guid>/2014/10/27/excel-right-function-in-r/</guid>
+      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel right() function in th R language. Feel free to copy and use it.
+[code language=&amp;ldquo;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
+you can find other function in the Excel functions in R post.</description>
+    </item>
+    
+    <item>
+      <title>excel left() function in R</title>
+      <link>/2014/10/27/excel-left-function-in-r/</link>
+      <pubDate>Mon, 27 Oct 2014 05:27:23 +0000</pubDate>
+      
+      <guid>/2014/10/27/excel-left-function-in-r/</guid>
+      <description>as part of the excel functions in R, I have developed this custom function, emulating the excel left() function in th R language. Feel free to copy and use it.
+left = function (string,char){ substr(string,1,char)} you can find other function in theExcel functions in R post.</description>
+    </item>
+    
+    <item>
+      <title>Answering to Ben ( functions comparison in R)</title>
+      <link>/2014/09/13/functions-comparison-in-r/</link>
+      <pubDate>Sat, 13 Sep 2014 15:05:34 +0000</pubDate>
+      
+      <guid>/2014/09/13/functions-comparison-in-r/</guid>
+      <description>Following the post about %in% operator, I received this tweet: https://twitter.com/benwhite21/status/510520550553165824
+I gave a look to the code kindly provided by Ben and then I asked myself: I know dplyr is a really nice package, but which snippet is faster?
+to answer the question I&amp;rsquo;ve put the two snippets in two functions:
+#Ben snippet dplyr_snippet =function(object,column,vector){ filter(object,object[,column] %in% vector) } #AC snippet Rbase_snippet =function(object,column,vector){ object[object[,column] %in% vector,] }
+Then, thanks to the great package microbenchmark, I made a comparison between those two functions, testing the time of execution of both, for 100.</description>
+    </item>
+    
+    <item>
+      <title>How to Visualize Entertainment Expenditures on a Bubble Chart</title>
+      <link>/2014/07/12/how-to-visualize-entertainment-expenditures-on-a-bubble-chart/</link>
+      <pubDate>Sat, 12 Jul 2014 07:27:24 +0000</pubDate>
+      
+      <guid>/2014/07/12/how-to-visualize-entertainment-expenditures-on-a-bubble-chart/</guid>
+      <description>I&amp;rsquo;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.
+In response to that request I have developed a little Shiny app with an interesting reactive Bubble chart.
+The plot, made using ggplot2 package, is composed by: a categorical x value, represented by the clusters identified in the expenditures population A numerical y value, representing the total amount expended Points defined by the total amount of expenditure in the given cluster for each company subject.</description>
+    </item>
+    
+  </channel>
+</rss>

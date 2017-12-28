@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>Best Practices for Scientific Computing - ac&#39;s blog</title>
+<meta property="og:title" content="Best Practices for Scientific Computing - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Best Practices for Scientific Computing</h1>
+    
+    
+    <span class="article-date">2014/11/05</span>
+    
+    
+    <div class="article-content">
+      
+
+<p>I reproduce here below principles from the amazing paper <a href="http://arxiv.org/pdf/1210.0530v3.pdf">Best Practices for Scientific Computing</a>, published on 2012 by a group of US and UK professors. The main purpose of the paper is to &ldquo;teach&rdquo;  good programming habits shared from professional developers to people  that weren&rsquo;t born developer, and became developers just for professional purposes.</p>
+
+<blockquote>Scientists spend an increasing amount of time building and using software. However, most scientists are never taught how to do this efficiently</blockquote>
+
+<h2 id="best-practices-for-scientific-computing">Best Practices for Scientific Computing</h2>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="write-programs-for-people-not-computers">Write programs for people, not computers.</h4>
+
+<pre><code>1. _a program should not require its readers to hold more than a handful of facts in memory at once_
+
+
+2. _names should be consistent, distinctive and meaningful_
+
+
+3. _code style and formatting should be consistent_
+
+
+4. _all aspects of software development should be broken down into tasks roughly an hour long&lt;!-- more --&gt;_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="automate-repetitive-tasks">Automate repetitive tasks.</h4>
+
+<pre><code>1. _rely on the computer to repeat tasks_
+
+
+2. _save recent commands in a file for re-use_
+
+
+3. _use a build tool to automate scientific workflows_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="use-the-computer-to-record-history">Use the computer to record history.</h4>
+
+<pre><code>1. _software tools should be  used to track computational work automatically_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="make-incremental-changes">Make incremental changes.</h4>
+
+<pre><code>1. _work in small steps with frequent feedback and course correction_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="use-version-control">Use version control.</h4>
+
+<pre><code>1. _use a version control system_
+
+
+2. _everything that has been created manually should be put in version control_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="don-t-repeat-yourself-or-others">Don’t repeat yourself (or others).</h4>
+
+<pre><code>1. _every piece of data must have a single authoritative representation in the system_
+
+
+2. _code should be modularized rather than copied and pasted_
+
+
+3. _re-use code instead of rewriting it_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="plan-for-mistakes">Plan for mistakes.</h4>
+
+<pre><code>1. _add assertions to programs to check their operation_
+
+
+2. _use an off-the-shelf unit testing library_
+
+
+3. _use all available oracles when testing programs_
+
+
+4. _turn bugs into test cases_
+
+
+5. _use a symbolic debugger_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="optimize-software-only-after-it-works-correctly">Optimize software only after it works correctly.</h4>
+
+<pre><code>1. _use a profiler to identify bottlenecks_
+
+
+2. _write code in the highest-level language possible_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="document-design-and-purpose-not-mechanics">Document design and purpose, not mechanics.</h4>
+
+<pre><code>1. _document interfaces and reasons, not implementations_
+
+
+2. _refactor code instead of explaining how it works_
+
+
+3. _embed the documentation for a piece of software in that software_
+</code></pre>
+
+<ol>
+<li></li>
+</ol>
+
+<h4 id="collaborate">Collaborate.</h4>
+
+<pre><code>1. _use pre-merge code reviews_
+
+
+2. _use pair programming when bringing someone new up to speed and when tackling particularly tricky problems_
+</code></pre>
+
+<!-- more -->
+
+<p>if you want to discover more, you can download your copy of Best Practice Scientific Computing here below</p>
+
+<h4 id="donwload-a-copy-of-best-practices-for-scientific-computing-http-arxiv-org-pdf-1210-0530v3-pdf"><a href="http://arxiv.org/pdf/1210.0530v3.pdf">donwload a copy of Best Practices for Scientific Computing</a></h4>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

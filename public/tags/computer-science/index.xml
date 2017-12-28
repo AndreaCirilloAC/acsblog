@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on ac&#39;s blog</title>
+    <link>/tags/computer-science/</link>
+    <description>Recent content in Computer Science on ac&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Over 50 practical recipes for data analysis with R in one book</title>
+      <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
+      <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
+      
+      <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
+      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
+ changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
+ became dad for the third time (and if you are guessing, it’s a boy!</description>
+    </item>
+    
+    <item>
+      <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
+      <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
+      <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
+      
+      <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
+      <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
+   on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
+Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
+    </item>
+    
+    <item>
+      <title>Best Practices for Scientific Computing</title>
+      <link>/2014/11/05/best-pratice-for-scientific-computing/</link>
+      <pubDate>Wed, 05 Nov 2014 04:40:02 +0000</pubDate>
+      
+      <guid>/2014/11/05/best-pratice-for-scientific-computing/</guid>
+      <description>I reproduce here below principles from the amazing paper Best Practices for Scientific Computing, published on 2012 by a group of US and UK professors. The main purpose of the paper is to &amp;ldquo;teach&amp;rdquo; good programming habits shared from professional developers to people that weren&amp;rsquo;t born developer, and became developers just for professional purposes.
+Scientists spend an increasing amount of time building and using software. However, most scientists are never taught how to do this efficiently Best Practices for Scientific Computing    Write programs for people, not computers.</description>
+    </item>
+    
+  </channel>
+</rss>

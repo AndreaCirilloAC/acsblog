@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>ramazon: Deploy your Shiny App on AWS with a Function - ac&#39;s blog</title>
+<meta property="og:title" content="ramazon: Deploy your Shiny App on AWS with a Function - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">ramazon: Deploy your Shiny App on AWS with a Function</h1>
+    
+    
+    <span class="article-date">2015/08/18</span>
+    
+    
+    <div class="article-content">
+      
+
+<p>Because <a href="https://andreacirilloblog.wordpress.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/"><strong>Afraus</strong> </a>received a good interest, last month I override shinyapps.io <strong><a href="http://www.shinyapps.io/#pricing">free plan limits</a></strong>.</p>
+
+<p>That got me move my Shiny App on an <strong>Amazon AWS instance</strong>.</p>
+
+<p>Well, it was not so straight forward: even if there is <strong>plenty of tutorials</strong> around the web, <strong>every one</strong> seems to <strong>miss a part</strong>: upgrading R version, removing shiny-server examples&hellip; And even having all info it is still quite a long, <strong>error-prone process</strong>.</p>
+
+<p>All this pain is removed by <strong>ramazon</strong>, an <strong>R package</strong> that I developed to take care of everything is needed <strong>to deploy a shiny app on an AWS instance</strong>. An early disclaimer for Windows users: <strong>only Apple OS X is supported</strong> at the moment.</p>
+
+<!-- more -->
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/08/how-to-use-ramazon-2.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/08/how-to-use-ramazon-2.png?w=660" alt="How to use ramazon (2)" /></a></p>
+
+<h2 id="using-ramazon">Using ramazon</h2>
+
+<p>As one would expect, <strong>using ramazon is a very pleasant</strong> experience, given that you <strong>just have to run a function</strong>, ramazon(), passing to it the EC2 instance public_DNS and the name of the key pair file downloaded from amazon AWS. Just follow the following steps to deploy your app with ramazon.</p>
+
+<h3 id="launch-an-amazon-ec2-instance">launch an amazon EC2 instance</h3>
+
+<p>I am not going to go into details, I can see you are in a hurry to see your app on the Web, I will just show you <strong>screenshoots from the process</strong>.</p>
+
+<p>Be sure to <strong>change all parameters</strong> in accordance with the screenshots.</p>
+
+<p>[slideshare id=51349866&amp;doc=jbqv4twris66dewsqjtv-signature-843c31b3a0f027c947d558b8e4ad422a871c4447d2f87e299cca6a927ccfa4c9-poli-150806144702-lva1-app6892]</p>
+
+<h4 id="retrieve-the-public-dns">retrieve the public dns</h4>
+
+<p>As shown within the above introduced deck, you can f<strong>ind your Public_dns among the instance details</strong>:<a href="https://andreacirilloblog.files.wordpress.com/2015/08/2015-08-06-16_53_12-how-to-launch-an-aws-ec2-instance-pdf-adobe-reader.png">
+</a> <a href="https://andreacirilloblog.files.wordpress.com/2015/08/2015-08-06-16_53_27-how-to-launch-an-aws-ec2-instance-pdf-adobe-reader.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/08/2015-08-06-16_53_27-how-to-launch-an-aws-ec2-instance-pdf-adobe-reader.png" alt="public dns" /></a></p>
+
+<h4 id="retrieve-your-keypair-name">Retrieve your keypair name</h4>
+
+<p>your key pair name is associated with the security group you choose for the ec2 instance. take note of it directly when creating the instance.</p>
+
+<p><img src="https://andreacirilloblog.files.wordpress.com/2015/08/2015-08-06-16_53_12-how-to-launch-an-aws-ec2-instance-pdf-adobe-reader.png" alt="key pair name" /></p>
+
+<h3 id="install-ramazon-package">install ramazon package</h3>
+
+<p>a working version of ramazon package is <strong><a href="https://github.com/AndreaCirilloAC/ramazon">available through Github</a></strong>. In order to use it you have to <strong>execute the following code</strong>, installing devtools an downloading ramazon from the github repo:</p>
+
+<p><code>
+install.packages(&quot;devtools&quot;)
+library(devtools)
+install_github(&quot;andreacirilloac/ramazon&quot;)
+library(ramazon)
+</code></p>
+
+<h3 id="run-ramazon">run ramazon()</h3>
+
+<p>after loading ramazon library you just need to** run the following line of code**, <strong>using the public DNS and key pair name</strong> ( without &ldquo;.pem&rdquo; extension into the name) you retrieved into the previous paragraphs:
+<code>
+ramazon(Public_DNS =&quot;your_Public_DNS&quot;, key_pair_name = &quot;your_key_pair_name&quot;)
+</code>
+after running this line you will see your console being populated by a lot of messages showing you what&rsquo;s going on behind the scene (see next paragraph for more specific info about that).</p>
+
+<h3 id="enjoy-your-app">enjoy your app!</h3>
+
+<p>At the end of the process, **ramazon **will communicate that everything went smoothly and <strong>will print out the web URL</strong> where you can find <strong>your deployed app</strong>.</p>
+
+<h2 id="some-tech-specs">Some tech specs</h2>
+
+<p>the full ramazon code is released under <strong><a href="https://github.com/AndreaCirilloAC/ramazon">MIT license on a github repo</a></strong>. Nevertheless, for those interested in code details I will describe in the next lines <strong>some details about ramazon design</strong>.</p>
+
+<p>Basically, what ramazon does is to **write a bash script **with all commands needed to:</p>
+
+<ul>
+<li><p><strong>install the latest version of R</strong> (non trivial issues, since Ubuntu comes with R 3.0.2 version, causing heavy packages incompatibility)</p></li>
+
+<li><p>install the** latest version of Shiny-Server**</p></li>
+
+<li><p><strong>copy the shiny app files</strong> on the server</p></li>
+</ul>
+
+<p>All commands are run <strong>with verbose on</strong>, in order to give the clearest possible vision of what is going on and what could possibly go wrong.</p>
+
+<p>The resulting <strong>bash script is</strong> then <strong>run with <a href="https://stat.ethz.ch/R-manual/R-devel/library/base/html/system.html">system() function</a></strong>.</p>
+
+<h3 id="possible-issues">Possible issues</h3>
+
+<p>Since the package is in its <strong>very first stages</strong>, I am aware of just a little part of possible issues that could arise during its use.</p>
+
+<p>I really hope you will help me to find out some more of them using it and <strong>opening issues on the Github repo</strong> :)</p>
+
+<p>In the meanwhile, find below <strong>three tricky problems</strong> that could arise during ramazon use.</p>
+
+<h4 id="place-your-key-correctly">place your key correctly</h4>
+
+<p>ramazon is trained to look for the <strong>key pair file within the shiny app folder</strong>. Therefore you have to save that file within this folder. If you are using the same key for different instances <strong>you can also copy and paste it into the shiny app</strong>. If you are using an online repository for your project, be sure to <strong>add</strong> your key pair <strong>to the <a href="http://git-scm.com/docs/gitignore">.gitignore file</a></strong>.</p>
+
+<p>this was also kindly pointed out from Simon in comments: your .pem file should be in your working directory and your working directory should be the one hosting the app.</p>
+
+<h4 id="a-matter-of-extensions">a matter of extensions</h4>
+
+<p>It sometimes happens that the key pair file is saved as a txt file. This results in ramazon not being able to connect with AWS instance and failing its job.</p>
+
+<p>All you have to do in this case is to <strong><a href="https://www.youtube.com/watch?v=pbEaKTcQcv4">change the extension of the key pair file</a></strong>.</p>
+
+<h4 id="refresh-that-ip">Refresh that IP</h4>
+
+<p>as you can see within the deck showed above, the security group associated with your instance as an <strong>SSH connection rule</strong> (see slide 10)
+Even if this type is set with &ldquo;<strong>My IP</strong>&rdquo;,** if** this <strong>IP changes</strong> (i.e. you connect from another network) it will <strong>not update automatically</strong>.</p>
+
+<p>This again will result in ramazon failing its job, given that it will not be able to establish an SSH connection with the instance.</p>
+
+<p>All you will have to do in this case is to <strong><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html">edit inbound rules</a></strong> for the security group and specify again &ldquo;My IP&rdquo; for the SSH Type. This will change the IP into your current IP.</p>
+
+<h4 id="no-public-dns-showing">No Public DNS showing</h4>
+
+<p>After trying ramazon (yeah, it worked 😌), <a href="https://twitter.com/ukituki">@ukituki</a> pointed me out a possible issue: the <strong>absence of a public DNS</strong> for a given instance.
+this issue comes from not checking the &ldquo;Automatically assign a public IP address to your instances&rdquo; during the launching process.</p>
+
+<p>To <strong>solve this problem</strong> you just have to follow the following steps (from question <em><a href="http://stackoverflow.com/questions/20941704/ec2-instance-has-no-public-dns">EC2 instance has no public DNS on Stackoverflow</a></em>):</p>
+
+<ul>
+<li><p>Go to console.aws.amazon.com</p></li>
+
+<li><p>Go To Networking -&gt; VPC</p></li>
+
+<li><p>Open Your VPCs</p></li>
+
+<li><p>select your VPC connected to your EC2</p></li>
+
+<li><p>Edit Summary -&gt; Change DNS hostnames: to YES</p></li>
+</ul>
+
+<p>thank you ukituki!</p>
+
+<h2 id="let-me-know">Let me know</h2>
+
+<p>I am already working on some further improving of the ramazon functionalities, like the update function to be run after the first deploy and some other facilities.
+Nevertheless I would <strong>really appreciate you coming back after using ramazon</strong> to tell me what you went wrong, preferably <strong><a href="https://github.com/AndreaCirilloAC/ramazon">opening Github issues</a></strong>, what could be done better and what you would like to see.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

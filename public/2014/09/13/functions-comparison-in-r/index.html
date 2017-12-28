@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>Answering to Ben ( functions comparison in R) - ac&#39;s blog</title>
+<meta property="og:title" content="Answering to Ben ( functions comparison in R) - ac&#39;s blog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/vitae/">cv</a></li>
+    
+    <li><a href="/pubblications/">pubblications</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Answering to Ben ( functions comparison in R)</h1>
+    
+    
+    <span class="article-date">2014/09/13</span>
+    
+    
+    <div class="article-content">
+      <p>Following <a href="http://andreacirilloblog.wordpress.com/2014/09/02/r-subset-data-frame/">the post about %in% operator,</a> I received this tweet:
+<a href="https://twitter.com/benwhite21/status/510520550553165824">https://twitter.com/benwhite21/status/510520550553165824</a></p>
+
+<p>I gave a look to <a href="https://gist.github.com/benmwhite/87c50d98c886dfb846e0">the code kindly provided by Ben</a> and then I asked myself:
+I know <a href="http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html">dplyr</a> is a really nice package,  but which snippet is faster?</p>
+
+<p>to answer the question I&rsquo;ve put the two snippets in two functions:</p>
+
+<p><code>#Ben snippet
+dplyr_snippet =function(object,column,vector){
+filter(object,object[,column] %in% vector)
+}
+#AC snippet
+Rbase_snippet =function(object,column,vector){
+object[object[,column] %in% vector,]
+}</code></p>
+
+<p>Then, thanks to the great <a href="http://cran.r-project.org/web/packages/microbenchmark/microbenchmark.pdf">package microbenchmark</a>, I made a comparison between those two functions, testing the time of execution of both, for 100.000 times.</p>
+
+<p><code>comparison = microbenchmark(Rbase_snippet(iris,5,vec),dplyr_snippet(iris,5,vec),times = 100000)</code></p>
+
+<p><code>#plot the output
+autoplot(comparison)+
+labs(title = &quot;comparison between dplyr_snippet and Rbase_snippet&quot;, y=&quot;snippet&quot;)
+</code></p>
+
+<p>And that was the result:</p>
+
+<p><a href="https://andreacirilloblog.files.wordpress.com/2014/09/snippet_comparison.jpeg"><img src="http://andreacirilloblog.files.wordpress.com/2014/09/snippet_comparison.jpeg" alt="snippet_comparison" /></a></p>
+
+<p>R Base package seems to be the winner, even if just for an handful of microseconds&hellip;</p>
+
+<p>Nevertheless, I am really grateful to Ben, it was a great fun!</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+

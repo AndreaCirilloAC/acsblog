@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evernote on ac&#39;s blog</title>
+    <link>/tags/evernote/</link>
+    <description>Recent content in Evernote on ac&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Sep 2014 16:13:39 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Put Equations into Evernote</title>
+      <link>/2014/09/11/equations-in-evernote/</link>
+      <pubDate>Thu, 11 Sep 2014 16:13:39 +0000</pubDate>
+      
+      <guid>/2014/09/11/equations-in-evernote/</guid>
+      <description>Problem
+If you have to put some math writing into your Evernote notes, and you have a Mac device, there is a very simple way to solve your problem out.
+Solution
+This way is called Grapher, a built-in application for visualising math stuffs.
+Tutorial
+Here below a simple tutorial:
+1. find Grapher among your applications. You can either search for it within Spotlight or using the launchpad.
+
+2. write the equation you would like to put into your Evernote note.</description>
+    </item>
+    
+  </channel>
+</rss>
