@@ -163,15 +163,6 @@
   </url>
   
   <url>
-    <loc>/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/algorithm/</loc>
     <lastmod>2016-05-11T14:00:46+00:00</lastmod>
     <priority>0</priority>
@@ -184,15 +175,20 @@
   </url>
   
   <url>
+    <loc>/categories/analytics/</loc>
+    <lastmod>2014-12-28T00:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/analytics/</loc>
     <lastmod>2017-04-12T06:14:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/analytics/</loc>
-    <lastmod>2014-12-28T00:10:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/</loc>
+    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
   </url>
   
   <url>
@@ -370,6 +366,12 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/productivity/</loc>
     <lastmod>2017-04-12T06:14:48+00:00</lastmod>
     <priority>0</priority>
@@ -486,12 +488,6 @@
   <url>
     <loc>/tags/windows/</loc>
     <lastmod>2015-04-01T20:29:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
