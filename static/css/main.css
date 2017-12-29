@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #000;
 }
 
 a {
@@ -47,6 +47,13 @@ code {
   padding: 0 15px;
   text-align: right;
 }
+.nav-title {
+  margin-top:-5px;
+  margin-left:20px;
+  float: left;
+  transition: transform 150ms ease-out;
+}
+
 
 .nav-logo {
   float: left;
@@ -62,7 +69,7 @@ code {
   display: block;
   max-height: 40px;
   width: auto;
-  border-radius: 50%;
+
 }
 
 .nav-links {
@@ -88,6 +95,25 @@ code {
 
 .nav-links a:hover {
   color: #000;
+}
+/* related to the home */
+.home-box{
+display: inline-block;
+width: auto;
+margin-top:auto;
+margin-left:auto;
+margin-right:auto;
+border: 1px solid #000;
+}
+
+.featured-content {
+float: right;
+font-size: 16px;
+}
+
+.book-cover {
+position: relative;
+width: 100px;
 }
 
 .content {
@@ -306,6 +332,19 @@ code {
     font-size: 12px;
   }
 
+.post-summary{
+  font-size:16px;
+}
+
+.post-tags{
+  font-size:14px;
+  color: #2e79f2;
+}
+
+.post-tags a:hover,
+.post-tags a:focus {
+  background-color: #136af7;
+}
   .footer-links {
     font-size: inherit;
   }

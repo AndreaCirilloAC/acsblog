@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Andrea Cirillo&#39;s blog on ac&#39;s blog</title>
+    <title>Andrea Cirillo&#39;s website on Andrea Cirillo</title>
     <link>/</link>
-    <description>Recent content in Andrea Cirillo&#39;s blog on ac&#39;s blog</description>
+    <description>Recent content in Andrea Cirillo&#39;s website on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Apr 2017 06:14:48 +0000</lastBuildDate>
@@ -281,7 +281,7 @@ I hope you will enjoy.</description>
       <pubDate>Thu, 09 Oct 2014 12:16:24 +0000</pubDate>
       
       <guid>/2014/10/09/mining-twitter-with-r/</guid>
-      <description>Great tutorial on text mining with twitter by Paeng Angnakoon
+      <description>Great tutorial on text mining with twitter byPaeng Angnakoon
 [youtube=http://youtu.be/mJVcANlkxU8]</description>
     </item>
     
@@ -356,12 +356,12 @@ The plot, made using ggplot2 package, is composed by: a categorical x value, rep
     </item>
     
     <item>
-      <title></title>
-      <link>/vitae/</link>
+      <title>R data mining</title>
+      <link>/home/featured_book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/vitae/</guid>
-      <description>this should look as pdf</description>
+      <guid>/home/featured_book/</guid>
+      <description>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</description>
     </item>
     
     <item>
@@ -370,7 +370,7 @@ The plot, made using ggplot2 package, is composed by: a categorical x value, rep
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>all about me</description>
+      <description> brief description vitae   brief description  vitae  </description>
     </item>
     
     <item>
@@ -380,6 +380,24 @@ The plot, made using ggplot2 package, is composed by: a categorical x value, rep
       
       <guid>/books/</guid>
       <description>the books I wrote and reviewed</description>
+    </item>
+    
+    <item>
+      <title>bookstack</title>
+      <link>/bookstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bookstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contacts</title>
+      <link>/contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contacts/</guid>
+      <description></description>
     </item>
     
     <item>

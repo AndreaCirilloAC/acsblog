@@ -158,10 +158,6 @@
   </url>
   
   <url>
-    <loc>/vitae/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/algorithm/</loc>
     <lastmod>2016-05-11T14:00:46+00:00</lastmod>
     <priority>0</priority>
@@ -174,14 +170,14 @@
   </url>
   
   <url>
-    <loc>/categories/analytics/</loc>
-    <lastmod>2014-12-28T00:10:00+00:00</lastmod>
+    <loc>/tags/analytics/</loc>
+    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/analytics/</loc>
-    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
+    <loc>/categories/analytics/</loc>
+    <lastmod>2014-12-28T00:10:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -329,6 +325,11 @@
   </url>
   
   <url>
+    <loc>/home/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/internal-audit/</loc>
     <lastmod>2015-07-02T21:06:39+00:00</lastmod>
     <priority>0</priority>
@@ -380,6 +381,10 @@
     <loc>/tags/r/</loc>
     <lastmod>2017-04-12T06:14:48+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/home/featured_book/</loc>
   </url>
   
   <url>
@@ -495,6 +500,14 @@
   
   <url>
     <loc>/books/</loc>
+  </url>
+  
+  <url>
+    <loc>/bookstack/</loc>
+  </url>
+  
+  <url>
+    <loc>/contacts/</loc>
   </url>
   
   <url>

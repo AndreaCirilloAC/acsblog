@@ -2,4 +2,6 @@
 title: "about"
 ---
 
-all about me
+## brief description
+
+## vitae

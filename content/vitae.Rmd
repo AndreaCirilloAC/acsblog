@@ -1,4 +1,0 @@
----
-output: pdf_document
----
-this should look as pdf

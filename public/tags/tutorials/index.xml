@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorials on ac&#39;s blog</title>
+    <title>Tutorials on Andrea Cirillo</title>
     <link>/tags/tutorials/</link>
-    <description>Recent content in Tutorials on ac&#39;s blog</description>
+    <description>Recent content in Tutorials on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
@@ -70,7 +70,7 @@ Download data into excel select &amp;rdquo;data&amp;rdquo; tab select &amp;rdq
       <pubDate>Thu, 09 Oct 2014 12:16:24 +0000</pubDate>
       
       <guid>/2014/10/09/mining-twitter-with-r/</guid>
-      <description>Great tutorial on text mining with twitter by Paeng Angnakoon
+      <description>Great tutorial on text mining with twitter byPaeng Angnakoon
 [youtube=http://youtu.be/mJVcANlkxU8]</description>
     </item>
     

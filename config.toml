@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "ac's blog"
+title = "Andrea Cirillo"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
@@ -19,11 +19,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "blog"
     url = "/post/"
 [[menu.main]]
-    name = "vitae"
-    url = "/vitae/"
-[[menu.main]]
     name = "software"
     url = "/software/"
+[[menu.main]]
+    name = "contacts"
+    url = "/contacts/"
+[[menu.main]]
+    name = "bookstack"
+    url = "/bookstack/"    
 [params]
     description = "A website built through Hugo and blogdown."
 
@@ -37,7 +40,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
     [params.logo]
     url = "aclogo.ico"
-    width = 50
-    height = 50
+    width = 40
+    height = 40
     alt = "Logo"
 
