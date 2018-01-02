@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  {{ if and .IsHome .Content }}
+  <article class="article">
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </article>
+  {{ else }}
+  <div class="content">
+      {{ .Content}}  
+
+  </div>  
+  <div >
+<table class= "stack-book" style="width:100%">
+     {{ range (where .Data.Pages "Section" "!=" "")}}
+
+
+  <tr>
+    <th><a href="{{ .RelPermalink }}" ><img  class= "book-cover" src={{ .Params.cover }}></a> </th>
+    <th><a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a></th>
+    <th>{{ .Params.status }}</th> 
+  </tr>
+
+    {{end}}
+  </table>
+    {{ end }}
+  </div>
+
+
+</main>
+
+{{ partial "footer.html" . }}

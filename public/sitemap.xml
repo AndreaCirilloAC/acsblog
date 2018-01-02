@@ -514,4 +514,12 @@
     <loc>/software/</loc>
   </url>
   
+  <url>
+    <loc>/bookstack/template/</loc>
+  </url>
+  
+  <url>
+    <loc>/bookstack/pragmatic_programmer/</loc>
+  </url>
+  
 </urlset>

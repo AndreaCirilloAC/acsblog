@@ -118,6 +118,11 @@ font-size: 16px;
 .book-cover {
 position: relative;
 width: 100px;
+  transition: transform 150ms ease-out;
+}
+
+.book-cover:hover {
+  transform: scale(1.1);
 }
 
 .content {
@@ -361,4 +366,12 @@ width: 100px;
   .article-content a {
     box-shadow: none;
   }
+}
+
+/* bookstack*/
+
+/*table*/
+
+.stack-book {
+  text-align: left;
 }
