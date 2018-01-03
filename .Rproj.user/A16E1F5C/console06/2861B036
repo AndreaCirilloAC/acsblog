@@ -1,109 +1,4 @@
 
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/843591ED-contents
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/9E5287D3
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/9E5287D3-contents
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/A4A28E0C-contents
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/AD09E921
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/AD09E921-contents
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/B2076E4E
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/B2076E4E-contents
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/E4B0A404
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/E4B0A404-contents
- delete mode 100644 .Rproj.user/A16E1F5C/sources/s-E5A91B1E/lock_file
- create mode 100644 .gitignore
- create mode 100644 _output.yml
- create mode 100644 aclogo.ico
- create mode 100644 content/post/2017-12-19-let-it-snow.Rmd
- create mode 100644 content/post/2017-12-19-let-it-snow.html
- create mode 100644 public/2017/12/19/let-it-snow/index.html
- create mode 100644 public/images/aclogo.ico
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ pwd
-/Users/andrea_cirillo/Dropbox/R_projects/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch content/vitae.Rmd
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open ivdae.Rmds[K[1P.Rmd[1P.Rmd[1P.Rmd[1P.Rmd[1P.Rmd[1P.Rmdc.Rmd[1P.Rmd .Rmdc.Rmdo.Rmdn.Rmdt.Rmda.Rmd[1P.Rmde.Rmdn.Rmdt.Rmd/.Rmdv.Rmdi.Rmdt.Rmda.Rmde.Rmd
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ pwd
-/Users/andrea_cirillo/Dropbox/R_projects/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cd [K[K[Ktouch themes/hugo-lithium-theme/l\[Kayouts/404.html
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch themes/hugo-lithium-theme/layouts/404.html[C[K[K[K[K[K[K[K[KLI[K[Kli[K[K_default/list.html themes[K[K[K[K[K[Klayouts /_defaults[K[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C themes/hugo-lithium-theme/layouts/_default/list.html layouts/_[1Pdefault[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C themes/hugo-lithium-theme/layouts/_default/list.html layouts/_d[1Pefault[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C themes/hugo-lithium-theme/layouts/_default/list.html layouts/_de[1Pfault[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C themes/hugo-lithium-theme/layouts/_default/list.html layouts/_def[1Pault[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C themes/hugo-lithium-theme/layouts/_default/list.html layouts/_defa[1Pult[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc themes/hugo-lithium-theme/layouts/_default/list.html layouts/_default[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp themes/hugo-lithium-theme/layouts/_default/list.html layouts/_default[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp themes/hugo-lithium-theme/layouts/_default/list.html layouts/_deefault/list.[K_defa[K[K[K[Kcustom.html
-cp: layouts/_default/list_custom.html: Not a directory
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp themes/hugo-lithium-theme/layouts/_default/list.html layouts/_deefault/list_custom.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir layt[K[K[K[Klayouts/_defaults
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ mkdir layouts/_defaultscp themes/hugo-lithium-theme/layouts/_default/list.html layouts/_deefault/list_custom.html
-cp: layouts/_default/list_custom.html: Not a directory
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp themes/hugo-lithium-theme/layouts/_default/list.html layouts/_deefault/list_custom.html[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
-cp: layouts/_default is not a directory
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp themes/hugo-lithium-theme/layouts/_default/list.html layouts/_deefault/list_custom.html[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[43Pmkdir layouts/_defaults
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-mkdir: layouts/_default: File exists
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rm layouts/_default
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rm layouts/_default[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rm -[K_defaults
-rm: _defaults: No such file or directory
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rm _defaults -R
-rm: _defaults: No such file or directory
-rm: -R: No such file or directory
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rm _defaults -R[Kd
-rm: _defaults: No such file or directory
-rm: -d: No such file or directory
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rm _defaults -dR[Kmkdir layouts/_default[3Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp themes/hugo-lithium-theme/layouts/_default/list.html layouts/_deefault/
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rn laut[K[Kyouts_[K/_default/list.html layouts/_default/list_custom.html
-bash: rn: command not found
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rn layouts/_default/list.html layouts/_default/list_custom.html[C[C[1@m
-bash: rnm: command not found
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rnm layouts/_default/list.html layouts/_default/list_custom.html[1P[1P[1P[1@m[1@v
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch conte[K[K[K[K[Kcontent/coun[K[K[K[K_index.md
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch content/_index.mdp_index.mdo_index.mds_index.mdt_index.md/_index.md
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ rm content/index[K[K[K[K[K_index.md
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ pwd
-/Users/andrea_cirillo/Dropbox/R_projects/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch static/[C[C[C[C[C[1P static/[1P static/[1P static/[1P static/[1P static/c static/p static/[C static/t static/h static/e static/m static/e static/s static// static/h static/u static/go-lithium-theme/ static/s static/t static/atic/ static/m static/a static/i static/n static/. static/c static/s static/s static/[C[C[C[C[1P static/[1P static/[1P static/[1P static/[1P static/[1P static/[1P static/[1P static/c static/s static/s/ static/m static/ain.css static/[C[C[C[C[C[C[C[Cmain.css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp themes/hugo-lithium-theme/static/css/main.css static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1P static/main.css[1Pstatic/main.css[1P static/main.css[1P static/main.csso static/main.cssp static/main.csse static/main.cssn static/main.css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ mkdir statics[K/css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ mv static(ma[K[K[K/main.css static/css/main.css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ mv static/main.css static/css/main.css[22Pkdir static/cssopen static/main.csscmain.csssmain.csssmain.css/main.css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open static/css/main.css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add remote https://github.com/AndreaCirilloAC/acsblog
-fatal: pathspec 'remote' did not match any files
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add remote https://github.com/AndreaCirilloAC/acsblog[C[1P https://github.com/AndreaCirilloAC/acsblog[1P https://github.com/AndreaCirilloAC/acsblog[1P https://github.com/AndreaCirilloAC/acsblog[1P https://github.com/AndreaCirilloAC/acsblog[1P https://github.com/AndreaCirilloAC/acsblog[1P https://github.com/AndreaCirilloAC/acsblogo https://github.com/AndreaCirilloAC/acsblogr https://github.com/AndreaCirilloAC/acsblogi https://github.com/AndreaCirilloAC/acsblogg https://github.com/AndreaCirilloAC/acsblogi https://github.com/AndreaCirilloAC/acsblogn https://github.com/AndreaCirilloAC/acsblog
-fatal: pathspec 'origin' did not match any files
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add origin https://github.com/AndreaCirilloAC/acsblog[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit remote dd or[K[K[K[K[Kadd origin https://github.com/AndreaCirilloAC/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git t[Kremote -v
-origin	https://github.com/AndreaCirilloAC/acsblog (fetch)
-origin	https://github.com/AndreaCirilloAC/acsblog (push)
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pullremote -v[5Ppull[K[K[K[K[K[K[K[Kcp .[K[K[K[Kpwd
-/Users/andrea_cirillo/Dropbox/R_projects/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp ../acsblof[Kf[Kg ../../De[K[K[K[K[KD[K../De[K[K../Desktop/
-cp: ../acsblog is a directory (not copied).
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp ../acsblog ../../../Desktop/[C[C[C -R
-usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
-       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp ../acsblog ../../../Desktop/ -R[C[Kr[K[K[K[C[1@-[1@R[1@ 
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp -R ../acsblog ../../../Desktop/[Kgit pull
-warning: no common commits
-remote: Counting objects: 4, done.[K
-remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
-remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
-Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
-From https://github.com/AndreaCirilloAC/acsblog
- * [new branch]      master     -> origin/master
-There is no tracking information for the current branch.
-Please specify which branch you want to merge with.
-See git-pull(1) for details.
-
-    git pull <remote> <branch>
-
-If you wish to set tracking information for this branch you can do so with:
-
-    git branch --set-upstream-to=origin/<branch> master
-
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pull master
-fatal: 'master' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pull master[C[K[K[K[K[K[Kremote
 fatal: 'remote' does not appear to be a git repository
 fatal: Could not read from remote repository.
@@ -1077,3 +972,37 @@ rm: -R: No such file or directory
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open content/bookss[Ktack/_[K[K/_index.md 
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit .[K-am "fully functional bookstactk[K[Kk section"
+[master ed45fa1] fully functional bookstack section
+ 27 files changed, 833 insertions(+), 48 deletions(-)
+ delete mode 100644 content/bookstack.Rmd
+ delete mode 100644 content/bookstack.html
+ create mode 100644 content/bookstack/_index.md
+ create mode 100644 content/bookstack/pragmatic_programmer.Rmd
+ create mode 100644 content/bookstack/pragmatic_programmer.html
+ create mode 100644 content/bookstack/template.Rmd
+ create mode 100644 content/bookstack/template.html
+ create mode 100644 layouts/section/bookstack.html
+ create mode 100644 public/bookstack/_output.yml
+ create mode 100644 public/bookstack/index.xml
+ create mode 100644 public/bookstack/pragmatic_programmer.knit/index.html
+ create mode 100644 public/bookstack/pragmatic_programmer/index.html
+ create mode 100644 public/bookstack/template.knit/index.html
+ create mode 100644 public/bookstack/template.utf8/index.html
+ create mode 100644 public/bookstack/template/index.html
+ create mode 100644 public/images/template.png
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 40, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/34)   Compressing objects:   5% (2/34)   Compressing objects:   8% (3/34)   Compressing objects:  11% (4/34)   Compressing objects:  14% (5/34)   Compressing objects:  17% (6/34)   Compressing objects:  20% (7/34)   Compressing objects:  23% (8/34)   Compressing objects:  26% (9/34)   Compressing objects:  29% (10/34)   Compressing objects:  32% (11/34)   Compressing objects:  35% (12/34)   Compressing objects:  38% (13/34)   Compressing objects:  41% (14/34)   Compressing objects:  44% (15/34)   Compressing objects:  47% (16/34)   Compressing objects:  50% (17/34)   Compressing objects:  52% (18/34)   Compressing objects:  55% (19/34)   Compressing objects:  58% (20/34)   Compressing objects:  61% (21/34)   Compressing objects:  64% (22/34)   Compressing objects:  67% (23/34)   Compressing objects:  70% (24/34)   Compressing objects:  73% (25/34)   Compressing objects:  76% (26/34)   Compressing objects:  79% (27/34)   Compressing objects:  82% (28/34)   Compressing objects:  85% (29/34)   Compressing objects:  88% (30/34)   Compressing objects:  91% (31/34)   Compressing objects:  94% (32/34)   Compressing objects:  97% (33/34)   Compressing objects: 100% (34/34)   Compressing objects: 100% (34/34), done.
+Writing objects:   2% (1/40)   Writing objects:   5% (2/40)   Writing objects:   7% (3/40)   Writing objects:  10% (4/40)   Writing objects:  12% (5/40)   Writing objects:  15% (6/40)   Writing objects:  17% (7/40)   Writing objects:  20% (8/40)   Writing objects:  22% (9/40)   Writing objects:  25% (10/40)   Writing objects:  27% (11/40)   Writing objects:  30% (12/40)   Writing objects:  32% (13/40)   Writing objects:  35% (14/40)   Writing objects:  37% (15/40)   Writing objects:  40% (16/40)   Writing objects:  47% (19/40)   Writing objects:  52% (21/40)   Writing objects:  55% (22/40)   Writing objects:  57% (23/40)   Writing objects:  60% (24/40)   Writing objects:  62% (25/40)   Writing objects:  65% (26/40)   Writing objects:  67% (27/40)   Writing objects:  70% (28/40)   Writing objects:  72% (29/40)   Writing objects:  75% (30/40)   Writing objects:  77% (31/40)   Writing objects:  80% (32/40)   Writing objects:  82% (33/40)   Writing objects:  85% (34/40)   Writing objects:  87% (35/40)   Writing objects:  90% (36/40)   Writing objects:  92% (37/40)   Writing objects:  95% (38/40)   Writing objects:  97% (39/40)   Writing objects: 100% (40/40)   Writing objects: 100% (40/40), 10.64 KiB | 0 bytes/s, done.
+Total 40 (delta 22), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/22)   [Kremote: Resolving deltas:  36% (8/22)   [Kremote: Resolving deltas:  40% (9/22)   [Kremote: Resolving deltas:  45% (10/22)   [Kremote: Resolving deltas:  50% (11/22)   [Kremote: Resolving deltas:  54% (12/22)   [Kremote: Resolving deltas:  59% (13/22)   [Kremote: Resolving deltas:  63% (14/22)   [Kremote: Resolving deltas:  68% (15/22)   [Kremote: Resolving deltas:  72% (16/22)   [Kremote: Resolving deltas:  77% (17/22)   [Kremote: Resolving deltas:  81% (18/22)   [Kremote: Resolving deltas:  86% (19/22)   [Kremote: Resolving deltas:  90% (20/22)   [Kremote: Resolving deltas:  95% (21/22)   [Kremote: Resolving deltas: 100% (22/22)   [Kremote: Resolving deltas: 100% (22/22), completed with 14 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   bb06a0b..ed45fa1  master -> master
+git pushcommit -am "added boxes to home page"add .[Kopen content/home/featured_book.md[1@touch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pmkdir content/hometouch content/home/featured_book.md[1Popen[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .[Kcommit -am "added boxes to home page"push[K[Kp[Kcp content/bookstack/template.r[KRmd content/bookss[Ktack/seven_habits.Rmd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open content/bookstack/seven_habits.Rm
+The file /Users/andrea_cirillo/Dropbox/R_projects/acsblog/content/bookstack/seven_habits.Rm does not exist.
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open content/bookstack/seven_habits.RmD[Kd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open content/bookstack/seven_habits.Rmd[Kcp content/bookstack/template.Rmd content/bookstack/seven_habits.Rmd;4D [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Popen content/bookstack/seven_habits.Rm
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -am "minor refinements to bookstack"
