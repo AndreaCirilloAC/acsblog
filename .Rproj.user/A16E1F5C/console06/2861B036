@@ -1,327 +1,4 @@
 
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pull master[C[K[K[K[K[K[Kremote
-fatal: 'remote' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pull remote
-fatal: 'remote' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pull remote>< remote>[C[1Premote> <remote>
-bash: syntax error near unexpected token `newline'
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pull https://github.com/AndreaCirilloAC/acsblog
-From https://github.com/AndreaCirilloAC/acsblog
- * branch            HEAD       -> FETCH_HEAD
-[?2004hMerge made by the 'recursive' strategy.
- LICENSE   | 21 [32m+++++++++++++++++++++[m
- README.md |  2 [32m++[m
- 2 files changed, 23 insertions(+)
- create mode 100644 LICENSE
- create mode 100644 README.md
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
-fatal: The current branch master has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin master
-
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push --set-upstream origin master
-Counting objects: 264, done.
-Delta compression using up to 4 threads.
-Compressing objects:   0% (1/201)   Compressing objects:   1% (3/201)   Compressing objects:   2% (5/201)   Compressing objects:   3% (7/201)   Compressing objects:   4% (9/201)   Compressing objects:   5% (11/201)   Compressing objects:   6% (13/201)   Compressing objects:   7% (15/201)   Compressing objects:   8% (17/201)   Compressing objects:   9% (19/201)   Compressing objects:  10% (21/201)   Compressing objects:  11% (23/201)   Compressing objects:  12% (25/201)   Compressing objects:  13% (27/201)   Compressing objects:  14% (29/201)   Compressing objects:  15% (31/201)   Compressing objects:  16% (33/201)   Compressing objects:  17% (35/201)   Compressing objects:  18% (37/201)   Compressing objects:  19% (39/201)   Compressing objects:  20% (41/201)   Compressing objects:  21% (43/201)   Compressing objects:  22% (45/201)   Compressing objects:  23% (47/201)   Compressing objects:  24% (49/201)   Compressing objects:  25% (51/201)   Compressing objects:  26% (53/201)   Compressing objects:  27% (55/201)   Compressing objects:  28% (57/201)   Compressing objects:  29% (59/201)   Compressing objects:  30% (61/201)   Compressing objects:  31% (63/201)   Compressing objects:  32% (65/201)   Compressing objects:  33% (67/201)   Compressing objects:  34% (69/201)   Compressing objects:  35% (71/201)   Compressing objects:  36% (73/201)   Compressing objects:  37% (75/201)   Compressing objects:  38% (77/201)   Compressing objects:  39% (79/201)   Compressing objects:  40% (81/201)   Compressing objects:  41% (83/201)   Compressing objects:  42% (85/201)   Compressing objects:  43% (87/201)   Compressing objects:  44% (89/201)   Compressing objects:  45% (91/201)   Compressing objects:  46% (93/201)   Compressing objects:  47% (95/201)   Compressing objects:  48% (97/201)   Compressing objects:  49% (99/201)   Compressing objects:  50% (101/201)   Compressing objects:  51% (103/201)   Compressing objects:  52% (105/201)   Compressing objects:  53% (107/201)   Compressing objects:  54% (109/201)   Compressing objects:  55% (111/201)   Compressing objects:  56% (113/201)   Compressing objects:  57% (115/201)   Compressing objects:  58% (117/201)   Compressing objects:  59% (119/201)   Compressing objects:  60% (121/201)   Compressing objects:  61% (123/201)   Compressing objects:  62% (125/201)   Compressing objects:  63% (127/201)   Compressing objects:  64% (129/201)   Compressing objects:  65% (131/201)   Compressing objects:  66% (133/201)   Compressing objects:  67% (135/201)   Compressing objects:  68% (137/201)   Compressing objects:  69% (139/201)   Compressing objects:  70% (141/201)   Compressing objects:  71% (143/201)   Compressing objects:  72% (145/201)   Compressing objects:  73% (147/201)   Compressing objects:  74% (149/201)   Compressing objects:  75% (151/201)   Compressing objects:  76% (153/201)   Compressing objects:  77% (155/201)   Compressing objects:  78% (157/201)   Compressing objects:  79% (159/201)   Compressing objects:  80% (161/201)   Compressing objects:  81% (163/201)   Compressing objects:  82% (165/201)   Compressing objects:  83% (167/201)   Compressing objects:  84% (169/201)   Compressing objects:  85% (171/201)   Compressing objects:  86% (173/201)   Compressing objects:  87% (175/201)   Compressing objects:  88% (177/201)   Compressing objects:  89% (179/201)   Compressing objects:  90% (181/201)   Compressing objects:  91% (183/201)   Compressing objects:  92% (185/201)   Compressing objects:  93% (187/201)   Compressing objects:  94% (189/201)   Compressing objects:  95% (191/201)   Compressing objects:  96% (193/201)   Compressing objects:  97% (195/201)   Compressing objects:  98% (197/201)   Compressing objects:  99% (199/201)   Compressing objects: 100% (201/201)   Compressing objects: 100% (201/201), done.
-Writing objects:   0% (1/264)   Writing objects:   1% (3/264)   Writing objects:   2% (6/264)   Writing objects:   3% (8/264)   Writing objects:   4% (11/264)   Writing objects:   5% (14/264)   Writing objects:   6% (16/264)   Writing objects:   7% (19/264)   Writing objects:   8% (22/264)   Writing objects:   9% (24/264)   Writing objects:  10% (27/264)   Writing objects:  11% (30/264)   Writing objects:  12% (32/264)   Writing objects:  13% (35/264)   Writing objects:  14% (37/264)   Writing objects:  15% (40/264)   Writing objects:  16% (43/264)   Writing objects:  17% (45/264)   Writing objects:  18% (48/264)   Writing objects:  19% (51/264)   Writing objects:  20% (53/264)   Writing objects:  21% (56/264)   Writing objects:  22% (59/264)   Writing objects:  23% (61/264)   Writing objects:  24% (65/264)   Writing objects:  25% (66/264)   Writing objects:  26% (69/264)   Writing objects:  27% (72/264)   Writing objects:  28% (75/264)   Writing objects:  29% (77/264)   Writing objects:  30% (81/264)   Writing objects:  31% (82/264)   Writing objects:  32% (85/264)   Writing objects:  33% (88/264)   Writing objects:  34% (90/264)   Writing objects:  35% (93/264)   Writing objects:  36% (96/264)   Writing objects:  37% (98/264)   Writing objects:  38% (102/264)   Writing objects:  39% (104/264)   Writing objects:  40% (106/264)   Writing objects:  41% (109/264)   Writing objects:  42% (111/264)   Writing objects:  43% (114/264)   Writing objects:  44% (117/264)   Writing objects:  45% (119/264)   Writing objects:  46% (122/264)   Writing objects:  47% (125/264)   Writing objects:  48% (127/264)   Writing objects:  49% (130/264)   Writing objects:  50% (132/264)   Writing objects:  51% (135/264)   Writing objects:  52% (138/264)   Writing objects:  53% (140/264)   Writing objects:  54% (143/264)   Writing objects:  55% (146/264)   Writing objects:  56% (148/264)   Writing objects:  57% (151/264)   Writing objects:  58% (154/264)   Writing objects:  59% (156/264)   Writing objects:  60% (159/264)   Writing objects:  61% (162/264)   Writing objects:  62% (164/264)   Writing objects:  63% (167/264)   Writing objects:  64% (169/264)   Writing objects:  65% (172/264)   Writing objects:  66% (175/264)   Writing objects:  67% (177/264)   Writing objects:  68% (180/264)   Writing objects:  69% (184/264)   Writing objects:  70% (185/264)   Writing objects:  71% (188/264)   Writing objects:  72% (191/264)   Writing objects:  73% (193/264)   Writing objects:  74% (196/264)   Writing objects:  75% (198/264)   Writing objects:  76% (201/264)   Writing objects:  77% (204/264)   Writing objects:  78% (206/264)   Writing objects:  79% (209/264)   Writing objects:  80% (212/264)   Writing objects:  81% (214/264)   Writing objects:  82% (219/264)   Writing objects:  83% (220/264)   Writing objects:  84% (222/264)   Writing objects:  85% (225/264)   Writing objects:  86% (228/264)   Writing objects:  87% (230/264)   Writing objects:  88% (233/264)   Writing objects:  89% (235/264)   Writing objects:  90% (238/264)   Writing objects:  91% (241/264)   Writing objects:  92% (243/264)   Writing objects:  93% (246/264)   Writing objects:  94% (249/264)   Writing objects:  95% (251/264)   Writing objects:  96% (254/264)   Writing objects:  97% (257/264)   Writing objects:  98% (259/264)   Writing objects:  99% (262/264)   Writing objects: 100% (264/264)   Writing objects: 100% (264/264), 204.98 KiB | 0 bytes/s, done.
-Total 264 (delta 70), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/70)   [Kremote: Resolving deltas:   1% (1/70)   [Kremote: Resolving deltas:   5% (4/70)   [Kremote: Resolving deltas:   7% (5/70)   [Kremote: Resolving deltas:  10% (7/70)   [Kremote: Resolving deltas:  11% (8/70)   [Kremote: Resolving deltas:  14% (10/70)   [Kremote: Resolving deltas:  17% (12/70)   [Kremote: Resolving deltas:  18% (13/70)   [Kremote: Resolving deltas:  21% (15/70)   [Kremote: Resolving deltas:  24% (17/70)   [Kremote: Resolving deltas:  25% (18/70)   [Kremote: Resolving deltas:  28% (20/70)   [Kremote: Resolving deltas:  35% (25/70)   [Kremote: Resolving deltas:  37% (26/70)   [Kremote: Resolving deltas:  48% (34/70)   [Kremote: Resolving deltas:  64% (45/70)   [Kremote: Resolving deltas:  78% (55/70)   [Kremote: Resolving deltas:  81% (57/70)   [Kremote: Resolving deltas:  84% (59/70)   [Kremote: Resolving deltas:  85% (60/70)   [Kremote: Resolving deltas:  88% (62/70)   [Kremote: Resolving deltas:  90% (63/70)   [Kremote: Resolving deltas:  98% (69/70)   [Kremote: Resolving deltas: 100% (70/70)   [Kremote: Resolving deltas: 100% (70/70), done.[K
-To https://github.com/AndreaCirilloAC/acsblog
-   01ff912..8b9c361  master -> master
-Branch master set up to track remote branch master from origin.
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git as[K[Kstatus
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/1E4D916C[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/275C0F09[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/INDEX[m
-	[31mmodified:   .Rproj.user/shared/notebooks/811E2714-2017-12-19-toc-post/1/s/chunks.json[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   config.toml[m
-	[31mmodified:   content/post/2015-07-23-r-rmarkdown.Rmd[m
-	[31mmodified:   content/post/2015-07-23-r-rmarkdown.html[m
-	[31mmodified:   public/2015/01/01/lorem-ipsum/index.html[m
-	[31mmodified:   public/2015/07/23/hello-r-markdown/index.html[m
-	[31mmodified:   public/2016/12/30/a-plain-markdown-post/index.html[m
-	[31mmodified:   public/2017/12/19/another-one-rmd/index.html[m
-	[31mmodified:   public/2017/12/19/another-onw/index.html[m
-	[31mmodified:   public/2017/12/19/brand-new-post/index.html[m
-	[31mmodified:   public/2017/12/19/let-it-snow/index.html[m
-	[31mmodified:   public/2017/12/19/toc-post/index.html[m
-	[31mmodified:   public/about/index.html[m
-	[31mmodified:   public/categories/index.xml[m
-	[31mmodified:   public/categories/r/index.html[m
-	[31mmodified:   public/categories/r/index.xml[m
-	[31mmodified:   public/css/main.css[m
-	[31mmodified:   public/index.html[m
-	[31mmodified:   public/index.xml[m
-	[31mmodified:   public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png[m
-	[31mmodified:   public/post/index.html[m
-	[31mmodified:   public/post/index.xml[m
-	[31mmodified:   public/sitemap.xml[m
-	[31mmodified:   public/tags/index.xml[m
-	[31mmodified:   public/tags/plot/index.html[m
-	[31mmodified:   public/tags/plot/index.xml[m
-	[31mmodified:   public/tags/r-markdown/index.html[m
-	[31mmodified:   public/tags/r-markdown/index.xml[m
-	[31mmodified:   public/tags/regression/index.html[m
-	[31mmodified:   public/tags/regression/index.xml[m
-	[31mmodified:   static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png[m
-	[31mmodified:   themes/hugo-lithium-theme/layouts/_default/single.html[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31mcontent/post/_index.md[m
-	[31mcontent/vitae.Rmd[m
-	[31mcontent/vitae.html[m
-	[31mlayouts/[m
-	[31mpublic/404.html[m
-	[31mpublic/_output.yml[m
-	[31mpublic/main.css[m
-	[31mpublic/vitae.knit/[m
-	[31mpublic/vitae.utf8/[m
-	[31mpublic/vitae/[m
-	[31mstatic/css/[m
-	[31mthemes/hugo-lithium-theme/layouts/404.html[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "modifie [Kd css"
-[master a571fc6] modified css
- 50 files changed, 1485 insertions(+), 149 deletions(-)
- rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (71%)
- create mode 100644 content/post/_index.md
- create mode 100644 content/vitae.Rmd
- create mode 100644 content/vitae.html
- create mode 100644 layouts/_default/list_custom.html
- create mode 100644 public/404.html
- create mode 100644 public/_output.yml
- create mode 100644 public/main.css
- create mode 100644 public/vitae.knit/index.html
- create mode 100644 public/vitae.utf8/index.html
- create mode 100644 public/vitae/index.html
- create mode 100644 static/css/main.css
- create mode 100644 themes/hugo-lithium-theme/layouts/404.html
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
-Counting objects: 98, done.
-Delta compression using up to 4 threads.
-Compressing objects:   1% (1/67)   Compressing objects:   2% (2/67)   Compressing objects:   4% (3/67)   Compressing objects:   5% (4/67)   Compressing objects:   7% (5/67)   Compressing objects:   8% (6/67)   Compressing objects:  10% (7/67)   Compressing objects:  11% (8/67)   Compressing objects:  13% (9/67)   Compressing objects:  14% (10/67)   Compressing objects:  16% (11/67)   Compressing objects:  17% (12/67)   Compressing objects:  19% (13/67)   Compressing objects:  20% (14/67)   Compressing objects:  22% (15/67)   Compressing objects:  23% (16/67)   Compressing objects:  25% (17/67)   Compressing objects:  26% (18/67)   Compressing objects:  28% (19/67)   Compressing objects:  29% (20/67)   Compressing objects:  31% (21/67)   Compressing objects:  32% (22/67)   Compressing objects:  34% (23/67)   Compressing objects:  35% (24/67)   Compressing objects:  37% (25/67)   Compressing objects:  38% (26/67)   Compressing objects:  40% (27/67)   Compressing objects:  41% (28/67)   Compressing objects:  43% (29/67)   Compressing objects:  44% (30/67)   Compressing objects:  46% (31/67)   Compressing objects:  47% (32/67)   Compressing objects:  49% (33/67)   Compressing objects:  50% (34/67)   Compressing objects:  52% (35/67)   Compressing objects:  53% (36/67)   Compressing objects:  55% (37/67)   Compressing objects:  56% (38/67)   Compressing objects:  58% (39/67)   Compressing objects:  59% (40/67)   Compressing objects:  61% (41/67)   Compressing objects:  62% (42/67)   Compressing objects:  64% (43/67)   Compressing objects:  65% (44/67)   Compressing objects:  67% (45/67)   Compressing objects:  68% (46/67)   Compressing objects:  70% (47/67)   Compressing objects:  71% (48/67)   Compressing objects:  73% (49/67)   Compressing objects:  74% (50/67)   Compressing objects:  76% (51/67)   Compressing objects:  77% (52/67)   Compressing objects:  79% (53/67)   Compressing objects:  80% (54/67)   Compressing objects:  82% (55/67)   Compressing objects:  83% (56/67)   Compressing objects:  85% (57/67)   Compressing objects:  86% (58/67)   Compressing objects:  88% (59/67)   Compressing objects:  89% (60/67)   Compressing objects:  91% (61/67)   Compressing objects:  92% (62/67)   Compressing objects:  94% (63/67)   Compressing objects:  95% (64/67)   Compressing objects:  97% (65/67)   Compressing objects:  98% (66/67)   Compressing objects: 100% (67/67)   Compressing objects: 100% (67/67), done.
-Writing objects:   1% (1/98)   Writing objects:   2% (2/98)   Writing objects:   3% (3/98)   Writing objects:   4% (4/98)   Writing objects:   5% (5/98)   Writing objects:   6% (6/98)   Writing objects:   7% (7/98)   Writing objects:   8% (8/98)   Writing objects:   9% (9/98)   Writing objects:  10% (10/98)   Writing objects:  11% (11/98)   Writing objects:  12% (12/98)   Writing objects:  13% (13/98)   Writing objects:  14% (14/98)   Writing objects:  15% (15/98)   Writing objects:  16% (16/98)   Writing objects:  17% (17/98)   Writing objects:  18% (18/98)   Writing objects:  19% (19/98)   Writing objects:  20% (20/98)   Writing objects:  21% (21/98)   Writing objects:  22% (22/98)   Writing objects:  23% (23/98)   Writing objects:  24% (24/98)   Writing objects:  25% (25/98)   Writing objects:  26% (26/98)   Writing objects:  27% (27/98)   Writing objects:  28% (28/98)   Writing objects:  29% (29/98)   Writing objects:  30% (30/98)   Writing objects:  31% (31/98)   Writing objects:  32% (32/98)   Writing objects:  33% (33/98)   Writing objects:  34% (34/98)   Writing objects:  35% (35/98)   Writing objects:  36% (36/98)   Writing objects:  37% (37/98)   Writing objects:  38% (38/98)   Writing objects:  39% (39/98)   Writing objects:  40% (40/98)   Writing objects:  41% (41/98)   Writing objects:  42% (42/98)   Writing objects:  43% (43/98)   Writing objects:  44% (44/98)   Writing objects:  45% (45/98)   Writing objects:  46% (46/98)   Writing objects:  47% (47/98)   Writing objects:  48% (48/98)   Writing objects:  50% (49/98)   Writing objects:  51% (50/98)   Writing objects:  53% (52/98)   Writing objects:  54% (53/98)   Writing objects:  55% (54/98)   Writing objects:  56% (55/98)   Writing objects:  57% (56/98)   Writing objects:  58% (57/98)   Writing objects:  59% (58/98)   Writing objects:  60% (59/98)   Writing objects:  61% (60/98)   Writing objects:  62% (61/98)   Writing objects:  63% (62/98)   Writing objects:  64% (63/98)   Writing objects:  65% (64/98)   Writing objects:  68% (67/98)   Writing objects:  69% (68/98)   Writing objects:  70% (69/98)   Writing objects:  71% (70/98)   Writing objects:  72% (71/98)   Writing objects:  73% (72/98)   Writing objects:  74% (73/98)   Writing objects:  75% (74/98)   Writing objects:  76% (75/98)   Writing objects:  77% (76/98)   Writing objects:  78% (77/98)   Writing objects:  79% (78/98)   Writing objects:  80% (79/98)   Writing objects:  81% (80/98)   Writing objects:  82% (81/98)   Writing objects:  83% (82/98)   Writing objects:  84% (83/98)   Writing objects:  85% (84/98)   Writing objects:  86% (85/98)   Writing objects:  87% (86/98)   Writing objects:  88% (87/98)   Writing objects:  89% (88/98)   Writing objects:  90% (89/98)   Writing objects:  91% (90/98)   Writing objects:  92% (91/98)   Writing objects:  93% (92/98)   Writing objects:  94% (93/98)   Writing objects:  95% (94/98)   Writing objects:  96% (95/98)   Writing objects:  97% (96/98)   Writing objects:  98% (97/98)   Writing objects: 100% (98/98)   Writing objects: 100% (98/98), 18.35 KiB | 0 bytes/s, done.
-Total 98 (delta 38), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/38)   [Kremote: Resolving deltas:   7% (3/38)   [Kremote: Resolving deltas:  10% (4/38)   [Kremote: Resolving deltas:  13% (5/38)   [Kremote: Resolving deltas:  15% (6/38)   [Kremote: Resolving deltas:  18% (7/38)   [Kremote: Resolving deltas:  21% (8/38)   [Kremote: Resolving deltas:  23% (9/38)   [Kremote: Resolving deltas:  26% (10/38)   [Kremote: Resolving deltas:  28% (11/38)   [Kremote: Resolving deltas:  31% (12/38)   [Kremote: Resolving deltas:  34% (13/38)   [Kremote: Resolving deltas:  36% (14/38)   [Kremote: Resolving deltas:  39% (15/38)   [Kremote: Resolving deltas:  42% (16/38)   [Kremote: Resolving deltas:  50% (19/38)   [Kremote: Resolving deltas:  55% (21/38)   [Kremote: Resolving deltas:  57% (22/38)   [Kremote: Resolving deltas:  60% (23/38)   [Kremote: Resolving deltas:  63% (24/38)   [Kremote: Resolving deltas:  76% (29/38)   [Kremote: Resolving deltas:  81% (31/38)   [Kremote: Resolving deltas:  84% (32/38)   [Kremote: Resolving deltas:  86% (33/38)   [Kremote: Resolving deltas:  89% (34/38)   [Kremote: Resolving deltas:  92% (35/38)   [Kremote: Resolving deltas:  94% (36/38)   [Kremote: Resolving deltas:  97% (37/38)   [Kremote: Resolving deltas: 100% (38/38)   [Kremote: Resolving deltas: 100% (38/38), completed with 27 local objects.[K
-To https://github.com/AndreaCirilloAC/acsblog
-   8b9c361..a571fc6  master -> master
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ hugo version
-bash: hugo: command not found
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ [24P(i-search)`':[C[24@Mac-di-Andrea:acsblog andrea_cirillo$[Chugo versionì[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .[K[K[K[K[Kcommit -am  "ntlif[K[K[K[Ketlify try"
-[master 2f0893e] netlify try
- 5 files changed, 33 insertions(+), 5 deletions(-)
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
-Counting objects: 13, done.
-Delta compression using up to 4 threads.
-Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
-Writing objects:   7% (1/13)   Writing objects:  15% (2/13)   Writing objects:  23% (3/13)   Writing objects:  30% (4/13)   Writing objects:  38% (5/13)   Writing objects:  46% (6/13)   Writing objects:  53% (7/13)   Writing objects:  61% (8/13)   Writing objects:  69% (9/13)   Writing objects:  76% (10/13)   Writing objects:  84% (11/13)   Writing objects:  92% (12/13)   Writing objects: 100% (13/13)   Writing objects: 100% (13/13), 2.50 KiB | 0 bytes/s, done.
-Total 13 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
-To https://github.com/AndreaCirilloAC/acsblog
-   a571fc6..2f0893e  master -> master
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls[K[Kpwd
-/Users/andrea_cirillo/Dropbox/R_projects/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls[K[Kcd ../../De[K[K../Desktop/exitwp/
-]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ ls
-README.rst		config.yaml		html2text.py		pip_requirements.txt
-Vagrantfile		exitwp.py		html2text.pyc		wordpress-xml
-]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ open pw[K[Kwordpress-xml/andreacirillo039sblog.wordpress.2017-12-27.post_ttype-post.author-19304842.start_date-2014-07-01.end_date-2017-04-30.status-publish.001.xml 
-]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ open wordpress-xml/andreacirillo039sblog.wordpress.2017-12-27.post_ttype-post.author-19304842.start_date-2014-07-01.end_date-2017-04-30.status-publish.001.xml [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Copen wordpress-xml/andreacirillo039sblog.wordpress.2017-12-27.post_ttype-post.author-19304842.start_date-2014-07-01.end_date-2017-04-30.status-publish.001.xml [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Copen wordpress-xml/ui[K[Kbuild/an[K[Kjekyll/wo[K[Kandreacirilloblog.wordpress.com/_po sts/2014-07-28-parallel_computation_in_r.markdown 
-]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ open wordpress-xml/build/jekyll/andreacirilloblog.wordpress.com/_possts/2014-07-28-parallel_computation_in_r.markdown 
-]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ i[Kgit status[K[K[K[K[K[K[K[K[K[Kpwd
-/Users/andrea_cirillo/Desktop/exitwp
-]0;~/Desktop/exitwpMac-di-Andrea:exitwp andrea_cirillo$ cd ../Dro[K[K[K../Dropbox/
-]0;~/DropboxMac-di-Andrea:Dropbox andrea_cirillo$ cd R_projects/acsblog/
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git static/[K[K[K[Ktus
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036.env[m
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31mcontent/post/2014-07-12-how-to-visualize-entertainment-expenditures-on-a-bubble-chart.markdown[m
-	[31mcontent/post/2014-07-28-parallel_computation_in_r.markdown[m
-	[31mcontent/post/2014-09-02-r-subset-data-frame.markdown[m
-	[31mcontent/post/2014-09-11-equations-in-evernote.markdown[m
-	[31mcontent/post/2014-09-13-functions-comparison-in-r.markdown[m
-	[31mcontent/post/2014-10-09-mining-twitter-with-r.markdown[m
-	[31mcontent/post/2014-10-23-learn-dplyr-with-rstudio-and-datacamp.markdown[m
-	[31mcontent/post/2014-10-25-data-visual-1021-plotly.markdown[m
-	[31mcontent/post/2014-10-25-excel-functions-in-r.markdown[m
-	[31mcontent/post/2014-10-27-excel-left-function-in-r.markdown[m
-	[31mcontent/post/2014-10-27-excel-right-function-in-r.markdown[m
-	[31mcontent/post/2014-10-28-download-data-to-excel-from-web.markdown[m
-	[31mcontent/post/2014-11-05-best-pratice-for-scientific-computing.markdown[m
-	[31mcontent/post/2014-11-19-querying-google-with-r.markdown[m
-	[31mcontent/post/2014-12-05-network-visualisation-in-r.markdown[m
-	[31mcontent/post/2014-12-28-using-github-with-rstudio-step-by-step-tutorial.markdown[m
-	[31mcontent/post/2015-02-06-benfords_law_with_r.markdown[m
-	[31mcontent/post/2015-04-01-how-to-list-file.markdown[m
-	[31mcontent/post/2015-05-11-how-to-add-live-chat-to-your-shiny-app.markdown[m
-	[31mcontent/post/2015-07-02-introducing-afraus-an-unsupervised-fraud-detection-algorithm.markdown[m
-	[31mcontent/post/2015-08-18-deploy-your-shiny-app-on-aws-with-a-function.markdown[m
-	[31mcontent/post/2015-09-10-how-to-list-loaded-packages-in-r-ramazon-gets-cleaver.markdown[m
-	[31mcontent/post/2015-10-22-updater-package-update-r-version-with-a-function-on-mac-osx.markdown[m
-	[31mcontent/post/2015-12-14-rename-a-data-frame-within-a-function-passing-an-argument.markdown[m
-	[31mcontent/post/2016-01-01-2015-in-review.markdown[m
-	[31mcontent/post/2016-05-11-over-50-practical-recipes-for-data-analysis-with-r-in-one-book.markdown[m
-	[31mcontent/post/2016-05-17-a-checklist-for-your-weekly-review-gtd-methodology.markdown[m
-	[31mcontent/post/2016-06-21-euro-2016-analytics-whos-playing-the-toughest-game.markdown[m
-	[31mcontent/post/2016-08-09-ggplot2-themes-examples.markdown[m
-	[31mcontent/post/2016-09-21-f09f938a-streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment-f09f96a5.markdown[m
-	[31mcontent/post/2017-04-12-why-are-you-being-so-silent.markdown[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git qd[K[Kadd -A
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "imported old posts"
-[master 02e8694] imported old posts
- 34 files changed, 5445 insertions(+), 5 deletions(-)
- rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (71%)
- create mode 100644 content/post/2014-07-12-how-to-visualize-entertainment-expenditures-on-a-bubble-chart.markdown
- create mode 100644 content/post/2014-07-28-parallel_computation_in_r.markdown
- create mode 100644 content/post/2014-09-02-r-subset-data-frame.markdown
- create mode 100644 content/post/2014-09-11-equations-in-evernote.markdown
- create mode 100644 content/post/2014-09-13-functions-comparison-in-r.markdown
- create mode 100644 content/post/2014-10-09-mining-twitter-with-r.markdown
- create mode 100644 content/post/2014-10-23-learn-dplyr-with-rstudio-and-datacamp.markdown
- create mode 100644 content/post/2014-10-25-data-visual-1021-plotly.markdown
- create mode 100644 content/post/2014-10-25-excel-functions-in-r.markdown
- create mode 100644 content/post/2014-10-27-excel-left-function-in-r.markdown
- create mode 100644 content/post/2014-10-27-excel-right-function-in-r.markdown
- create mode 100644 content/post/2014-10-28-download-data-to-excel-from-web.markdown
- create mode 100644 content/post/2014-11-05-best-pratice-for-scientific-computing.markdown
- create mode 100644 content/post/2014-11-19-querying-google-with-r.markdown
- create mode 100644 content/post/2014-12-05-network-visualisation-in-r.markdown
- create mode 100644 content/post/2014-12-28-using-github-with-rstudio-step-by-step-tutorial.markdown
- create mode 100644 content/post/2015-02-06-benfords_law_with_r.markdown
- create mode 100644 content/post/2015-04-01-how-to-list-file.markdown
- create mode 100644 content/post/2015-05-11-how-to-add-live-chat-to-your-shiny-app.markdown
- create mode 100644 content/post/2015-07-02-introducing-afraus-an-unsupervised-fraud-detection-algorithm.markdown
- create mode 100644 content/post/2015-08-18-deploy-your-shiny-app-on-aws-with-a-function.markdown
- create mode 100644 content/post/2015-09-10-how-to-list-loaded-packages-in-r-ramazon-gets-cleaver.markdown
- create mode 100644 content/post/2015-10-22-updater-package-update-r-version-with-a-function-on-mac-osx.markdown
- create mode 100644 content/post/2015-12-14-rename-a-data-frame-within-a-function-passing-an-argument.markdown
- create mode 100644 content/post/2016-01-01-2015-in-review.markdown
- create mode 100644 content/post/2016-05-11-over-50-practical-recipes-for-data-analysis-with-r-in-one-book.markdown
- create mode 100644 content/post/2016-05-17-a-checklist-for-your-weekly-review-gtd-methodology.markdown
- create mode 100644 content/post/2016-06-21-euro-2016-analytics-whos-playing-the-toughest-game.markdown
- create mode 100644 content/post/2016-08-09-ggplot2-themes-examples.markdown
- create mode 100644 content/post/2016-09-21-f09f938a-streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment-f09f96a5.markdown
- create mode 100644 content/post/2017-04-12-why-are-you-being-so-silent.markdown
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
-Counting objects: 41, done.
-Delta compression using up to 4 threads.
-Compressing objects:   2% (1/41)   Compressing objects:   4% (2/41)   Compressing objects:   7% (3/41)   Compressing objects:   9% (4/41)   Compressing objects:  12% (5/41)   Compressing objects:  14% (6/41)   Compressing objects:  17% (7/41)   Compressing objects:  19% (8/41)   Compressing objects:  21% (9/41)   Compressing objects:  24% (10/41)   Compressing objects:  26% (11/41)   Compressing objects:  29% (12/41)   Compressing objects:  31% (13/41)   Compressing objects:  34% (14/41)   Compressing objects:  36% (15/41)   Compressing objects:  39% (16/41)   Compressing objects:  41% (17/41)   Compressing objects:  43% (18/41)   Compressing objects:  46% (19/41)   Compressing objects:  48% (20/41)   Compressing objects:  51% (21/41)   Compressing objects:  53% (22/41)   Compressing objects:  56% (23/41)   Compressing objects:  58% (24/41)   Compressing objects:  60% (25/41)   Compressing objects:  63% (26/41)   Compressing objects:  65% (27/41)   Compressing objects:  68% (28/41)   Compressing objects:  70% (29/41)   Compressing objects:  73% (30/41)   Compressing objects:  75% (31/41)   Compressing objects:  78% (32/41)   Compressing objects:  80% (33/41)   Compressing objects:  82% (34/41)   Compressing objects:  85% (35/41)   Compressing objects:  87% (36/41)   Compressing objects:  90% (37/41)   Compressing objects:  92% (38/41)   Compressing objects:  95% (39/41)   Compressing objects:  97% (40/41)   Compressing objects: 100% (41/41)   Compressing objects: 100% (41/41), done.
-Writing objects:   2% (1/41)   Writing objects:   4% (2/41)   Writing objects:   7% (3/41)   Writing objects:   9% (4/41)   Writing objects:  12% (5/41)   Writing objects:  14% (6/41)   Writing objects:  17% (7/41)   Writing objects:  19% (8/41)   Writing objects:  21% (9/41)   Writing objects:  24% (10/41)   Writing objects:  26% (11/41)   Writing objects:  29% (12/41)   Writing objects:  31% (13/41)   Writing objects:  34% (14/41)   Writing objects:  36% (15/41)   Writing objects:  39% (16/41)   Writing objects:  41% (17/41)   Writing objects:  43% (18/41)   Writing objects:  46% (19/41)   Writing objects:  51% (21/41)   Writing objects:  53% (22/41)   Writing objects:  56% (23/41)   Writing objects:  58% (24/41)   Writing objects:  60% (25/41)   Writing objects:  63% (26/41)   Writing objects:  65% (27/41)   Writing objects:  68% (28/41)   Writing objects:  70% (29/41)   Writing objects:  73% (30/41)   Writing objects:  75% (31/41)   Writing objects:  78% (32/41)   Writing objects:  80% (33/41)   Writing objects:  82% (34/41)   Writing objects:  85% (35/41)   Writing objects:  87% (36/41)   Writing objects:  90% (37/41)   Writing objects:  92% (38/41)   Writing objects:  95% (39/41)   Writing objects:  97% (40/41)   Writing objects: 100% (41/41)   Writing objects: 100% (41/41), 59.96 KiB | 0 bytes/s, done.
-Total 41 (delta 6), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 5 local objects.[K
-To https://github.com/AndreaCirilloAC/acsblog
-   2f0893e..02e8694  master -> master
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ [KMac-di-Andrea:acsblog andrea_cirillo$ pwd
-/Users/andrea_cirillo/Dropbox/R_projects/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ l[Kpwd
-/Users/andrea_cirillo/Dropbox/R_projects/acsblog
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open acsblog.Rproj [K[K[K[K[K[K[K[K[K[K[K[K[K[Kk[Kstatic/[K[K[K[K[K[K[K[K[K[K[K[Kls static
-css	post
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls static/css
-main.css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls static/css[1@o[1@p[1P[1P[1P[1@o[1@p[1@e[1@n[C[1P static/css[C[C[C[C[C[C[C[C[C[C[C/main.css 
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls themes/li[K[Khugo-lithium-theme/static/
-css	fonts	images	js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls themes/hugo-lithium-theme/static/css/
-fonts.css	main.css
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ls themes/hugo-lithium-theme/static/css/fonts.css [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@i[1@o[1@p[1P[1P[1P[1@o[1@p[1@e[1@n
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open themes/hugo-lithium-theme/static/css/fonts.css [C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@c[1@p[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatic/css/fon[K[K[K
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp  themes/hugo-lithium-theme/static/css/fonts.css static/css/[C[C[C[C[C[C[C[Cfonts.css [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@o[1@p[1@e[1@n[1@ 
-[KMac-di-Andrea:acsblog andrea_cirillo$ f[Kgut s[K[K[K[Kit sat[K[Ktatus
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036.env[m
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/A16E1F5C/pcs/files-pane.pper[m
-	[31mmodified:   .Rproj.user/A16E1F5C/pcs/source-pane.pper[m
-	[31mmodified:   .Rproj.user/A16E1F5C/pcs/workbench-pane.pper[m
-	[31mmodified:   .Rproj.user/A16E1F5C/rmd-outputs[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/1E4D916C[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/275C0F09[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/INDEX[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mdeleted:    content/post/2014-07-12-how-to-visualize-entertainment-expenditures-on-a-bubble-chart.markdown[m
-	[31mdeleted:    content/post/2014-07-28-parallel_computation_in_r.markdown[m
-	[31mdeleted:    content/post/2014-09-02-r-subset-data-frame.markdown[m
-	[31mdeleted:    content/post/2014-09-11-equations-in-evernote.markdown[m
-	[31mdeleted:    content/post/2014-09-13-functions-comparison-in-r.markdown[m
-	[31mdeleted:    content/post/2014-10-09-mining-twitter-with-r.markdown[m
-	[31mdeleted:    content/post/2014-10-23-learn-dplyr-with-rstudio-and-datacamp.markdown[m
-	[31mdeleted:    content/post/2014-10-25-data-visual-1021-plotly.markdown[m
-	[31mdeleted:    content/post/2014-10-25-excel-functions-in-r.markdown[m
-	[31mdeleted:    content/post/2014-10-27-excel-left-function-in-r.markdown[m
-	[31mdeleted:    content/post/2014-10-27-excel-right-function-in-r.markdown[m
-	[31mdeleted:    content/post/2014-10-28-download-data-to-excel-from-web.markdown[m
-	[31mdeleted:    content/post/2014-11-05-best-pratice-for-scientific-computing.markdown[m
-	[31mdeleted:    content/post/2014-11-19-querying-google-with-r.markdown[m
-	[31mdeleted:    content/post/2014-12-05-network-visualisation-in-r.markdown[m
-	[31mdeleted:    content/post/2014-12-28-using-github-with-rstudio-step-by-step-tutorial.markdown[m
-	[31mdeleted:    content/post/2015-01-01-lorem-ipsum.md[m
-	[31mdeleted:    content/post/2015-02-06-benfords_law_with_r.markdown[m
-	[31mdeleted:    content/post/2015-04-01-how-to-list-file.markdown[m
-	[31mdeleted:    content/post/2015-05-11-how-to-add-live-chat-to-your-shiny-app.markdown[m
-	[31mdeleted:    content/post/2015-07-02-introducing-afraus-an-unsupervised-fraud-detection-algorithm.markdown[m
-	[31mdeleted:    content/post/2015-07-23-r-rmarkdown.Rmd[m
-	[31mdeleted:    content/post/2015-07-23-r-rmarkdown.html[m
-	[31mdeleted:    content/post/2015-08-18-deploy-your-shiny-app-on-aws-with-a-function.markdown[m
-	[31mdeleted:    content/post/2015-09-10-how-to-list-loaded-packages-in-r-ramazon-gets-cleaver.markdown[m
-	[31mdeleted:    content/post/2015-10-22-updater-package-update-r-version-with-a-function-on-mac-osx.markdown[m
-	[31mdeleted:    content/post/2015-12-14-rename-a-data-frame-within-a-function-passing-an-argument.markdown[m
-	[31mdeleted:    content/post/2016-01-01-2015-in-review.markdown[m
-	[31mdeleted:    content/post/2016-05-11-over-50-practical-recipes-for-data-analysis-with-r-in-one-book.markdown[m
-	[31mdeleted:    content/post/2016-05-17-a-checklist-for-your-weekly-review-gtd-methodology.markdown[m
-	[31mdeleted:    content/post/2016-06-21-euro-2016-analytics-whos-playing-the-toughest-game.markdown[m
-	[31mdeleted:    content/post/2016-08-09-ggplot2-themes-examples.markdown[m
-	[31mdeleted:    content/post/2016-09-21-f09f938a-streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment-f09f96a5.markdown[m
-	[31mdeleted:    content/post/2016-12-30-hello-markdown.md[m
-	[31mdeleted:    content/post/2017-04-12-why-are-you-being-so-silent.markdown[m
-	[31mdeleted:    content/post/2017-12-19-another-one-rmd.md[m
-	[31mdeleted:    content/post/2017-12-19-another-onw.md[m
-	[31mdeleted:    content/post/2017-12-19-brand-new-post.md[m
-	[31mdeleted:    content/post/2017-12-19-let-it-snow.Rmd[m
-	[31mdeleted:    content/post/2017-12-19-let-it-snow.html[m
 	[31mdeleted:    content/post/2017-12-19-toc-post.Rmd[m
 	[31mdeleted:    content/post/2017-12-19-toc-post.html[m
 	[31mmodified:   public/categories/index.xml[m
@@ -1298,3 +975,56 @@ usage: git [--version] [--help] [-C <path>] [-c name=value]
            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
            <command> [<args>]
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git -am "dynamic software page developed"[1@c[1@o[1@m[1@m[1@i[1@t[1@ 
+[master 682da73] dynamic software page developed
+ 117 files changed, 1494 insertions(+), 99 deletions(-)
+ rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (72%)
+ delete mode 100644 content/software.html
+ rename content/{software.Rmd => software/_index.md} (100%)
+ create mode 100644 layouts/partials/footer.html
+ create mode 100644 layouts/partials/footer_github_widget.html
+ create mode 100644 layouts/partials/head.html
+ create mode 100644 layouts/section/software.html
+ create mode 100644 public/books.knit/index.html
+ create mode 100644 public/css/github-widget.css
+ create mode 100644 public/js/github-widget.js
+ create mode 100644 public/software/index.xml
+ create mode 100644 static/css/github-widget.css
+ create mode 100644 static/js/github-widget.js
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 278, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/217)   Compressing objects:   1% (3/217)   Compressing objects:   2% (5/217)   Compressing objects:   3% (7/217)   Compressing objects:   4% (9/217)   Compressing objects:   5% (11/217)   Compressing objects:   6% (14/217)   Compressing objects:   7% (16/217)   Compressing objects:   8% (18/217)   Compressing objects:   9% (20/217)   Compressing objects:  10% (22/217)   Compressing objects:  11% (24/217)   Compressing objects:  12% (27/217)   Compressing objects:  13% (29/217)   Compressing objects:  14% (31/217)   Compressing objects:  15% (33/217)   Compressing objects:  16% (35/217)   Compressing objects:  17% (37/217)   Compressing objects:  18% (40/217)   Compressing objects:  19% (42/217)   Compressing objects:  20% (44/217)   Compressing objects:  21% (46/217)   Compressing objects:  22% (48/217)   Compressing objects:  23% (50/217)   Compressing objects:  24% (53/217)   Compressing objects:  25% (55/217)   Compressing objects:  26% (57/217)   Compressing objects:  27% (59/217)   Compressing objects:  28% (61/217)   Compressing objects:  29% (63/217)   Compressing objects:  30% (66/217)   Compressing objects:  31% (68/217)   Compressing objects:  32% (70/217)   Compressing objects:  33% (72/217)   Compressing objects:  34% (74/217)   Compressing objects:  35% (76/217)   Compressing objects:  36% (79/217)   Compressing objects:  37% (81/217)   Compressing objects:  38% (83/217)   Compressing objects:  39% (85/217)   Compressing objects:  40% (87/217)   Compressing objects:  41% (89/217)   Compressing objects:  42% (92/217)   Compressing objects:  43% (94/217)   Compressing objects:  44% (96/217)   Compressing objects:  45% (98/217)   Compressing objects:  46% (100/217)   Compressing objects:  47% (102/217)   Compressing objects:  48% (105/217)   Compressing objects:  49% (107/217)   Compressing objects:  50% (109/217)   Compressing objects:  51% (111/217)   Compressing objects:  52% (113/217)   Compressing objects:  53% (116/217)   Compressing objects:  54% (118/217)   Compressing objects:  55% (120/217)   Compressing objects:  56% (122/217)   Compressing objects:  57% (124/217)   Compressing objects:  58% (126/217)   Compressing objects:  59% (129/217)   Compressing objects:  60% (131/217)   Compressing objects:  61% (133/217)   Compressing objects:  62% (135/217)   Compressing objects:  63% (137/217)   Compressing objects:  64% (139/217)   Compressing objects:  65% (142/217)   Compressing objects:  66% (144/217)   Compressing objects:  67% (146/217)   Compressing objects:  68% (148/217)   Compressing objects:  69% (150/217)   Compressing objects:  70% (152/217)   Compressing objects:  71% (155/217)   Compressing objects:  72% (157/217)   Compressing objects:  73% (159/217)   Compressing objects:  74% (161/217)   Compressing objects:  75% (163/217)   Compressing objects:  76% (165/217)   Compressing objects:  77% (168/217)   Compressing objects:  78% (170/217)   Compressing objects:  79% (172/217)   Compressing objects:  80% (174/217)   Compressing objects:  81% (176/217)   Compressing objects:  82% (178/217)   Compressing objects:  83% (181/217)   Compressing objects:  84% (183/217)   Compressing objects:  85% (185/217)   Compressing objects:  86% (187/217)   Compressing objects:  87% (189/217)   Compressing objects:  88% (191/217)   Compressing objects:  89% (194/217)   Compressing objects:  90% (196/217)   Compressing objects:  91% (198/217)   Compressing objects:  92% (200/217)   Compressing objects:  93% (202/217)   Compressing objects:  94% (204/217)   Compressing objects:  95% (207/217)   Compressing objects:  96% (209/217)   Compressing objects:  97% (211/217)   Compressing objects:  98% (213/217)   Compressing objects:  99% (215/217)   Compressing objects: 100% (217/217)   Compressing objects: 100% (217/217), done.
+Writing objects:   0% (1/278)   Writing objects:   1% (3/278)   Writing objects:   2% (6/278)   Writing objects:   3% (9/278)   Writing objects:   4% (12/278)   Writing objects:   5% (14/278)   Writing objects:   6% (17/278)   Writing objects:   7% (21/278)   Writing objects:   8% (23/278)   Writing objects:   9% (26/278)   Writing objects:  10% (28/278)   Writing objects:  11% (31/278)   Writing objects:  12% (34/278)   Writing objects:  13% (37/278)   Writing objects:  14% (39/278)   Writing objects:  15% (42/278)   Writing objects:  16% (45/278)   Writing objects:  17% (50/278)   Writing objects:  18% (51/278)   Writing objects:  19% (53/278)   Writing objects:  20% (56/278)   Writing objects:  21% (59/278)   Writing objects:  22% (62/278)   Writing objects:  23% (64/278)   Writing objects:  24% (67/278)   Writing objects:  25% (70/278)   Writing objects:  26% (73/278)   Writing objects:  27% (76/278)   Writing objects:  28% (78/278)   Writing objects:  29% (81/278)   Writing objects:  30% (84/278)   Writing objects:  31% (87/278)   Writing objects:  32% (89/278)   Writing objects:  33% (92/278)   Writing objects:  34% (95/278)   Writing objects:  35% (98/278)   Writing objects:  36% (101/278)   Writing objects:  37% (103/278)   Writing objects:  38% (106/278)   Writing objects:  39% (109/278)   Writing objects:  40% (112/278)   Writing objects:  41% (114/278)   Writing objects:  42% (117/278)   Writing objects:  43% (120/278)   Writing objects:  44% (123/278)   Writing objects:  45% (126/278)   Writing objects:  46% (128/278)   Writing objects:  47% (131/278)   Writing objects:  48% (134/278)   Writing objects:  49% (137/278)   Writing objects:  50% (139/278)   Writing objects:  51% (142/278)   Writing objects:  52% (145/278)   Writing objects:  53% (148/278)   Writing objects:  54% (151/278)   Writing objects:  55% (153/278)   Writing objects:  56% (156/278)   Writing objects:  57% (161/278)   Writing objects:  58% (162/278)   Writing objects:  59% (165/278)   Writing objects:  60% (167/278)   Writing objects:  61% (170/278)   Writing objects:  62% (173/278)   Writing objects:  63% (176/278)   Writing objects:  64% (178/278)   Writing objects:  65% (182/278)   Writing objects:  66% (184/278)   Writing objects:  67% (187/278)   Writing objects:  68% (190/278)   Writing objects:  69% (192/278)   Writing objects:  70% (195/278)   Writing objects:  71% (198/278)   Writing objects:  72% (201/278)   Writing objects:  73% (203/278)   Writing objects:  74% (206/278)   Writing objects:  75% (210/278)   Writing objects:  76% (212/278)   Writing objects:  77% (215/278)   Writing objects:  78% (217/278)   Writing objects:  79% (220/278)   Writing objects:  80% (223/278)   Writing objects:  81% (226/278)   Writing objects:  82% (228/278)   Writing objects:  83% (231/278)   Writing objects:  84% (234/278)   Writing objects:  85% (237/278)   Writing objects:  86% (240/278)   Writing objects:  87% (242/278)   Writing objects:  88% (245/278)   Writing objects:  89% (248/278)   Writing objects:  90% (251/278)   Writing objects:  91% (253/278)   Writing objects:  92% (256/278)   Writing objects:  93% (259/278)   Writing objects:  94% (262/278)   Writing objects:  95% (265/278)   Writing objects:  96% (267/278)   Writing objects:  97% (270/278)   Writing objects:  98% (273/278)   Writing objects:  99% (276/278)   Writing objects: 100% (278/278)   Writing objects: 100% (278/278), 64.12 KiB | 0 bytes/s, done.
+Total 278 (delta 107), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/107)   [Kremote: Resolving deltas:   3% (4/107)   [Kremote: Resolving deltas:   4% (5/107)   [Kremote: Resolving deltas:   5% (6/107)   [Kremote: Resolving deltas:   6% (7/107)   [Kremote: Resolving deltas:   7% (8/107)   [Kremote: Resolving deltas:   8% (9/107)   [Kremote: Resolving deltas:   9% (10/107)   [Kremote: Resolving deltas:  10% (11/107)   [Kremote: Resolving deltas:  11% (12/107)   [Kremote: Resolving deltas:  12% (13/107)   [Kremote: Resolving deltas:  14% (15/107)   [Kremote: Resolving deltas:  16% (18/107)   [Kremote: Resolving deltas:  17% (19/107)   [Kremote: Resolving deltas:  18% (20/107)   [Kremote: Resolving deltas:  19% (21/107)   [Kremote: Resolving deltas:  20% (22/107)   [Kremote: Resolving deltas:  21% (23/107)   [Kremote: Resolving deltas:  22% (24/107)   [Kremote: Resolving deltas:  23% (25/107)   [Kremote: Resolving deltas:  24% (26/107)   [Kremote: Resolving deltas:  25% (27/107)   [Kremote: Resolving deltas:  26% (28/107)   [Kremote: Resolving deltas:  27% (29/107)   [Kremote: Resolving deltas:  28% (30/107)   [Kremote: Resolving deltas:  29% (32/107)   [Kremote: Resolving deltas:  30% (33/107)   [Kremote: Resolving deltas:  31% (34/107)   [Kremote: Resolving deltas:  33% (36/107)   [Kremote: Resolving deltas:  34% (37/107)   [Kremote: Resolving deltas:  35% (38/107)   [Kremote: Resolving deltas:  36% (39/107)   [Kremote: Resolving deltas:  37% (40/107)   [Kremote: Resolving deltas:  62% (67/107)   [Kremote: Resolving deltas:  64% (69/107)   [Kremote: Resolving deltas:  65% (70/107)   [Kremote: Resolving deltas:  66% (71/107)   [Kremote: Resolving deltas:  67% (72/107)   [Kremote: Resolving deltas:  69% (74/107)   [Kremote: Resolving deltas:  70% (75/107)   [Kremote: Resolving deltas:  71% (76/107)   [Kremote: Resolving deltas:  72% (78/107)   [Kremote: Resolving deltas:  73% (79/107)   [Kremote: Resolving deltas:  76% (82/107)   [Kremote: Resolving deltas:  77% (83/107)   [Kremote: Resolving deltas:  78% (84/107)   [Kremote: Resolving deltas:  79% (85/107)   [Kremote: Resolving deltas:  85% (91/107)   [Kremote: Resolving deltas:  87% (94/107)   [Kremote: Resolving deltas:  89% (96/107)   [Kremote: Resolving deltas:  90% (97/107)   [Kremote: Resolving deltas:  92% (99/107)   [Kremote: Resolving deltas:  95% (102/107)   [Kremote: Resolving deltas:  96% (103/107)   [Kremote: Resolving deltas:  97% (104/107)   [Kremote: Resolving deltas:  98% (105/107)   [Kremote: Resolving deltas:  99% (106/107)   [Kremote: Resolving deltas: 100% (107/107)   [Kremote: Resolving deltas: 100% (107/107), completed with 57 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   2f87a78..682da73  master -> master
+git add .[K[K[K[K[Kstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
+	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/A16E1F5C/pcs/files-pane.pper[m
+	[31mmodified:   .Rproj.user/A16E1F5C/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/A16E1F5C/pcs/windowlayoutstate.pper[m
+	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   content/software/_index.md[m
+	[31mmodified:   layouts/section/software.html[m
+	[31mmodified:   public/bookstack/index.html[m
+	[31mmodified:   public/bookstack/index.xml[m
+	[31mmodified:   public/css/fonts.css[m
+	[31mmodified:   public/css/main.css[m
+	[31mmodified:   public/index.xml[m
+	[31mmodified:   public/sitemap.xml[m
+	[31mmodified:   public/software/index.html[m
+	[31mmodified:   static/css/fonts.css[m
+	[31mmodified:   static/css/main.css[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ f[Kgit add static/css/fonts.css static/css/main.css public/css/ fonts.css public/css/main.css 
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ gir [K[Kt commit .[K-am "font[K[K[K[Kgont[K[K[K[K[Kf[K"changed font to garamond"egaramond"bgaramond" garamond"

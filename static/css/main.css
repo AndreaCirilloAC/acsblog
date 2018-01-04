@@ -99,6 +99,11 @@ code {
 
 .nav-links a:hover {
   color: #000;
+  
+}
+
+.nav-links :hover{
+  transform: scale(1.1);
 }
 /* related to the home */
 .home-box{
