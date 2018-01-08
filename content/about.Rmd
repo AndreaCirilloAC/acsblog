@@ -1,9 +1,93 @@
 ---
 title: "about"
+toc: false
 ---
 
-## brief description
+## brief bio
+
+I am Andrea Cirillo, a Quantitative Analyst currently employed in a bank. My kind of mixed background ( HR guys tended to call it *a resilient path*, when we talked about it) is composed of a first relevant dose of artistic studies in the Brera High School, followed from an heavy dose of economics and mathematics at the Catholic University of Jesus Sacred Heart, finally crowned from Auditing, Statistics and Data Science Courses by Auditing, Hacking and Banking firms.
+
+```{r ac_mix}
+library(ggplot2)
+ingredients <- c("Arts", "Statistical Learning", "Economics","Hacking","Auditing")
+perc       <-  c(20,25,20,15,20)
+me <- data.frame(ingredients,perc)
+ggplot(me, aes(x=ingredients,y=perc))+
+  geom_bar(stat = 'identity')+
+  coord_flip()
+
+```
+
+
+I use this website, which I personally developed using *Hugo*, *rmarkdown* and *blogdown* to store and share knowkedge about:
+
+- **machine learning**
+- **dataviz**
+- **wathever**
+
+I usually code in R, python and Sas, while I am giving and hard try to D3.js. Moreover I... well this is supposed to be a *brief description*, so let's move on to the *vitae* section for further details on this.   
 
 ## vitae
 
+### Personal Data
 
+
+- **Place and Date of Birth:** Monza, Italy | 14 August 1989
+- **Email:** please see *contacts* page
+- **Linkedin profile:** [it.linkedin.com/pub/andrea-cirillo/33/512/862/](http://it.linkedin.com/pub/andrea-cirillo/33/512/862/)
+
+### Work Experience
+
+- Jul 2017 - *Current*, Audit quantitative Analyst at Intesa Sanpaolo s.p.a.
+- Dec 2015 - June 2017, Credit Risk Internal Auditor at Intesa Sanpaolo s.p.a.
+- May 2013 - Oct 2015, Internal Auditor at FNM s.p.a., Milan
+- Oct 2011 - May 2013, Auditor at Deloitte Touche & Tomatsu, Milan
+
+### Pubblications
+  
+   - May 2016, **Rstudio for R Statistical Computing Cookbook**, London: Packt Publishing
+   - Nov 2017, **Cirillo A.. R Data Mining**, London: Packt Publishing
+
+
+### Education
+
+
+ - 2011-2014 Master’Degree in Management, **Catholic University of Jesus Sacred Heart**, Milan
+   - 107/110 | Majors: Time series analysis, Linear programming
+	- Thesis: “Fraud risk valuation.Theoretical models introduction and development of an applied algorithm”
+
+ - 2008-2011 Undergraduate Degree in Economics, **Catholic University of Jesus Sacred Heart**, Milan 
+ 	- 110/110 | Majors: Statistics, Economics, Macroeconomics
+ 	- Thesis: “Effects of job insecurity on the life choices of young italians”
+
+### Certifications
+
+
+- 2017 [Big Dive - Data Science and Analytics](https://www.bigdive.eu/) 
+- 2014-Current **Certified Internal Auditor (CIA)** - enrolled part 1 and 2 passed, currently preparing part 3
+
+### Languages
+
+ - Italian: Mothertongue
+ - English: Fluent
+ - Spanish: Basic Knowledge
+ - French: Basic Knowledge
+ 
+
+### Computer Skills
+
+- **Basic Knowledge**: sql,  ACLscripts, Linux, Java, 
+- **Intermediate Knowledge**: SAS, Python,html,CSS ,SAP R/3, Visual Basic
+- **Advanced Knowledge**: R, vba, Excel, Word, PowerPoint,
+
+
+### Presentations & Tutorials
+
+- Forthcoming, **IFRS9 accounting principle: Auditing and modeling questions**
+- Nov 2017, **automagically build the perfect palette for you plot with paletteR**, 9th MilanoR meeting keynote speech
+- Dec 2016, **Credit Risk Models Introduction**, Intesa SanPaolo Learning Center, Milan
+
+
+### Software packages
+
+please a have a look to the *software* page for an updated lisr of software I developed or contributed to.

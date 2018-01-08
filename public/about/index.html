@@ -19,6 +19,11 @@
 
 
 
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 <link rel="stylesheet" href="/css/github-widget.css"  type="text/css" />
@@ -74,18 +79,102 @@
     
 
     <div class="article-content">
-      <div id="TOC">
+      <div id="brief-bio" class="section level2">
+<h2>brief bio</h2>
+<p>I am Andrea Cirillo, a Quantitative Analyst currently employed in a bank. My kind of mixed background ( HR guys tended to call it <em>a resilient path</em>, when we talked about it) is composed of a first relevant dose of artistic studies in the Brera High School, followed from an heavy dose of economics and mathematics at the Catholic University of Jesus Sacred Heart, finally crowned from Auditing, Statistics and Data Science Courses by Auditing, Hacking and Banking firms.</p>
+<pre class="r"><code>library(ggplot2)
+ingredients &lt;- c(&quot;Arts&quot;, &quot;Statistical Learning&quot;, &quot;Economics&quot;,&quot;Hacking&quot;,&quot;Auditing&quot;)
+perc       &lt;-  c(20,25,20,15,20)
+me &lt;- data.frame(ingredients,perc)
+ggplot(me, aes(x=ingredients,y=perc))+
+  geom_bar(stat = &#39;identity&#39;)+
+  coord_flip()</code></pre>
+<p><img src="/about_files/figure-html/ac_mix-1.png" width="672" /></p>
+<p>I use this website, which I personally developed using <em>Hugo</em>, <em>rmarkdown</em> and <em>blogdown</em> to store and share knowkedge about:</p>
 <ul>
-<li><a href="#brief-description">brief description</a></li>
-<li><a href="#vitae">vitae</a></li>
+<li><strong>machine learning</strong></li>
+<li><strong>dataviz</strong></li>
+<li><strong>wathever</strong></li>
 </ul>
-</div>
-
-<div id="brief-description" class="section level2">
-<h2>brief description</h2>
+<p>I usually code in R, python and Sas, while I am giving and hard try to D3.js. Moreover I… well this is supposed to be a <em>brief description</em>, so let’s move on to the <em>vitae</em> section for further details on this.</p>
 </div>
 <div id="vitae" class="section level2">
 <h2>vitae</h2>
+<div id="personal-data" class="section level3">
+<h3>Personal Data</h3>
+<ul>
+<li><strong>Place and Date of Birth:</strong> Monza, Italy | 14 August 1989</li>
+<li><strong>Email:</strong> please see <em>contacts</em> page</li>
+<li><strong>Linkedin profile:</strong> <a href="http://it.linkedin.com/pub/andrea-cirillo/33/512/862/">it.linkedin.com/pub/andrea-cirillo/33/512/862/</a></li>
+</ul>
+</div>
+<div id="work-experience" class="section level3">
+<h3>Work Experience</h3>
+<ul>
+<li>Jul 2017 - <em>Current</em>, Audit quantitative Analyst at Intesa Sanpaolo s.p.a.</li>
+<li>Dec 2015 - June 2017, Credit Risk Internal Auditor at Intesa Sanpaolo s.p.a.</li>
+<li>May 2013 - Oct 2015, Internal Auditor at FNM s.p.a., Milan</li>
+<li>Oct 2011 - May 2013, Auditor at Deloitte Touche &amp; Tomatsu, Milan</li>
+</ul>
+</div>
+<div id="pubblications" class="section level3">
+<h3>Pubblications</h3>
+<ul>
+<li>May 2016, <strong>Rstudio for R Statistical Computing Cookbook</strong>, London: Packt Publishing</li>
+<li>Nov 2017, <strong>Cirillo A.. R Data Mining</strong>, London: Packt Publishing</li>
+</ul>
+</div>
+<div id="education" class="section level3">
+<h3>Education</h3>
+<ul>
+<li>2011-2014 Master’Degree in Management, <strong>Catholic University of Jesus Sacred Heart</strong>, Milan</li>
+<li>107/110 | Majors: Time series analysis, Linear programming
+<ul>
+<li>Thesis: “Fraud risk valuation.Theoretical models introduction and development of an applied algorithm”</li>
+</ul></li>
+<li>2008-2011 Undergraduate Degree in Economics, <strong>Catholic University of Jesus Sacred Heart</strong>, Milan
+<ul>
+<li>110/110 | Majors: Statistics, Economics, Macroeconomics</li>
+<li>Thesis: “Effects of job insecurity on the life choices of young italians”</li>
+</ul></li>
+</ul>
+</div>
+<div id="certifications" class="section level3">
+<h3>Certifications</h3>
+<ul>
+<li>2017 <a href="https://www.bigdive.eu/">Big Dive - Data Science and Analytics</a></li>
+<li>2014-Current <strong>Certified Internal Auditor (CIA)</strong> - enrolled part 1 and 2 passed, currently preparing part 3</li>
+</ul>
+</div>
+<div id="languages" class="section level3">
+<h3>Languages</h3>
+<ul>
+<li>Italian: Mothertongue</li>
+<li>English: Fluent</li>
+<li>Spanish: Basic Knowledge</li>
+<li>French: Basic Knowledge</li>
+</ul>
+</div>
+<div id="computer-skills" class="section level3">
+<h3>Computer Skills</h3>
+<ul>
+<li><strong>Basic Knowledge</strong>: sql, ACLscripts, Linux, Java,</li>
+<li><strong>Intermediate Knowledge</strong>: SAS, Python,html,CSS ,SAP R/3, Visual Basic</li>
+<li><strong>Advanced Knowledge</strong>: R, vba, Excel, Word, PowerPoint,</li>
+</ul>
+</div>
+<div id="presentations-tutorials" class="section level3">
+<h3>Presentations &amp; Tutorials</h3>
+<ul>
+<li>Forthcoming, <strong>IFRS9 accounting principle: Auditing and modeling questions</strong></li>
+<li>Nov 2017, <strong>automagically build the perfect palette for you plot with paletteR</strong>, 9th MilanoR meeting keynote speech</li>
+<li>Dec 2016, <strong>Credit Risk Models Introduction</strong>, Intesa SanPaolo Learning Center, Milan</li>
+</ul>
+</div>
+<div id="software-packages" class="section level3">
+<h3>Software packages</h3>
+<p>please a have a look to the <em>software</em> page for an updated lisr of software I developed or contributed to.</p>
+</div>
 </div>
 
     </div>
@@ -109,6 +198,18 @@
 
     </div>
     
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 
