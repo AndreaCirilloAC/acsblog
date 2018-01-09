@@ -7,7 +7,7 @@ toc: false
 
 I am Andrea Cirillo, a Quantitative Analyst currently employed in a bank. My kind of mixed background ( HR guys tended to call it *a resilient path*, when we talked about it) is composed of a first relevant dose of artistic studies in the Brera High School, followed from an heavy dose of economics and mathematics at the Catholic University of Jesus Sacred Heart, finally crowned from Auditing, Statistics and Data Science Courses by Auditing, Hacking and Banking firms.
 
-```{r ac_mix}
+```{r ac_mix, eval = FALSE, include=FALSE}
 library(ggplot2)
 ingredients <- c("Arts", "Statistical Learning", "Economics","Hacking","Auditing")
 perc       <-  c(20,25,20,15,20)
