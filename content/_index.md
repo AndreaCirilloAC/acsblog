@@ -3,7 +3,9 @@ title: "Andrea Cirillo's website"
 subtitle: "the very beginning"
 ---
 
-Take this as a notebook, showing masterpieces togheter with scraps.
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+I am a **Quantitative Analyst** well versed into **statistical learning**, **data mining** and **data visualization** disciplines. I keep this personal website as a polished portfolio and a structured notebook. You can use this website to learn about my [curriculum vitae](/about), the [software](/software) I craft and my [personal thoughts](/post) about technical stuffs. I also keep an updated list of the most [relevant books](/bookstack) I have read, the ones I would suggest to a good friend, togheter with a short summary of their key messages. Just in case you don't know which book to pick up next from your bookstack.
+If you want to get in touch with me I suggest you to visit the [contacts](/contacts) web page, since it is not exactly a straight forward process.
+
+A final note: as I said you can take this as a notebook, you can therefore expect to find in it masterpieces togheter with scraps.
 
 

@@ -77,8 +77,8 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
 ### Computer Skills
 
 - **Basic Knowledge**: sql,  ACLscripts, Linux, Java, 
-- **Intermediate Knowledge**: SAS, Python,html,CSS ,SAP R/3, Visual Basic
-- **Advanced Knowledge**: R, vba, Excel, Word, PowerPoint,
+- **Intermediate Knowledge**: Python,html,CSS ,SAP R/3, Visual Basic
+- **Advanced Knowledge**: R, SAS, vba, Excel, Word, PowerPoint,
 
 
 ### Presentations & Tutorials
@@ -90,4 +90,4 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
 
 ### Software packages
 
-please a have a look to the *software* page for an updated lisr of software I developed or contributed to.
+please a have a look to the [*software*](/software) page for an updated lisr of software I developed or contributed to.
