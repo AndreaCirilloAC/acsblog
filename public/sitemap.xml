@@ -170,14 +170,14 @@
   </url>
   
   <url>
-    <loc>/tags/analytics/</loc>
-    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
+    <loc>/categories/analytics/</loc>
+    <lastmod>2014-12-28T00:10:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/analytics/</loc>
-    <lastmod>2014-12-28T00:10:00+00:00</lastmod>
+    <loc>/tags/analytics/</loc>
+    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -325,11 +325,6 @@
   </url>
   
   <url>
-    <loc>/home/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/internal-audit/</loc>
     <lastmod>2015-07-02T21:06:39+00:00</lastmod>
     <priority>0</priority>
@@ -384,7 +379,11 @@
   </url>
   
   <url>
-    <loc>/home/featured_book/</loc>
+    <loc>/pubblications/featured_book/</loc>
+  </url>
+  
+  <url>
+    <loc>/pubblications/rstudio_cookbook/</loc>
   </url>
   
   <url>
@@ -484,6 +483,10 @@
   </url>
   
   <url>
+    <loc>/pubblications/what_you_need_to_know_about_r/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/windows/</loc>
     <lastmod>2015-04-01T20:29:04+00:00</lastmod>
     <priority>0</priority>
@@ -499,15 +502,19 @@
   </url>
   
   <url>
-    <loc>/books/</loc>
-  </url>
-  
-  <url>
     <loc>/bookstack/</loc>
   </url>
   
   <url>
     <loc>/contacts/</loc>
+  </url>
+  
+  <url>
+    <loc>/pubblications/paletter_speech/</loc>
+  </url>
+  
+  <url>
+    <loc>/pubblications/</loc>
   </url>
   
   <url>

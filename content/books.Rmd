@@ -1,5 +1,0 @@
----
-title: "books"
----
-
-the books I wrote and reviewed

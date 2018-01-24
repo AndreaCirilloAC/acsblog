@@ -1,65 +1,4 @@
 
-	[31mpublic/2015/09/[m
-	[31mpublic/2015/10/[m
-	[31mpublic/2015/12/[m
-	[31mpublic/2016/01/[m
-	[31mpublic/2016/05/[m
-	[31mpublic/2016/06/[m
-	[31mpublic/2016/08/[m
-	[31mpublic/2016/09/[m
-	[31mpublic/2017/04/[m
-	[31mpublic/categories/analytics/[m
-	[31mpublic/categories/productivity/[m
-	[31mpublic/post/cleaner.R[m
-	[31mpublic/tags/algorithm/[m
-	[31mpublic/tags/amazon/[m
-	[31mpublic/tags/analytics/[m
-	[31mpublic/tags/apps/[m
-	[31mpublic/tags/aws/[m
-	[31mpublic/tags/chat/[m
-	[31mpublic/tags/communities/[m
-	[31mpublic/tags/computer-science/[m
-	[31mpublic/tags/data-analysis/[m
-	[31mpublic/tags/data-analytics/[m
-	[31mpublic/tags/data/[m
-	[31mpublic/tags/dataviz/[m
-	[31mpublic/tags/evernote/[m
-	[31mpublic/tags/excel-spreadsheet/[m
-	[31mpublic/tags/excel/[m
-	[31mpublic/tags/fraud-analytics/[m
-	[31mpublic/tags/fraud/[m
-	[31mpublic/tags/functions/[m
-	[31mpublic/tags/ggplot/[m
-	[31mpublic/tags/ggplot2/[m
-	[31mpublic/tags/ggthemes/[m
-	[31mpublic/tags/github/[m
-	[31mpublic/tags/google/[m
-	[31mpublic/tags/gtd/[m
-	[31mpublic/tags/hacking/[m
-	[31mpublic/tags/internal-audit/[m
-	[31mpublic/tags/lifehacks/[m
-	[31mpublic/tags/linker/[m
-	[31mpublic/tags/network-analysis/[m
-	[31mpublic/tags/png/[m
-	[31mpublic/tags/programming/[m
-	[31mpublic/tags/r/[m
-	[31mpublic/tags/repository/[m
-	[31mpublic/tags/rstudio/[m
-	[31mpublic/tags/sas/[m
-	[31mpublic/tags/seo/[m
-	[31mpublic/tags/shiny-apps/[m
-	[31mpublic/tags/shiny/[m
-	[31mpublic/tags/soccer/[m
-	[31mpublic/tags/social-media-analytics/[m
-	[31mpublic/tags/social-media/[m
-	[31mpublic/tags/themes/[m
-	[31mpublic/tags/timemanagement/[m
-	[31mpublic/tags/tutorials/[m
-	[31mpublic/tags/twitter/[m
-	[31mpublic/tags/visual-basic/[m
-	[31mpublic/tags/web-query/[m
-	[31mpublic/tags/windows/[m
-	[31mstatic/css/fonts.css[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add[K[K[Kadd. [K[K[K[K[K[K[K[K[Kmand gi[K[K[K[K git add
@@ -1047,3 +986,56 @@ To https://github.com/AndreaCirilloAC/acsblog
    63ccfb6..c8dca6d  master -> master
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git status[K[K[K[K[K[Kcommit -am "modified home welcome text"
+[master 35fe21d] modified home welcome text
+ 7 files changed, 41 insertions(+), 22 deletions(-)
+ rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (86%)
+ rewrite content/_index.md (92%)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 2.81 KiB | 0 bytes/s, done.
+Total 15 (delta 11), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/11)   [Kremote: Resolving deltas:   9% (1/11)   [Kremote: Resolving deltas:  18% (2/11)   [Kremote: Resolving deltas:  27% (3/11)   [Kremote: Resolving deltas:  36% (4/11)   [Kremote: Resolving deltas:  45% (5/11)   [Kremote: Resolving deltas:  63% (7/11)   [Kremote: Resolving deltas:  72% (8/11)   [Kremote: Resolving deltas:  81% (9/11)   [Kremote: Resolving deltas:  90% (10/11)   [Kremote: Resolving deltas: 100% (11/11)   [Kremote: Resolving deltas: 100% (11/11), completed with 10 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   c8dca6d..35fe21d  master -> master
+git add "content/inde[K[K[K[K:[K_index.md" 
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "home p[K[Kpage message complete"[Kd"
+[master 9a9aa53] homepage message completed
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add.[K "CONTE[K[K[K[K[Kcontent/post/_index.md" ù[K
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push[K[K[K[Kcommit -m "comple[K[K[K[K[K[Kblog homepage completed"
+[master 40b8a17] blog homepage completed
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cd lau[Kyouts/section/
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ cp sod[Kftware.html books.h[K[K[K[K[K[K[Kpubblications.html
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ cp software.html pubblications.html[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C;pubblications.html4pubblications.htmlDpubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Ppubblications.html[1Pubblications.html[1Ppubblications.htmlrpubblications.htmlmpubblications.html pubblications.html
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ rm pubblications.html[Krm pubblications.html[14@cp software.html[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@b[1@o[1@o[1@k[1@s[1@t[1@a[1@c[1@l[1P[1@k
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ cp bookstack.html pubblications.html[15Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14@cp software.html[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch congte[K[K[Ktent/books/_index.rmd
+touch: content/books/_index.rmd: No such file or directory
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ touch content/books/_index.rmd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ùtouch: content/books/_index.rmd: No such file or directory
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ ù[Ktouch content/books/_index.rmd
+touch: content/books/_index.rmd: No such file or directory
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ touch content/books/_index.rmd[Kpwd
+/Users/andrea_cirillo/Dropbox/R_projects/acsblog/layouts/section
+]0;~/Dropbox/R_projects/acsblog/layouts/sectionMac-di-Andrea:section andrea_cirillo$ pwd[Kcd ..
+]0;~/Dropbox/R_projects/acsblog/layoutsMac-di-Andrea:layouts andrea_cirillo$ cd..[K[K ..
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cd ..[2Ppwd
+/Users/andrea_cirillo/Dropbox/R_projects/acsblog
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ pwdcd ..[2Ppwdtouch content/books/_index.rmd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cont[K[K[K[Kls content/pubblications/
+_index.html	_index.rmd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp content/home/featured_book.md content/pubblications/
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp content/home/featured_book.md content/pubblications/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[C[1P content/home/featured_book.md[1P content/home/featured_book.mdr content/home/featured_book.mdm content/home/featured_book.md
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ [KMac-di-Andrea:acsblog andrea_cirillo$ cp cpmtemt [K([K/pubbli
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp cpmtemt/pubbli[K[K[K[K[K[K[K[K[K[K[K[K[Kontent/pubblications/featured_book.md o[Kcontent/pubblications/rstudio _cookbook.rmd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ ^C
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp content/pubblications/featured_book.md content/pubblications/rstudio__cookbook.rmd[C[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[C[C[1P.rmd[C[1P.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.r[1Pmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rm[1Pd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rmd[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rmd [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.rmd
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.rmd[1P.rmdp.rmda.rmdl.rmd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.rmdd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.rmdr.rmd[C_.rmd[C[Cd.rmde.rmdc.rmd[1P.rmd[1P.rmd[1P.rmd[C[C[1P.rmd[C[1P.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.r[1Pmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rm[1Pd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rmd[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rmd [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.rmd
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.rmd[1P.rmdw.rmdh.rmda.rmd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.rmdd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co.rmdu.rmd[C_.rmd[C[Cm.rmd[1P.rmd[C[Cn.rmde.rmde.rmdd.rmd_.rmdt.rmdo.rmd_.rmdk.rmdn.rmdo.rmdw.rmd_.rmda.rmdb.rmdo.rmdu.rmdt.rmd_.rmdr.rmd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp content/pubblications/featured_book.md content/pubblications/what_youu_need_to_know_about_r.rmd[C[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[1P.rmd[C[C[1P.rmd[C[1P.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.r[1Pmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rm[1Pd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rmd[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.rmd [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.rmd
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.rmd[1P.rmdp.rmda.rmdl.rmd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.rmdd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.rmd[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.rmdr.rmd[C_.rmd[C[Cs.rmdp.rmde.rmde.rmdc.rmdj.rmd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add.[K .
