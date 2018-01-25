@@ -1,9 +1,9 @@
 ---
 draft : true
-title: "template"
-cover: "https://kbimages1-a.akamaihd.net/829d7089-5204-4c2c-b500-8de52ccd5d2b/353/569/90/False/r-data-mining.jpg"
+title: "Deep Work - rules for focused success in adistracted world"
+cover: "https://images-na.ssl-images-amazon.com/images/I/41k-9d0WZyL._SX322_BO1,204,203,200_.jpg"
 featured: false
-author: "Victor Hugo"
+author: "Cal Newport"
 status: "read"
 ---
 
