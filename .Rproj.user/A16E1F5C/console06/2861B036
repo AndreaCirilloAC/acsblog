@@ -1,58 +1,4 @@
 
- create mode 100644 public/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/index.html
- create mode 100644 public/2016/05/17/a-checklist-for-your-weekly-review-gtd-methodology/index.html
- create mode 100644 public/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/index.html
- create mode 100644 public/2016/08/09/ggplot2-themes-examples/index.html
- create mode 100644 public/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/index.html
- create mode 100644 public/2017/04/12/why-are-you-being-so-silent/index.html
- create mode 100644 public/categories/analytics/index.html
- create mode 100644 public/categories/analytics/index.xml
- create mode 100644 public/categories/productivity/index.html
- create mode 100644 public/categories/productivity/index.xml
- rewrite public/index.xml (69%)
- create mode 100644 public/post/cleaner.R
- rewrite public/post/index.xml (80%)
- create mode 100644 public/tags/algorithm/index.html
- create mode 100644 public/tags/algorithm/index.xml
- create mode 100644 public/tags/amazon/index.html
- create mode 100644 public/tags/amazon/index.xml
- create mode 100644 public/tags/analytics/index.html
- create mode 100644 public/tags/analytics/index.xml
- create mode 100644 public/tags/apps/index.html
- create mode 100644 public/tags/apps/index.xml
- create mode 100644 public/tags/aws/index.html
- create mode 100644 public/tags/aws/index.xml
- create mode 100644 public/tags/chat/index.html
- create mode 100644 public/tags/chat/index.xml
- create mode 100644 public/tags/communities/index.html
- create mode 100644 public/tags/communities/index.xml
- create mode 100644 public/tags/computer-science/index.html
- create mode 100644 public/tags/computer-science/index.xml
- create mode 100644 public/tags/data-analysis/index.html
- create mode 100644 public/tags/data-analysis/index.xml
- create mode 100644 public/tags/data-analytics/index.html
- create mode 100644 public/tags/data-analytics/index.xml
- create mode 100644 public/tags/data/index.html
- create mode 100644 public/tags/data/index.xml
- create mode 100644 public/tags/dataviz/index.html
- create mode 100644 public/tags/dataviz/index.xml
- create mode 100644 public/tags/evernote/index.html
- create mode 100644 public/tags/evernote/index.xml
- create mode 100644 public/tags/excel-spreadsheet/index.html
- create mode 100644 public/tags/excel-spreadsheet/index.xml
- create mode 100644 public/tags/excel/index.html
- create mode 100644 public/tags/excel/index.xml
- create mode 100644 public/tags/fraud-analytics/index.html
- create mode 100644 public/tags/fraud-analytics/index.xml
- create mode 100644 public/tags/fraud/index.html
- create mode 100644 public/tags/fraud/index.xml
- create mode 100644 public/tags/functions/index.html
- create mode 100644 public/tags/functions/index.xml
- create mode 100644 public/tags/ggplot/index.html
- create mode 100644 public/tags/ggplot/index.xml
- create mode 100644 public/tags/ggplot2/index.html
- create mode 100644 public/tags/ggplot2/index.xml
- create mode 100644 public/tags/ggthemes/index.html
  create mode 100644 public/tags/ggthemes/index.xml
  create mode 100644 public/tags/github/index.html
  create mode 100644 public/tags/github/index.xml
@@ -1030,3 +976,31 @@ remote: Resolving deltas:   0% (0/21)   [Kremote: Resolving deltas:  23% (5/21
 To https://github.com/AndreaCirilloAC/acsblog
    fd98bf4..fc67dad  master -> master
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "completed contacts page"
+[master 0f5f07c] completed contacts page
+ 16 files changed, 1350 insertions(+), 4 deletions(-)
+ create mode 100644 public/bookstack/deep_work.knit/index.html
+ create mode 100644 public/bookstack/deep_work.utf8/index.html
+ create mode 100644 public/bookstack/deep_work/index.html
+ create mode 100644 public/bookstack/so_good_ignore_you/index.html
+ create mode 100644 public/bookstack/teach_yourself_to_think.knit/index.html
+ create mode 100644 public/bookstack/teach_yourself_to_think.utf8/index.html
+ create mode 100644 public/bookstack/teach_yourself_to_think/index.html
+ create mode 100644 public/bookstack/visual_display_of_quantitative_information.knit/index.html
+ create mode 100644 public/bookstack/visual_display_of_quantitative_information/index.html
+ create mode 100644 public/contacts.knit/index.html
+ create mode 100644 public/contacts.utf8/index.html
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 24, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   4% (1/24)   Writing objects:   8% (2/24)   Writing objects:  12% (3/24)   Writing objects:  16% (4/24)   Writing objects:  20% (5/24)   Writing objects:  25% (6/24)   Writing objects:  29% (7/24)   Writing objects:  41% (10/24)   Writing objects:  45% (11/24)   Writing objects:  50% (12/24)   Writing objects:  54% (13/24)   Writing objects:  62% (15/24)   Writing objects:  66% (16/24)   Writing objects:  70% (17/24)   Writing objects:  75% (18/24)   Writing objects:  79% (19/24)   Writing objects:  83% (20/24)   Writing objects:  87% (21/24)   Writing objects:  91% (22/24)   Writing objects:  95% (23/24)   Writing objects: 100% (24/24)   Writing objects: 100% (24/24), 6.65 KiB | 0 bytes/s, done.
+Total 24 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas:  58% (7/12)   [Kremote: Resolving deltas:  66% (8/12)   [Kremote: Resolving deltas:  75% (9/12)   [Kremote: Resolving deltas:  83% (10/12)   [Kremote: Resolving deltas:  91% (11/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), completed with 6 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   fc67dad..0f5f07c  master -> master
+git add "[Kstatic/css/main.css 
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git coo[Kmmit -am "changed[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K add "[Klayouts/section/software.html 
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add layouts/section/software.html [K[K[K[K[K[K[K[K[K[K[K[K[K[Kbookstack.html 
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ g[Kgit add layouts/section/bookstack.html [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Koin[K[K[Kindex.html 
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ gi [Kt commit .am "changed[K[K[K[K[K[K[K[K[K[K[K[K-am ![K"made all laytou[K[K[Kouts alinged [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kaligned p[Kappa[Kearances of all layouts"

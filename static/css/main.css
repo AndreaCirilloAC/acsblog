@@ -108,7 +108,7 @@ code {
 /* related to the home */
 .home-box{
  text-align: left;
-  border: 2px solid black;
+  border: 2px solid #4A8FDC;
   padding: 15px;
   vertical-align: top;
 }
@@ -145,7 +145,7 @@ width: 100px;
 }
 
 .article-date {
-  color: #ccc;
+  color: #5c6e8c;
 }
 
 .article-duration {
@@ -166,15 +166,20 @@ width: 100px;
 .article-content a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 3px solid #9ebdef;
-  box-shadow: inset 0 -1px 0 #9ebdef;
+  border-bottom: 3px solid #4A8FDC;
+  box-shadow: inset 0 -1px 0 #4A8FDC;
   background: transparent;
   transition: background 150ms ease;
 }
 
+.article-content strong {
+  font-size: 22px ;
+
+     }
+
 .article-content a:hover,
 .article-content a:focus {
-  background: #9ebdef;
+  background: rgba(86, 166, 255, 0.5)
 }
 
 .article-content hr {
@@ -355,7 +360,7 @@ width: 100px;
 
 .post-tags a:hover,
 .post-tags a:focus {
-  background-color: #136af7;
+  background-color: rgba(86, 166, 255,0.2);
 }
   .footer-links {
     font-size: inherit;

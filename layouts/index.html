@@ -2,6 +2,7 @@
 
 
 <main class="content" role="main">
+<div class="article-content">
 <h1>{{.Title}}</h1>    
       {{ .Content }}
 
@@ -36,12 +37,13 @@
 </tr>
    <tr>
     <th><a href="{{ .RelPermalink }}" ><img  class= "book-cover" src={{ .Params.cover }}></a> </th>
-    <th><p class= "post-summary">{{.Content}}</p></th>
+    <th><p class ="post-summary">{{.Summary}}</p></th>
   </tr>
  </table> 
  
 
 {{end}}
+</div>
 </main>
 
 

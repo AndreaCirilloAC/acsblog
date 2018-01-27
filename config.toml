@@ -12,21 +12,27 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "about"
     url = "/about/"
+    weight = -110
 [[menu.main]]
     name = "pubblications"
-    url = "/pubblications/"
+    url = "/pubblications"
+    weight = -100
 [[menu.main]]
     name = "blog"
     url = "/post/"
+    weight = -80
 [[menu.main]]
     name = "software"
     url = "/software/"
+    weight = -90
 [[menu.main]]
     name = "contacts"
     url = "/contacts/"
+    weight = -70
 [[menu.main]]
     name = "bookstack"
-    url = "/bookstack/"    
+    url = "/bookstack/"
+    weight = -80
 [params]
     description = "A website built through Hugo and blogdown."
 
