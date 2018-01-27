@@ -361,7 +361,8 @@ The plot, made using ggplot2 package, is composed by: a categorical x value, rep
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/bookstack/deep_work/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
+      <description>a really brief summary what I have succesfully applied from this book has it worked?   a really brief summary There are two diverging trends in our society:
+ by one hand in our society tend to succeed those whose can be considered high-skilled like real professionals in data science realm on the other hand the same society force ourself to an increasingly fragmented style of life, full of shallow stimolous and activites, like reading Facebook notifications or immediately reply to emails  That is why the good author of the book calls for a regaining of the ability to perform Deep Work i.</description>
     </item>
     
     <item>
@@ -376,12 +377,14 @@ Within R data mining you will be immersed into the life of a wholesale company, 
     </item>
     
     <item>
-      <title>RStudio Cookbook</title>
+      <title>Rstudio for R Statistical computing Cookbook</title>
       <link>/pubblications/rstudio_cookbook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pubblications/rstudio_cookbook/</guid>
-      <description>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</description>
+      <description>Rstudio for R Statistical computing Cookbook is an useful contribution to the R community, and especially for those just starting off with R.
+
+The book is a concentrated of recipes targeted to the average R user to get him from being in the mean to the become an outlier. Aside from statistical analogies, this book provides recipes to perform relevant activities within all phases of data analysis projects, and literally:</description>
     </item>
     
     <item>
@@ -400,15 +403,6 @@ Within R data mining you will be immersed into the life of a wholesale company, 
       
       <guid>/bookstack/visual_display_of_quantitative_information/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
-    </item>
-    
-    <item>
-      <title>What you need to know about R</title>
-      <link>/pubblications/what_you_need_to_know_about_r/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pubblications/what_you_need_to_know_about_r/</guid>
-      <description>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</description>
     </item>
     
     <item>
@@ -435,7 +429,9 @@ Within R data mining you will be immersed into the life of a wholesale company, 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pubblications/paletter_speech/</guid>
-      <description>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</description>
+      <description>On november 20th I was requested to make a keynote speech at the 9th MilanoR meeting, the most relevant italian meeting of R users.
+ The main topic of the speech was one of my last coding fatigues: the Paletter
+While the full video of the event is still to come, you can find a knd reportage of the evening directly on the official MilanoR blog, and the full deck of slides online.</description>
     </item>
     
     <item>

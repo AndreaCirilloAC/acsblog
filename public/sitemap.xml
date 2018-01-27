@@ -387,10 +387,6 @@
   </url>
   
   <url>
-    <loc>/pubblications/rstudio_cookbook/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/repository/</loc>
     <lastmod>2014-12-28T00:10:00+00:00</lastmod>
     <priority>0</priority>
@@ -400,6 +396,10 @@
     <loc>/tags/rstudio/</loc>
     <lastmod>2016-06-21T15:55:38+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pubblications/rstudio_cookbook/</loc>
   </url>
   
   <url>
@@ -492,10 +492,6 @@
     <loc>/tags/web-query/</loc>
     <lastmod>2016-05-11T14:00:46+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/pubblications/what_you_need_to_know_about_r/</loc>
   </url>
   
   <url>

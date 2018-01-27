@@ -45,8 +45,9 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
         break;
       }
       string = repo.description
-      test = string.search("√")
-      if(test !=0){
+      token = "√"
+      test = string.search(token)
+      if(test >-1){
         
       results.push(make({
         parent: div,

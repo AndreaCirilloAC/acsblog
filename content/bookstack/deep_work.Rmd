@@ -1,10 +1,51 @@
 ---
 draft : true
 title: "Deep Work - rules for focused success in adistracted world"
-cover: "https://images-na.ssl-images-amazon.com/images/I/41k-9d0WZyL._SX322_BO1,204,203,200_.jpg"
+params:
+  cover: "https://images-na.ssl-images-amazon.com/images/I/41k-9d0WZyL._SX322_BO1,204,203,200_.jpg"
 featured: false
 author: "Cal Newport"
 status: "read"
 ---
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+```{r echo=FALSE}
+# All defaults
+library(knitr)
+include_graphics(params$cover)
+```
+
+
+## a really brief summary
+
+
+There are **two diverging trends** in our society:
+
+- by one hand in our society tend to **succeed** those whose can be considered **high-skilled** like real professionals in data science realm
+- on the other hand the same society force ourself to an **increasingly fragmented style of life**, full of shallow stimolous and activites, like reading Facebook notifications or immediately reply to emails
+
+That is why the good author of the book calls for a **regaining** of the ability to perform **Deep Work** i.e. the kind of of activities performed in a state of **distraction-free concentration** that push your cognitive capabilities to their limit. This efforts are the one able to **create new value**, improve your skill, and are **hard to replicate**.
+
+Perfoming a lot of this work will make you rare and valuable, and hard to substitute.
+
+To gain the ability to perform a relevant quantity of this kind of work, Cal defines and explains the **following rules**:
+
+- work deeply
+- embrace boredom
+- quit social media
+- drain the shallows
+
+Each of this rules is explained an made applicable trough a set of practical advice and suggestions.
+
+## what I have succesfully applied from this book
+
+After reading this book I **dramatically changed my attitude trough work**: rather than try to accomplish every kind of task I was charged of  I started organizing my work day with **a clear objective**: devote the greatest number of hours to the **activities which will make me valuable and possibly irreplaceable**.
+
+Moreover I started to fiercely **defend the hours dedicated to those activities**. This means becoming quite hard to be found in the morning, since it is for me the most productive time. To do so I set "do not disturb" as Skype status, I move all meetings in the afternoon and I do not open Outlook and Gmail before 11.00 (well sometimes I do it at 10.30, but you got the concept).
+
+Tha main idea behind this is that something really urgent would arise before that hour it would find its own way to reach me, either trough phone call or in-person contact.
+
+## has it worked?
+
+**It definitely worked**, since after applying the advices included within the book and the main strategy described above, I managed to conclude the writing of my [last book ](/pubblications/featured_book/) and two more miliar activities at work, underlined from a public praise of my highest boss.
+
+Do you think it is not enough? Well, I finished reading the book just a few months ago :)
