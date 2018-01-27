@@ -46,7 +46,8 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
       }
       string = repo.description
       test = string.search("√")
-      if(test >0){
+      if(test !=0){
+        
       results.push(make({
         parent: div,
         cls: 'gw-repo-outer',
@@ -63,11 +64,11 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
                     kids: [
                       make({
                         tag: 'li',
-                        text: repo.watchers,
+                        text: "stars: ".concat(repo.watchers),
                         cls: 'gw-watchers'
                       }), make({
                         tag: 'li',
-                        text: repo.forks,
+                        text: "forks: ".concat(repo.forks) ,
                         cls: 'gw-forks'
                       })
                     ]
@@ -89,6 +90,8 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
           })
         ]
       }));
+      
+        
       }
     }
     return results;
