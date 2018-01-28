@@ -8,7 +8,7 @@ author: "Cal Newport"
 status: "read"
 ---
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.width="30%"}
 # All defaults
 library(knitr)
 include_graphics(params$cover)

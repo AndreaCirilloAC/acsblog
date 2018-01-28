@@ -1030,3 +1030,22 @@ error: pathspec 'added label to github widget' did not match any file(s) known t
 [master 87d9279] added label to github widget
  1 file changed, 6 insertions(+), 3 deletions(-)
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commi [Kt -m "advanced bookstack completion"
+[master 671c56c] advanced bookstack completion
+ 31 files changed, 1008 insertions(+), 166 deletions(-)
+ rewrite content/bookstack/deep_work.Rmd (91%)
+ rewrite content/bookstack/deep_work.html (91%)
+ rewrite content/pubblications/paletter_speech.html (87%)
+ rewrite content/pubblications/paletter_speech.rmd (88%)
+ rewrite content/pubblications/rstudio_cookbook.html (97%)
+ rewrite content/pubblications/rstudio_cookbook.rmd (98%)
+ delete mode 100644 content/pubblications/what_you_need_to_know_about_r.html
+ delete mode 100644 content/pubblications/what_you_need_to_know_about_r.rmd
+ create mode 100644 public/pubblications/_output.yml
+ create mode 100644 public/pubblications/paletter_speech.knit/index.html
+ rewrite public/pubblications/paletter_speech.rmd (88%)
+ create mode 100644 public/pubblications/paletter_speech.utf8/index.html
+ create mode 100644 public/pubblications/rstudio_cookbook.knit/index.html
+ rewrite public/pubblications/rstudio_cookbook.rmd (98%)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ [KMac-di-Andrea:acsblog andrea_cirillo$ cp content/pubblications/rstudio_cookbook.rmd content/pubblications/r[Kwha t_you_need_to_know_about_r.rmd
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
