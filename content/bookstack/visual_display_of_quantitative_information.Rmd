@@ -1,5 +1,5 @@
 ---
-draft : true
+draft : false
 title: "The Visual Display of Quantitative Information"
 params:
   cover: "https://images-na.ssl-images-amazon.com/images/I/41IXJO4Mk6L._SX258_BO1,204,203,200_.jpg"

@@ -1,5 +1,5 @@
 ---
-draft : false
+draft : true
 title: "the Pragmatic Programmer"
 params:
   cover: "https://images-na.ssl-images-amazon.com/images/I/41BKx1AxQWL.jpg"
