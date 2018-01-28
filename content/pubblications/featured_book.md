@@ -1,7 +1,7 @@
 ---
 title: "R data mining"
 cover: "images/r-data-mining.png"
-date: "29/11/2017"
+
 ---
 
 
