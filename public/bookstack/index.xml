@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>So Good They Can&#39;t Ignore You</title>
-      <link>/bookstack/so_good_ignore_you/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bookstack/so_good_ignore_you/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
-    </item>
-    
-    <item>
       <title>The Visual Display of Quantitative Information</title>
       <link>/bookstack/visual_display_of_quantitative_information/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,24 +29,6 @@
       <description>I am currently reading this elegant book which definitely represents a milestone in the field of data visualisation.
 So far, besides the iluminating principles and observation spreaded troughout the book, the feature I am appreciating the most is the ability to communicate how relevant data visualisation can be if practiced effectively, seriously and with integrity.
 That said… I am still reading the book, so stay tuned for a better summary to come!</description>
-    </item>
-    
-    <item>
-      <title>the Pragmatic Programmer</title>
-      <link>/bookstack/pragmatic_programmer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bookstack/pragmatic_programmer/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
-    </item>
-    
-    <item>
-      <title>the Seven Habits of Highly Effective People</title>
-      <link>/bookstack/seven_habits/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bookstack/seven_habits/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
   </channel>
