@@ -28,4 +28,6 @@ you can use one of my twitter profile to refer any interesting link or stuff, ev
 
 [twitter profile](https://twitter.com/AndreaCirilloAC)
 
+### comments on packages/issues
 
+I frequently blog about software I have developed. If you have any kind of comment, request of improvement and similar stuff, the best way to submit them is to reach the online github repository of the package and post there your request.
