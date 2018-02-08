@@ -1,5 +1,5 @@
 ---
-draft : true
+draft : false
 title: "the Seven Habits of Highly Effective People"
 params:
   cover: "https://images-na.ssl-images-amazon.com/images/I/817xk9KvJbL.jpg"
@@ -15,4 +15,59 @@ library(knitr)
 include_graphics(params$cover)
 ```
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+## a really brief summary
+
+All of the book listed within the bookstack were relevant book for me, but this one was actually crucial for my personal and professional development.
+
+I started reading it after being excluded from a talent program, while I was questioning my ability to construct effective relationship with others and being relevant part of a team.
+
+I quickly understood that this was not one of thoose stupid book written to teach you how to become a powerful catching man or a powerful negotiator. This book is rather tyring to teach you how to be a **real** man, one grounded into sound principles, able to resist ot adverse winds and act proactively, therefore being able to establish sincere relationships with other, being either single or teams.
+
+Let me list you and describe below the seven habits mentioned in the title:
+
+### Be proactive
+
+Everything starts from you being proactive. let me show you this with a small sketch
+
+<img src="images/proactive.jpeg" alt="proactive"  style="width: 150px;"/>
+
+This first rules teaches you that between whatever event that affects you and your reaction there is your freedom as an human being. This means that nothing can hurt you if you don't allow it to do so.
+This rule teaches you to concentrate on your circle of influence, i.e. on thinkg you can change, rather than sit and complying about "bad luck", worrying about thinkgs you can not change. And if you make a mistake? Aknowledge it, think about how to avoid it the next time and start over. It will be finished only when your eyes will be closed.
+
+### Begin with the end in mind
+
+Once you will have practiced with the first rule you will be able to move to the second one, which teaches you how relevant is to base your life on the right basis and principles, avoiding to be moved around from useles and harmful idols like power and money. This rule will help you write your own personal mission to guide you as a star to look at while focusing on your circle of influence and excercising your freedom.
+
+### Put thirst things first
+
+The third rule, the last one related to personal success, or independence, helps you aplly the thirs two rulse day by day, teaching you how to program you day to respect your real priorities.
+
+### think win-win
+
+Whit this rule we move to the public success: you are now a sound person, stable on your principle, able to react positively even to a negative event. It is the time to start interacting positively with the people around you. This rule teaches you how to effectively interact with people moving out from the typical war-game logic. The rules explain how is possibile always to look f or a solution able to satisfy both parties.
+
+You will have to leverage all of your stable and strong characater, the one you will have cultivated with the first three rules, but in the end this approach will help you establish constructive relationshipe and increase your circle of influence.
+
+### Seek First to Understand, Then to be Understood
+
+This relevant rule states a simple and powerful thing: you often listen to answer, rather than listening to understand. The rule theaches you how to genuinely listen your counterpart, avoiding to project on his life your own, and rather trying to actually understand which are his experience and feelings. This will give to the speaker some "
+psychological air", he will feel finally understood and this will make him ready to listen you and your needs.
+
+You will have then set the stage to effectively interact with the other person, looking for a win win situation.
+
+### Synergize
+
+is now team to sum all this up, discovering that in a teamwork the result is greater than the sum of its parts.  
+
+### sharpen the saw
+
+this last rule teaches you how to continously practice the other six rule in a kind of spiral, which take us a bit higher at each iteration. Practicing the rules is continous process which makes us deeper their understanding every time a bit more.
+
+## has it worked?
+
+As I anticipated this book was crucial for both my professional and personal growth. It let me discover how was acting with other people and which was the right way to handle adverse events. I started focusing only on things I was able to change, committing my whole energies on them, rather than wasting on useless and harmful thoughts.
+
+This, togheter with great concepts from [deep work](/bookstack/deep_work) dramatically changed my productivity, helping me focusing on really important task at work, but also teaching me to get of office soon enough to get home and play with my kids in the evening.
+
+To be fair, I have to admit that this is not the kid of book you read once in your life: I still often open it and read one or more chapters, trying to fix the concepts and apply them better in the next occasion.
+
