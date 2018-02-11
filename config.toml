@@ -1,4 +1,4 @@
-baseurl = "andreacirillo.com/"
+baseurl = "https://andreacirillo.com/"
 languageCode = "en-us"
 title = "Andrea Cirillo"
 theme = "hugo-lithium-theme"

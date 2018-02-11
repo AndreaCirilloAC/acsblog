@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apps on Andrea Cirillo</title>
-    <link>/andreacirillo.com/tags/apps/</link>
+    <link>/tags/apps/</link>
     <description>Recent content in Apps on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
     
-	<atom:link href="/andreacirillo.com/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
-      <link>/andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
+      <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
       <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
+      <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
       <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
  changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
  became dad for the third time (and if you are guessing, it’s a boy!</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>how to list loaded packages in R: ramazon gets cleaver</title>
-      <link>/andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
+      <link>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
       <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
+      <guid>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
       <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
 In the next hours things got growing by themselves, with pleasant results like the following:
 https://twitter.com/DoodlingData/status/635057258888605696
@@ -37,10 +37,10 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
     
     <item>
       <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
-      <link>/andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
+      <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
       <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
+      <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
       <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
    on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
 Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
@@ -48,10 +48,10 @@ Projecting this number for the whole world GDP, it results that the &amp;ldquo;f
     
     <item>
       <title>How to add a live chat to your Shiny app</title>
-      <link>/andreacirillo.com/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</link>
+      <link>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</link>
       <pubDate>Mon, 11 May 2015 21:08:48 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
+      <guid>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
       <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&amp;rsquo;t be great to add live chat support to my Web Application visitors?
 It would indeed!
 [caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]
@@ -61,10 +61,10 @@ Unfortunately, looking on Google didn&amp;rsquo;t give any useful result.</descr
     
     <item>
       <title>Querying Google With R</title>
-      <link>/andreacirillo.com/2014/11/19/querying-google-with-r/</link>
+      <link>/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2014/11/19/querying-google-with-r/</guid>
+      <guid>/2014/11/19/querying-google-with-r/</guid>
       <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
 Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
 Feeling this way?

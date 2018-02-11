@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amazon on Andrea Cirillo</title>
-    <link>/andreacirillo.com/tags/amazon/</link>
+    <link>/tags/amazon/</link>
     <description>Recent content in Amazon on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Sep 2015 09:19:43 +0000</lastBuildDate>
     
-	<atom:link href="/andreacirillo.com/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>how to list loaded packages in R: ramazon gets cleaver</title>
-      <link>/andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
+      <link>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
       <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
+      <guid>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
       <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
 In the next hours things got growing by themselves, with pleasant results like the following:
 https://twitter.com/DoodlingData/status/635057258888605696
@@ -26,10 +26,10 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
     
     <item>
       <title>ramazon: Deploy your Shiny App on AWS with a Function</title>
-      <link>/andreacirillo.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</link>
+      <link>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</link>
       <pubDate>Tue, 18 Aug 2015 21:47:00 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
+      <guid>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
       <description>Because Afraus received a good interest, last month I override shinyapps.io free plan limits.
 That got me move my Shiny App on an Amazon AWS instance.
 Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.</description>

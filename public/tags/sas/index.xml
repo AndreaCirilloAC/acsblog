@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sas on Andrea Cirillo</title>
-    <link>/andreacirillo.com/tags/sas/</link>
+    <link>/tags/sas/</link>
     <description>Recent content in Sas on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Sep 2016 12:22:29 +0000</lastBuildDate>
     
-	<atom:link href="/andreacirillo.com/tags/sas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>streamline your analyses linking R to sas and more: the workfloweR</title>
-      <link>/andreacirillo.com/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</link>
+      <link>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</link>
       <pubDate>Wed, 21 Sep 2016 12:22:29 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</guid>
+      <guid>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</guid>
       <description>we all know R is the first choice for statistical analysis and data visualisation, but what about big data munging? tidyverse (or we&amp;rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is often the case this kind of activities being handled from some other coding language. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .</description>
     </item>
     

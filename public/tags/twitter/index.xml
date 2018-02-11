@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Twitter on Andrea Cirillo</title>
-    <link>/andreacirillo.com/tags/twitter/</link>
+    <link>/tags/twitter/</link>
     <description>Recent content in Twitter on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Oct 2014 12:16:24 +0000</lastBuildDate>
     
-	<atom:link href="/andreacirillo.com/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mining Twitter with R</title>
-      <link>/andreacirillo.com/2014/10/09/mining-twitter-with-r/</link>
+      <link>/2014/10/09/mining-twitter-with-r/</link>
       <pubDate>Thu, 09 Oct 2014 12:16:24 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2014/10/09/mining-twitter-with-r/</guid>
+      <guid>/2014/10/09/mining-twitter-with-r/</guid>
       <description>Great tutorial on text mining with twitter byPaeng Angnakoon
 [youtube=http://youtu.be/mJVcANlkxU8]</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ggplot on Andrea Cirillo</title>
-    <link>/andreacirillo.com/tags/ggplot/</link>
+    <link>/tags/ggplot/</link>
     <description>Recent content in Ggplot on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Aug 2016 20:30:16 +0000</lastBuildDate>
     
-	<atom:link href="/andreacirillo.com/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ggplot2 themes examples</title>
-      <link>/andreacirillo.com/2016/08/09/ggplot2-themes-examples/</link>
+      <link>/2016/08/09/ggplot2-themes-examples/</link>
       <pubDate>Tue, 09 Aug 2016 20:30:16 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2016/08/09/ggplot2-themes-examples/</guid>
+      <guid>/2016/08/09/ggplot2-themes-examples/</guid>
       <description>this short post is exactly what it seems: a showcase of all ggplot2 themes available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&amp;rsquo;s try this one&amp;hellip;&amp;rdquo;) and at the end I thought it could have be useful for my readers. At least this post will save you the time of trying all differents themes just to have a sense of how they look like.</description>
     </item>
     

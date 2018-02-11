@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evernote on Andrea Cirillo</title>
-    <link>/andreacirillo.com/tags/evernote/</link>
+    <link>/tags/evernote/</link>
     <description>Recent content in Evernote on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Sep 2014 16:13:39 +0000</lastBuildDate>
     
-	<atom:link href="/andreacirillo.com/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Put Equations into Evernote</title>
-      <link>/andreacirillo.com/2014/09/11/equations-in-evernote/</link>
+      <link>/2014/09/11/equations-in-evernote/</link>
       <pubDate>Thu, 11 Sep 2014 16:13:39 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2014/09/11/equations-in-evernote/</guid>
+      <guid>/2014/09/11/equations-in-evernote/</guid>
       <description>Problem
 If you have to put some math writing into your Evernote notes, and you have a Mac device, there is a very simple way to solve your problem out.
 Solution

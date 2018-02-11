@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacking on Andrea Cirillo</title>
-    <link>/andreacirillo.com/tags/hacking/</link>
+    <link>/tags/hacking/</link>
     <description>Recent content in Hacking on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Aug 2016 20:30:16 +0000</lastBuildDate>
     
-	<atom:link href="/andreacirillo.com/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ggplot2 themes examples</title>
-      <link>/andreacirillo.com/2016/08/09/ggplot2-themes-examples/</link>
+      <link>/2016/08/09/ggplot2-themes-examples/</link>
       <pubDate>Tue, 09 Aug 2016 20:30:16 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2016/08/09/ggplot2-themes-examples/</guid>
+      <guid>/2016/08/09/ggplot2-themes-examples/</guid>
       <description>this short post is exactly what it seems: a showcase of all ggplot2 themes available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&amp;rsquo;s try this one&amp;hellip;&amp;rdquo;) and at the end I thought it could have be useful for my readers. At least this post will save you the time of trying all differents themes just to have a sense of how they look like.</description>
     </item>
     
     <item>
       <title>ramazon: Deploy your Shiny App on AWS with a Function</title>
-      <link>/andreacirillo.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</link>
+      <link>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</link>
       <pubDate>Tue, 18 Aug 2015 21:47:00 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
+      <guid>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
       <description>Because Afraus received a good interest, last month I override shinyapps.io free plan limits.
 That got me move my Shiny App on an Amazon AWS instance.
 Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.</description>
@@ -33,10 +33,10 @@ Well, it was not so straight forward: even if there is plenty of tutorials aroun
     
     <item>
       <title>How to list file and folders within a folder ( basic file  app)</title>
-      <link>/andreacirillo.com/2015/04/01/how-to-list-file/</link>
+      <link>/2015/04/01/how-to-list-file/</link>
       <pubDate>Wed, 01 Apr 2015 20:29:04 +0000</pubDate>
       
-      <guid>/andreacirillo.com/2015/04/01/how-to-list-file/</guid>
+      <guid>/2015/04/01/how-to-list-file/</guid>
       <description>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: have you ever wondered how to list all files and folders within a root folder just hitting a button?
 I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **I am an auditor, **sorry about that): really time-consuming and not really value-adding activity.</description>
     </item>

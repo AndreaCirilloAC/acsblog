@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bookstack on Andrea Cirillo</title>
-    <link>/andreacirillo.com/bookstack/</link>
+    <link>/bookstack/</link>
     <description>Recent content in bookstack on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/andreacirillo.com/bookstack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/bookstack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deep Work - rules for focused success in adistracted world</title>
-      <link>/andreacirillo.com/bookstack/deep_work/</link>
+      <link>/bookstack/deep_work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/andreacirillo.com/bookstack/deep_work/</guid>
+      <guid>/bookstack/deep_work/</guid>
       <description>a really brief summary what I have succesfully applied from this book has it worked?   a really brief summary There are two diverging trends in our society:
  by one hand in our society tend to succeed those whose can be considered high-skilled like real professionals in data science realm on the other hand the same society force ourself to an increasingly fragmented style of life, full of shallow stimolous and activites, like reading Facebook notifications or immediately reply to emails  That is why the good author of the book calls for a regaining of the ability to perform Deep Work i.</description>
     </item>
     
     <item>
       <title>So Good They Can&#39;t Ignore You</title>
-      <link>/andreacirillo.com/bookstack/so_good_ignore_you/</link>
+      <link>/bookstack/so_good_ignore_you/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/andreacirillo.com/bookstack/so_good_ignore_you/</guid>
+      <guid>/bookstack/so_good_ignore_you/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
     <item>
       <title>The Visual Display of Quantitative Information</title>
-      <link>/andreacirillo.com/bookstack/visual_display_of_quantitative_information/</link>
+      <link>/bookstack/visual_display_of_quantitative_information/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/andreacirillo.com/bookstack/visual_display_of_quantitative_information/</guid>
+      <guid>/bookstack/visual_display_of_quantitative_information/</guid>
       <description>I am currently reading this elegant book which definitely represents a milestone in the field of data visualisation.
 So far, besides the iluminating principles and observation spreaded troughout the book, the feature I am appreciating the most is the ability to communicate how relevant data visualisation can be if practiced effectively, seriously and with integrity.
 That said… I am still reading the book, so stay tuned for a better summary to come!</description>
@@ -42,19 +42,19 @@ That said… I am still reading the book, so stay tuned for a better summary to 
     
     <item>
       <title>the Pragmatic Programmer</title>
-      <link>/andreacirillo.com/bookstack/pragmatic_programmer/</link>
+      <link>/bookstack/pragmatic_programmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/andreacirillo.com/bookstack/pragmatic_programmer/</guid>
+      <guid>/bookstack/pragmatic_programmer/</guid>
       <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
     <item>
       <title>the Seven Habits of Highly Effective People</title>
-      <link>/andreacirillo.com/bookstack/seven_habits/</link>
+      <link>/bookstack/seven_habits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/andreacirillo.com/bookstack/seven_habits/</guid>
+      <guid>/bookstack/seven_habits/</guid>
       <description>a really brief summary Be proactive Begin with the end in mind Put thirst things first think win-win Seek First to Understand, Then to be Understood Synergize sharpen the saw  has it worked?   a really brief summary All of the book listed within the bookstack were relevant book for me, but this one was actually crucial for my personal and professional development.
 I started reading it after being excluded from a talent program, while I was questioning my ability to construct effective relationship with others and being relevant part of a team.</description>
     </item>
