@@ -175,14 +175,14 @@
   </url>
   
   <url>
-    <loc>/categories/analytics/</loc>
-    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
+    <loc>/tags/analytics/</loc>
+    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/analytics/</loc>
-    <lastmod>2017-04-12T06:14:48+00:00</lastmod>
+    <loc>/categories/analytics/</loc>
+    <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -246,13 +246,13 @@
   </url>
   
   <url>
-    <loc>/categories/dataviz/</loc>
+    <loc>/tags/dataviz/</loc>
     <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dataviz/</loc>
+    <loc>/categories/dataviz/</loc>
     <lastmod>2018-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
