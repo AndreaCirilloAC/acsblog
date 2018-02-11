@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithm on Andrea Cirillo</title>
-    <link>/tags/algorithm/</link>
+    <link>/www.andreacirillo.com/tags/algorithm/</link>
     <description>Recent content in Algorithm on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
     
-	<atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/www.andreacirillo.com/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
-      <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
+      <link>/www.andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
       <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
       
-      <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
+      <guid>/www.andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
       <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
  changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
  became dad for the third time (and if you are guessing, it’s a boy!</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>UpdateR package: update R version with a function (on MAC OSX)</title>
-      <link>/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
+      <link>/www.andreacirillo.com/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
       <pubDate>Thu, 22 Oct 2015 19:34:11 +0000</pubDate>
       
-      <guid>/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
+      <guid>/www.andreacirillo.com/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
       <description>I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.
 Among these functions one of my favourite is the updateR()* function which checks for new versions of R language and in case of positive response installs it on your machine.
 The only issue with this function is that it works only on Windows Operating systems.</description>
@@ -35,10 +35,10 @@ The only issue with this function is that it works only on Windows Operating sys
     
     <item>
       <title>how to list loaded packages in R: ramazon gets cleaver</title>
-      <link>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
+      <link>/www.andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
       <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
       
-      <guid>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
+      <guid>/www.andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
       <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
 In the next hours things got growing by themselves, with pleasant results like the following:
 https://twitter.com/DoodlingData/status/635057258888605696
@@ -48,10 +48,10 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
     
     <item>
       <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
-      <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
+      <link>/www.andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
       <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
       
-      <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
+      <guid>/www.andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
       <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
    on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
 Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
@@ -59,19 +59,19 @@ Projecting this number for the whole world GDP, it results that the &amp;ldquo;f
     
     <item>
       <title>Catching Fraud with Benford&#39;s law (and another Shiny App)</title>
-      <link>/2015/02/06/benfords_law_with_r/</link>
+      <link>/www.andreacirillo.com/2015/02/06/benfords_law_with_r/</link>
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>/2015/02/06/benfords_law_with_r/</guid>
+      <guid>/www.andreacirillo.com/2015/02/06/benfords_law_with_r/</guid>
       <description>In the early &amp;lsquo;900 Frank Benford observed that &amp;lsquo;1&amp;rsquo; was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What &amp;lsquo;Benford&amp;rsquo;s Law&amp;rsquo; stands for? Around 1938 Frank Benford, a physicist at the General Electrics research laboratories, observed that logarithmic tables were more worn within first pages: was this casual or due to an actual prevalence of numbers near 1 as first digits?</description>
     </item>
     
     <item>
       <title>Querying Google With R</title>
-      <link>/2014/11/19/querying-google-with-r/</link>
+      <link>/www.andreacirillo.com/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
       
-      <guid>/2014/11/19/querying-google-with-r/</guid>
+      <guid>/www.andreacirillo.com/2014/11/19/querying-google-with-r/</guid>
       <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
 Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
 Feeling this way?

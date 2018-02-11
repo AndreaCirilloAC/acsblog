@@ -2,30 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Andrea Cirillo</title>
-    <link>/categories/</link>
+    <link>/www.andreacirillo.com/categories/</link>
     <description>Recent content in Categories on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Dec 2014 00:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/www.andreacirillo.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Analytics</title>
-      <link>/categories/analytics/</link>
-      <pubDate>Sun, 28 Dec 2014 00:10:00 +0000</pubDate>
+      <link>/www.andreacirillo.com/categories/analytics/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/analytics/</guid>
+      <guid>/www.andreacirillo.com/categories/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataviz</title>
+      <link>/www.andreacirillo.com/categories/dataviz/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/www.andreacirillo.com/categories/dataviz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Productivity</title>
-      <link>/categories/productivity/</link>
+      <link>/www.andreacirillo.com/categories/productivity/</link>
       <pubDate>Wed, 12 Apr 2017 06:14:48 +0000</pubDate>
       
-      <guid>/categories/productivity/</guid>
+      <guid>/www.andreacirillo.com/categories/productivity/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chat on Andrea Cirillo</title>
-    <link>/tags/chat/</link>
+    <link>/www.andreacirillo.com/tags/chat/</link>
     <description>Recent content in Chat on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 May 2015 21:08:48 +0000</lastBuildDate>
     
-	<atom:link href="/tags/chat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/www.andreacirillo.com/tags/chat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to add a live chat to your Shiny app</title>
-      <link>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</link>
+      <link>/www.andreacirillo.com/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</link>
       <pubDate>Mon, 11 May 2015 21:08:48 +0000</pubDate>
       
-      <guid>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
+      <guid>/www.andreacirillo.com/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
       <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&amp;rsquo;t be great to add live chat support to my Web Application visitors?
 It would indeed!
 [caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]

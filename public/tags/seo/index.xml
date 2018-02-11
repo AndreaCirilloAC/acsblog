@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seo on Andrea Cirillo</title>
-    <link>/tags/seo/</link>
+    <link>/www.andreacirillo.com/tags/seo/</link>
     <description>Recent content in Seo on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Nov 2014 04:15:30 +0000</lastBuildDate>
     
-	<atom:link href="/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/www.andreacirillo.com/tags/seo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Querying Google With R</title>
-      <link>/2014/11/19/querying-google-with-r/</link>
+      <link>/www.andreacirillo.com/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
       
-      <guid>/2014/11/19/querying-google-with-r/</guid>
+      <guid>/www.andreacirillo.com/2014/11/19/querying-google-with-r/</guid>
       <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
 Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
 Feeling this way?

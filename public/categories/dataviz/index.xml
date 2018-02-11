@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataviz on Andrea Cirillo</title>
+    <link>/www.andreacirillo.com/categories/dataviz/</link>
+    <description>Recent content in Dataviz on Andrea Cirillo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/www.andreacirillo.com/categories/dataviz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>summarising Tufte: theory of graphics and integrity principles</title>
+      <link>/www.andreacirillo.com/2018/02/10/summarising-tufte-theory-of-graphics-and-integrity-principles/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/www.andreacirillo.com/2018/02/10/summarising-tufte-theory-of-graphics-and-integrity-principles/</guid>
+      <description>theory of data graphics maximise data-ink ratio, within reason maximise data density and the size of the data matrix, within reason treat graphics as paragraphs and shape them appropriately  integrity of data graphics always show data in their context try to produce a small lie factor show data variation, not design variation use as many dimensions as the number of dimensions in your data conclusions    I have recently completed a great reading: Edward Tufte’s The visual display of quantitative information.</description>
+    </item>
+    
+  </channel>
+</rss>

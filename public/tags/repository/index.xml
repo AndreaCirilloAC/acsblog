@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Repository on Andrea Cirillo</title>
-    <link>/tags/repository/</link>
+    <link>/www.andreacirillo.com/tags/repository/</link>
     <description>Recent content in Repository on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Dec 2014 00:10:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/repository/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/www.andreacirillo.com/tags/repository/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to use Github with Rstudio : step-by-step tutorial</title>
-      <link>/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</link>
+      <link>/www.andreacirillo.com/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</link>
       <pubDate>Sun, 28 Dec 2014 00:10:00 +0000</pubDate>
       
-      <guid>/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</guid>
+      <guid>/www.andreacirillo.com/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</guid>
       <description>Pushing to my Github repository directly from the Rstudio project, avoiding that annoying &amp;ldquo;copy &amp;amp; paste&amp;rdquo; job. Since it is one of Best Practices for Scientific Computing, I have been struggling for a while with this problem. Now that I managed to solve the problem, I think you may find useful the detailed tutorial that follows. I am not going to explain you the reason why you should use Github with your Rstudio project, but if you are asking this to yourself, you may find useful a Stack Overflow discussion on the topic.</description>
     </item>
     
