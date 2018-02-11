@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rstudio on Andrea Cirillo</title>
-    <link>/www.andreacirillo.com/tags/rstudio/</link>
+    <link>/andreacirillo.com/tags/rstudio/</link>
     <description>Recent content in Rstudio on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Jun 2016 15:55:38 +0000</lastBuildDate>
     
-	<atom:link href="/www.andreacirillo.com/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/andreacirillo.com/tags/rstudio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Euro 2016 analytics: Who&#39;s playing the toughest game?</title>
-      <link>/www.andreacirillo.com/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</link>
+      <link>/andreacirillo.com/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</link>
       <pubDate>Tue, 21 Jun 2016 15:55:38 +0000</pubDate>
       
-      <guid>/www.andreacirillo.com/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</guid>
+      <guid>/andreacirillo.com/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</guid>
       <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&amp;rsquo;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
 Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</description>
     </item>
     
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
-      <link>/www.andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
+      <link>/andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
       <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
       
-      <guid>/www.andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
+      <guid>/andreacirillo.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
       <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
  changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
  became dad for the third time (and if you are guessing, it’s a boy!</description>
@@ -34,10 +34,10 @@ Just to be clear from the beginning: we are not talking of anything too rigourus
     
     <item>
       <title>Rename a Data Frame Within a Function Passing an Argument</title>
-      <link>/www.andreacirillo.com/2015/12/14/rename-a-data-frame-within-a-function-passing-an-argument/</link>
+      <link>/andreacirillo.com/2015/12/14/rename-a-data-frame-within-a-function-passing-an-argument/</link>
       <pubDate>Mon, 14 Dec 2015 21:04:33 +0000</pubDate>
       
-      <guid>/www.andreacirillo.com/2015/12/14/rename-a-data-frame-within-a-function-passing-an-argument/</guid>
+      <guid>/andreacirillo.com/2015/12/14/rename-a-data-frame-within-a-function-passing-an-argument/</guid>
       <description>This is not actually a real post but rather a code snippet surrounded by text.
 Nevertheless I think it is a quite useful one: have you ever found yourself writing a function where a data frame is created, wanting to name that data frame based on a custom argument passed to the function?
 For instance, the output of your function is a really nice data frame name in a really trivial way, like &amp;ldquo;result&amp;rdquo;.</description>
@@ -45,10 +45,10 @@ For instance, the output of your function is a really nice data frame name in a 
     
     <item>
       <title>how to list loaded packages in R: ramazon gets cleaver</title>
-      <link>/www.andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
+      <link>/andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
       <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
       
-      <guid>/www.andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
+      <guid>/andreacirillo.com/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
       <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
 In the next hours things got growing by themselves, with pleasant results like the following:
 https://twitter.com/DoodlingData/status/635057258888605696
@@ -58,19 +58,19 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
     
     <item>
       <title>How to use Github with Rstudio : step-by-step tutorial</title>
-      <link>/www.andreacirillo.com/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</link>
+      <link>/andreacirillo.com/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</link>
       <pubDate>Sun, 28 Dec 2014 00:10:00 +0000</pubDate>
       
-      <guid>/www.andreacirillo.com/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</guid>
+      <guid>/andreacirillo.com/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/</guid>
       <description>Pushing to my Github repository directly from the Rstudio project, avoiding that annoying &amp;ldquo;copy &amp;amp; paste&amp;rdquo; job. Since it is one of Best Practices for Scientific Computing, I have been struggling for a while with this problem. Now that I managed to solve the problem, I think you may find useful the detailed tutorial that follows. I am not going to explain you the reason why you should use Github with your Rstudio project, but if you are asking this to yourself, you may find useful a Stack Overflow discussion on the topic.</description>
     </item>
     
     <item>
       <title>Querying Google With R</title>
-      <link>/www.andreacirillo.com/2014/11/19/querying-google-with-r/</link>
+      <link>/andreacirillo.com/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
       
-      <guid>/www.andreacirillo.com/2014/11/19/querying-google-with-r/</guid>
+      <guid>/andreacirillo.com/2014/11/19/querying-google-with-r/</guid>
       <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
 Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
 Feeling this way?

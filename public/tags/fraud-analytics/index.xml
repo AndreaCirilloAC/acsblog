@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fraud Analytics on Andrea Cirillo</title>
-    <link>/www.andreacirillo.com/tags/fraud-analytics/</link>
+    <link>/andreacirillo.com/tags/fraud-analytics/</link>
     <description>Recent content in Fraud Analytics on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jul 2015 21:06:39 +0000</lastBuildDate>
     
-	<atom:link href="/www.andreacirillo.com/tags/fraud-analytics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/andreacirillo.com/tags/fraud-analytics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
-      <link>/www.andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
+      <link>/andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
       <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
       
-      <guid>/www.andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
+      <guid>/andreacirillo.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
       <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
    on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
 Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
