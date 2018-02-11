@@ -134,7 +134,7 @@ width: 100px;
   padding: 0 15px;
   font-size: 16px;
   line-height: 1.7;
-  color: #333;
+  color: #191919;
 }
 
 .article-title {
@@ -387,6 +387,9 @@ width: 100px;
   vertical-align: top;
 }
 
+
+
+
 /* post page*/
 
 .comment-disclaimer{
@@ -398,4 +401,13 @@ width: 100px;
   font-size: 19px;
       color: #2e79f2;   
        font-weight: bold;
+}
+.post_image{
+  float: center;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
 }
