@@ -1,4 +1,4 @@
-baseurl = "https://andreacirillo.com/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Andrea Cirillo"
 theme = "hugo-lithium-theme"
@@ -43,6 +43,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     MathJaxCDN = "//cdn.bootcss.com"
     MathJaxVersion = "2.7.1"
+    
     [params.logo]
     url = "aclogo.ico"
     width = 40

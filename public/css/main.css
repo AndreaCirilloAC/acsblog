@@ -411,3 +411,8 @@ width: 100px;
   margin: 0.5em;
   padding: 0.5em;
 }
+
+code .MathJax {
+  color: black;
+  background-color: white;
+}

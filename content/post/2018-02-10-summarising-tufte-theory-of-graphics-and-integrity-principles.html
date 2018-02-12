@@ -1,6 +1,6 @@
 ---
 title: 'summarising Tufte: theory of graphics and integrity principles'
-draft: true
+draft: false
 author: Andrea Cirillo
 date: '2018-02-10'
 slug: summarising-tufte-theory-of-graphics-and-integrity-principles
@@ -56,9 +56,8 @@ tags:
 </figure>
 <p></a></p>
 <p>you can now easily get what data-ink ratio is:</p>
-<p>$$</p>
-<p>data-ink-ratio = </p>
-<p>$$</p>
+<p><span class="math display">\[ 
+data-ink-ratio = \frac{data-ink}{non-data-ink + data-ink}\]</span></p>
 <p>So it represents the share of ink devoted to data in a graph. Maximising the ratio means look at your plot and start thinking about what you can remove without loosing informative power. </p>
 </div>
 <div id="maximise-data-density-and-the-size-of-the-data-matrix-within-reason" class="section level3">
@@ -70,7 +69,11 @@ tags:
 <div id="treat-graphics-as-paragraphs-and-shape-them-appropriately" class="section level3">
 <h3>treat graphics as paragraphs and shape them appropriately</h3>
 <p>this last principle comes from a sad evidence related to computer graphics. The introduction of these techniques resulted in a strong separation between text and graphics. This was not the same in the origins, when text and graphics where happily merged together. Look for instance at this fascinating page from Da Vinci’s Atlantic code:</p>
-<p>[Da vinci’s Atlantic code image]</p>
+<a href="https://images.fineartamerica.com/images-medium-large-5/machines-to-lift-water-draw-water-from-well-and-bring-it-into-houses-from-atlantic-codex-leonardo-da-vinci.jpg" >
+<figure class="post_image">
+<img src="https://images.fineartamerica.com/images-medium-large-5/machines-to-lift-water-draw-water-from-well-and-bring-it-into-houses-from-atlantic-codex-leonardo-da-vinci.jpg"  alt="proactive" style="width: 450px;"/>
+</figure>
+<p></a></p>
 <p>Images and words works together, producing an harmonious and effective result. What about shape?</p>
 <p>After a delicious dissertation on the <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio,</a></p>
 <p>Tufte comes to define the way to set a proper shape for a graph:</p>
@@ -79,8 +82,16 @@ tags:
 <li>in all other cases, display your plots within a rectangular shape, having one side 50% greater than the other.</li>
 </ul>
 <p>This principle is as effective as simple. Look for instance at this two plots equals or all apart their size:</p>
-<p>[direttamente in R, settando il size]</p>
-<p>The second plot results far more effective than the first one.</p>
+<a href="/images/wrong_ratio.PNG" >
+<figure class="post_image">
+<img src="/images/wrong_ratio.PNG"  alt="proactive" style="width: 450px;"/>
+</figure>
+<p></a></p>
+<a href="/images/right_ratio.PNG" >
+<figure class="post_image">
+<img src="/images/right_ratio.PNG"  alt="proactive" style="width: 450px;"/>
+</figure>
+<p></a> The second plot results far more effective than the first one. Practical tip: it works also on vertical images.</p>
 </div>
 </div>
 <div id="integrity-of-data-graphics" class="section level2">
@@ -106,13 +117,12 @@ tags:
 <div id="try-to-produce-a-small-lie-factor" class="section level3">
 <h3>try to produce a small lie factor</h3>
 <p>The lie factor is a mathematical way to measure how much a plot is distorting reality. It is defined as:</p>
-<p>$$</p>
-<p>lie factor = </p>
-<p>$$</p>
+<p><span class="math display">\[
+lie \quad factor = \frac{percentage \quad of\quad variation \quad on \quad  the \quad  plot}{percentage  \quad variation  \quad in \quad  reality}\]</span></p>
 <p>Once again, things will be clearer if we look at a plot:</p>
 <a href="/images/lie_factor_wrong.jpg" >
 <figure class="post_image">
-<img src="/images/lie_factor_wrong.jpg"  alt="lie_factor" style="width: 450px;"/>
+<img src="/images/lie_factor_wrong.jpg"  alt="lie_factor" style="width: 350px;"/>
 </figure>
 <p></a></p>
 <p>if we now compute the percentage variation of the phenomenon in reality we get: (15-10)/10 *100 = 50%</p>
@@ -122,7 +132,7 @@ tags:
 <p>If we now look at a correct plot we have:</p>
 <a href="/images/lie_factor_correct.jpg" >
 <figure class="post_image">
-<img src="/images/lie_factor_correct.jpg"  alt="proactive" style="width: 450px;"/>
+<img src="/images/lie_factor_correct.jpg"  alt="proactive" style="width: 400px;"/>
 </figure>
 <p></a></p>
 <p>while the real increase is once again the 50%, what about the showed variation? we can compute it as follows:</p>
@@ -145,7 +155,7 @@ tags:
 <p>Finally, let’s destroy a false mith: bubble chart are not good. Take for instance the following one:</p>
 <a href="/images/ugly_bubble_chart.jpg" >
 <figure class="post_image">
-<img src="/images/ugly_bubble_chart.jpg"  alt="proactive" style="width: 450px;"/>
+<img src="/images/ugly_bubble_chart.jpg"  alt="proactive" style="width: 400px;"/>
 </figure>
 <p></a></p>
 <p>how could you say if the variable related to the size of the bubble has a greater value for A than for C? </p>
@@ -154,7 +164,7 @@ tags:
 <p>All those questions lead us to this last principle, showing how ineffective can be . A better way to display the same data would be to split the bubble chart into to separate plot. This would allow to show the third dimension with an horizontal bar chart.</p>
 <a href="/images/bubble_alternative.jpg" >
 <figure class="post_image">
-<img src="/images/bubble_alternative.jpg"  alt="proactive" style="width: 450px;"/>
+<img src="/images/bubble_alternative.jpg"  alt="proactive" style="width: 400px;"/>
 </figure>
 <p></a></p>
 </div>
