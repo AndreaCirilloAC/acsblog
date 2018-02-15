@@ -5,10 +5,12 @@ toc: false
 
 ---
 
-On november 20th I was requested to make a keynote speech at the 9th MilanoR meeting, the most relevant italian meeting of R users.
+On november 20th I was requested to **make a keynote speech** at the **9th MilanoR meeting**, the most relevant **italian meeting of R users**.
 
-<div style="text-align:center"><img src ="http://www.milanor.net/blog/wp-content/uploads/2017/12/MG_3706.jpg" style="width: 300px;"/></div>
+The main topic of the speech was one of my last coding fatigues: **the [Paletter](https://github.com/AndreaCirilloAC/paletter) package**, a new R package able to **derive** an optimised **colour palette** from **any** kind of **image**.
 
-The main topic of the speech was one of my last coding fatigues: the [Paletter](https://github.com/AndreaCirilloAC/paletter)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NIVUOm5aFOA?start=1450" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-While the full video of the event is still to come, you can find a knd reportage of the evening directly on the official [MilanoR blog](http://www.milanor.net/blog/9th-milanor-dataviz-presentations-photos/), and the full [deck of slides online](http://www.milanor.net/blog/wp-content/uploads/2017/12/paletter-Cirillo-1.pdf).
+You can also find a kind reportage of the evening directly on the official [MilanoR blog](http://www.milanor.net/blog/9th-milanor-dataviz-presentations-photos/), and the full [deck of slides online](http://www.milanor.net/blog/wp-content/uploads/2017/12/paletter-Cirillo-1.pdf).
+
+I am planning to write more about paletteR and how it works,in the meanwhile you can find its whole code on the github repository: [https://github.com/AndreaCirilloAC/paletter](https://github.com/AndreaCirilloAC/paletter)

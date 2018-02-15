@@ -444,8 +444,8 @@ Proposals of Blog Post/Speaches author at andreacirillo.com
       
       <guid>/pubblications/paletter_speech/</guid>
       <description>On november 20th I was requested to make a keynote speech at the 9th MilanoR meeting, the most relevant italian meeting of R users.
- The main topic of the speech was one of my last coding fatigues: the Paletter
-While the full video of the event is still to come, you can find a knd reportage of the evening directly on the official MilanoR blog, and the full deck of slides online.</description>
+The main topic of the speech was one of my last coding fatigues: the Paletter package, a new R package able to derive an optimised colour palette from any kind of image.
+ You can also find a kind reportage of the evening directly on the official MilanoR blog, and the full deck of slides online.</description>
     </item>
     
     <item>
