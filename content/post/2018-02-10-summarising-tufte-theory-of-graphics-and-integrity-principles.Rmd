@@ -1,5 +1,5 @@
 ---
-title: 'summarising Tufte: theory of graphics and integrity principles'
+title: 'Learning Dataviz Principles and Theory from Tufte'
 draft: false
 author: Andrea Cirillo
 date: '2018-02-10'
@@ -180,6 +180,23 @@ All those questions lead us to this last principle, showing how ineffective can 
 <img src="/images/bubble_alternative.jpg"  alt="proactive" style="width: 400px;"/>
 </figure></a>
 
-### conclusions
+## how to apply Tufte's principles in R
 
-I have practiced those principles for quite a long, and I can say they are really effective. They actually provide **a safe guide** while developing new plot or editing old ones.
+Once completed reding the book it was natural for me to think how to apply those principles with R, my favourite programming language.
+
+So far I have found one main go to reference for this task: [Tufte in R](ttp://motioninsocial.com/tufte/) by Lukasz Piwek. within the website you will find the best plot from Tufte's book, reproduced both with base R code and ggplot-alike code, like the following marginal histogram scatterplot:
+
+```{r echo= FALSE, warning=FALSE}
+library(devtools)
+source_url("https://raw.githubusercontent.com/sjmurdoch/fancyaxis/master/fancyaxis.R")
+x <- faithful$waiting
+y <- faithful$eruptions
+plot(x, y, main="", axes=FALSE, pch=16, cex=0.8,
+     xlab="Time till next eruption (min)", ylab="Duration (sec)", 
+     xlim=c(min(x)/1.1, max(x)), ylim=c(min(y)/1.5, max(y)))
+axis(1, tick=F)
+axis(2, tick=F, las=2)
+axisstripchart(faithful$waiting, 1)
+axisstripchart(faithful$eruptions, 2)
+```
+
