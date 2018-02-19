@@ -1,35 +1,4 @@
 
-	[31mmodified:   public/tags/tutorials/index.html[m
-	[31mmodified:   public/tags/twitter/index.html[m
-	[31mmodified:   public/tags/visual-basic/index.html[m
-	[31mmodified:   public/tags/web-query/index.html[m
-	[31mmodified:   public/tags/windows/index.html[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31mcontent/software/[m
-	[31mlayouts/partials/head.html[m
-	[31mlayouts/section/software.html[m
-	[31mpublic/css/github-widget.css[m
-	[31mpublic/software/index.xml[m
-	[31mstatic/css/github-widget.css[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch static/js[C[C[C[C[C[1P static/js[1P static/js[1P static/js[1P static/js[1P static/jsj static/jss static/js[1P static/js[1P static/jsm static/jsk static/jsd static/jsi static/jsr static/js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ mkdir static/js/girhu[K[K[K[K[Kgithub-widget.js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ mkdir static/js/github-widget.js[C[C[C[C[C[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.jso static/js/github-widget.jsp static/js/github-widget.jse static/js/github-widget.jsn static/js/github-widget.js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ open static/js/github-widget.js;static/js/github-widget.js5static/js/github-widget.jsAstatic/js/github-widget.js[2Pmkdir static/js/github-widget.js[C[C[C[C[C[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.jso static/js/github-widget.jsp static/js/github-widget.jse static/js/github-widget.jsn static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.js[1P static/js/github-widget.jst static/js/github-widget.jso static/js/github-widget.jsu static/js/github-widget.jsc static/js/github-widget.jsh static/js/github-widget.js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch static/js/github-widget.jsopen ;5Astatic/js/github-widget.js[2Ptouch static/js/github-widget.js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ touch static/js/github-widget.js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ vp [K[K[Kcp fou[K[K[Kthemes/hugo-lithium-theme/layouts/partialss/footer.html lau[Kyouts/partials/
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp themes/hugo-lithium-theme/layouts/partialss/footer_mathjax.html layouts/partials/
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ [KMac-di-Andrea:acsblog andrea_cirillo$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
 
 	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
 	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
@@ -1015,3 +984,19 @@ remote: Resolving deltas:   0% (0/23)   [Kremote: Resolving deltas:   4% (1/23
 To https://github.com/AndreaCirilloAC/acsblog
    3118377..8847e9d  master -> master
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "added vide [Ko to pall[Ketter p[Kse[Kpeech page"
+[master e54f744] added video to paletter speech page
+ 11 files changed, 137 insertions(+), 70 deletions(-)
+ rewrite content/pubblications/paletter_speech.html (83%)
+ rewrite content/pubblications/paletter_speech.rmd (81%)
+ rewrite public/pubblications/paletter_speech.rmd (81%)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pus[Ksh
+Counting objects: 20, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  75% (15/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 3.94 KiB | 0 bytes/s, done.
+Total 20 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:   6% (1/15)   [Kremote: Resolving deltas:  13% (2/15)   [Kremote: Resolving deltas:  20% (3/15)   [Kremote: Resolving deltas:  26% (4/15)   [Kremote: Resolving deltas:  33% (5/15)   [Kremote: Resolving deltas:  40% (6/15)   [Kremote: Resolving deltas:  73% (11/15)   [Kremote: Resolving deltas:  80% (12/15)   [Kremote: Resolving deltas:  86% (13/15)   [Kremote: Resolving deltas:  93% (14/15)   [Kremote: Resolving deltas: 100% (15/15)   [Kremote: Resolving deltas: 100% (15/15), completed with 11 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   8847e9d..e54f744  master -> master
+git add . 
