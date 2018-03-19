@@ -1,5 +1,4 @@
 ---
-title: 'Learning Dataviz Principles and Theory from Tufte'
 draft: false
 author: Andrea Cirillo
 date: '2018-02-10'
@@ -7,7 +6,7 @@ slug: updater-package-update-r-version-with-a-function-on-mac-osx
 categories:
   - analytics
 
-itle: 'UpdateR package: update R version with a function (on MAC OSX)'
+title: 'UpdateR package: update R version with a function (on MAC OSX)'
 
 tags:
 - algorithm
@@ -30,7 +29,8 @@ The only issue with this function is that **it works only on Windows Operating s
 **That is why I developed updateR**, a package that let's you update your R version from R itself just running the following line of code:
 
 
-```{r}
+
+```{r eval=FALSE}
 updateR(admin_password = "os_admin_user_password")
 ```
 
@@ -47,7 +47,7 @@ UpdateR package is **hosted on Github**.
 You will therefore have to install it leveraging the _install_github()_ function from devtools package:
 
 
-```{r}
+```{r eval=FALSE}
 require(devtools)
 install_github('andreacirilloac/updateR')
 ```
@@ -60,7 +60,7 @@ As seen, **updating R version from R is actually a breeze**: you just need to ru
 
 all you will need to do is **retrieve your MAC admin user password** and then run the two following lines of code:
 
-```{r}
+```{r eval=FALSE}
 updateR(admin_password = "os_admin_user_password")
 ```
 
@@ -92,7 +92,7 @@ as said, _updateR_ is a package thought as **a OSX twin of Tall galili installr 
 Following this _updateR_ takes care of verifying that you are launching it from a unix OS, running the **_stopifnot()_** **function** in order to **alt the execution on non-unix systems**:
 
 
-```{r}
+```{r eval=FALSE}
 stopifnot(.Platform$OS.type == "unix")
 ```
 
@@ -105,7 +105,7 @@ How would you programmatically **check for the latest R version?**
 updateR does it **importing in R the html code of the rstudio CRAN mirror page** ([https://cran.rstudio.com/bin/macosx/](https://cran.rstudio.com/bin/macosx/)) and **extracting** from it the **version number**.
 
 
-```{r}
+```{r eval=FALSE}
 page              <- xml2::read_html(page_source)
 version_block     <- rvest::html_nodes(page,"h1+ p a+ a , table:nth-child(8) tr:nth-child(1) td > a")
 filename          <- rvest::html_text(version_block) %>% strsplit("\n", fixed = TRUE) # the resulting value is a list
@@ -118,7 +118,7 @@ Be aware that **resulting filename object** will be a string **similar to** the 
 This URL is composed pasting the CRAN mirror url togheter with the filename object:
 
 
-```{r}
+```{r eval=FALSE}
 
 url               <- paste(page_source,filename, sep = "")
 ```
@@ -129,7 +129,7 @@ I will probably (hopefully) develop this within next releases, and collaboration
 
 After defining the download URL we can actually **proceed with downloading the package and install it**. the first of those two steps will be performed leveraging built-in function _download.file() _:
 
-```{r}
+```{r eval=FALSE}
 download.file(url,filename)
 ```
 
@@ -141,7 +141,7 @@ the **last step** is the actual **installation** of the R version package. this 
 
 we are first going to put toghethet our line of command with _paste()_ function and then submit** to the terminal calling** **_system()_** **function on our command string**:
 
-```{r}
+```{r eval=FALSE}
 command           <- paste("echo " , admin_password, "| sudo -S installer -pkg ", filename_quoted , " -target / -verbose")
 system(command)
 ```

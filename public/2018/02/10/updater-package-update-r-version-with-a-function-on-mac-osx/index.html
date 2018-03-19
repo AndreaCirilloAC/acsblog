@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>UpdateR package: update R version with a function (on MAC OSX) - Andrea Cirillo</title>
+<meta property="og:title" content="UpdateR package: update R version with a function (on MAC OSX) - Andrea Cirillo">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+<link rel="stylesheet" href="/css/github-widget.css"  type="text/css" />
+
+
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    
+  </head>
+  <body>
+    <div class="wrapper">
+            <header class="header">
+        <nav class="nav">
+<div class = "nav-anchor">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="40"
+         height="40"
+         alt="Logo">
+  </a>
+
+
+  <h1 href="/" class="nav-title" >Andrea Cirillo</h1>
+</div>
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/pubblications">pubblications</a></li>
+    
+    <li><a href="/software/">software</a></li>
+    
+    <li><a href="/post/">blog</a></li>
+    
+    <li><a href="/bookstack/">bookstack</a></li>
+    
+    <li><a href="/contacts/">contacts</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+      
+
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">5 min read</span>
+    
+
+    <h1 class="article-title">UpdateR package: update R version with a function (on MAC OSX)</h1>
+    
+    
+    <span class="article-date">2018/02/10</span>
+    
+    
+    <span><h3>Andrea Cirillo</h3></span>
+    
+
+    <div class="article-content">
+      <div id="TOC">
+<ul>
+<li><a href="#mac-version-of-updater-function-the-updater-package">Mac version of updateR function: the UpdateR package</a></li>
+<li><a href="#how-to-install-the-updater-package">how to install the updateR package</a></li>
+<li><a href="#how-to-update-r-version-usingthe-updater-package">how to update R version using the updateR package</a></li>
+<li><a href="#behind-the-scenes-how-updater-works">behind the scenes: how updateR works</a><ul>
+<li><a href="#verify-that-user-is-running-a-unix-machine">verify that user is running a unix machine</a></li>
+<li><a href="#get-last-r-version-from-cran">get last R version from CRAN</a></li>
+<li><a href="#run-command-line-commands-within-r">run command line commands within R</a></li>
+<li><a href="#feel-free-to-complain-with-me">feel free to complain with me</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>I personally really <strong>appreciate the <a href="https://cran.r-project.org/web/packages/installr/installr.pdf">InstallR package</a> from <a href="https://twitter.com/talgalili">Tal galilli</a></strong>, since it lets you <strong>install</strong> a great number of <strong>tools</strong> needed for working with R just <strong>running a function</strong>.</p>
+<p>Among these functions <strong>one of my favourite </strong>is the **_updateR()*_** <strong>function</strong> which checks for <strong>new versions of R language</strong> and in case of positive response <strong>installs it</strong> on your machine.</p>
+<p>The only issue with this function is that <strong>it works only on Windows Operating systems</strong>.</p>
+<!-- more -->
+<div id="mac-version-of-updater-function-the-updater-package" class="section level2">
+<h2>Mac version of updateR function: the UpdateR package</h2>
+<p><strong>That is why I developed updateR</strong>, a package that let’s you update your R version from R itself just running the following line of code:</p>
+<pre class="r"><code>updateR(admin_password = &quot;os_admin_user_password&quot;)</code></pre>
+<p>that is to say you will <strong>only have to provide admin user password</strong>. This password is required because some of the command executed by <em>updateR()</em> are run as super user (for advanced readers we are talking of our old “sudo” friend).</p>
+<p>short paragraphs which follow shows <strong>you how to install and use the package</strong>.</p>
+</div>
+<div id="how-to-install-the-updater-package" class="section level2">
+<h2>how to install the updateR package</h2>
+<p>UpdateR package is <strong>hosted on Github</strong>. You will therefore have to install it leveraging the <em>install_github()</em> function from devtools package:</p>
+<pre class="r"><code>require(devtools)
+install_github(&#39;andreacirilloac/updateR&#39;)</code></pre>
+</div>
+<div id="how-to-update-r-version-usingthe-updater-package" class="section level2">
+<h2>how to update R version using the updateR package</h2>
+<p>As seen, <strong>updating R version from R is actually a breeze</strong>: you just need to run a function.</p>
+<p>all you will need to do is <strong>retrieve your MAC admin user password</strong> and then run the two following lines of code:</p>
+<pre class="r"><code>updateR(admin_password = &quot;os_admin_user_password&quot;)</code></pre>
+<p>Since every command launched in background (see below for more infos) is passed with verbose option on, you will suddenly see your console being populated of <strong>output messages</strong> informing you on <strong>how things are going on</strong>.</p>
+<p>A the end of the installation process those <strong>two lines should appear</strong>:</p>
+<p><code>everything went smoothly open a Terminal session and run 'R' to assert that latest version was installed</code></p>
+<p>that is all you need to know to use <em>updateR</em>. By the way If you want to know more on <strong>how the function works</strong>, have a look at the following paragraphs.</p>
+</div>
+<div id="behind-the-scenes-how-updater-works" class="section level2">
+<h2>behind the scenes: how updateR works</h2>
+<p>as experimented with <strong><a href="https://andreacirilloblog.wordpress.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">Ramazon package</a></strong>, which allows you to <strong>publish your shiny app on amazon AWS with a function</strong>, I developed <strong>updateR</strong> mainly <strong>leveraging the <em>system()</em> function</strong>, which lets you pass commands to the command line directly from the R environment.</p>
+<p>That said, the <strong>updateR function workflow</strong> can be summarized into the following steps:</p>
+<div id="verify-that-user-is-running-a-unix-machine" class="section level3">
+<h3>verify that user is running a unix machine</h3>
+<p>as said, <em>updateR</em> is a package thought as <strong>a OSX twin of Tall galili installr package</strong> and can therefore be run only on Mac OSX machines.</p>
+<p>Following this <em>updateR</em> takes care of verifying that you are launching it from a unix OS, running the <strong><em>stopifnot()</em></strong> <strong>function</strong> in order to <strong>alt the execution on non-unix systems</strong>:</p>
+<pre class="r"><code>stopifnot(.Platform$OS.type == &quot;unix&quot;)</code></pre>
+</div>
+<div id="get-last-r-version-from-cran" class="section level3">
+<h3>get last R version from CRAN</h3>
+<p>How would you programmatically <strong>check for the latest R version?</strong></p>
+<p>updateR does it <strong>importing in R the html code of the rstudio CRAN mirror page</strong> (<a href="https://cran.rstudio.com/bin/macosx/" class="uri">https://cran.rstudio.com/bin/macosx/</a>) and <strong>extracting</strong> from it the <strong>version number</strong>.</p>
+<pre class="r"><code>page              &lt;- xml2::read_html(page_source)
+version_block     &lt;- rvest::html_nodes(page,&quot;h1+ p a+ a , table:nth-child(8) tr:nth-child(1) td &gt; a&quot;)
+filename          &lt;- rvest::html_text(version_block) %&gt;% strsplit(&quot;\n&quot;, fixed = TRUE) # the resulting value is a list
+filename          &lt;- filename[[2]] # we take the second element, containing the name of the file
+filename_quoted          &lt;- paste(&quot;&#39;&quot;,filename,&quot;&#39;&quot;,sep = &quot;&quot;)</code></pre>
+<p>Be aware that <strong>resulting filename object</strong> will be a string <strong>similar to</strong> the following :<strong>“R-xx.xx.xx.pkg”</strong>, since we are looking to <strong>compose a download URL</strong> for the version package on our machine.</p>
+<p>This URL is composed pasting the CRAN mirror url togheter with the filename object:</p>
+<pre class="r"><code>url               &lt;- paste(page_source,filename, sep = &quot;&quot;)</code></pre>
+<p>one thing still missing here is the comparison between version installed on the maching calling the function and the retrieved version on CRAN.</p>
+<p>I will probably (hopefully) develop this within next releases, and collaboration on this would be really welcome.</p>
+<p>After defining the download URL we can actually <strong>proceed with downloading the package and install it</strong>. the first of those two steps will be performed leveraging built-in function <em>download.file() </em>:</p>
+<pre class="r"><code>download.file(url,filename)</code></pre>
+</div>
+<div id="run-command-line-commands-within-r" class="section level3">
+<h3>run command line commands within R</h3>
+<p>the <strong>last step</strong> is the actual <strong>installation</strong> of the R version package. this activity will be performed using the <strong>command line command</strong> <strong><em>installer</em></strong> .</p>
+<p>we are first going to put toghethet our line of command with <em>paste()</em> function and then submit<strong> to the terminal calling</strong> <strong><em>system()</em></strong> <strong>function on our command string</strong>:</p>
+<pre class="r"><code>command           &lt;- paste(&quot;echo &quot; , admin_password, &quot;| sudo -S installer -pkg &quot;, filename_quoted , &quot; -target / -verbose&quot;)
+system(command)</code></pre>
+</div>
+<div id="feel-free-to-complain-with-me" class="section level3">
+<h3>feel free to complain with me</h3>
+<p>I shared <em>updateR</em> as a package since <strong>I think it could be a really useful tool for the R commuynity</strong>.</p>
+<p>As R itself, <em>updateR</em> package comes with absolute no warranty ( ;)) , nevertheless I will be really <strong>pleased to read your comments and suggestions</strong> on it, as well as I will be pleased if you would like to further <strong>improve it through the <a href="https://github.com/AndreaCirilloAC/updateR">Github repo</a></strong></p>
+</div>
+</div>
+
+    </div>
+
+ 
+<div class = "comment-disclaimer-title">
+  comments disclaimer
+</div>
+
+    <div class="comment-disclaimer">
+
+thank you for taking the time to comment. If the comment you are about to write is related to a piece of code I wrote, please reach its Github respository and place there any request of improvement or report of bugs. 
+</div>
+
+    <div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://andreacirillo.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+
+
+
+    
+  </article>
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a> and <a href="https://bookdown.org/yihui/blogdown/" class="footer-links-kudos">  <img src="/images/hex-blogdown.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45180202-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45180202-10');
+</script>
+
+    
+<script src="/js/github-widget.js"></script>
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+  </body>
+</html>
+

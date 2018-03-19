@@ -6,10 +6,19 @@
     <description>Recent content in Algorithm on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UpdateR package: update R version with a function (on MAC OSX)</title>
+      <link>/2018/02/10/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/10/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
+      <description>Mac version of updateR function: the UpdateR package how to install the updateR package how to update R version using the updateR package behind the scenes: how updateR works verify that user is running a unix machine get last R version from CRAN run command line commands within R feel free to complain with me    I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.</description>
+    </item>
     
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
@@ -20,17 +29,6 @@
       <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
  changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
  became dad for the third time (and if you are guessing, it’s a boy!</description>
-    </item>
-    
-    <item>
-      <title>UpdateR package: update R version with a function (on MAC OSX)</title>
-      <link>/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
-      <pubDate>Thu, 22 Oct 2015 19:34:11 +0000</pubDate>
-      
-      <guid>/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
-      <description>I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.
-Among these functions one of my favourite is the updateR()* function which checks for new versions of R language and in case of positive response installs it on your machine.
-The only issue with this function is that it works only on Windows Operating systems.</description>
     </item>
     
     <item>

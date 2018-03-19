@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>UpdateR package: update R version with a function (on MAC OSX)</title>
+      <link>/2018/02/10/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/02/10/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
+      <description>Mac version of updateR function: the UpdateR package how to install the updateR package how to update R version using the updateR package behind the scenes: how updateR works verify that user is running a unix machine get last R version from CRAN run command line commands within R feel free to complain with me    I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.</description>
+    </item>
+    
+    <item>
       <title>Why are you being so silent?</title>
       <link>/2017/04/12/why-are-you-being-so-silent/</link>
       <pubDate>Wed, 12 Apr 2017 06:14:48 +0000</pubDate>
@@ -101,17 +110,6 @@ The concert hall at the Sydney Opera House holds 2,700 people. This blog was vie
       <description>This is not actually a real post but rather a code snippet surrounded by text.
 Nevertheless I think it is a quite useful one: have you ever found yourself writing a function where a data frame is created, wanting to name that data frame based on a custom argument passed to the function?
 For instance, the output of your function is a really nice data frame name in a really trivial way, like &amp;ldquo;result&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>UpdateR package: update R version with a function (on MAC OSX)</title>
-      <link>/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
-      <pubDate>Thu, 22 Oct 2015 19:34:11 +0000</pubDate>
-      
-      <guid>/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
-      <description>I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.
-Among these functions one of my favourite is the updateR()* function which checks for new versions of R language and in case of positive response installs it on your machine.
-The only issue with this function is that it works only on Windows Operating systems.</description>
     </item>
     
     <item>
