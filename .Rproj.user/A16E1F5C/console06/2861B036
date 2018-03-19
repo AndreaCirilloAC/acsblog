@@ -1,26 +1,4 @@
 
-
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/INDEX001[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/275C0F09[m
-	[31mmodified:   .Rproj.user/A16E1F5C/sources/prop/INDEX[m
-	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
-	[31mmodified:   content/about.Rmd[m
-	[31mdeleted:    content/software.Rmd[m
-	[31mdeleted:    content/software.html[m
-	[31mmodified:   public/2014/07/12/how-to-visualize-entertainment-expenditures-on-a-bubble-chart/index.html[m
-	[31mmodified:   public/2014/07/28/parallel_computation_in_r/index.html[m
-	[31mmodified:   public/2014/09/02/r-subset-data-frame/index.html[m
-	[31mmodified:   public/2014/09/11/equations-in-evernote/index.html[m
-	[31mmodified:   public/2014/09/13/functions-comparison-in-r/index.html[m
-	[31mmodified:   public/2014/10/09/mining-twitter-with-r/index.html[m
-	[31mmodified:   public/2014/10/23/learn-dplyr-with-rstudio-and-datacamp/index.html[m
-	[31mmodified:   public/2014/10/25/data-visual-1021-plotly/index.html[m
-	[31mmodified:   public/2014/10/25/excel-functions-in-r/index.html[m
-	[31mmodified:   public/2014/10/27/excel-left-function-in-r/index.html[m
-	[31mmodified:   public/2014/10/27/excel-right-function-in-r/index.html[m
-	[31mmodified:   public/2014/10/28/download-data-to-excel-from-web/index.html[m
-	[31mmodified:   public/2014/11/05/best-pratice-for-scientific-computing/index.html[m
 	[31mmodified:   public/2014/11/19/querying-google-with-r/index.html[m
 	[31mmodified:   public/2014/12/05/network-visualisation-in-r/index.html[m
 	[31mmodified:   public/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/index.html[m
@@ -1000,3 +978,25 @@ remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:   6% (1/15
 To https://github.com/AndreaCirilloAC/acsblog
    8847e9d..e54f744  master -> master
 git add . 
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commi -m[K[K[Kt -m "tufte to bookstack"
+[master 8f80a9e] tufte to bookstack
+ 16 files changed, 598 insertions(+), 47 deletions(-)
+ rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (86%)
+ create mode 100644 content/_output.yml
+ rename {static => content}/about_files/figure-html/ac_mix-1.png (100%)
+ create mode 100644 content/bookstack/_output.yml
+ rename {static => content}/post/2018-02-10-summarising-tufte-theory-of-graphics-and-integrity-principles_files/figure-html/unnamed-chunk-1-1.png (100%)
+ create mode 100644 content/post/_output.yml
+ create mode 100644 content/pubblications/_output.yml
+ create mode 100644 content/pubblications/rstudio_cookbook.knit.md
+ create mode 100644 content/pubblications/rstudio_cookbook.utf8.md
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 20, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
+Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  15% (3/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 7.72 KiB | 0 bytes/s, done.
+Total 20 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:   8% (1/12)   [Kremote: Resolving deltas:  16% (2/12)   [Kremote: Resolving deltas:  25% (3/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  41% (5/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas:  58% (7/12)   [Kremote: Resolving deltas:  66% (8/12)   [Kremote: Resolving deltas:  75% (9/12)   [Kremote: Resolving deltas:  83% (10/12)   [Kremote: Resolving deltas:  91% (11/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), completed with 11 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   e54f744..8f80a9e  master -> master
+dd .
