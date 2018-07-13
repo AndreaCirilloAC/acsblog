@@ -1,0 +1,17 @@
+---
+title: getting to know the new definition of default
+author: Andrea Cirillo
+date: '2018-07-13'
+slug: getting-to-know-the-new-definition-of-default
+categories: []
+tags:
+  - banking
+---
+
+The greatest part of my time at working is spent looking at those great piece of statistical machinery that credit risk models are.
+That is why I was recently required to prepare a short course about the new definition of default, which is goign to be applied from 01/01/2021 on.
+
+It is quite a unexplored topic in the sector and I haven't found a lot of teaching material online, that is why I tought to share here the brief deck of slide I produced for the occasion. Enjoy and feel free to comment.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/JrHVveFJ1KFbnz" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AndreaCirillo1/new-definition-of-default" title="New Definition of Default" target="_blank">New Definition of Default</a> </strong> from <strong><a href="https://www.slideshare.net/AndreaCirillo1" target="_blank">Andrea Cirillo</a></strong> </div>
+
