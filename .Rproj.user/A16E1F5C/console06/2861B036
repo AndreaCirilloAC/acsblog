@@ -1,93 +1,4 @@
 
-	[31mmodified:   public/tags/amazon/index.html[m
-	[31mmodified:   public/tags/analytics/index.html[m
-	[31mmodified:   public/tags/apps/index.html[m
-	[31mmodified:   public/tags/aws/index.html[m
-	[31mmodified:   public/tags/chat/index.html[m
-	[31mmodified:   public/tags/communities/index.html[m
-	[31mmodified:   public/tags/computer-science/index.html[m
-	[31mmodified:   public/tags/data-analysis/index.html[m
-	[31mmodified:   public/tags/data-analytics/index.html[m
-	[31mmodified:   public/tags/data/index.html[m
-	[31mmodified:   public/tags/dataviz/index.html[m
-	[31mmodified:   public/tags/evernote/index.html[m
-	[31mmodified:   public/tags/excel-spreadsheet/index.html[m
-	[31mmodified:   public/tags/excel/index.html[m
-	[31mmodified:   public/tags/fraud-analytics/index.html[m
-	[31mmodified:   public/tags/fraud/index.html[m
-	[31mmodified:   public/tags/functions/index.html[m
-	[31mmodified:   public/tags/ggplot/index.html[m
-	[31mmodified:   public/tags/ggplot2/index.html[m
-	[31mmodified:   public/tags/ggthemes/index.html[m
-	[31mmodified:   public/tags/github/index.html[m
-	[31mmodified:   public/tags/google/index.html[m
-	[31mmodified:   public/tags/gtd/index.html[m
-	[31mmodified:   public/tags/hacking/index.html[m
-	[31mmodified:   public/tags/internal-audit/index.html[m
-	[31mmodified:   public/tags/lifehacks/index.html[m
-	[31mmodified:   public/tags/linker/index.html[m
-	[31mmodified:   public/tags/network-analysis/index.html[m
-	[31mmodified:   public/tags/plot/index.html[m
-	[31mmodified:   public/tags/png/index.html[m
-	[31mmodified:   public/tags/programming/index.html[m
-	[31mmodified:   public/tags/r/index.html[m
-	[31mmodified:   public/tags/repository/index.html[m
-	[31mmodified:   public/tags/rstudio/index.html[m
-	[31mmodified:   public/tags/sas/index.html[m
-	[31mmodified:   public/tags/seo/index.html[m
-	[31mmodified:   public/tags/shiny-apps/index.html[m
-	[31mmodified:   public/tags/shiny/index.html[m
-	[31mmodified:   public/tags/soccer/index.html[m
-	[31mmodified:   public/tags/social-media-analytics/index.html[m
-	[31mmodified:   public/tags/social-media/index.html[m
-	[31mmodified:   public/tags/themes/index.html[m
-	[31mmodified:   public/tags/timemanagement/index.html[m
-	[31mmodified:   public/tags/tutorials/index.html[m
-	[31mmodified:   public/tags/twitter/index.html[m
-	[31mmodified:   public/tags/visual-basic/index.html[m
-	[31mmodified:   public/tags/web-query/index.html[m
-	[31mmodified:   public/tags/windows/index.html[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31mcontent/software/[m
-	[31mlayouts/partials/footer.html[m
-	[31mlayouts/partials/footer_github_widget.html[m
-	[31mlayouts/partials/head.html[m
-	[31mlayouts/section/software.html[m
-	[31mpublic/books.knit/[m
-	[31mpublic/css/github-widget.css[m
-	[31mpublic/js/github-widget.js[m
-	[31mpublic/software/index.xml[m
-	[31mstatic/css/github-widget.css[m
-	[31mstatic/js/[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add -[K.
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git -an[Km "s[Kdynamic softwar page[K[K[K[K[Ke page deveo[Kloed[K[Kped"
-Unknown option: -am
-usage: git [--version] [--help] [-C <path>] [-c name=value]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git -am "dynamic software page developed"[1@c[1@o[1@m[1@m[1@i[1@t[1@ 
-[master 682da73] dynamic software page developed
- 117 files changed, 1494 insertions(+), 99 deletions(-)
- rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (72%)
- delete mode 100644 content/software.html
- rename content/{software.Rmd => software/_index.md} (100%)
- create mode 100644 layouts/partials/footer.html
- create mode 100644 layouts/partials/footer_github_widget.html
- create mode 100644 layouts/partials/head.html
- create mode 100644 layouts/section/software.html
- create mode 100644 public/books.knit/index.html
- create mode 100644 public/css/github-widget.css
- create mode 100644 public/js/github-widget.js
- create mode 100644 public/software/index.xml
- create mode 100644 static/css/github-widget.css
- create mode 100644 static/js/github-widget.js
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
 Counting objects: 278, done.
 Delta compression using up to 4 threads.
@@ -1030,3 +941,62 @@ To https://github.com/AndreaCirilloAC/acsblog
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ <iframe src="//www.slideshare.net/slideshow/embed_code/key/JrHVveFJ1KFbnz" w idth="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #C CC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5p x"> <strong> <a href="//www.slideshare.net/AndreaCirillo1/new-definition-of-default" title="New Definition of Defa ult" target="_blank">New Definition of Default</a> </strong> from <strong><a href="https://www.slideshare.net/Andr eaCirillo1" target="_blank">Andrea Cirillo</a></strong> </div>[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
 bash: syntax error near unexpected token `<'
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "added post d[Kon definigion[K[K[K[Ktion of default"
+[master 2f785d5] added post on definition of default
+ 14 files changed, 447 insertions(+), 12 deletions(-)
+ create mode 100644 content/post/2018-07-13-getting-to-know-the-new-definition-of-default.Rmd
+ create mode 100644 content/post/2018-07-13-getting-to-know-the-new-definition-of-default.html
+ create mode 100644 public/2018/07/13/getting-to-know-the-new-definition-of-default/index.html
+ create mode 100644 public/tags/banking/index.html
+ create mode 100644 public/tags/banking/index.xml
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 33, done.
+Delta compression using up to 4 threads.
+Compressing objects:   3% (1/29)   Compressing objects:   6% (2/29)   Compressing objects:  10% (3/29)   Compressing objects:  13% (4/29)   Compressing objects:  17% (5/29)   Compressing objects:  20% (6/29)   Compressing objects:  24% (7/29)   Compressing objects:  27% (8/29)   Compressing objects:  31% (9/29)   Compressing objects:  34% (10/29)   Compressing objects:  37% (11/29)   Compressing objects:  41% (12/29)   Compressing objects:  44% (13/29)   Compressing objects:  48% (14/29)   Compressing objects:  51% (15/29)   Compressing objects:  55% (16/29)   Compressing objects:  58% (17/29)   Compressing objects:  62% (18/29)   Compressing objects:  65% (19/29)   Compressing objects:  68% (20/29)   Compressing objects:  72% (21/29)   Compressing objects:  75% (22/29)   Compressing objects:  79% (23/29)   Compressing objects:  82% (24/29)   Compressing objects:  86% (25/29)   Compressing objects:  89% (26/29)   Compressing objects:  93% (27/29)   Compressing objects:  96% (28/29)   Compressing objects: 100% (29/29)   Compressing objects: 100% (29/29), done.
+Writing objects:   3% (1/33)   Writing objects:   6% (2/33)   Writing objects:   9% (3/33)   Writing objects:  12% (4/33)   Writing objects:  15% (5/33)   Writing objects:  18% (6/33)   Writing objects:  21% (7/33)   Writing objects:  24% (8/33)   Writing objects:  27% (9/33)   Writing objects:  30% (10/33)   Writing objects:  33% (11/33)   Writing objects:  36% (12/33)   Writing objects:  39% (13/33)   Writing objects:  42% (14/33)   Writing objects:  51% (17/33)   Writing objects:  54% (18/33)   Writing objects:  57% (19/33)   Writing objects:  60% (20/33)   Writing objects:  63% (21/33)   Writing objects:  66% (22/33)   Writing objects:  69% (23/33)   Writing objects:  72% (24/33)   Writing objects:  75% (25/33)   Writing objects:  78% (26/33)   Writing objects:  81% (27/33)   Writing objects:  84% (28/33)   Writing objects:  87% (29/33)   Writing objects:  90% (30/33)   Writing objects:  93% (31/33)   Writing objects:  96% (32/33)   Writing objects: 100% (33/33)   Writing objects: 100% (33/33), 6.42 KiB | 0 bytes/s, done.
+Total 33 (delta 22), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/22)   [Kremote: Resolving deltas:   4% (1/22)   [Kremote: Resolving deltas:   9% (2/22)   [Kremote: Resolving deltas:  13% (3/22)   [Kremote: Resolving deltas:  18% (4/22)   [Kremote: Resolving deltas:  22% (5/22)   [Kremote: Resolving deltas:  27% (6/22)   [Kremote: Resolving deltas:  31% (7/22)   [Kremote: Resolving deltas:  36% (8/22)   [Kremote: Resolving deltas:  59% (13/22)   [Kremote: Resolving deltas:  63% (14/22)   [Kremote: Resolving deltas:  68% (15/22)   [Kremote: Resolving deltas:  72% (16/22)   [Kremote: Resolving deltas:  77% (17/22)   [Kremote: Resolving deltas:  86% (19/22)   [Kremote: Resolving deltas:  90% (20/22)   [Kremote: Resolving deltas:  95% (21/22)   [Kremote: Resolving deltas: 100% (22/22)   [Kremote: Resolving deltas: 100% (22/22), completed with 17 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   fa913c3..2f785d5  master -> master
+[KMac-di-Andrea:acsblog andrea_cirillo$ cp desktop/vizscorer.gi[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K../
+.DS_Store                                     google_ranker/
+.RData                                        google_ranker_app/
+.Rhistory                                     installr/
+.Rproj.user/                                  ludo/
+.gitignore                                    mutuo/
+Afraus/                                       new/
+--More--[KAnomalie Personale Viaggiante/                paletter/
+--More--[KBDINTESA2/                                    paletter_0.0.0.9000.tar.gz
+--More--[KBenfordeR/                                    paletter_0.0.0.9000.tgz
+--More--[KCosti non deducibili/                         r_data_mining/
+--More--[KR_projects.Rproj                              r_datamining/
+--More--[KRstudio for R statistical computing cookbook/ ramazon/
+--More--[KTweetIT/                                      ramazon.Rcheck/
+--More--[Kacsblog/                                      random_bucket_simulator/
+--More--[Kactive_projects/                              render_pdf_try/
+--More--[Kadsl/                                         scales/
+--More--[Kanalisi_AET_Italia/                           scales_less_old/
+--More--[Kanalisi_cdc/                                  scales_old/
+--More--[Kanalisi_scostamenti/                          search_engine/
+--More--[Kanalytics_insight/                            source_from_rmd/
+--More--[Kbaselguys.github.io/                          spesa/
+--More--[Kblog/                                         spese/
+--More--[KMac-di-Andrea:acsblog andrea_cirillo$ cp ../../
+.DS_Store                               archivio_old/
+.Rhistory                               css_projects/
+.dropbox                                development/
+.dropbox.cache/                         images/
+BDINTESA2/                              issue_gravità.xlsx
+B_Rapporto ( validazione interna).docx  office_bot/
+--More--[KMac-di-Andrea:acsblog andrea_cirillo$ cp ../../../
+^M                                                 .kernel-ae3e2b93-be39-4904-ac12-8532dd787252.json
+.CFUserTextEncoding                                .lesshst
+.DS_Store                                          .matplotlib/
+.R/                                                .mkshrc
+.RData                                             .netrc
+.Rapp.history                                      .oracle_jre_usage/
+--More--[K.Rhistory                                          .profile
+--More--[KMac-di-Andrea:acsblog andrea_cirillo$ cp ../../../../Deleted\ Users/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KDesktop/vizso[Kcorer.i[Kgif[K[K[K[K.gif [K[K[K[K[K_demo.gif :[K/con[K[K[Kstati;i2iDi[1Pi[1Pi[1Pi[1Pi[1Pi[1Pi[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+/Users/andrea_cirillo/Dropbox/R_projects/acsblog
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ cp ../../../Desktop/vizscorer_demo.gif (s[K[Kstatic/images/
+[KMac-di-Andrea:acsblog andrea_cirillo$ git add .
