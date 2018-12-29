@@ -16,19 +16,19 @@ tags:
 
 I personally really **appreciate the [InstallR package](https://cran.r-project.org/web/packages/installr/installr.pdf) from [Tal galilli](https://twitter.com/talgalili)**, since it lets you **install** a great number of **tools** needed for working with R just **running a function**.
 
-Among these functions **one of my favourite **is the **_updateR()*_** **function** which checks for **new versions of R language** and in case of positive response **installs it** on your machine.
+Among these functions **one of my favourite **is the **_updateR()_** **function** which checks for **new versions of R language** and in case of positive response **installs it** on your machine.
 
 The only issue with this function is that **it works only on Windows Operating systems**.
 
 <!-- more -->
 
-
 ## Mac version of updateR function: the UpdateR package
 
+Since I am a lazy programmer and generally a devote of the great thesis introduced within [**The pragmatc programmer**](https://amzn.to/2RoOKQC), I decided to develop **updateR**, a package that let's you update your R version from R itself just running one line of code.
 
-**That is why I developed updateR**, a package that let's you update your R version from R itself just running the following line of code:
+<a target="_blank"  href="https://www.amazon.co.uk/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=020161622X&linkCode=as2&tag=andreaciril08-21&linkId=ce6f49120d6e0d3d28cfd95005941dce"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=020161622X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=andreaciril08-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=andreaciril08-21&l=am2&o=2&a=020161622X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-
+And here it is the simple line of code you have to run:
 
 ```{r eval=FALSE}
 updateR(admin_password = "os_admin_user_password")
@@ -53,7 +53,7 @@ install_github('andreacirilloac/updateR')
 ```
 
 
-## how to update R version using the updateR package
+## how to update R version using the updateR package
 
 
 As seen, **updating R version from R is actually a breeze**: you just need to run a function.
@@ -69,8 +69,8 @@ Since every command launched in background (see below for more infos) is passed 
 
 A the end of the installation process those **two lines should appear**:
 
-`everything went smoothly
-open a Terminal session and run 'R' to assert that latest version was installed`
+`everything went smoothly
+open a Terminal session and run 'R' to assert that latest version was installed`
 
 that is all you need to know to use _updateR_.
 By the way If you want to know more on **how the function works**, have a look at the following paragraphs.
@@ -127,7 +127,7 @@ one thing still missing here is the comparison between version installed on the 
 
 I will probably (hopefully) develop this within next releases, and collaboration on this would be really welcome.
 
-After defining the download URL we can actually **proceed with downloading the package and install it**. the first of those two steps will be performed leveraging built-in function _download.file() _:
+After defining the download URL we can actually **proceed with downloading the package and install it**. the first of those two steps will be performed leveraging built-in function _download.file() _:
 
 ```{r eval=FALSE}
 download.file(url,filename)
@@ -137,9 +137,9 @@ download.file(url,filename)
 ### run command line commands within R
 
 
-the **last step** is the actual **installation** of the R version package. this activity will be performed using the **command line command** **_installer_** .
+the **last step** is the actual **installation** of the R version package. this activity will be performed using the **command line command** **_installer_** .
 
-we are first going to put toghethet our line of command with _paste()_ function and then submit** to the terminal calling** **_system()_** **function on our command string**:
+we are first going to put toghethet our line of command with _paste()_ function and then submit** to the terminal calling** **_system()_** **function on our command string**:
 
 ```{r eval=FALSE}
 command           <- paste("echo " , admin_password, "| sudo -S installer -pkg ", filename_quoted , " -target / -verbose")
