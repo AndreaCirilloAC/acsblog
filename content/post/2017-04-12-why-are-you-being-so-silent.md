@@ -1,7 +1,7 @@
 ---
 author: "Andrea Cirillo"
 comments: true
-date: 2017-04-12 06:14:48+00:00
+date: '2017-04-12'
 excerpt: 'A long time '
 
 
@@ -22,7 +22,7 @@ I have three **major updates** to explain the silence:
 
 
 	
-  * 📚 Good guys at[ Packt publishing](https://www.packtpub.com) asked me to write **one more boo**k about R and data mining, I suppose this is because [the first one](https://andreacirilloblog.wordpress.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/) was well received
+  * 📚 Good guys at[ Packt publishing](https://www.packtpub.com) asked me to write [one more book](https://www.amazon.it/gp/product/1787124460?ie=UTF8&tag=andreacirillo-21&camp=3414&linkCode=xm2&creativeASIN=1787124460) about R and data mining, I suppose this is because [the first one](https://andreacirilloblog.wordpress.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/) was well received
 
 	
   * 📦 I spend my spare time working on [updateR](https://andreacirilloblog.wordpress.com/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/) so to get it ready to go on CRAN. We make it so shining and bright that it got noticed by our beloved **Tal Galili** and we are now working togheter to [merge it into his great package installR](https://github.com/RobertMyles/installr).

@@ -9,7 +9,7 @@ toc: false
 
 
 
-[![rstudio r statistical computing cookbook cover. over 50 practical and useful recipes to help you perform data analysis with R by unleashing every native rstudio feature](https://andreacirilloblog.files.wordpress.com/2016/05/rstudio-for-r-statistical-computing-cookbook_cover.png)](https://www.packtpub.com/big-data-and-business-intelligence/rstudio-r-statistical-computing-cookbook)
+[![rstudio r statistical computing cookbook cover. over 50 practical and useful recipes to help you perform data analysis with R by unleashing every native rstudio feature](https://andreacirilloblog.files.wordpress.com/2016/05/rstudio-for-r-statistical-computing-cookbook_cover.png)](https://amzn.to/2VijOAK)
 
 
 

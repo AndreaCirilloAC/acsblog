@@ -37,4 +37,4 @@ Beside the innovative approach one of the core features of the book is the atten
 
 ### Where to find it 
 
-**R Data Mining** is distributed both in printed and ebook version, and you can get it trough the [publisher's website](https://www.packtpub.com/big-data-and-business-intelligence/r-data-mining) or [Amazon](https://www.amazon.com/Data-Mining-Implement-techniques-practical/dp/1787124460) 
+**R Data Mining** is distributed both in printed and ebook version, and you can get it trough [Amazon](https://www.amazon.it/gp/product/1787124460?ie=UTF8&tag=andreacirillo-21&camp=3414&linkCode=xm2&creativeASIN=1787124460) 
