@@ -1,0 +1,84 @@
+---
+author: andreacirilloac
+comments: true
+date: '2014-09-11'
+excerpt: step-by-step tutorial on how to put  pubblication-quality equations into
+  evernote notes on mac devices
+
+slug: equations-in-evernote
+title: How to Put Equations into Evernote
+
+categories:
+- productivity
+tags:
+- evernote
+- tutorials
+---
+
+##Problem
+
+Some time ago I was looking for an easy way to put some math writing within my Evernote notes trough my Mac device. Even if there is no official solution to the problem and the feature request is [still pending within Evernote dedicated forum](https://discussion.evernote.com/topic/111535-writing-math-symbols-and-equations/), I finally came out with a very simple way to solve your problem out.
+
+## Solution
+
+
+
+This way is called Grapher, a Mac OS built-in application for visualising math stuffs.
+
+
+## Tutorial
+
+
+Here below a simple tutorial:
+
+### 1. find Grapher among your applications
+
+You can either search for it within Spotlight or using the launchpad.
+
+<a><figure class= "post_image" >
+<img src="http://andreacirilloblog.files.wordpress.com/2014/09/1equations-in-evernote.jpg"  alt="infoviz" style="width: 200px;"/>
+</figure></a>
+
+
+### 2. write the equation
+
+you would like to put into your Evernote note.
+
+<a><figure class= "post_image" >
+<img src="http://andreacirilloblog.files.wordpress.com/2014/09/2-equations-in-evernote.jpeg"  alt="infoviz" style="width: 200px;"/>
+</figure></a>
+
+
+
+
+
+### 3. copy the equation as [TIFF](http://http://it.wikipedia.org/wiki/Tagged_Image_File_Format)
+
+<a><figure class= "post_image" >
+<img src="https://andreacirilloblog.files.wordpress.com/2014/09/screen-shot-2014-09-11-at-17-55-17.png"  alt="infoviz" style="width: 200px;"/>
+</figure></a>
+
+##4. paste the equation into Evernote
+
+<a><figure class= "post_image" >
+<img src="https://andreacirilloblog.files.wordpress.com/2014/09/3-equations-in-evernote.jpg"  alt="infoviz" style="width: 200px;"/>
+</figure></a>
+
+And that’s it!
+
+I think this trick is very useful when you have some "heavy" equations that would not be clear enough if it would just be written in simple text.
+
+### other ways to accomplish the task
+
+#### Daum equation editor
+
+Sharing the post on [Google + ](https://plus.google.com/u/0/+AndreaCirilloAC/posts/SGCWuFYcyDy?cfem=1)I have received the good advice to use [daum equation editor](https://itunes.apple.com/it/app/daum-equation-editor/id540665783?mt=12), specifically aimed at writing equations.
+
+I think the Grapher advantage is that is a built-in application, nevertheless I'm really grateful to [Roberta Normano ](https://plus.google.com/u/0/114794468455584031025/about)for the tip.
+
+#### EATags
+
+Eatags is another way to include equations into evernote. the mechanism here is to first write the equation into Latex and then include it into Evernote.
+If you are thinking this is the right solution for you, you should hold on before searching "EATags" on Google, since the website is on maintenance.
+
+Did you came out with any other way to address the problem?

@@ -158,6 +158,11 @@
   </url>
   
   <url>
+    <loc>/2014/09/11/equations-in-evernote/</loc>
+    <lastmod>2014-09-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2014/09/02/r-subset-data-frame/</loc>
     <lastmod>2014-09-02T08:05:36+00:00</lastmod>
   </url>
@@ -185,13 +190,13 @@
   </url>
   
   <url>
-    <loc>/categories/analytics/</loc>
+    <loc>/tags/analytics/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/analytics/</loc>
+    <loc>/categories/analytics/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -262,13 +267,13 @@
   </url>
   
   <url>
-    <loc>/categories/dataviz/</loc>
+    <loc>/tags/dataviz/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dataviz/</loc>
+    <loc>/categories/dataviz/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -454,6 +459,10 @@
   </url>
   
   <url>
+    <loc>/bookstack/so_good_ignore_you/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/soccer/</loc>
     <lastmod>2016-06-21T15:55:38+00:00</lastmod>
     <priority>0</priority>
@@ -550,6 +559,10 @@
   
   <url>
     <loc>/software/</loc>
+  </url>
+  
+  <url>
+    <loc>/bookstack/pragmatic_programmer/</loc>
   </url>
   
   <url>
