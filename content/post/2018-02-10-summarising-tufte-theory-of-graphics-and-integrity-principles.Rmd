@@ -10,7 +10,11 @@ categories:
 tags:
   - dataviz
 ---
-I have recently completed a great reading: Edward Tufte's [**The visual display of quantitative information**](https://www.edwardtufte.com/tufte/books_vdqi). In the dataviz realm, this is some kind of **fundamental book**. This book was some kind of structural break in the history of data visualization. In '70s and '80s **graphics were considered a way to entertain less educated readers**. Their ability to make available new insights and communicate them effectively was underestimated.
+I have recently completed a great reading: Edward Tufte's [**The visual display of quantitative information**](https://amzn.to/2RmWmmC). In the dataviz realm, this is some kind of **fundamental book**. This book was some kind of structural break in the history of data visualization. In '70s and '80s **graphics were considered a way to entertain less educated readers**. Their ability to make available new insights and communicate them effectively was underestimated.
+
+<a target="_blank" href="https://amzn.to/2RmWmmC" ><figure class= "post_image" >
+<img src="https://images-na.ssl-images-amazon.com/images/I/41IXJO4Mk6L._SX258_BO1,204,203,200_.jpg"  alt="proactive" style="width: 250px;"/>
+</figure></a>
 
 To be fair I have to say that in my professional experience **data visualization is still often misunderstood**. I have often heard sentences like: "yeah, place a nice plot there, so to make the document a bit nicer". Or "no, no, you have placed too much plots here: this is a serious document!". Even **when people understand the importance of dataviz** they usually **don't know how to craft an effecttive plot**.
 
