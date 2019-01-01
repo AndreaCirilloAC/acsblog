@@ -5,38 +5,38 @@ cover: "images/r-data-mining.png"
 ---
 
 
-**R data mining** is a data mining crime book, a new kind of book we developed with good guys at Packt and the great statistician Enrico Pegoraro.
+**R data mining** is a **data mining crime book**, a new kind of book we developed with good guys at Packt and the great statistician Enrico Pegoraro.
 
-<a href="https://amzn.to/2SueqIP"><img src="https://kbimages1-a.akamaihd.net/829d7089-5204-4c2c-b500-8de52ccd5d2b/353/569/90/False/r-data-mining.jpg" alt="cover"  style="width: 150px;"/><a/>
+<a class="post_image" href="https://amzn.to/2SueqIP"><img src="https://kbimages1-a.akamaihd.net/829d7089-5204-4c2c-b500-8de52ccd5d2b/353/569/90/False/r-data-mining.jpg" alt="cover"  style="width: 150px;"/><a/>
 
-What is a data mining crime book? It is a book stucture to teach you data mining fundamentals while immersing you in a crime case.
+What is a data mining crime book? It is a book stuctured to **teach you data mining** fundamentals **while immersing** you **in a crime case**.
 
-Within **R data mining** you will be immersed into the life of a wholesale company, where suddenly a misterious drop in profits arises. You will be then caught into the 
+Within R data mining you will be immersed into the life of a wholesale company, where suddenly a misterious drop in profits arises. You will be then caught into the 
 analyses performed to discover where this drop comes from and why.
 
-### what you will find in it
+### what you will learn from it
 
 This will teach you how to:
 
-- take raw data and wrangle them so to make them tidy and ready for the analyses
-- perform  a wide range of descriptive analyses both graphically and not
-- apply data mining algorithm to the data, from logistic regression to random forest and support vector machine
-- perform text mining analyses
-- develop effective reports to highlight the main steps of analysis and its outcomes
+- **take raw data and wrangle them** so to make them **tidy and ready** for the analyses
+- **perform** a wide range of **descriptive analyses** both graphically and not
+- **apply data mining algorithms** to the data, from logistic regression to random forest and support vector machine.
+- perform **text mining analyses**
+- **develop effective reports** to highlight the main steps of analysis and its outcomes
 
-And finally you will discover the culpright, which obviously is...
+And finally you will **discover the culpright**, which obviously is...
 
 <img class="post_image" src="http://www.publicdomainpictures.net/pictures/210000/velka/butler.jpg" alt="Butler"  style="width: 100px;"/>
 
 
 well, no... it is not that trivial. You will discover the culpright reading the book.
 
-### Why I think it worths your attention
+### Why you should read it
 
-Beside the innovative approach one of the core features of the book is the attention to the rationals of methods and models introduced. It is not uncommon to read stuffs about data mining whe models are just introduced and the simple function is showed without taking the time to explain to the reader which is the main idea behind the model, when and why you should use it in your analyses.
+Beside the innovative approach one of the core features of the book is the care that was devoted to describe assumptions and rationales behind each algo. This was done because within **the web** there are **tons of tutorials** about data mining algorithms **where models are just introduced** and the simple R function is showed **without** taking the time to **explain** to the reader which is the main idea behind the model, **when you should or should not use them** in your analyses.
+This is actually a **relevant point** in data mining practice, especially if you want **to avoid painful errors**. **Covering this point** was thus defined as the **mission of the book** and represents the main reason why you could find it useful to read it.
 
 ### Don't trust just my words
-
 
 Here it is one of the positive **customer reviews** received from readers:
 
@@ -44,7 +44,8 @@ Here it is one of the positive **customer reviews** received from readers:
 
 ### How to get it
 
-**R Data Mining** is distributed both in printed and ebook version, and you can get it trough [Amazon](https://amzn.to/2SueqIP) 
+**R Data Mining** is distributed both in printed and ebook version, and you can get it **trough [Amazon](https://amzn.to/2SueqIP)**
 
-<a class="post_image"><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=andreaciril08-21&marketplace=amazon&region=GB&placement=1787124460&asins=1787124460&linkId=88648385e2d4726e8f314944209f01be&show_border=false&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe><a/>
+p.s.: if you are a chinese reader I have a good news for you since *R data mining* is currently being translated into traditional chinese and will be published soon on that language soon.
+
+<a target="_blank"  href="https://www.amazon.co.uk/gp/product/1787124460/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1787124460&linkCode=as2&tag=andreaciril08-21&linkId=efce760885891e803c4fda625f101163"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=1787124460&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=andreaciril08-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=andreaciril08-21&l=am2&o=2&a=1787124460" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
