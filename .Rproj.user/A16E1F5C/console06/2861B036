@@ -1000,3 +1000,20 @@ remote: Resolving deltas:   0% (0/20)   [Kremote: Resolving deltas:   5% (1/20
 To https://github.com/AndreaCirilloAC/acsblog
    98cc6db..df90647  master -> master
 [KMac-di-Andrea:acsblog andrea_cirillo$ git add .
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "added welcome fo[K[Kphoo[Kto"
+[master 90384f6] added welcome photo
+ 11 files changed, 33 insertions(+), 90 deletions(-)
+ rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (86%)
+ create mode 100644 public/images/profile-2.jpeg
+ create mode 100644 public/images/profile.jpeg
+ create mode 100644 static/images/profile.jpeg
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 21, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
+Writing objects:   4% (1/21)   Writing objects:   9% (2/21)   Writing objects:  14% (3/21)   Writing objects:  19% (4/21)   Writing objects:  23% (5/21)   Writing objects:  28% (6/21)   Writing objects:  33% (7/21)   Writing objects:  38% (8/21)   Writing objects:  42% (9/21)   Writing objects:  47% (10/21)   Writing objects:  52% (11/21)   Writing objects:  57% (12/21)   Writing objects:  61% (13/21)   Writing objects:  66% (14/21)   Writing objects:  71% (15/21)   Writing objects:  71% (15/21), 1.07 MiB | 1.03 MiB/s   Writing objects:  76% (16/21), 1.07 MiB | 1.03 MiB/s   Writing objects:  80% (17/21), 1.93 MiB | 1.24 MiB/s   Writing objects:  85% (18/21), 1.93 MiB | 1.24 MiB/s   Writing objects:  90% (19/21), 1.93 MiB | 1.24 MiB/s   Writing objects:  95% (20/21), 1.93 MiB | 1.24 MiB/s   Writing objects: 100% (21/21), 1.93 MiB | 1.24 MiB/s   Writing objects: 100% (21/21), 1.96 MiB | 1.24 MiB/s, done.
+Total 21 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:   6% (1/15)   [Kremote: Resolving deltas:  13% (2/15)   [Kremote: Resolving deltas:  20% (3/15)   [Kremote: Resolving deltas:  26% (4/15)   [Kremote: Resolving deltas:  33% (5/15)   [Kremote: Resolving deltas:  40% (6/15)   [Kremote: Resolving deltas:  46% (7/15)   [Kremote: Resolving deltas:  53% (8/15)   [Kremote: Resolving deltas:  60% (9/15)   [Kremote: Resolving deltas:  66% (10/15)   [Kremote: Resolving deltas:  73% (11/15)   [Kremote: Resolving deltas:  80% (12/15)   [Kremote: Resolving deltas:  86% (13/15)   [Kremote: Resolving deltas:  93% (14/15)   [Kremote: Resolving deltas: 100% (15/15)   [Kremote: Resolving deltas: 100% (15/15), completed with 15 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   df90647..90384f6  master -> master
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .

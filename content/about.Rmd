@@ -7,18 +7,6 @@ toc: false
 
 I am Andrea Cirillo, a Quantitative Analyst currently employed in a bank. My kind of mixed background ( HR guys tended to call it *a resilient path*, when we talked about it) is composed of a first relevant dose of artistic studies in the Brera High School, followed from an heavy dose of economics and mathematics at the Catholic University of Jesus Sacred Heart, finally crowned from Auditing, Statistics and Data Science Courses by Auditing, Hacking and Banking firms.
 
-```{r ac_mix, eval = FALSE, include=FALSE}
-library(ggplot2)
-ingredients <- c("Arts", "Statistical Learning", "Economics","Hacking","Auditing")
-perc       <-  c(20,25,20,15,20)
-me <- data.frame(ingredients,perc)
-ggplot(me, aes(x=ingredients,y=perc))+
-  geom_bar(stat = 'identity')+
-  coord_flip()
-
-```
-
-
 I use this website, which I personally developed using *Hugo*, *rmarkdown* and *blogdown* to store and share knowkedge about:
 
 - **machine learning**
@@ -33,7 +21,7 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
 
 
 - **Place and Date of Birth:** Monza, Italy | 14 August 1989
-- **Email:** please see *contacts* page
+- **Email:** please see [contacts](/contacts) page
 - **Linkedin profile:** [it.linkedin.com/pub/andrea-cirillo/33/512/862/](http://it.linkedin.com/pub/andrea-cirillo/33/512/862/)
 
 ### Work Experience
@@ -64,7 +52,7 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
 
 
 - 2017 [Big Dive - Data Science and Analytics](https://www.bigdive.eu/) 
-- 2014-Current **Certified Internal Auditor (CIA)** - enrolled part 1 and 2 passed, currently preparing part 3
+- 2018 - **Certified Internal Auditor (CIA)** 
 
 ### Languages
 
@@ -73,13 +61,11 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
  - Spanish: Basic Knowledge
  - French: Basic Knowledge
  
-
 ### Computer Skills
 
 - **Basic Knowledge**: sql,  ACLscripts, Linux, Java, 
 - **Intermediate Knowledge**: Python,html,CSS ,SAP R/3, Visual Basic
 - **Advanced Knowledge**: R, SAS, vba, Excel, Word, PowerPoint,
-
 
 ### Presentations & Tutorials
 
