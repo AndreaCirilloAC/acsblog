@@ -3,7 +3,9 @@ title: "Andrea Cirillo's website"
 subtitle: "the very beginning"
 ---
 
-I am a **Quantitative Analyst** well versed into **statistical learning**, **data mining** and **data visualization** disciplines. I keep this personal website as a polished portfolio and a structured notebook. You can use this website to learn about my [curriculum vitae](/about), the [software](/software) I craft and my [personal thoughts](/post) about technical stuffs. 
+<img src="/images/profile.jpeg" width=100%>
+
+**Benvenuto**, I am a **Quantitative Analyst** well versed into **statistical learning**, **data mining** and **data visualization** disciplines. I keep this personal website as a polished portfolio and a structured notebook. You can use this website to learn about my [curriculum vitae](/about), the [software](/software) I craft and my [personal thoughts](/post) about technical stuffs. 
 
 I also keep an updated list of the most [relevant books](/bookstack) I have read, the ones I would suggest to a good friend, togheter with a short summary of their key messages. Just in case you don't know which book to pick up next from your bookstack.
 
