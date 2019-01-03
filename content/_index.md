@@ -5,7 +5,7 @@ subtitle: "the very beginning"
 
 <img src="/images/profile.jpeg" width=100%>
 
-Benvenuto, I am an Italian [**quantitative analyst**](https://www.linkedin.com/in/cirilloandrea/) well versed into **statistical learning**, **data mining** and **data visualization** disciplines. 
+**Benvenuto**, I am an Italian [**quantitative analyst**](https://www.linkedin.com/in/cirilloandrea/) well versed into **statistical learning**, **data mining** and **data visualization** disciplines. 
 
 I am the guy behind some beloved **#rstats packages** like [**updateR for Mac**](http://www.andreacirillo.com/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/), [**paletteR**](https://datascienceplus.com/introducing-vizscorer-a-bot-advisor-to-score-and-improve-your-ggplot-plots/) and **Ramazon**. You can find more about my software within the [software page](/software). 
 
