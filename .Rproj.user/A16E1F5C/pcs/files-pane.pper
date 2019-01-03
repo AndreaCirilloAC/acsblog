@@ -1,6 +1,10 @@
 {
-    "path" : "~/Dropbox/R_projects/acsblog/layouts/partials",
+    "path" : "~/Dropbox/R_projects/acsblog/content/pubblications",
     "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 3
+        },
         {
             "ascending" : true,
             "columnIndex" : 2
