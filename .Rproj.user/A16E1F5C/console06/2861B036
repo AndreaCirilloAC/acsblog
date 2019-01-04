@@ -1,64 +1,4 @@
 
-[master 0f5f07c] completed contacts page
- 16 files changed, 1350 insertions(+), 4 deletions(-)
- create mode 100644 public/bookstack/deep_work.knit/index.html
- create mode 100644 public/bookstack/deep_work.utf8/index.html
- create mode 100644 public/bookstack/deep_work/index.html
- create mode 100644 public/bookstack/so_good_ignore_you/index.html
- create mode 100644 public/bookstack/teach_yourself_to_think.knit/index.html
- create mode 100644 public/bookstack/teach_yourself_to_think.utf8/index.html
- create mode 100644 public/bookstack/teach_yourself_to_think/index.html
- create mode 100644 public/bookstack/visual_display_of_quantitative_information.knit/index.html
- create mode 100644 public/bookstack/visual_display_of_quantitative_information/index.html
- create mode 100644 public/contacts.knit/index.html
- create mode 100644 public/contacts.utf8/index.html
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
-Counting objects: 24, done.
-Delta compression using up to 4 threads.
-Compressing objects:   5% (1/18)   Compressing objects:  11% (2/18)   Compressing objects:  16% (3/18)   Compressing objects:  22% (4/18)   Compressing objects:  27% (5/18)   Compressing objects:  33% (6/18)   Compressing objects:  38% (7/18)   Compressing objects:  44% (8/18)   Compressing objects:  50% (9/18)   Compressing objects:  55% (10/18)   Compressing objects:  61% (11/18)   Compressing objects:  66% (12/18)   Compressing objects:  72% (13/18)   Compressing objects:  77% (14/18)   Compressing objects:  83% (15/18)   Compressing objects:  88% (16/18)   Compressing objects:  94% (17/18)   Compressing objects: 100% (18/18)   Compressing objects: 100% (18/18), done.
-Writing objects:   4% (1/24)   Writing objects:   8% (2/24)   Writing objects:  12% (3/24)   Writing objects:  16% (4/24)   Writing objects:  20% (5/24)   Writing objects:  25% (6/24)   Writing objects:  29% (7/24)   Writing objects:  41% (10/24)   Writing objects:  45% (11/24)   Writing objects:  50% (12/24)   Writing objects:  54% (13/24)   Writing objects:  62% (15/24)   Writing objects:  66% (16/24)   Writing objects:  70% (17/24)   Writing objects:  75% (18/24)   Writing objects:  79% (19/24)   Writing objects:  83% (20/24)   Writing objects:  87% (21/24)   Writing objects:  91% (22/24)   Writing objects:  95% (23/24)   Writing objects: 100% (24/24)   Writing objects: 100% (24/24), 6.65 KiB | 0 bytes/s, done.
-Total 24 (delta 12), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/12)   [Kremote: Resolving deltas:  33% (4/12)   [Kremote: Resolving deltas:  50% (6/12)   [Kremote: Resolving deltas:  58% (7/12)   [Kremote: Resolving deltas:  66% (8/12)   [Kremote: Resolving deltas:  75% (9/12)   [Kremote: Resolving deltas:  83% (10/12)   [Kremote: Resolving deltas:  91% (11/12)   [Kremote: Resolving deltas: 100% (12/12)   [Kremote: Resolving deltas: 100% (12/12), completed with 6 local objects.[K
-To https://github.com/AndreaCirilloAC/acsblog
-   fc67dad..0f5f07c  master -> master
-git add "[Kstatic/css/main.css 
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git coo[Kmmit -am "changed[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K add "[Klayouts/section/software.html 
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add layouts/section/software.html [K[K[K[K[K[K[K[K[K[K[K[K[K[Kbookstack.html 
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ g[Kgit add layouts/section/bookstack.html [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Koin[K[K[Kindex.html 
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ gi [Kt commit .am "changed[K[K[K[K[K[K[K[K[K[K[K[K-am ![K"made all laytou[K[K[Kouts alinged [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kaligned p[Kappa[Kearances of all layouts"
-[master 96f89c1] aligned appearances of all layouts
- 114 files changed, 566 insertions(+), 495 deletions(-)
- rewrite .Rproj.user/A16E1F5C/console06/INDEX001 (86%)
- rewrite content/pubblications/featured_book.md (88%)
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .[K[K[K[K[Kstatus
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Rproj.user/A16E1F5C/console06/2861B036[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .[K[K[K[K[K[K[K[K[Kgit add githu [Kb-widget.js
-fatal: pathspec 'github-widget.js' did not match any files
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add github-widget.jsagithub-widget.jscgithub-widget.jssgithub-widget.jsblog.Rprojgithub-widget.js[1Pgithub-widget.js[1Pgithub-widget.js[1Pgithub-widget.js[1Pgithub-widget.js[1Pgithub-widget.js[1Pgithub-widget.js/github-widget.jssgithub-widget.jstgithub-widget.jsagithub-widget.jstgithub-widget.jsigithub-widget.jscgithub-widget.js/github-widget.jskgithub-widget.jssgithub-widget.js[1Pgithub-widget.js[1Pgithub-widget.jsjgithub-widget.jssgithub-widget.js/github-widget.js
-fatal: pathspec 'acsblog/static/js/github-widget.js' did not match any files
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add acsblog/static/js/github-widget.js[C[C[1Pstatic/js/github-widget.js[1Pstatic/js/github-widget.js[1Pstatic/js/github-widget.js[1Pstatic/js/github-widget.js[1Pstatic/js/github-widget.js[1Ptatic/js/github-widget.js[1Pstatic/js/github-widget.js[1Pstatic/js/github-widget.js
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit "[K"chane[Kged[K[K[K[K[K[K[Kadded label to w[Kgithub widget"
-error: pathspec 'added label to github widget' did not match any file(s) known to git.
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit "added label to github widget"[1@-[1@m[1@ 
-[master 87d9279] added label to github widget
- 1 file changed, 6 insertions(+), 3 deletions(-)
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .
-]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commi [Kt -m "advanced bookstack completion"
-[master 671c56c] advanced bookstack completion
- 31 files changed, 1008 insertions(+), 166 deletions(-)
- rewrite content/bookstack/deep_work.Rmd (91%)
- rewrite content/bookstack/deep_work.html (91%)
- rewrite content/pubblications/paletter_speech.html (87%)
- rewrite content/pubblications/paletter_speech.rmd (88%)
  rewrite content/pubblications/rstudio_cookbook.html (97%)
  rewrite content/pubblications/rstudio_cookbook.rmd (98%)
  delete mode 100644 content/pubblications/what_you_need_to_know_about_r.html
@@ -1047,3 +987,16 @@ remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13
 To https://github.com/AndreaCirilloAC/acsblog
    5718356..0129931  master -> master
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git pushcommit -m "home pange changed"gitpush[K[Kgit pushcommit -m "home pange changed"gitadd .[K
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .[1Ppushcommit -m "home pange changed"git[C[K[K[K
+[master 791c049] home pange changed
+ 3 files changed, 19 insertions(+), 2 deletions(-)
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git push
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 1.13 KiB | 0 bytes/s, done.
+Total 10 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/AndreaCirilloAC/acsblog
+   0129931..791c049  master -> master
+git add .

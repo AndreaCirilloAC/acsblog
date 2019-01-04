@@ -12,7 +12,7 @@ I am the guy behind some beloved **#rstats packages** like [**updateR for Mac**]
 Within this website you can find:
 
 -  Well crafted [**blog posts**](/post) mainly about analytics and R but also about miscellaneous stuff like productivity and work-life balance
--  My [**book stack**](/bookstack), I.e. book I‘Ve read and I recommend because they were relevant for my personal and professional development. 
+-  My [**book stack**](/bookstack), I.e. book I have read and I recommend because they were relevant for my personal and professional development (and I guess it will be the same for you). 
 
 If you have heard about my ***R data mining*** book you can find more info within the box below. 
 
