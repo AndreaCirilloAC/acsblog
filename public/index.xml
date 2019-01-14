@@ -31,6 +31,15 @@ It is quite a unexplored topic in the sector and I haven’t found a lot of teac
     </item>
     
     <item>
+      <title>how to use PaletteR to automagically build palettes from pictures</title>
+      <link>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</guid>
+      <description>Introducing paletter Installing paletter Creating a palette from your image  Functional specification Reading a picture into the RGB colourspace Processing the RGB image trough kmeans Moving to the hsv colours space Removing outliers Optimising palette  How to apply paletteR in ggplot2 Join us   I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the Pinacoteca di Brera, a 200 centuries old museum.</description>
+    </item>
+    
+    <item>
       <title>UpdateR package: update R version with a function (on MAC OSX)</title>
       <link>/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
@@ -371,6 +380,15 @@ As a matter of fact, the standard R option is to use just on of the cores you ha
       <description>I&amp;rsquo;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.
 In response to that request I have developed a little Shiny app with an interesting reactive Bubble chart.
 The plot, made using ggplot2 package, is composed by: a categorical x value, represented by the clusters identified in the expenditures population A numerical y value, representing the total amount expended Points defined by the total amount of expenditure in the given cluster for each company subject.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the Pinacoteca di Brera, a 200 centuries old museum. This museum is full of incredible paintings from the Renaissance period. During my visit I was particularly impressed from one of them: &#34;La Vergine con il Bambino, angeli e Santi&#34;, by Piero della Francesca.  If you see this painting you will find a profound of colours with a great equilibrium between different hues, the hardy usage of complementary colours and the ability expressed in the &#34;</description>
     </item>
     
     <item>

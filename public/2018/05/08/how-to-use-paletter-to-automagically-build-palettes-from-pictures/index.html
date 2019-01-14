@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.31.1" />
+
+
+<title>how to use PaletteR to automagically build palettes from pictures - Andrea Cirillo</title>
+<meta property="og:title" content="how to use PaletteR to automagically build palettes from pictures - Andrea Cirillo">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+<link rel="stylesheet" href="/css/github-widget.css"  type="text/css" />
+
+
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    
+  </head>
+  <body>
+    <div class="wrapper">
+            <header class="header">
+        <nav class="nav">
+<div class = "nav-anchor">
+  <a href="/" class="nav-logo">
+    <img src="/images/aclogo.ico"
+         width="40"
+         height="40"
+         alt="Logo">
+  </a>
+
+
+  <h1 href="/" class="nav-title" >Andrea Cirillo</h1>
+</div>
+  <ul class="nav-links">
+    
+    <li><a href="/about/">about</a></li>
+    
+    <li><a href="/pubblications">pubblications</a></li>
+    
+    <li><a href="/software/">software</a></li>
+    
+    <li><a href="/post/">blog</a></li>
+    
+    <li><a href="/bookstack/">bookstack</a></li>
+    
+    <li><a href="/contacts/">contacts</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+      
+
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">7 min read</span>
+    
+
+    <h1 class="article-title">how to use PaletteR to automagically build palettes from pictures</h1>
+    
+    
+    <span class="article-date">2018/05/08</span>
+    
+    
+    <span><h3>Andrea Cirillo</h3></span>
+    
+
+    <div class="article-content">
+      <div id="TOC">
+<ul>
+<li><a href="#introducing-paletter">Introducing paletter</a><ul>
+<li><a href="#installing-paletter">Installing paletter</a></li>
+<li><a href="#creating-a-palette-from-your-image">Creating a palette from your image</a></li>
+</ul></li>
+<li><a href="#functional-specification">Functional specification</a><ul>
+<li><a href="#reading-a-picture-into-the-rgb-colourspace">Reading a picture into the RGB colourspace</a></li>
+<li><a href="#processing-the-rgb-image-trough-kmeans">Processing the RGB image trough kmeans</a></li>
+<li><a href="#moving-to-the-hsv-colours-space">Moving to the hsv colours space</a></li>
+<li><a href="#removing-outliers">Removing outliers</a></li>
+<li><a href="#optimising-palette">Optimising palette</a></li>
+</ul></li>
+<li><a href="#how-to-apply-paletter-in-ggplot2">How to apply paletteR in ggplot2</a></li>
+<li><a href="#join-us">Join us</a></li>
+</ul>
+</div>
+
+<p>I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the <a href="http://pinacotecabrera.org/">Pinacoteca di Brera</a>, a 200 centuries old museum. This museum is full of incredible paintings from the Renaissance period. During my visit I was particularly impressed from one of them: “La Vergine con il Bambino, angeli e Santi”, by Piero della Francesca.</p>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Piero_della_Francesca_046.jpg/328px-Piero_della_Francesca_046.jpg" >
+<figure class="post_image">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Piero_della_Francesca_046.jpg/328px-Piero_della_Francesca_046.jpg"  alt="proactive" style="width: 350px;"/>
+</figure>
+<p></a></p>
+<p>If you see this painting you will find a profound of colours with a great equilibrium between different hues, the hardy usage of complementary colours and the ability expressed in the “chiaroscuro” technique. While I was looking at the painting I started, wondering how we moved from this wisdom to the ugly charts you can easily find within today’s corporate reports ( find a great sample on the <a href="http://viz.wtf/">WTF visualization website</a>) This is where <code>Paletter</code> comes from: bring the Renaissance wisdom and beauty within the plots we produce every day.</p>
+<div id="introducing-paletter" class="section level2">
+<h2>Introducing paletter</h2>
+<p><code>PaletteR</code> is a lean R package which lets you draw from any custom image an optimized palette of colours. The package extracts a custom number of representative colours from the image. Let’s try to apply it on the “Vergine con il Bambino, angeli e Santi” before looking into its functional specification.</p>
+<div id="installing-paletter" class="section level3">
+<h3>Installing paletter</h3>
+<p>Since paletteR is available only trough Github we have to install it using devtools: </p>
+<pre>library(devtools)
+install_github("andreacirilloac/paletter")
+</pre>
+</div>
+<div id="creating-a-palette-from-your-image" class="section level3">
+<h3>Creating a palette from your image</h3>
+<p>to draw our palette we now need to:</p>
+<p><code>_image_path_</code></p>
+<p><code>_number_of_colours_</code></p>
+<p><code>_type_of_variable_</code></p>
+<p>Here it is the code (you can donwload the picture from wikicommons visiting <a href="https://it.wikipedia.org/wiki/File:Piero_della_Francesca_046.jpg" class="uri">https://it.wikipedia.org/wiki/File:Piero_della_Francesca_046.jpg</a>):</p>
+<pre>create_palette(image_path = "~/Desktop/410px-Piero_della_Francesca_046.jpg",
+               number_of_colors =20,
+               type_of_variable = “categorical")
+</pre>
+<p>and here it is the output:</p>
+<a href="/images/first_palette.png" >
+<figure class="post_image">
+<img src="/images/first_palette.png"  alt="first_palette" style="width: 400px;"/>
+</figure>
+<p></a></p>
+<p>As you see the palette drawn contains all the most representative colours, like the red of the carpets or the wonderful blue of San Giovanni Battista on the left of the painting.</p>
+</div>
+</div>
+<div id="functional-specification" class="section level2">
+<h2>Functional specification</h2>
+<p>The main idea behind paletteR code is quite simple:</p>
+<p><code>kmeans</code></p>
+<p>Let ’see how all this works in brief.</p>
+<div id="reading-a-picture-into-the-rgb-colourspace" class="section level3">
+<h3>Reading a picture into the RGB colourspace</h3>
+<p>This first step involves transforming the image into an abstract object on which we can apply statistical learning. To do so we read the image file and convert it into a three multidimensional matrix. Within the matrix to each image pixel three numbers are associated:</p>
+<p>All those three attributes range from 0 to 255, as requested by the rules of the RGB colourspace ( find out more on the related <a href="https://en.wikipedia.org/wiki/RGB_color_model">RGB colourspace page on wikipedia</a>) . To perform this transformation we use the readJPEG() function from Jpeg package:</p>
+<pre>painting <- readJPEG(image_path)
+</pre>
+<p>this will generate an array having for each point within the image both the cartesian coordinates and the R, G and B values of the related colours. We now apply some statistical learning on the array, to select most representative colours and create an optimized palette.</p>
+</div>
+<div id="processing-the-rgb-image-trough-kmeans" class="section level3">
+<h3>Processing the RGB image trough kmeans</h3>
+<p>This processing step was actually the first developed of the package and I already described it in a previous post. Within tht post I devoted the right time to expose some theoretical reference to the kmeans algo and it application to images. Please refere to the <a href="http://www.milanor.net/blog/build-color-palette-from-image-with-paletter/">How to build a color palette from any image with R and k-means algo</a>  post to get a proper explanation of this. You can also read more about this algo and its inner rationales within <em><a href="/pubblications/featured_book/">R for data mining</a></em> a data mining chrime book. What we need to repeat here is that by applying the kmeans algo on the array we get a list of RGB colours, selected as the most representative of the ones available within the image. I clearly remember my feeling when the first palette came out of kmeans: it was thrilling, but the results were undeemebly poors. I came out for instance with this:</p>
+<a href="/images/paletteR-image.png" >
+<figure class="post_image">
+<img src="/images/paletteR-image.png"  alt="first_palette" style="width: 400px;"/>
+</figure>
+<p></a></p>
+<p>What was wrong with the palette employed? We can pick at least three answers:</p>
+<ul>
+<li>there are too bright colours</li>
+<li>there are too dark colours</li>
+<li>there are too similar colours</li>
+</ul>
+<p>To summarise: my package was stupid, it was unable to reasonate about relationship among colours avaiable.  To solve this problem I moved to the hsv colour space which is the perfect environment were to perform such kind of analyses. the HSV colourspace expresses every colour in terms of:</p>
+<ul>
+<li>Hue, which properly expresses the colour, and gets a value from 0 to 360</li>
+<li>Saturation, which expresses the quantity of colour (think about a pigment diluted with water to get it). This takes a value from 0 to 100%</li>
+<li>Brightness or Value, which express the quantity of grey or white included within the colour. This also takes a value from 0 to 100%</li>
+</ul>
+<p>The way HSV system describes colours makes it easy to sort colours, moving from 0 to 360, and check for too bright or too dark colours, analysing distributions of saturation and brightness. You can get more on this on the really detailed <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">Wikipedia page of HSV</a></p>
+</div>
+<div id="moving-to-the-hsv-colours-space" class="section level3">
+<h3>Moving to the hsv colours space</h3>
+<p>To convert our RGB object into the HSV space we just need to apply <code>rgb2hsv()</code> to the values of R, G and B. </p>
+</div>
+<div id="removing-outliers" class="section level3">
+<h3>Removing outliers</h3>
+<p>What would you do next? After moving within the HSV realm we can now draw meaningful representations of our colour data. What paletteR does as a first step is to produce descriptive statistics for values of Saturation and Value. First of all we calculate quartiles of all of those values:</p>
+<pre>brightness_stats <- boxplot.stats(sorted_raw_palette$v)
+saturation_stats <- boxplot.stats(sorted_raw_palette$s)
+</pre>
+<p>Once being done with that we remove the lowest and highest of both.  This lets us fix the first two problems observed in the first palette: too bright and too dark colours. What about the third problem?</p>
+</div>
+<div id="optimising-palette" class="section level3">
+<h3>Optimising palette</h3>
+<p>To get this solved we have to reasonate about the visual distance of colours. Look for instance at those colours? <a href="/images/three_colours.png">!</a> You would definitely say the first and the second are more distant from each other than the second and the third. You would definitely be right, but how to make our PaletteR as cleaver as you? This is simply done within the HSV space leveraging the Hue attribute. As we have seen HSV hues are placed along a circle in a visually reasonable way. This means that a hue of 40 (which is some kind of orange) is way more distant from a hue of 100 (green) than a hue of 90 is ( another green). Knowing this we just have to select from the first set of colours coming from kmeans a second subset of colours selected as the most <em>distant</em>. This will let us avoid employing colours appearing too similar. How to do this? The current version of paletteR does it:</p>
+<ul>
+<li>generating a random sample of possible alternative palettes</li>
+<li>measuring the median distance among hues within the palette</li>
+<li>selecting the palette showing the greatest distance</li>
+</ul>
+<p>And here it is below the result for our dear Renaissance painting:</p>
+<a href="/images/first_palette.png" >
+<figure class="post_image">
+<img src="/images/first_palette.png"  alt="first_palette" style="width: 400px;"/>
+</figure>
+<p></a></p>
+<p>Isn’t that better than the previous one?</p>
+</div>
+</div>
+<div id="how-to-apply-paletter-in-ggplot2" class="section level2">
+<h2>How to apply paletteR in ggplot2</h2>
+<p>Applying the obtained palette in ggplot is actually easy. The object you obtain from the <code>_create_palette_</code> function is a vector of hex codes (another way of codify colours, more on the <a href="https://en.wikipedia.org/wiki/Web_colors">Wikipedia page</a>). You therefore have to pass it to your ggplot plot employing <code>scale_color_manual()</code>.A small side note: be sure to select a number of colours equal to the number of variables to plot. Let’s apply our palette by Raffaello with an hyphotetical plot:</p>
+<pre>colours_vector <- create_palette(image_path = image_path,
+number_of_colors =32,
+type_of_variable = “categorical")
+ggplot(data = mtcars, aes(x = rownames(mtcars),y = hp,color = rownames(mtcars),
+                          fill = rownames(mtcars))) +
+  geom_bar(stat = 'identity') +
+  scale_color_manual(values = colours_vector) +
+  scale_fill_manual(values=colours_vector)+
+  theme_minimal() +
+  guides(size = FALSE) +
+  theme(legend.position = "bottom") +
+  labs(title = "disp vs hp")+
+  coord_flip()
+</pre>
+<p>Which will produce:</p>
+<a href="/images/final_plot.png" >
+<figure class="post_image">
+<img src="/images/final_plot.png"  alt="first_palette" style="width: 400px;"/>
+</figure>
+<p></a></p>
+</div>
+<div id="join-us" class="section level2">
+<h2>Join us</h2>
+<p><code>paletter</code> is quite a young package, nevertheless it already catched some interest (I was also invited to give a speach about it, you can <a href="http://(http://www.andreacirillo.com/pubblications/paletter_speech/)">watch it online</a>.</p>
+<p>Also the well known dataviz expert Alberto Cairo pointed it out as an useful tool:</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Ohhh, an R library that detects colors in pictures. I can see this being useful for many projects <a href="https://t.co/m2TPshm5e0">https://t.co/m2TPshm5e0</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/infographics?src=hash&amp;ref_src=twsrc%5Etfw">#infographics</a> <a href="https://twitter.com/hashtag/ddj?src=hash&amp;ref_src=twsrc%5Etfw">#ddj</a> <a href="https://t.co/yL5DbwygFc">pic.twitter.com/yL5DbwygFc</a>
+</p>
+— Alberto Cairo (<span class="citation">@albertocairo</span>) <a href="https://twitter.com/albertocairo/status/993845249628884998?ref_src=twsrc%5Etfw">May 8, 2018</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>This is because of:</p>
+<ul>
+<li>its simple and rather powerful application of statistical learning to the color space</li>
+<li>the flexible code</li>
+<li>the high number of possible use cases</li>
+</ul>
+<p>Since it is a young package there is still some work to do on it. I can see at least the following areas where further improvements could be introduced:</p>
+<p>Would you like to give an help on this? Welcome on board! You can find the full code on <a href="https://github.com/AndreaCirilloAC/paletter">Github</a> and every contributions is welcome.</p>
+</div>
+
+    </div>
+
+ 
+<div class = "comment-disclaimer-title">
+  comments disclaimer
+</div>
+
+    <div class="comment-disclaimer">
+
+thank you for taking the time to comment. If the comment you are about to write is related to a piece of code I wrote, please reach its Github respository and place there any request of improvement or report of bugs. 
+</div>
+
+    <div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://andreacirillo.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+
+
+
+    
+  </article>
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a> and <a href="https://bookdown.org/yihui/blogdown/" class="footer-links-kudos">  <img src="/images/hex-blogdown.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45180202-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45180202-10');
+</script>
+
+    
+<script src="/js/github-widget.js"></script>
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+  </body>
+  
+  <script src="https://my.hellobar.com/a21e2e804c53c9537c50fc5967d63727cceb2166.js" type="text/javascript" charset="utf-8" async="async"></script>
+</html>
+

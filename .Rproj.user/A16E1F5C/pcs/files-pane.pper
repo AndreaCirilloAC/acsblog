@@ -1,10 +1,6 @@
 {
-    "path" : "~/Dropbox/R_projects/acsblog/content/pubblications",
+    "path" : "~/Dropbox/R_projects/acsblog/content",
     "sortOrder" : [
-        {
-            "ascending" : false,
-            "columnIndex" : 3
-        },
         {
             "ascending" : true,
             "columnIndex" : 2

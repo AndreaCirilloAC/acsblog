@@ -136,7 +136,7 @@ $$
 
 and the lie factor thus is : 350/50 = 7
 
-what does this number mean? it means that for a real variation of 50% a variation of 350% is showed on the plot. in other words our plot is   increasing the real variation by 7 times.
+what does this number mean? it means that for a real variation of 50% a variation of 350% is showed on the plot. in other words our plot is increasing the real variation by 7 times.
 
 If we now look at a **correct plot** we have:
 

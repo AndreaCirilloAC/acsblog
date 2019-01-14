@@ -6,10 +6,19 @@
     <description>Recent content in Data Analysis on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Sep 2016 12:22:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>how to use PaletteR to automagically build palettes from pictures</title>
+      <link>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</guid>
+      <description>Introducing paletter Installing paletter Creating a palette from your image  Functional specification Reading a picture into the RGB colourspace Processing the RGB image trough kmeans Moving to the hsv colours space Removing outliers Optimising palette  How to apply paletteR in ggplot2 Join us   I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the Pinacoteca di Brera, a 200 centuries old museum.</description>
+    </item>
     
     <item>
       <title>streamline your analyses linking R to sas and more: the workfloweR</title>
