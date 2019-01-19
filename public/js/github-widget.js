@@ -30,13 +30,16 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
     opts = typeof opts === 'string' ? JSON.parse(opts) : {};
     siteRepoNames = [(user + ".github.com").toLowerCase(), (user + ".github.io").toLowerCase()];
     sortBy = opts.sortBy || 'watchers';
+
     limit = parseInt(opts.limit) || Infinity;
     made = 0;
+
     ref = payload.data.sort(function(a, b) {
       return b[sortBy] - a[sortBy];
     });
     results = [];
-    for (i = 0, len = ref.length; i < len; i++) {
+
+   for (i = 0, len = ref.length; i < len; i++) {
       repo = ref[i];
       if ((!opts.forks && repo.fork) || (ref1 = repo.name.toLowerCase(), indexOf.call(siteRepoNames, ref1) >= 0) || !repo.description) {
         continue;
@@ -47,7 +50,7 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
       string = repo.description
       token = "√"
       test = string.search(token)
-      if(test >-1){
+      /**if(test >-1){**/
         
       results.push(make({
         parent: div,
@@ -94,7 +97,7 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
       
         
       }
-    }
+   }
     return results;
   };
 
