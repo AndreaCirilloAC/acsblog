@@ -26,7 +26,7 @@
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
-      <description>Mac version of updateR function: the UpdateR package how to install the updateR package how to update R version using the updateR package behind the scenes: how updateR works verify that user is running a unix machine get last R version from CRAN run command line commands within R feel free to complain with me    I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.</description>
+      <description>Mac version of updateR function: the UpdateR package how to install the updateR package how to update R version using the updateR package behind the scenes: how updateR works verify that user is running a unix machine get last R version from CRAN run command line commands within R accomplisments and further developments feel free to complain with me    I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.</description>
     </item>
     
     <item>
@@ -145,7 +145,7 @@ Unfortunately, looking on Google didn&amp;rsquo;t give any useful result.</descr
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>/2015/02/06/benfords_law_with_r/</guid>
-      <description>In the early &amp;lsquo;900 Frank Benford observed that &amp;lsquo;1&amp;rsquo; was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What &amp;lsquo;Benford&amp;rsquo;s Law&amp;rsquo; stands for? Around 1938 Frank Benford, a physicist at the General Electrics research laboratories, observed that logarithmic tables were more worn within first pages: was this casual or due to an actual prevalence of numbers near 1 as first digits?</description>
+      <description>In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What ‘Benford’s Law’ stands for? Nice stuff, but what can I do with Benford’s Law? You can find fraud with it Some precautions BenfordeR: another lean shiny application Some code specs ( if you are interested in) performing a benford analysis plotting results detecting suspected records  What’s next   In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.</description>
     </item>
     
     <item>

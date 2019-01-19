@@ -8,15 +8,9 @@ author: "Cal Newport"
 status: "read"
 ---
 
-```{r echo=FALSE, out.width="30%"}
-# All defaults
-library(knitr)
-include_graphics(params$cover)
-```
-
+<a target="_blank"  href="https://www.amazon.co.uk/gp/product/0349411905/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=0349411905&linkCode=as2&tag=andreaciril08-21&linkId=001bbdb728d112ab56496e1fc007a294"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=0349411905&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=andreaciril08-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=andreaciril08-21&l=am2&o=2&a=0349411905" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## a really brief summary
-
 
 There are **two diverging trends** in our society:
 
@@ -47,5 +41,7 @@ Tha main idea behind this is that something really urgent would arise before tha
 ## has it worked?
 
 **It definitely worked**, since after applying the advices included within the book and the main strategy described above, I managed to conclude the writing of my [last book ](/pubblications/featured_book/) and two more miliar activities at work, underlined from a public praise of my highest boss.
+
+<a target="_blank"  href="https://www.amazon.co.uk/gp/product/1787124460/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1787124460&linkCode=as2&tag=andreaciril08-21&linkId=ad82412b2b46c594e9eea16669b2cb23"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=1787124460&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=andreaciril08-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=andreaciril08-21&l=am2&o=2&a=1787124460" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Do you think it is not enough? Well, I finished reading the book just a few months ago :)

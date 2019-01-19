@@ -91,15 +91,13 @@
     <div class="article-content">
       
 
-<p>Because <a href="https://andreacirilloblog.wordpress.com/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/"><strong>Afraus</strong> </a>received a good interest, last month I override shinyapps.io <strong><a href="http://www.shinyapps.io/#pricing">free plan limits</a></strong>.</p>
+<p>Because <a href="/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/"><strong>Afraus</strong> </a>received a good interest, last month I override shinyapps.io <strong><a href="http://www.shinyapps.io/#pricing">free plan limits</a></strong>.</p>
 
 <p>That got me move my Shiny App on an <strong>Amazon AWS instance</strong>.</p>
 
 <p>Well, it was not so straight forward: even if there is <strong>plenty of tutorials</strong> around the web, <strong>every one</strong> seems to <strong>miss a part</strong>: upgrading R version, removing shiny-server examples&hellip; And even having all info it is still quite a long, <strong>error-prone process</strong>.</p>
 
 <p>All this pain is removed by <strong>ramazon</strong>, an <strong>R package</strong> that I developed to take care of everything is needed <strong>to deploy a shiny app on an AWS instance</strong>. An early disclaimer for Windows users: <strong>only Apple OS X is supported</strong> at the moment.</p>
-
-<!-- more -->
 
 <p><a href="https://andreacirilloblog.files.wordpress.com/2015/08/how-to-use-ramazon-2.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/08/how-to-use-ramazon-2.png?w=660" alt="How to use ramazon (2)" /></a></p>
 
@@ -113,7 +111,7 @@
 
 <p>Be sure to <strong>change all parameters</strong> in accordance with the screenshots.</p>
 
-<p>[slideshare id=51349866&amp;doc=jbqv4twris66dewsqjtv-signature-843c31b3a0f027c947d558b8e4ad422a871c4447d2f87e299cca6a927ccfa4c9-poli-150806144702-lva1-app6892]</p>
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/4onF3Un38VrbrD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AndreaCirillo1/how-to-launch-an-aws-ec2-instance-51349866" title="How to launch an aws ec2 instance" target="_blank">How to launch an aws ec2 instance</a> </strong> from <strong><a href="https://www.slideshare.net/AndreaCirillo1" target="_blank">Andrea Cirillo</a></strong> </div></p>
 
 <h4 id="retrieve-the-public-dns">retrieve the public dns</h4>
 
@@ -139,7 +137,7 @@ library(ramazon)
 
 <h3 id="run-ramazon">run ramazon()</h3>
 
-<p>after loading ramazon library you just need to** run the following line of code**, <strong>using the public DNS and key pair name</strong> ( without &ldquo;.pem&rdquo; extension into the name) you retrieved into the previous paragraphs:
+<p>after loading ramazon library you just need to <strong>run the following line of code</strong>, <strong>using the public DNS and key pair name</strong> ( without &ldquo;.pem&rdquo; extension into the name) you retrieved into the previous paragraphs:
 <code>
 ramazon(Public_DNS =&quot;your_Public_DNS&quot;, key_pair_name = &quot;your_key_pair_name&quot;)
 </code>
@@ -147,18 +145,18 @@ after running this line you will see your console being populated by a lot of me
 
 <h3 id="enjoy-your-app">enjoy your app!</h3>
 
-<p>At the end of the process, **ramazon **will communicate that everything went smoothly and <strong>will print out the web URL</strong> where you can find <strong>your deployed app</strong>.</p>
+<p>At the end of the process, <strong>ramazon</strong> will communicate that everything went smoothly and <strong>will print out the web URL</strong> where you can find <strong>your deployed app</strong>.</p>
 
 <h2 id="some-tech-specs">Some tech specs</h2>
 
 <p>the full ramazon code is released under <strong><a href="https://github.com/AndreaCirilloAC/ramazon">MIT license on a github repo</a></strong>. Nevertheless, for those interested in code details I will describe in the next lines <strong>some details about ramazon design</strong>.</p>
 
-<p>Basically, what ramazon does is to **write a bash script **with all commands needed to:</p>
+<p>Basically, what ramazon does is to <strong>write a bash script</strong> with all commands needed to:</p>
 
 <ul>
 <li><p><strong>install the latest version of R</strong> (non trivial issues, since Ubuntu comes with R 3.0.2 version, causing heavy packages incompatibility)</p></li>
 
-<li><p>install the** latest version of Shiny-Server**</p></li>
+<li><p>install the <strong>latest version of Shiny-Server</strong></p></li>
 
 <li><p><strong>copy the shiny app files</strong> on the server</p></li>
 </ul>
@@ -190,15 +188,15 @@ after running this line you will see your console being populated by a lot of me
 <h4 id="refresh-that-ip">Refresh that IP</h4>
 
 <p>as you can see within the deck showed above, the security group associated with your instance as an <strong>SSH connection rule</strong> (see slide 10)
-Even if this type is set with &ldquo;<strong>My IP</strong>&rdquo;,** if** this <strong>IP changes</strong> (i.e. you connect from another network) it will <strong>not update automatically</strong>.</p>
+Even if this type is set with &ldquo;<strong>My IP</strong>&rdquo;,  <strong>if</strong> this <strong>IP changes</strong> (i.e. you connect from another network) it will <strong>not update automatically</strong>.</p>
 
 <p>This again will result in ramazon failing its job, given that it will not be able to establish an SSH connection with the instance.</p>
 
-<p>All you will have to do in this case is to <strong><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html">edit inbound rules</a></strong> for the security group and specify again &ldquo;My IP&rdquo; for the SSH Type. This will change the IP into your current IP.</p>
+<p>All you will have to do in this case is to <strong><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html">edit inbound rules</a></strong> for the security group and specify again &ldquo;My IP&rdquo; for the SSH Type. This will change the IP into your current IP.</p>
 
 <h4 id="no-public-dns-showing">No Public DNS showing</h4>
 
-<p>After trying ramazon (yeah, it worked 😌), <a href="https://twitter.com/ukituki">@ukituki</a> pointed me out a possible issue: the <strong>absence of a public DNS</strong> for a given instance.
+<p>After trying ramazon (yeah, it worked 😌), <a href="https://twitter.com/ukituki">@ukituki</a> pointed me out a possible issue: the <strong>absence of a public DNS</strong> for a given instance.
 this issue comes from not checking the &ldquo;Automatically assign a public IP address to your instances&rdquo; during the launching process.</p>
 
 <p>To <strong>solve this problem</strong> you just have to follow the following steps (from question <em><a href="http://stackoverflow.com/questions/20941704/ec2-instance-has-no-public-dns">EC2 instance has no public DNS on Stackoverflow</a></em>):</p>
@@ -221,6 +219,8 @@ this issue comes from not checking the &ldquo;Automatically assign a public IP a
 
 <p>I am already working on some further improving of the ramazon functionalities, like the update function to be run after the first deploy and some other facilities.
 Nevertheless I would <strong>really appreciate you coming back after using ramazon</strong> to tell me what you went wrong, preferably <strong><a href="https://github.com/AndreaCirilloAC/ramazon">opening Github issues</a></strong>, what could be done better and what you would like to see.</p>
+
+<p>Ramazon package has been also covered within the practical Cookbook published by Packt: <a href="https://amzn.to/2HiZU5G"><strong>Rstudio for R Statistical Computing Cookbook</strong></a>.</p>
 
     </div>
 

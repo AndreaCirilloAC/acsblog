@@ -26,7 +26,7 @@ if you want to stay in touch with me:
 
 - **Place and Date of Birth:** Monza, Italy | 14 August 1989
 - **Email:** please see [contacts](/contacts) page
-- **Linkedin profile:** [it.linkedin.com/pub/andrea-cirillo/33/512/862/](http://it.linkedin.com/pub/andrea-cirillo/33/512/862/)
+- **Linkedin profile:** [www.linkedin.com/in/cirilloandrea](www.linkedin.com/in/cirilloandrea)
 
 ### Work Experience
 
@@ -37,8 +37,8 @@ if you want to stay in touch with me:
 
 ### Pubblications
   
-   - May 2016, **Rstudio for R Statistical Computing Cookbook**, London: Packt Publishing
-   - Nov 2017, **R Data Mining**, London: Packt Publishing
+   - May 2016, [**Rstudio for R Statistical Computing Cookbook**](https://amzn.to/2HiZU5G), London: Packt Publishing
+   - Nov 2017, [**R Data Mining**](https://amzn.to/2SYsZVc), London: Packt Publishing
 
 
 ### Education

@@ -20,8 +20,6 @@ Among these functions **one of my favourite **is the **_updateR()_** **function*
 
 The only issue with this function is that **it works only on Windows Operating systems**.
 
-<!-- more -->
-
 ## Mac version of updateR function: the UpdateR package
 
 Since I am a lazy programmer and generally a devote of the great thesis introduced within [**The pragmatc programmer**](https://amzn.to/2RoOKQC), I decided to develop **updateR**, a package that let's you update your R version from R itself just running one line of code.
@@ -79,7 +77,7 @@ By the way If you want to know more on **how the function works**, have a look a
 ## behind the scenes: how updateR works
 
 
-as experimented with **[Ramazon package](https://andreacirilloblog.wordpress.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/)**, which allows you to **publish your shiny app on amazon AWS with a function**, I developed **updateR** mainly **leveraging the _system()_ function**, which lets you pass commands to the command line directly from the R environment.
+as experimented with **[Ramazon package](2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/)**, which allows you to **publish your shiny app on amazon AWS with a function**, I developed **updateR** mainly **leveraging the _system()_ function**, which lets you pass commands to the command line directly from the R environment.
 
 That said, the **updateR function workflow** can be summarized into the following steps:
 
@@ -146,10 +144,14 @@ command           <- paste("echo " , admin_password, "| sudo -S installer -pkg "
 system(command)
 ```
 
+### accomplisments and further developments
 
+updateR closed a gap standing in the way of Mac R users, providing an handful tool to update their version of the software.
+the good acceptance the package is obtaining is not that much suprising. It is currently cited as the preferred way to perform the update within different "official sources" of the R community.
+[Tal Galili himself mentioned the package](https://www.r-statistics.com/tag/installr/) as an OSX alternative to his package. 
+We are now planning to merge UpdateR into installR to better serve our beloved Rlovers.
 
 ### feel free to complain with me
-
 
 I shared _updateR_ as a package since **I think it could be a really useful tool for the R commuynity**.
 

@@ -103,6 +103,7 @@
 <li><a href="#verify-that-user-is-running-a-unix-machine">verify that user is running a unix machine</a></li>
 <li><a href="#get-last-r-version-from-cran">get last R version from CRAN</a></li>
 <li><a href="#run-command-line-commands-within-r">run command line commands within R</a></li>
+<li><a href="#accomplisments-and-further-developments">accomplisments and further developments</a></li>
 <li><a href="#feel-free-to-complain-with-me">feel free to complain with me</a></li>
 </ul></li>
 </ul>
@@ -111,7 +112,6 @@
 <p>I personally really <strong>appreciate the <a href="https://cran.r-project.org/web/packages/installr/installr.pdf">InstallR package</a> from <a href="https://twitter.com/talgalili">Tal galilli</a></strong>, since it lets you <strong>install</strong> a great number of <strong>tools</strong> needed for working with R just <strong>running a function</strong>.</p>
 <p>Among these functions <strong>one of my favourite </strong>is the <strong><em>updateR()</em></strong> <strong>function</strong> which checks for <strong>new versions of R language</strong> and in case of positive response <strong>installs it</strong> on your machine.</p>
 <p>The only issue with this function is that <strong>it works only on Windows Operating systems</strong>.</p>
-<!-- more -->
 <div id="mac-version-of-updater-function-the-updater-package" class="section level2">
 <h2>Mac version of updateR function: the UpdateR package</h2>
 <p>Since I am a lazy programmer and generally a devote of the great thesis introduced within <a href="https://amzn.to/2RoOKQC"><strong>The pragmatc programmer</strong></a>, I decided to develop <strong>updateR</strong>, a package that let’s you update your R version from R itself just running one line of code.</p>
@@ -139,7 +139,7 @@ install_github(&#39;andreacirilloac/updateR&#39;)</code></pre>
 </div>
 <div id="behind-the-scenes-how-updater-works" class="section level2">
 <h2>behind the scenes: how updateR works</h2>
-<p>as experimented with <strong><a href="https://andreacirilloblog.wordpress.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">Ramazon package</a></strong>, which allows you to <strong>publish your shiny app on amazon AWS with a function</strong>, I developed <strong>updateR</strong> mainly <strong>leveraging the <em>system()</em> function</strong>, which lets you pass commands to the command line directly from the R environment.</p>
+<p>as experimented with <strong><a href="2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">Ramazon package</a></strong>, which allows you to <strong>publish your shiny app on amazon AWS with a function</strong>, I developed <strong>updateR</strong> mainly <strong>leveraging the <em>system()</em> function</strong>, which lets you pass commands to the command line directly from the R environment.</p>
 <p>That said, the <strong>updateR function workflow</strong> can be summarized into the following steps:</p>
 <div id="verify-that-user-is-running-a-unix-machine" class="section level3">
 <h3>verify that user is running a unix machine</h3>
@@ -170,6 +170,10 @@ filename_quoted          &lt;- paste(&quot;&#39;&quot;,filename,&quot;&#39;&quot
 <p>we are first going to put toghethet our line of command with <em>paste()</em> function and then submit** to the terminal calling** <strong><em>system()</em></strong> <strong>function on our command string</strong>:</p>
 <pre class="r"><code>command           &lt;- paste(&quot;echo &quot; , admin_password, &quot;| sudo -S installer -pkg &quot;, filename_quoted , &quot; -target / -verbose&quot;)
 system(command)</code></pre>
+</div>
+<div id="accomplisments-and-further-developments" class="section level3">
+<h3>accomplisments and further developments</h3>
+<p>updateR closed a gap standing in the way of Mac R users, providing an handful tool to update their version of the software. the good acceptance the package is obtaining is not that much suprising. It is currently cited as the preferred way to perform the update within different “official sources” of the R community. <a href="https://www.r-statistics.com/tag/installr/">Tal Galili himself mentioned the package</a> as an OSX alternative to his package. We are now planning to merge UpdateR into installR to better serve our beloved Rlovers.</p>
 </div>
 <div id="feel-free-to-complain-with-me" class="section level3">
 <h3>feel free to complain with me</h3>
