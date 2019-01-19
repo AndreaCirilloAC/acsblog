@@ -1035,3 +1035,19 @@ To https://github.com/AndreaCirilloAC/acsblog
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git ad [Kd.[K . upa[Kdated post
 fatal: pathspec 'updated' did not match any files
 ]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add . updated post;4D[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git commit -m "updated old posts"
+[master f33f81c] updated old posts
+ 50 files changed, 794 insertions(+), 314 deletions(-)
+ create mode 100644 content/post/2015-02-06-benfords_law_with_r.html
+ rename content/post/{2015-02-06-benfords_law_with_r.md => 2015-02-06-benfords_law_with_r.rmd} (64%)
+ create mode 100644 public/images/Schermata 2019-01-19 alle 16.38.29.png
+ create mode 100644 public/images/Schermata 2019-01-19 alle 16.38.35.png
+ create mode 100644 public/images/equation_2.png
+ create mode 100644 public/images/equations_1.png
+ create mode 100644 public/images/equations_2.png
+ create mode 100644 public/post/2015-02-06-benfords_law_with_r.rmd
+ create mode 100644 static/images/equations_1.png
+ create mode 100644 static/images/equations_2.png
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ it push
+bash: it: command not found
+]0;~/Dropbox/R_projects/acsblogMac-di-Andrea:acsblog andrea_cirillo$ git add .

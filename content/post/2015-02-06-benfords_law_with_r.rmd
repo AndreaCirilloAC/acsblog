@@ -193,8 +193,9 @@ Particularly, Benford’s Law is unlikely to be useful in the following cases:
 
 ## BenfordeR: another lean shiny application
 
-
-![BenfordeR Screenshot](https://andreacirilloblog.files.wordpress.com/2015/02/benforder_app.png?w=660)](https://andreacirillo.shinyapps.io/BenfordeR/) 
+<a href="https://andreacirillo.shinyapps.io/BenfordeR/" ><figure class= "post_image" >
+<img src="https://andreacirilloblog.files.wordpress.com/2015/02/benforder_app.png?w=660"  alt="proactive" style="width: 100%px;"/>
+</figure></a>
 
 
 Because **I am getting used to do it** ( and also because my readers seems to find it useful)  I developed a lean shiny app in R, that let's you play around with Bendford law, loading your own population and looking for Benford's law compliance ( no worry, a demo dataset is also provided).
