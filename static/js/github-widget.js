@@ -29,7 +29,7 @@ Released under the MIT licence: http://opensource.org/licenses/mit-license
     opts = div.getAttribute('data-options');
     opts = typeof opts === 'string' ? JSON.parse(opts) : {};
     siteRepoNames = [(user + ".github.com").toLowerCase(), (user + ".github.io").toLowerCase()];
-    sortBy = opts.sortBy || 'watchers';
+    sortBy = opts.reverse || 'watchers';
     limit = parseInt(opts.limit) || Infinity;
     made = 0;
     ref = payload.data.sort(function(a, b) {
