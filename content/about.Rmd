@@ -6,20 +6,23 @@ toc: no
 
 ## brief bio
 
-I am Andrea Cirillo, a Quantitative Analyst currently employed in a bank. My kind of mixed background ( HR guys tended to call it *a resilient path*, when we talked about it) is composed of a first relevant dose of artistic studies in the Brera High School, followed from an heavy dose of economics and mathematics at the Catholic University of Jesus Sacred Heart, finally crowned from Auditing, Statistics and Data Science Courses by Auditing, Hacking and Banking firms.
+I am Andrea Cirillo, a Quantitative Analyst currently employed in a bank. My kind of mixed background ( HR guys tended to call it *a resilient path*, when we talked about it) is composed of a first **relevant dose of artistic studies** in the Brera High School, followed from an **heavy dose of economics and mathematics** at the Catholic University of Jesus Sacred Heart, **finally crowned from Auditing, Statistics and Data Science** Courses by Auditing, Hacking and Banking firms.
 
-I use this website, which I personally developed using *Hugo*, *rmarkdown* and *blogdown* to store and share knowkedge about:
+I use this website, which I [personally developed using *Hugo*, *rmarkdown* and *blogdown*](https://github.com/AndreaCirilloAC/acsblog) to store and share knowkedge about:
 
-- **machine learning**
-- **dataviz**
-- **wathever**
+- [**machine learning**](/tags/algorithm/)
+- [**dataviz**](/tags/dataviz/)
+- [**wathever**](/post/)
 
 I usually code in R, python and Sas, while I am giving and hard try to D3.js. Moreover I... well this is supposed to be a *brief description*, so let's move on to the *vitae* section for further details on this.   
+
+if you want to stay in touch with me:
+- subscribe the newsletter ( popup on the left)
+- visit the [contacts](/contacts) page
 
 ## vitae
 
 ### Personal Data
-
 
 - **Place and Date of Birth:** Monza, Italy | 14 August 1989
 - **Email:** please see [contacts](/contacts) page
@@ -27,7 +30,7 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
 
 ### Work Experience
 
-- Jul 2017 - *Current*, Audit quantitative Analyst at Intesa Sanpaolo s.p.a.
+- Jul 2018 - *Current*, Senior Audit quantitative Analyst at Intesa Sanpaolo s.p.a.
 - Dec 2015 - June 2017, Credit Risk Internal Auditor at Intesa Sanpaolo s.p.a.
 - May 2013 - Oct 2015, Internal Auditor at FNM s.p.a., Milan
 - Oct 2011 - May 2013, Auditor at Deloitte Touche & Tomatsu, Milan
@@ -35,11 +38,10 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
 ### Pubblications
   
    - May 2016, **Rstudio for R Statistical Computing Cookbook**, London: Packt Publishing
-   - Nov 2017, **Cirillo A.. R Data Mining**, London: Packt Publishing
+   - Nov 2017, **R Data Mining**, London: Packt Publishing
 
 
 ### Education
-
 
  - 2011-2014 Master’Degree in Management, **Catholic University of Jesus Sacred Heart**, Milan
    - 107/110 | Majors: Time series analysis, Linear programming
@@ -50,7 +52,6 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
  	- Thesis: “Effects of job insecurity on the life choices of young italians”
 
 ### Certifications
-
 
 - 2017 [Big Dive - Data Science and Analytics](https://www.bigdive.eu/) 
 - 2018 - **Certified Internal Auditor (CIA)** 
@@ -66,15 +67,16 @@ I usually code in R, python and Sas, while I am giving and hard try to D3.js. Mo
 
 - **Basic Knowledge**: sql,  ACLscripts, Linux, Java, 
 - **Intermediate Knowledge**: Python,html,CSS ,SAP R/3, Visual Basic
-- **Advanced Knowledge**: R, SAS, vba, Excel, Word, PowerPoint,
+- **Advanced Knowledge**: [R](/tags/R/), SAS, vba, Excel, Word, PowerPoint,
 
 ### Presentations & Tutorials
-
-- Forthcoming, **IFRS9 accounting principle: Auditing and modeling questions**
-- Nov 2017, **automagically build the perfect palette for you plot with paletteR**, 9th MilanoR meeting keynote speech
+- forthcoming, **Exploratory data analysis with R**, Packt publishing
+- forthcoming, **EBA new definition of default**
+- Nov 2018, **Implementing analytics in internal audit: objectives and challenges", ISP CAO Roadshow, Turin, Rome
+- Nov 2018, **IFRS9 accounting principle: Auditing and modeling questions**, Intesa SanPaolo Learning Center, Milan
+- [Nov 2017, **automagically build the perfect palette for you plot with paletteR**, 9th MilanoR meeting keynote speech](http://www.andreacirillo.com/pubblications/paletter_speech/)
 - Dec 2016, **Credit Risk Models Introduction**, Intesa SanPaolo Learning Center, Milan
 
+### Software
 
-### Software packages
-
-please a have a look to the [*software*](/software) page for an updated lisr of software I developed or contributed to.
+please a have a look to the [*software*](/software) page for an updated list of softwares I developed.
