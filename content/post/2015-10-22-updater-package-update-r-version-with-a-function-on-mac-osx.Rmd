@@ -18,7 +18,8 @@ I personally really **appreciate the [InstallR package](https://cran.r-project.o
 
 Among these functions **one of my favourite **is the **_updateR()_** **function** which checks for **new versions of R language** and in case of positive response **installs it** on your machine. The only issue with this function is that **it works only on Windows Operating systems**.
 
-<div class ="emphasis">
+
+<div style="color:blue;">
 > > **UPDATE: in the coming weeks I am going to merge UpdateR into installR to better serve the R community. Be sure to subscribe to the newsletter to be aknowledged when it will happen and avoid issues.**
 
 </div>
@@ -154,7 +155,11 @@ the good acceptance the package is obtaining is not that much suprising. It is c
 [Tal Galili himself mentioned the package](https://www.r-statistics.com/tag/installr/) as an OSX alternative to his package. 
 We are now planning to merge UpdateR into installR to better serve our beloved Rlovers.
 
+<div style="color:blue;">
+
 > > **The merge between updateR and installr should happen in the coming weeks. As we were saying you can subscribe to the newsletter to be aknowledged of the exact timing and avoid issues with your code.**
+
+</div>
 
 ### feel free to complain with me
 
