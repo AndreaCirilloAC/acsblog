@@ -1,0 +1,105 @@
+---
+title: 'pagedown unboxing: a new promising package to create PDF from Rmarkdown '
+author: Andrea Cirillo
+draft: true
+date: '2019-01-27'
+slug: pagedown-unboxing-a-new-great-package-to-create-pdf-from-rmarkdown
+categories:
+  - analytics
+  - productivity
+tags:
+  - Rstudio
+  - rmarkdown
+  - report
+  
+---
+
+
+<div id="TOC">
+<ul>
+<li><a href="#do-we-really-need-a-package-like-pagedown">Do we really need a package like pagedown?</a></li>
+<li><a href="#installing-pagedown">installing pagedown</a></li>
+<li><a href="#selecting-the-preferred-template">selecting the preferred template</a></li>
+<li><a href="#filling-in-and-rendering-the-template">filling in and rendering the template</a></li>
+<li><a href="#finally-obtaining-the-desired-pdf-file">finally obtaining the desired PDF file</a></li>
+<li><a href="#my-suggestions-for-improvements">my suggestions for improvements</a></li>
+</ul>
+</div>
+
+<p>I recently came across the good talk by the always good yuhi xie at the Rstudio conference about Pagedown. You can see it by yourself reaching out the rstudio website or clicking the image below:</p>
+<a href="https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css" >
+<figure class="post_image">
+<img src="/images/pagedown/yuhi.png"  alt="pagedown" style="width: 400px;"/>
+</figure>
+<p></a></p>
+<p>Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build PDFs documents from our beloved Rmarkdown.</p>
+<p>More precisely it takes Rmardown files and render them into html files already “paged” and ready to be saved as PDF. This is something I am also experimenting with <a href="2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/">vizscorer, a bot advisor about ggplot plots</a></p>
+<div id="do-we-really-need-a-package-like-pagedown" class="section level2">
+<h2>Do we really need a package like pagedown?</h2>
+<p>If you are asking yourself thisk question I will answer proposing you three experiments:</p>
+<ol style="list-style-type: decimal">
+<li>try to create you resume in markdown for instance to use it on a website, and then employ the same text to generate a PDF you would actually send to a recruiter (and I am not even going to add “a recruiter for a job you would actually like to get”)</li>
+<li>try to generate PDF from one of your Rmarkdown files, and by a <em>PDF</em> I mean that kind of document where images are note broken into half from page to page and written text does not finish beyond the end of the page… (yeah, I know you know what I mean bu that…)</li>
+<li>try to create a decent PDF file in  without loosing more than two days. And at this point I don’t have to specify you what I mean by <em>decent</em> :)</li>
+</ol>
+<p>I think you are convinced enough, we can move on.</p>
+</div>
+<div id="installing-pagedown" class="section level2">
+<h2>installing pagedown</h2>
+<p>There is a version of the package on CRAN but since it is still under development it is suggested to install the development version from Github itself:</p>
+<pre class="r"><code>devtools::install_github(&#39;rstudio/pagedown&#39;)</code></pre>
+<pre><code>## Skipping install of &#39;pagedown&#39; from a github remote, the SHA1 (e3308dff) has not changed since last install.
+##   Use `force = TRUE` to force installation</code></pre>
+<p><strong>pagedown relies on an updated version of pandoc so you should update the package before moving on with your pagedown trial</strong></p>
+</div>
+<div id="selecting-the-preferred-template" class="section level2">
+<h2>selecting the preferred template</h2>
+<p>is now time to select the template you want to employ to create your PDF document. At the moment you can choose from: - a general purpose paged html, which is the most similar thing to a report you can get right now - conference post - Business cards - a Resume, also known as Curriculum Vitae from European folks - a Letter, also known as Letter from European folks</p>
+<a >
+<figure class="post_image">
+<img src="/images/pagedown/select_resume_template.png"  alt="pagedown" style="width: 400px;"/>
+</figure>
+<p></a></p>
+<p>if you are an Rmarkdown frequent flyer you should be used with what comes next: a new .Rmd file is created. You just have to save it with a custom name and you will be ready to start editing.</p>
+<a >
+<figure class="post_image">
+<img src="/images/pagedown/save_as_resume_rmd.png"  alt="pagedown" style="width: 400px;"/>
+</figure>
+<p></a></p>
+</div>
+<div id="filling-in-and-rendering-the-template" class="section level2">
+<h2>filling in and rendering the template</h2>
+<p>ok then, I am not going you instructions about how to fill the templates, as a genaral guide you can refer to the Rmarkdown guide, which holds true for this package as well.</p>
+</div>
+<div id="finally-obtaining-the-desired-pdf-file" class="section level2">
+<h2>finally obtaining the desired PDF file</h2>
+<p>Let’s imagine you are already done with your editing and your are ready to render out your template. At the moment this is not the straight forward process you would imagine, and it does not pass trough the well-known <em>knit</em> button.</p>
+<p>You rather have to get trough the xaringan pacakge and the following code:</p>
+<pre class="r"><code>install.packages(&quot;xaringan&quot;)
+xaringan::inf_mr(&quot;my_resume.Rmd&quot;)</code></pre>
+<p>this will ignite the rendering process and in the end will produce the <em>viewer</em> tab showing up your document:</p>
+<a >
+<figure class="post_image">
+<img src="/images/pagedown/resume_viewer_pane.png"  alt="pagedown" style="width: 400px;"/>
+</figure>
+<p></a></p>
+<p>from there it will be quite easy to move to the brwoser leveraging the small button on the upper-left of the viewer pane:</p>
+<a >
+<figure class="post_image">
+<img src="/images/pagedown/show_in_browser_viewer_pane.png"  alt="pagedown" style="width: 200px;"/>
+</figure>
+<p></a></p>
+<p><strong>At the moment only Chrome is fully supported from the package, so be sure to download and set it as the default web browser when playing with pagedown</strong></p>
+<p>an here we are: you have your document already paged as a regular PDF, ready to be printed into PDF using the regular chrome procedure (ctrl+p or cmd+p and then <em>save as PDF</em> or open as <em>PDF in Preview</em>).</p>
+<p>Isn’t that amazing? If you are still thinking that no, it is not amazing please, come back to the three experiments I proposed before.</p>
+</div>
+<div id="my-suggestions-for-improvements" class="section level2">
+<h2>my suggestions for improvements</h2>
+<p>As you may have understood I have a good opinion of this package, nevertheless some suggestions came to my mind after trying it:</p>
+<ol style="list-style-type: decimal">
+<li>provide a more consistent experience for useRs used to the Rmarkdown ecosystem the rendering process should be started from the usual <em>knit</em> button. From the vindow opening after the knitting process one should be able to go the the browser via the usual <em>open in browser button</em></li>
+<li>give the useRs more access to some basic layout choices within the provided templates ( trough a dedicated Rstudio addin maybe?)</li>
+<li>expand documentation and examples/vignettes (yeah, this is some kind of coward suggestion given the young age of the package, and I actually added it just to reach the magic number of three points…)</li>
+</ol>
+<p><strong>Please let me know in the comments if you find the tutorial useful or you think something is missing. Don’t forget to subscribe to be acknowledged about other similar R-related goodies and development of the <a href="/tags/my_packages/">R packages I maintain</a>.</strong></p>
+</div>

@@ -1,17 +1,13 @@
 {
-    "path" : "~/Dropbox/R_projects/acsblog/content/post",
+    "path" : "~/Dropbox/R_projects/acsblog/static/images",
     "sortOrder" : [
-        {
-            "ascending" : true,
-            "columnIndex" : 2
-        },
-        {
-            "ascending" : false,
-            "columnIndex" : 4
-        },
         {
             "ascending" : false,
             "columnIndex" : 3
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
         }
     ]
 }

@@ -12,6 +12,8 @@ tags:
 - algorithm
 - analytics
 - R
+- my_packages
+
 ---
 
 
@@ -30,71 +32,71 @@ tags:
 </ul>
 </div>
 
-<p>I personally really <strong>appreciate the <a href="https://cran.r-project.org/web/packages/installr/installr.pdf">InstallR package</a> from <a href="https://twitter.com/talgalili">Tal galilli</a></strong>, since it lets you <strong>install</strong> a great number of <strong>tools</strong> needed for working with R just <strong>running a function</strong>.</p>
-<p>Among these functions <strong>one of my favourite </strong>is the <strong><em>updateR()</em></strong> <strong>function</strong> which checks for <strong>new versions of R language</strong> and in case of positive response <strong>installs it</strong> on your machine. The only issue with this function is that <strong>it works only on Windows Operating systems</strong>.</p>
+<p>I personally really appreciate the <a href="https://cran.r-project.org/web/packages/installr/installr.pdf">InstallR package</a> from <a href="https://twitter.com/talgalili">Tal galilli</a>, since it lets you install a great number of tools needed for working with R just running a function.</p>
+<p>Among these functions one of my favourite is the <em>updateR()</em> function which checks for new versions of R language and in case of positive response installs it on your machine. The only issue with this function is that it works only on Windows Operating systems.</p>
 <div style="color:blue;">
 <blockquote>
 <blockquote>
-<p><strong>UPDATE: in the coming weeks I am going to merge UpdateR into installR to better serve the R community. Be sure to subscribe to the newsletter to be aknowledged when it will happen and avoid issues.</strong></p>
+<p>UPDATE: in the coming weeks I am going to merge UpdateR into installR to better serve the R community. Be sure to subscribe to the newsletter to be aknowledged when it will happen and avoid issues.</p>
 </blockquote>
 </blockquote>
 </div>
 <div id="mac-version-of-updater-function-the-updater-package" class="section level2">
 <h2>Mac version of updateR function: the UpdateR package</h2>
-<p>Since I am a lazy programmer and generally a devote of the great thesis introduced within <a href="https://amzn.to/2RoOKQC"><strong>The pragmatc programmer</strong></a>, I decided to develop <strong>updateR</strong>, a package that let’s you update your R version from R itself just running one line of code.</p>
+<p>Since I am a lazy programmer and generally a devote of the great thesis introduced within <a href="https://amzn.to/2RoOKQC">The pragmatc programmer</a>, I decided to develop updateR, a package that let’s you update your R version from R itself just running one line of code.</p>
 <p><a target="_blank"  href="https://www.amazon.co.uk/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=020161622X&linkCode=as2&tag=andreaciril08-21&linkId=ce6f49120d6e0d3d28cfd95005941dce"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=020161622X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=andreaciril08-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=andreaciril08-21&l=am2&o=2&a=020161622X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 <p>And here it is the simple line of code you have to run:</p>
 <pre class="r"><code>updateR(admin_password = &quot;os_admin_user_password&quot;)</code></pre>
-<p>that is to say you will <strong>only have to provide admin user password</strong>. This password is required because some of the command executed by <em>updateR()</em> are run as super user (for advanced readers we are talking of our old “sudo” friend).</p>
-<p>short paragraphs which follow shows <strong>you how to install and use the package</strong>.</p>
+<p>that is to say you will only have to provide admin user password. This password is required because some of the command executed by <em>updateR()</em> are run as super user (for advanced readers we are talking of our old “sudo” friend).</p>
+<p>short paragraphs which follow shows you how to install and use the package.</p>
 </div>
 <div id="how-to-install-the-updater-package" class="section level2">
 <h2>how to install the updateR package</h2>
-<p>UpdateR package is <strong>hosted on Github</strong>. You will therefore have to install it leveraging the <em>install_github()</em> function from devtools package:</p>
+<p>UpdateR package is hosted on Github. You will therefore have to install it leveraging the <em>install_github()</em> function from devtools package:</p>
 <pre class="r"><code>require(devtools)
 install_github(&#39;andreacirilloac/updateR&#39;)</code></pre>
 </div>
 <div id="how-to-update-r-version-using-the-updater-package" class="section level2">
 <h2>how to update R version using the updateR package</h2>
-<p>As seen, <strong>updating R version from R is actually a breeze</strong>: you just need to run a function.</p>
-<p>all you will need to do is <strong>retrieve your MAC admin user password</strong> and then run the two following lines of code:</p>
+<p>As seen, updating R version from R is actually a breeze: you just need to run a function.</p>
+<p>all you will need to do is retrieve your MAC admin user password and then run the two following lines of code:</p>
 <pre class="r"><code>updateR(admin_password = &quot;os_admin_user_password&quot;)</code></pre>
-<p>Since every command launched in background (see below for more infos) is passed with verbose option on, you will suddenly see your console being populated of <strong>output messages</strong> informing you on <strong>how things are going on</strong>.</p>
-<p>A the end of the installation process those <strong>two lines should appear</strong>:</p>
+<p>Since every command launched in background (see below for more infos) is passed with verbose option on, you will suddenly see your console being populated of output messages informing you on how things are going on.</p>
+<p>A the end of the installation process those two lines should appear:</p>
 <p><code>everything went smoothly open a Terminal session and run 'R' to assert that latest version was installed</code></p>
-<p>that is all you need to know to use <em>updateR</em>. By the way If you want to know more on <strong>how the function works</strong>, have a look at the following paragraphs.</p>
+<p>that is all you need to know to use <em>updateR</em>. By the way If you want to know more on how the function works, have a look at the following paragraphs.</p>
 </div>
 <div id="behind-the-scenes-how-updater-works" class="section level2">
 <h2>behind the scenes: how updateR works</h2>
-<p>as experimented with <strong><a href="2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">Ramazon package</a></strong>, which allows you to <strong>publish your shiny app on amazon AWS with a function</strong>, I developed <strong>updateR</strong> mainly <strong>leveraging the <em>system()</em> function</strong>, which lets you pass commands to the command line directly from the R environment.</p>
-<p>That said, the <strong>updateR function workflow</strong> can be summarized into the following steps:</p>
+<p>as experimented with <a href="2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">Ramazon package</a>, which allows you to publish your shiny app on amazon AWS with a function, I developed updateR mainly leveraging the <em>system()</em> function, which lets you pass commands to the command line directly from the R environment.</p>
+<p>That said, the updateR function workflow can be summarized into the following steps:</p>
 <div id="verify-that-user-is-running-a-unix-machine" class="section level3">
 <h3>verify that user is running a unix machine</h3>
-<p>as said, <em>updateR</em> is a package thought as <strong>a OSX twin of Tall galili installr package</strong> and can therefore be run only on Mac OSX machines.</p>
-<p>Following this <em>updateR</em> takes care of verifying that you are launching it from a unix OS, running the <strong><em>stopifnot()</em></strong> <strong>function</strong> in order to <strong>alt the execution on non-unix systems</strong>:</p>
+<p>as said, <em>updateR</em> is a package thought as a OSX twin of Tall galili installr package and can therefore be run only on Mac OSX machines.</p>
+<p>Following this <em>updateR</em> takes care of verifying that you are launching it from a unix OS, running the <em>stopifnot()</em> function in order to alt the execution on non-unix systems:</p>
 <pre class="r"><code>stopifnot(.Platform$OS.type == &quot;unix&quot;)</code></pre>
 </div>
 <div id="get-last-r-version-from-cran" class="section level3">
 <h3>get last R version from CRAN</h3>
-<p>How would you programmatically <strong>check for the latest R version?</strong></p>
-<p>updateR does it <strong>importing in R the html code of the rstudio CRAN mirror page</strong> (<a href="https://cran.rstudio.com/bin/macosx/" class="uri">https://cran.rstudio.com/bin/macosx/</a>) and <strong>extracting</strong> from it the <strong>version number</strong>.</p>
+<p>How would you programmatically check for the latest R version?</p>
+<p>updateR does it importing in R the html code of the rstudio CRAN mirror page (<a href="https://cran.rstudio.com/bin/macosx/" class="uri">https://cran.rstudio.com/bin/macosx/</a>) and extracting from it the version number.</p>
 <pre class="r"><code>page              &lt;- xml2::read_html(page_source)
 version_block     &lt;- rvest::html_nodes(page,&quot;h1+ p a+ a , table:nth-child(8) tr:nth-child(1) td &gt; a&quot;)
 filename          &lt;- rvest::html_text(version_block) %&gt;% strsplit(&quot;\n&quot;, fixed = TRUE) # the resulting value is a list
 filename          &lt;- filename[[2]] # we take the second element, containing the name of the file
 filename_quoted          &lt;- paste(&quot;&#39;&quot;,filename,&quot;&#39;&quot;,sep = &quot;&quot;)</code></pre>
-<p>Be aware that <strong>resulting filename object</strong> will be a string <strong>similar to</strong> the following :<strong>“R-xx.xx.xx.pkg”</strong>, since we are looking to <strong>compose a download URL</strong> for the version package on our machine.</p>
+<p>Be aware that resulting filename object will be a string similar to the following :“R-xx.xx.xx.pkg”, since we are looking to compose a download URL for the version package on our machine.</p>
 <p>This URL is composed pasting the CRAN mirror url togheter with the filename object:</p>
 <pre class="r"><code>url               &lt;- paste(page_source,filename, sep = &quot;&quot;)</code></pre>
 <p>one thing still missing here is the comparison between version installed on the maching calling the function and the retrieved version on CRAN.</p>
 <p>I will probably (hopefully) develop this within next releases, and collaboration on this would be really welcome.</p>
-<p>After defining the download URL we can actually <strong>proceed with downloading the package and install it</strong>. the first of those two steps will be performed leveraging built-in function <em>download.file() </em>:</p>
+<p>After defining the download URL we can actually proceed with downloading the package and install it. the first of those two steps will be performed leveraging built-in function <em>download.file() </em>:</p>
 <pre class="r"><code>download.file(url,filename)</code></pre>
 </div>
 <div id="run-command-line-commands-within-r" class="section level3">
 <h3>run command line commands within R</h3>
-<p>the <strong>last step</strong> is the actual <strong>installation</strong> of the R version package. this activity will be performed using the <strong>command line command</strong> <strong><em>installer</em></strong> .</p>
-<p>we are first going to put toghethet our line of command with <em>paste()</em> function and then submit** to the terminal calling** <strong><em>system()</em></strong> <strong>function on our command string</strong>:</p>
+<p>the last step is the actual installation of the R version package. this activity will be performed using the command line command <em>installer</em> .</p>
+<p>we are first going to put toghethet our line of command with <em>paste()</em> function and then submit to the terminal calling <em>system()</em> function on our command string:</p>
 <pre class="r"><code>command           &lt;- paste(&quot;echo &quot; , admin_password, &quot;| sudo -S installer -pkg &quot;, filename_quoted , &quot; -target / -verbose&quot;)
 system(command)</code></pre>
 </div>
@@ -104,14 +106,14 @@ system(command)</code></pre>
 <div style="color:blue;">
 <blockquote>
 <blockquote>
-<p><strong>The merge between updateR and installr should happen in the coming weeks. As we were saying you can subscribe to the newsletter to be aknowledged of the exact timing and avoid issues with your code.</strong></p>
+<p>The merge between updateR and installr should happen in the coming weeks. As we were saying you can subscribe to the newsletter to be aknowledged of the exact timing and avoid issues with your code.</p>
 </blockquote>
 </blockquote>
 </div>
 </div>
 <div id="feel-free-to-complain-with-me" class="section level3">
 <h3>feel free to complain with me</h3>
-<p>I shared <em>updateR</em> as a package since <strong>I think it could be a really useful tool for the R commuynity</strong>.</p>
-<p>As R itself, <em>updateR</em> package comes with absolute no warranty ( ;)) , nevertheless I will be really <strong>pleased to read your comments and suggestions</strong> on it, as well as I will be pleased if you would like to further <strong>improve it through the <a href="https://github.com/AndreaCirilloAC/updateR">Github repo</a></strong></p>
+<p>I shared <em>updateR</em> as a package since I think it could be a really useful tool for the R commuynity.</p>
+<p>As R itself, <em>updateR</em> package comes with absolute no warranty ( ;)) , nevertheless I will be really pleased to read your comments and suggestions on it, as well as I will be pleased if you would like to further improve it through the <a href="https://github.com/AndreaCirilloAC/updateR">Github repo</a></p>
 </div>
 </div>

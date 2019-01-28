@@ -12,6 +12,8 @@ tags:
   - algorithm
   - analytics
   - dataviz
+  - my_packages
+  
 ---
 
 # introducing vizscorer: a bot advisor to improve your ggplot plots

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My_packages on Andrea Cirillo</title>
+    <link>/tags/my_packages/</link>
+    <description>Recent content in My_packages on Andrea Cirillo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/my_packages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>introducing vizscorer: a bot advisor to improve your ggplot plots</title>
+      <link>/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</guid>
+      <description>introducing vizscorer: a bot advisor to improve your ggplot plots How to measure a good plot? Preparing a training dataset of plots  How to train Machine Learning to recognize a good plot? Can Machine learning talk back to humans? Putting all together: vizscorer and the scorer_bot Where to go from here and how to help    introducing vizscorer: a bot advisor to improve your ggplot plots One of the most frustrating issues I face in my professional life is the plentitude of ineffective reports generated within my company.</description>
+    </item>
+    
+    <item>
+      <title>how to use PaletteR to automagically build palettes from pictures</title>
+      <link>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</guid>
+      <description>Introducing paletter Installing paletter Creating a palette from your image  Functional specification Reading a picture into the RGB colourspace Processing the RGB image trough kmeans Moving to the hsv colours space Removing outliers Optimising palette  How to apply paletteR in ggplot2 Join us   I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the Pinacoteca di Brera, a 200 centuries old museum.</description>
+    </item>
+    
+    <item>
+      <title>UpdateR package: update R version with a function (on MAC OSX)</title>
+      <link>/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
+      <description>Mac version of updateR function: the UpdateR package how to install the updateR package how to update R version using the updateR package behind the scenes: how updateR works verify that user is running a unix machine get last R version from CRAN run command line commands within R accomplisments and further developments feel free to complain with me    I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.</description>
+    </item>
+    
+  </channel>
+</rss>

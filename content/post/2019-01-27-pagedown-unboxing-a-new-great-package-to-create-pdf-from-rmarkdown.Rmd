@@ -1,0 +1,111 @@
+---
+title: 'pagedown unboxing: a new promising package to create PDF from Rmarkdown '
+author: Andrea Cirillo
+draft: true
+date: '2019-01-27'
+slug: pagedown-unboxing-a-new-great-package-to-create-pdf-from-rmarkdown
+categories:
+  - analytics
+  - productivity
+tags:
+  - Rstudio
+  - rmarkdown
+  - report
+  
+---
+
+I recently came across the good talk by the always good yuhi xie at the Rstudio conference about Pagedown.
+You can see it by yourself reaching out the rstudio website or  clicking the image below:
+
+<a href="https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css" ><figure class= "post_image" >
+<img src="/images/pagedown/yuhi.png"  alt="pagedown" style="width: 400px;"/>
+</figure></a>
+
+Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build PDFs documents from our beloved Rmarkdown.
+
+More precisely it takes Rmardown files and render them into html files already "paged" and ready to be saved as PDF.
+This is something I am also experimenting with [vizscorer, a bot advisor about ggplot plots](2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/)
+
+## Do we really need a package like pagedown?
+
+If you are asking yourself thisk question I will answer proposing you three experiments:
+
+  1. try to create you resume in markdown for instance to use it on a website, and then employ the same text to generate a PDF you would actually send to a recruiter (and I am not even going to add "a recruiter for a job you would actually like to get")
+  2. try to generate PDF from one of your Rmarkdown files, and by a *PDF* I mean that kind of document where images are note broken into half from page to page and written text does not finish beyond the end of the page... (yeah, I know you know what I mean bu that...)
+  3. try to create a decent PDF file in \LaTex \ without loosing more than two days. And at this point I don't have to specify you what I mean by *decent* :)
+
+I think you are convinced enough, we can move on.
+
+## installing pagedown
+
+There is a version of the package on CRAN but since it is still under development it is suggested to install the development version from Github itself:
+
+```{r}
+devtools::install_github('rstudio/pagedown')
+```
+
+**pagedown relies on an updated version of pandoc so you should update the package before moving on with your pagedown trial**
+
+## selecting the preferred template
+
+is now time to select the template you want to employ to create your PDF document. At the moment you can choose from:
+ - a general purpose paged html, which is the most similar thing to a report you can get right now
+ - conference post
+ - Business cards
+ - a Resume, also known as Curriculum Vitae from European folks
+ - a Letter, also known as Letter from European folks
+
+<a ><figure class= "post_image" >
+<img src="/images/pagedown/select_resume_template.png"  alt="pagedown" style="width: 400px;"/>
+</figure></a>
+ 
+if you are an Rmarkdown frequent flyer you should be used with what comes next: a new .Rmd file is created. You just have to save it with a custom name and you will be ready to start editing.
+
+<a ><figure class= "post_image" >
+<img src="/images/pagedown/save_as_resume_rmd.png"  alt="pagedown" style="width: 400px;"/>
+</figure></a>
+
+## filling in and rendering the template
+
+ok then, I am not going you instructions about how to fill the templates, as a genaral guide you can refer to the Rmarkdown guide, which holds true for this package as well. 
+
+## finally obtaining the desired PDF file
+ 
+Let's imagine you are already done with your editing and your are ready to render out your template. At the moment this is not the straight forward process you would imagine, and it does not pass trough the well-known *knit* button.
+
+You rather have to get trough the xaringan pacakge and the following code:
+
+```{r eval =FALSE}
+install.packages("xaringan")
+xaringan::inf_mr("my_resume.Rmd")
+```
+
+this will ignite the rendering process and in the end will produce the *viewer* tab showing up your document:
+
+<a ><figure class= "post_image" >
+<img src="/images/pagedown/resume_viewer_pane.png"  alt="pagedown" style="width: 400px;"/>
+</figure></a>
+
+from there it will be quite easy to move to the brwoser leveraging the small button on the upper-left of the viewer pane:
+
+<a ><figure class= "post_image" >
+<img src="/images/pagedown/show_in_browser_viewer_pane.png"  alt="pagedown" style="width: 200px;"/>
+</figure></a>
+
+**At the moment only Chrome is fully supported from the package, so be sure to download and set it as the default web browser when playing with pagedown**
+
+an here we are: you have your document already paged as a regular PDF, ready to be printed into PDF using the regular chrome procedure (ctrl+p or cmd+p and then *save as PDF* or open as *PDF in Preview*).
+
+Isn't that amazing? If you are still thinking that no, it is not amazing please, come back to the three experiments I proposed before.
+
+## my suggestions for improvements
+
+As you may have understood I have a good opinion of this package, nevertheless some suggestions came to my mind after trying it:
+
+ 1. provide a more consistent experience for useRs used to the Rmarkdown ecosystem the rendering process should be started from the usual *knit* button. From the vindow opening after the knitting process one should be able to go the the browser via the usual *open in browser button*
+ 2. give the useRs more access to some basic layout choices within the provided templates ( trough a dedicated Rstudio addin maybe?)
+ 3. expand documentation and examples/vignettes (yeah, this is some kind of coward suggestion given the young age of the package, and I actually added it just to reach the magic number of three points...)
+ 
+**Please let me know in the comments if you find the tutorial useful or you think something is missing. Don't forget to subscribe to be acknowledged about other similar R-related goodies and development of the [R packages I maintain](/tags/my_packages/).**
+ 
+
