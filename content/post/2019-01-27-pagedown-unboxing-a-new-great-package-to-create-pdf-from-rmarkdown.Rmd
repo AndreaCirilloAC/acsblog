@@ -116,6 +116,6 @@ As you may have understood I have a good opinion of this package, nevertheless s
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@andreacirilloac">
 <meta name="twitter:creator" content="@andreacirilloac">
-<meta name="twitter:title" content="pagedown rmarkdwon tutorial">
-<meta name="twitter:description" content="tutorial of pagedown from rmarkdown. introduction to Rstudio new package pagedown">
+<meta name="twitter:title" content="a quick ride on pagedown: beautiful PDFs from Rmarkdown">
+<meta name="twitter:description" content="Learn here how to use the new #rstats package pagedown to build well-crafted PDF files from Rmarkdown files">
 <meta name="twitter:image" content="http://www.andreacirillo.com/images/pagedown/pagedown_workflow.png>
