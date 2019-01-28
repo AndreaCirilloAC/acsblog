@@ -1,8 +1,8 @@
 ---
-title: 'pagedown unboxing: a new promising package to create PDF from Rmarkdown '
+title: 'a quick ride on pagedown: a new promising package to create PDFs from Rmarkdown '
 author: Andrea Cirillo
 date: '2019-01-27'
-slug: pagedown-unboxing-a-new-promising-package-to-create-pdf-from-rmarkdown
+slug: a-quick-ride-on-pagedown-a-new-promising-package-to-create-pdf-from-rmarkdown
 categories:
   - analytics
   - productivity
