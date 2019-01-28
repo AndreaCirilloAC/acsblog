@@ -24,7 +24,7 @@ Pagedown is a newly released package ( still in experimentary status) with a rea
 More precisely it takes Rmarkdown files and render them into html files already "paged" and ready to be saved/converted into PDF.
 
 <a  ><figure class= "post_image" >
-<img src="/images/pagedown/pagedown_workflow.png"  alt="pagedown_workflow" style="width: 450px;"/>
+<img src="/images/pagedown/pagedown_workflow.png"  alt="pagedown_workflow" style="width: 500px;"/>
 </figure></a>
 
 This is something I am also experimenting with [vizscorer, a bot advisor about ggplot plots](2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/)
@@ -117,4 +117,4 @@ As you may have understood I have a good opinion of this package, nevertheless s
 <meta name="twitter:creator" content="@andreacirilloac">
 <meta name="twitter:title" content="pagedown rmarkdwon tutorial">
 <meta name="twitter:description" content="tutorial of pagedown from rmarkdown. introduction to Rstudio new package pagedown">
-<meta name="twitter:image" content="images/pagedown/pagedown_workflow.png">
+<meta name="twitter:image" content="http://www.andreacirillo.com/images/pagedown/pagedown_workflow.png>
