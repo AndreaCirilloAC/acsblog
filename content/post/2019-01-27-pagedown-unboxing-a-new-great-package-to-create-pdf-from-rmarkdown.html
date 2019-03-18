@@ -52,8 +52,50 @@ tags:
 <h2>installing pagedown</h2>
 <p>There is a version of the package on CRAN but since it is still under development it is suggested to install the development version from Github itself:</p>
 <pre class="r"><code>devtools::install_github(&#39;rstudio/pagedown&#39;)</code></pre>
-<pre><code>## Skipping install of &#39;pagedown&#39; from a github remote, the SHA1 (9eb34ed9) has not changed since last install.
-##   Use `force = TRUE` to force installation</code></pre>
+<pre><code>## Downloading GitHub repo rstudio/pagedown@master</code></pre>
+<pre><code>## evaluate  (0.12  -&gt; 0.13 ) [CRAN]
+## knitr     (1.21  -&gt; 1.22 ) [CRAN]
+## processx  (3.2.1 -&gt; 3.3.0) [CRAN]
+## rmarkdown (1.11  -&gt; 1.12 ) [CRAN]
+## servr     (0.12  -&gt; 0.13 ) [CRAN]
+## tinytex   (0.10  -&gt; 0.11 ) [CRAN]
+## xfun      (0.4   -&gt; 0.5  ) [CRAN]</code></pre>
+<pre><code>## Installing 7 packages: evaluate, knitr, processx, rmarkdown, servr, tinytex, xfun</code></pre>
+<pre><code>## 
+##   There is a binary version available but the source version is
+##   later:
+##           binary source needs_compilation
+## rmarkdown   1.11   1.12             FALSE
+## 
+## 
+## The downloaded binary packages are in
+##  /var/folders/1q/g13z92xj4m34z60620wfnvcr0000gp/T//RtmpXiq1aO/downloaded_packages</code></pre>
+<pre><code>## installing the source package &#39;rmarkdown&#39;</code></pre>
+<pre><code>##   
+   checking for file ‘/private/var/folders/1q/g13z92xj4m34z60620wfnvcr0000gp/T/RtmpXiq1aO/remotes93945a91e3d9/rstudio-pagedown-fc26c2f/DESCRIPTION’ ...
+  
+✔  checking for file ‘/private/var/folders/1q/g13z92xj4m34z60620wfnvcr0000gp/T/RtmpXiq1aO/remotes93945a91e3d9/rstudio-pagedown-fc26c2f/DESCRIPTION’ (334ms)
+## 
+  
+─  preparing ‘pagedown’:
+## 
+  
+   checking DESCRIPTION meta-information ...
+  
+✔  checking DESCRIPTION meta-information
+## 
+  
+─  checking for LF line-endings in source and make files and shell scripts
+## 
+  
+─  checking for empty or unneeded directories
+## 
+  
+─  building ‘pagedown_0.2.2.tar.gz’
+## 
+  
+   
+## </code></pre>
 <p><strong>pagedown relies on an updated version of pandoc so you should update the package before moving on with your pagedown trial</strong></p>
 </div>
 <div id="selecting-the-preferred-template" class="section level2">
@@ -112,6 +154,47 @@ xaringan::inf_mr(&quot;my_resume.Rmd&quot;)</code></pre>
 <li>give the useRs more access to some basic layout choices within the provided templates ( trough a dedicated Rstudio addin maybe?)</li>
 <li>expand documentation and examples/vignettes (yeah, this is some kind of coward suggestion given the young age of the package, and I actually added it just to reach the magic number of three points…)</li>
 </ol>
-<p><strong>Please let me know in the comments if you find the tutorial useful or you think something is missing. Don’t forget to subscribe to be acknowledged about other similar R-related goodies and development of the <a href="/tags/my_packages/">R packages I maintain</a>.</strong></p>
+<p><strong>Please let me know in the comments if you find the tutorial useful or you think something is missing. Subscribe to the mailing list be acknowledged about other similar R-related goodies and development of the <a href="/tags/my_packages/">R packages I maintain</a>.</strong></p>
+<!-- Begin Mailchimp Signup Form -->
+<center>
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;width:50%; }
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://andreacirillo.us18.list-manage.com/subscribe/post?u=ea38207c9143ded9017ecd6bc&amp;id=4421c1bc47" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup_scroll">
+<h2>
+Join the mailing list to stay updated
+</h2>
+<div class="indicates-required">
+<span class="asterisk">*</span> indicates required
+</div>
+<div class="mc-field-group">
+<p><label for="mce-EMAIL">Email Address <span class="asterisk">*</span> </label> <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></p>
+</div>
+<div id="mce-responses" class="clear">
+<div id="mce-error-response" class="response" style="display:none">
+
+</div>
+<div id="mce-success-response" class="response" style="display:none">
+
+</div>
+</div>
+<div style="position: absolute; left: -5000px;" aria-hidden="true">
+<input type="text" name="b_ea38207c9143ded9017ecd6bc_4421c1bc47" tabindex="-1" value="">
+</div>
+<div class="clear">
+<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+</div>
+</div>
+</form>
+</div>
+</center>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 <p><meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content="@andreacirilloac"> <meta name="twitter:creator" content="@andreacirilloac"> <meta name="twitter:title" content="a quick ride on pagedown: beautiful PDFs from Rmarkdown"> <meta name="twitter:description" content="Learn here how to use the new #rstats package pagedown to build well-crafted PDF files from Rmarkdown files"> <meta name="twitter:image" content="http://www.andreacirillo.com/images/pagedown/pagedown_workflow.png></p>
 </div>

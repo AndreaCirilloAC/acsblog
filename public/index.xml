@@ -406,8 +406,8 @@ The plot, made using ggplot2 package, is composed by: a categorical x value, rep
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/untitled/</guid>
-      <description>W3.CSS  .mySlides {display:none}   Slideshow Indicators An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.
-  Prev Next  1 2 3 4   var slideIndex = 1; showDivs(slideIndex); function plusDivs(n) { showDivs(slideIndex += n); } function currentDiv(n) { showDivs(slideIndex = n); } function showDivs(n) { var i; var x = document.</description>
+      <description>W3.CSS  .mySlides {display:none;}   Slideshow Caption Add a caption text for each image slide with the w3-display-* classes (topleft, topmiddle, topright, bottomleft, bottommiddle, bottomright or middle).
+ French Alps   Northern Lights   Beautiful Mountains   The Rain Forest   Mountains!   &amp;#10094; &amp;#10095;   var slideIndex = 1; showDivs(slideIndex); function plusDivs(n) { showDivs(slideIndex += n); } function showDivs(n) { var i; var x = document.</description>
     </item>
     
     <item>
@@ -441,15 +441,6 @@ Within R data mining you will be immersed into the life of a wholesale company, 
       <description>Rstudio for R Statistical computing Cookbook is an useful contribution to the R community, and especially for those just starting off with R.
 
 The book is a concentrated of recipes targeted to the average R user to get him from being in the mean to the become an outlier. Aside from statistical analogies, this book provides recipes to perform relevant activities within all phases of data analysis projects, and literally:</description>
-    </item>
-    
-    <item>
-      <title>So Good They Can&#39;t Ignore You</title>
-      <link>/bookstack/so_good_ignore_you/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bookstack/so_good_ignore_you/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
     <item>
@@ -491,15 +482,6 @@ Proposals of Blog Post/Speaches author at andreacirillo.com
       <description>On november 20th 2018 I was requested to make a keynote speech at the 9th MilanoR meeting, the most relevant italian meeting of R users.
 The main topic of the speech was one of my last coding fatigues: the Paletter package, a new R package able to derive an optimised colour palette from any kind of image.
  You can also find a kind reportage of the evening directly on the official MilanoR blog, and the full deck of slides online.</description>
-    </item>
-    
-    <item>
-      <title>the Pragmatic Programmer</title>
-      <link>/bookstack/pragmatic_programmer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bookstack/pragmatic_programmer/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</description>
     </item>
     
     <item>
