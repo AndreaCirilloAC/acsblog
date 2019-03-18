@@ -401,6 +401,16 @@ The plot, made using ggplot2 package, is composed by: a categorical x value, rep
     </item>
     
     <item>
+      <title></title>
+      <link>/untitled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/untitled/</guid>
+      <description>W3.CSS  .mySlides {display:none}   Slideshow Indicators An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.
+  Prev Next  1 2 3 4   var slideIndex = 1; showDivs(slideIndex); function plusDivs(n) { showDivs(slideIndex += n); } function currentDiv(n) { showDivs(slideIndex = n); } function showDivs(n) { var i; var x = document.</description>
+    </item>
+    
+    <item>
       <title>Deep Work - rules for focused success in adistracted world</title>
       <link>/bookstack/deep_work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
