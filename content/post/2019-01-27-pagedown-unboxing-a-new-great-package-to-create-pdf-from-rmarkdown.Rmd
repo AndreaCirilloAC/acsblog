@@ -44,7 +44,7 @@ Now that you are getting this point let's move on.
 
 There is a version of the package on CRAN but since it is still under development it is suggested to install the development version from Github itself:
 
-```{r}
+```{r eval=FALSE}
 devtools::install_github('rstudio/pagedown')
 ```
 
