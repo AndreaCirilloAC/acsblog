@@ -18,7 +18,7 @@
         <p class ="post-summary">{{ .Summary}}</p>
         {{ if .Params.tags }}
         <span><bold>tags:</bold>
-        {{range .Params.tags}}<a class="post-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ .}} </a>/</span>
+        {{range .Params.tags}}<a class="post-tags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ .}} </a></span>
     </article>
 {{end}}
 {{end}}
@@ -26,23 +26,23 @@
 {{end}}
 </div>
 <br>
-<table class="home-box">
-{{ with .Site.GetPage "page" "pubblications" "featured_book.md" }}
 
+
+<table class="home-box">
+  
   <tr>
     <th colspan = "2">
 
-  <a href="{{ .RelPermalink}}"> <h2>{{ .Title}}</h2></a>
+  <a href="http://www.andreacirillo.com/publications/featured_book/" > <h2>featured book: R Data Mining</h2></a>
   </th>
 </tr>
    <tr>
-    <th><a href="{{ .RelPermalink }}" ><img  class= "book-cover" src={{ .Params.cover }}></a> </th>
-    <th><p class ="post-summary">{{.Summary}}</p></th>
+    <th><a href="http://www.andreacirillo.com/publications/featured_book/" ><img  class= "book-cover" src= "https://images-eu.ssl-images-amazon.com/images/I/41l3e0eGdVL._SL250_.jpg" ></a></th>
+    <th><p class ="post-summary" >R data mining is a data mining crime book, a new kind of book we developed with good guys at Packt and the great statistician Enrico Pegoraro. What is a data mining crime book? It is a book stuctured to teach you data mining fundamentals while immersing you in a crime case.
+
+</p><a href ="http://www.andreacirillo.com/publications/featured_book/">read more</a></th>
   </tr>
  </table> 
- 
-
-{{end}}
 
 <h2>other projects</h2>
 
