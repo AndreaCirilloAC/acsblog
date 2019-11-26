@@ -53,18 +53,3 @@ options(htmltools.dir.version = FALSE)
 ---
 
 
-### add your masown terpiece!
-
-if you want to see your masterpiece added to the gallery, all you have to do is:
-
-- go to the pubblic repository of my blog : https://github.com/AndreaCirilloAC/acsblog
-- locate the rmarkdown code used to produce the slideshow: https://github.com/AndreaCirilloAC/acsblog/tree/master/static/slides
-- create a pull request including a new chunk of code with your creation, following the scheme below.
-
-your chunk should have the following structure:
-
-<img src="/images/code_chunk.png" width="1007>
-
-
---- 
-

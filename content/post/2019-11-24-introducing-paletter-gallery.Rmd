@@ -20,7 +20,7 @@ PaletteR has been staying around for nearly two years, and #rstats users have ma
 knitr::include_url('/slides/paletter_gallery_def.html')
 ```
 
-[follow the link to view the gallery in full screen]('/slides/paletter_gallery_def.html')
+<a href="http://www.andreacirillo.com/slides/paletter_gallery_def.html"> follow the link to view the gallery in full screen 
 
 
 ## add your own masterpiece
