@@ -6,10 +6,20 @@
     <description>Recent content in Paletter on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/paletter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introducing the paletteR Gallery </title>
+      <link>/2019/11/26/introducing-the-paletter-gallery/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/26/introducing-the-paletter-gallery/</guid>
+      <description>celebrating beauty add your own masterpiece   celebrating beauty PaletteR has been staying around for nearly two years, and #rstats users have made a lot of great stuff with it. I had therefore took the time to collect what I have found around the web, just to celebrate this beauty. You can find them below in a slideshow.
+ follow the link to view the gallery in full screen</description>
+    </item>
     
     <item>
       <title>how to use PaletteR to automagically build palettes from pictures</title>

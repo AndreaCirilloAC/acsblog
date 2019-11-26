@@ -136,7 +136,9 @@ Join the mailing list to stay updated
 <span class="asterisk">*</span> indicates required
 </div>
 <div class="mc-field-group">
-<p><label for="mce-EMAIL">Email Address <span class="asterisk">*</span> </label> <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></p>
+<p><label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+</label>
+<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></p>
 </div>
 <div id="mce-responses" class="clear">
 <div id="mce-error-response" class="response" style="display:none">
@@ -165,12 +167,14 @@ Join the mailing list to stay updated
 <p><a target="_blank"  href="https://www.amazon.co.uk/gp/product/020161622X/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=020161622X&linkCode=as2&tag=andreaciril08-21&linkId=ce6f49120d6e0d3d28cfd95005941dce"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=020161622X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=andreaciril08-21" ></a><img src="//ir-uk.amazon-adsystem.com/e/ir?t=andreaciril08-21&l=am2&o=2&a=020161622X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 <p>And here it is the simple line of code you have to run:</p>
 <pre class="r"><code>updateR(admin_password = &quot;os_admin_user_password&quot;)</code></pre>
-<p>that is to say you will only have to provide admin user password. This password is required because some of the command executed by <em>updateR()</em> are run as super user (for advanced readers we are talking of our old “sudo” friend).</p>
+<p>that is to say you will only have to provide admin user password.
+This password is required because some of the command executed by <em>updateR()</em> are run as super user (for advanced readers we are talking of our old “sudo” friend).</p>
 <p>short paragraphs which follow shows you how to install and use the package.</p>
 </div>
 <div id="how-to-install-the-updater-package" class="section level2">
 <h2>how to install the updateR package</h2>
-<p>UpdateR package is hosted on Github. You will therefore have to install it leveraging the <em>install_github()</em> function from devtools package:</p>
+<p>UpdateR package is hosted on Github.
+You will therefore have to install it leveraging the <em>install_github()</em> function from devtools package:</p>
 <pre class="r"><code>require(devtools)
 install_github(&#39;andreacirilloac/updateR&#39;)</code></pre>
 </div>
@@ -182,7 +186,8 @@ install_github(&#39;andreacirilloac/updateR&#39;)</code></pre>
 <p>Since every command launched in background (see below for more infos) is passed with verbose option on, you will suddenly see your console being populated of output messages informing you on how things are going on.</p>
 <p>A the end of the installation process those two lines should appear:</p>
 <p><code>everything went smoothly open a Terminal session and run 'R' to assert that latest version was installed</code></p>
-<p>that is all you need to know to use <em>updateR</em>. By the way If you want to know more on how the function works, have a look at the following paragraphs.</p>
+<p>that is all you need to know to use <em>updateR</em>.
+By the way If you want to know more on how the function works, have a look at the following paragraphs.</p>
 </div>
 <div id="behind-the-scenes-how-updater-works" class="section level2">
 <h2>behind the scenes: how updateR works</h2>
@@ -197,7 +202,7 @@ install_github(&#39;andreacirilloac/updateR&#39;)</code></pre>
 <div id="get-last-r-version-from-cran" class="section level3">
 <h3>get last R version from CRAN</h3>
 <p>How would you programmatically check for the latest R version?</p>
-<p>updateR does it importing in R the html code of the rstudio CRAN mirror page (<a href="https://cran.rstudio.com/bin/macosx/" class="uri">https://cran.rstudio.com/bin/macosx/</a>) and extracting from it the version number.</p>
+<p>updateR does it importing in R the html code of the rstudio CRAN mirror page (<a href="https://cran.rstudio.com/bin/macosx/">https://cran.rstudio.com/bin/macosx/</a>) and extracting from it the version number.</p>
 <pre class="r"><code>page              &lt;- xml2::read_html(page_source)
 version_block     &lt;- rvest::html_nodes(page,&quot;h1+ p a+ a , table:nth-child(8) tr:nth-child(1) td &gt; a&quot;)
 filename          &lt;- rvest::html_text(version_block) %&gt;% strsplit(&quot;\n&quot;, fixed = TRUE) # the resulting value is a list
@@ -220,7 +225,10 @@ system(command)</code></pre>
 </div>
 <div id="accomplisments-and-further-developments" class="section level3">
 <h3>accomplisments and further developments</h3>
-<p>updateR closed a gap standing in the way of Mac R users, providing an handful tool to update their version of the software. the good acceptance the package is obtaining is not that much suprising. It is currently cited as the preferred way to perform the update within different “official sources” of the R community. <a href="https://www.r-statistics.com/tag/installr/">Tal Galili himself mentioned the package</a> as an OSX alternative to his package. We are now planning to merge UpdateR into installR to better serve our beloved Rlovers.</p>
+<p>updateR closed a gap standing in the way of Mac R users, providing an handful tool to update their version of the software.
+the good acceptance the package is obtaining is not that much suprising. It is currently cited as the preferred way to perform the update within different “official sources” of the R community.
+<a href="https://www.r-statistics.com/tag/installr/">Tal Galili himself mentioned the package</a> as an OSX alternative to his package.
+We are now planning to merge UpdateR into installR to better serve our beloved Rlovers.</p>
 <div style="color:blue;">
 <blockquote>
 <blockquote>
@@ -246,7 +254,9 @@ Join the mailing list to stay updated
 <span class="asterisk">*</span> indicates required
 </div>
 <div class="mc-field-group">
-<p><label for="mce-EMAIL">Email Address <span class="asterisk">*</span> </label> <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></p>
+<p><label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
+</label>
+<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></p>
 </div>
 <div id="mce-responses" class="clear">
 <div id="mce-error-response" class="response" style="display:none">

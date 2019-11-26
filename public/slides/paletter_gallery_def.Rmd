@@ -1,0 +1,70 @@
+---
+title: "the PaletteR galery"
+subtitle: "powered by #rstats community"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+#### *Presidential colors*, by Luis Melgar
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">So I made a thing 👉 <a href="https://t.co/VHqVoncbUY">https://t.co/VHqVoncbUY</a> It&#39;s a personal project. Just for fun. <br><br>I extracted the most prevalent colors from the presidential portraits. <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/DataVisualization?src=hash&amp;ref_src=twsrc%5Etfw">#DataVisualization</a> <br><br>(1/n) <a href="https://t.co/SLOtUDa79r">pic.twitter.com/SLOtUDa79r</a></p>&mdash; Luis Melgar (@asincopado) <a href="https://twitter.com/asincopado/status/1195363386101506048?ref_src=twsrc%5Etfw">November 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+#### *necessito dinero*, by Manuel Toral
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="es" dir="ltr">{paletteR} de <a href="https://twitter.com/AndreaCirilloAC?ref_src=twsrc%5Etfw">@AndreaCirilloAC</a> en un póster de Josep Renau de una película de Pedro Infante y Sarita Montiel ❤️💛🖤 <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://t.co/NJacvlwJ11">pic.twitter.com/NJacvlwJ11</a></p>&mdash; Manuel Toral (@jmtoralc) <a href="https://twitter.com/jmtoralc/status/1181428116725620742?ref_src=twsrc%5Etfw">October 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+#### *Jose Orozco*, by Manuel Toral
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="es" dir="ltr">Un Orozco para dormir <a href="https://t.co/nnCjDcT29l">pic.twitter.com/nnCjDcT29l</a></p>&mdash; Manuel Toral (@jmtoralc) <a href="https://twitter.com/jmtoralc/status/1181430641700810752?ref_src=twsrc%5Etfw">October 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+#### *Australian palette*, by Neil Saunders
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Playing with paletter: <a href="https://t.co/mBSkeyFDco">https://t.co/mBSkeyFDco</a> I like it a lot and can see many Australian bush palettes in the future :) <a href="https://t.co/baf7d36P01">pic.twitter.com/baf7d36P01</a></p>&mdash; Neil Saunders (@neilfws) <a href="https://twitter.com/neilfws/status/1007044522302365696?ref_src=twsrc%5Etfw">June 13, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+#### *Rosella palette*, by Neil Saunders
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">&quot;rosella&quot; palette is nice too :) <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/paletter?src=hash&amp;ref_src=twsrc%5Etfw">#paletter</a> <a href="https://t.co/4jLaibQV5Q">pic.twitter.com/4jLaibQV5Q</a></p>&mdash; Neil Saunders (@neilfws) <a href="https://twitter.com/neilfws/status/1007073614179360768?ref_src=twsrc%5Etfw">June 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+#### *Monet's Water Lilies*, by Andrew Fraser
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">A colour palette based on Monet&#39;s Water Lilies for my ggplot2 visualisation. Thanks, <a href="https://twitter.com/AndreaCirilloAC?ref_src=twsrc%5Etfw">@AndreaCirilloAC</a> <a href="https://t.co/YwfPaQlDrW">https://t.co/YwfPaQlDrW</a><a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/otrdiKQdY4">pic.twitter.com/otrdiKQdY4</a></p>&mdash; Andrew Fraser + C₈H₁₀N₄O₂ (@Arfness) <a href="https://twitter.com/Arfness/status/1078368184946880513?ref_src=twsrc%5Etfw">December 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
+
+### add your masown terpiece!
+
+if you want to see your masterpiece added to the gallery, all you have to do is:
+
+- go to the pubblic repository of my blog : https://github.com/AndreaCirilloAC/acsblog
+- locate the rmarkdown code used to produce the slideshow: https://github.com/AndreaCirilloAC/acsblog/tree/master/static/slides
+- create a pull request including a new chunk of code with your creation, following the scheme below.
+
+your chunk should have the following structure:
+
+<img src="/images/code_chunk.png" width="1007>
+
+
+--- 
+

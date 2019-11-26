@@ -1,0 +1,43 @@
+---
+title: 'Introducing the paletteR Gallery '
+author: Andrea Cirillo
+date: '2019-11-26'
+slug: introducing-the-paletter-gallery
+categories:
+  - analytics
+  - dataviz
+tags:
+  - paletter
+  - dataviz
+  - report
+  
+---
+## celebrating beauty
+
+PaletteR has been staying around for nearly two years, and #rstats users have made a lot of great stuff with it. I had therefore took the time to collect what I have found around the web, just to celebrate this beauty. You can find them below in a slideshow.
+
+```{r, echo=FALSE}
+knitr::include_url('/slides/paletter_gallery_def.html')
+```
+
+[follow the link to view the gallery in full screen]('/slides/paletter_gallery_def.html')
+
+
+## add your own masterpiece
+
+Adding what you have created with PaletteR is quite straightforward:
+
+- go to the pubblic repository of my blog : https://github.com/AndreaCirilloAC/acsblog
+- locate the rmarkdown code used to produce the slideshow: https://github.com/AndreaCirilloAC/acsblog/tree/master/static/slides
+- create a pull request including a new chunk of code with your creation, following the scheme below.
+
+Your chunk should have the following structure:
+
+<img src="/images/code_chunk.png" width="100%">
+
+The chunk should moreover be added at the end of the currend file, but before the final slide inviting people to use paletteR.
+
+If you need more info about how to obtain a code to embeed your post please visit the official Twitter help page on the topic: https://help.twitter.com/en/using-twitter/how-to-embed-a-tweet
+
+
+Have fun with paletteR!
