@@ -39,5 +39,9 @@ The chunk should moreover be added at the end of the currend file, but before th
 
 If you need more info about how to obtain a code to embeed your post please visit the official Twitter help page on the topic: https://help.twitter.com/en/using-twitter/how-to-embed-a-tweet
 
+## discover more about paletteR
+
+If you would rather like to understand better what paletteR is and how it could help you in your dataviz tasks, all you have to do is to visit the previous post about [how to use PaletteR to automagically build palettes from pictures](http://www.andreacirillo.com/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/).
+
 
 Have fun with paletteR!
