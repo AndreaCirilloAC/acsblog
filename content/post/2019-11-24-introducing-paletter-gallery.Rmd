@@ -14,7 +14,7 @@ tags:
 ---
 ## celebrating beauty
 
-PaletteR has been staying around for nearly two years, and #rstats users have made a lot of great stuff with it. I had therefore took the time to collect what I have found around the web, just to celebrate this beauty. You can find them below in a slideshow.
+[PaletteR](https://github.com/AndreaCirilloAC/paletter), the package that allows you to create an optimized palette from an image, has been staying around for nearly two years, and #rstats users have made a lot of great stuff with it. I had therefore took the time to collect what I have found around the web, just to celebrate this beauty. You can find them below in a slideshow.
 
 ```{r, echo=FALSE}
 knitr::include_url('/slides/paletter_gallery_def.html')
