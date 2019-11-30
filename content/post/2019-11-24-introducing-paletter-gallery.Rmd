@@ -43,5 +43,4 @@ If you need more info about how to obtain a code to embeed your post please visi
 
 If you would rather like to understand better what paletteR is and how it could help you in your dataviz tasks, all you have to do is to visit the previous post about [how to use PaletteR to automagically build palettes from pictures](http://www.andreacirillo.com/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/).
 
-
 Have fun with paletteR!
