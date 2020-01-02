@@ -15,9 +15,10 @@ The first time you come across *You can negotiate everything* by Herb Cohen it c
 This is a belief I profoundly share with the author and I am making also a project out of this (www.smoothjob.info if you are interested in the project). It was thus a pleasure for me to find this wiew in a book written from a so greatly experienced deal-maker.
 
 
-    <a target="_blank" href="www.smoothjob.info" ><figure class= "post_image" >
-    <img src="https://smoothjob.info/wp-content/uploads/2019/09/SmoothJob-White-logo.png"  alt="smoothjob" style="width: 300px;"/>
-    </figure></a>
+<a href="www.smoothjob.info" ><figure class= "post_image" >
+<img src="700x700_logo_standard_shadow.png"  alt="smoothjob" style="width: 300px;"/>
+</figure></a>
+
 
 Let's move on to the actual summary of the book which I hope will help you appreaciate the valuable content included in it.
 
