@@ -10,13 +10,13 @@ status: "read"
 
 The first time you come across *You can negotiate everything* by Herb Cohen it can appears one of those books full of techniques to manipulate people and persuade them to do what you want. But if you move beyond this first impression you can find a useful book written by someone who certainly was effective in the pragmatic art of getting someone to agree with you, but was also persuaded that the best way to do this was to build a good relationship based on trust with the other side in every negotiation.
 
-<a target="_blank"  href="https://amzn.to/37t2ZIC"><img src="https://fupping.com/wp-content/uploads/2018/05/You-Can-Negotiate-Anything.jpg" class="post_image" style="width: 200px;"></a >
+<a target="_blank"  href="https://amzn.to/37t2ZIC"><figure class= "post_image" ><img src="https://fupping.com/wp-content/uploads/2018/05/You-Can-Negotiate-Anything.jpg"  style="width: 200px;"></figure></a >
 
 This is a belief I profoundly share with the author and I am making also a project out of this (www.smoothjob.info if you are interested in the project). It was thus a pleasure for me to find this wiew in a book written from a so greatly experienced deal-maker.
 
 
 <a href="www.smoothjob.info" ><figure class= "post_image" >
-<img src="700x700_logo_standard_shadow.png"  alt="smoothjob" style="width: 300px;"/>
+<img src="https://www.andreacirillo.com/images/700x700_logo_standard_shadow.png"  alt="smoothjob" style="width: 200px;"/>
 </figure></a>
 
 
@@ -74,17 +74,17 @@ Power is a way of getting from one place to another.
     - you must be willing to take risks while negotiating and this asks for
       - courage
       - common sense
-    if you have no options you can't take risk, you must accept whatever it comes. So don't enter a negotiation without options! Hve we already said that?
+    if you have no options you can't take risk, you must accept whatever it comes. So don't enter a negotiation without options! Have we already said that?
     - risk-taking is intelligent if you know the odds
-      - genererically used to express the probability of positive outcome, but strictly speaking 
+      - genererically used to express the probability of a positive outcome, but strictly speaking odds are defined as
       
       $$\frac{number \quad of \quad positive \quad outcomes}{number \quad of \quad negative \quad outcomes}$$
-    - risk taking is intelligent if you are able to absorb the possible loss. This reminds me of the risk management concept of *risk appetite* meaning the quantity of risk a company is willing to take when performing its operations.
+    - risk taking is intelligent if you are able to absorb the possible loss. This reminds me of the enterprise risk management concept of *risk appetite* meaning the quantity of risk a company is willing to take when performing its operations.
   - **power of commitment**
     - if people on your side are committed toward your same goal, you have more power. How do you obtain that?
-      - "people support what they help create"
+      - "people support what they help create", involve them as much as you can (also becaus they can, usually, provide valuable contribution)
       - involvment begets commitment, commitment begets power
-  - **power of expertise** (we could also call it power of authority, as done by Robert Cialdini in his great book [*Influence, The psychology of persuasion*](https://amzn.to/2SJpjJI))
+  - **power of expertise** (we could also call it **power of authority**, as done by Robert Cialdini in his great book [*Influence, The psychology of persuasion*](https://amzn.to/2SJpjJI))
     - if you are or looks as an expert, people will comply with you more easily
     - if you are facing an expert don't be, and don't look, overimpressed. You could even try to look dumb, since no power has an expert when dealing with a dumb.
   - **power of the knowledge of "needs"** 
@@ -112,7 +112,6 @@ Power is a way of getting from one place to another.
       - challenges this when you need highlighting differences between this case and precedent
   - **power of persistence**, which can be simply be described as follows 
     
-        <br>
     <a href="https://media2.giphy.com/media/BgPrZdcAjLWmc/source.gif" ><figure class= "post_image" >
     <img src="https://media2.giphy.com/media/BgPrZdcAjLWmc/source.gif"  alt="gone" style="width: 300px;"/>
     </figure></a>
@@ -125,10 +124,10 @@ Power is a way of getting from one place to another.
         - you should therefore show the immediate relevance and value of what you are saying in terms of meeting their needs and desires
   - **power of caring , but not caring too much**, which once again reminds me of 
 
-    <br>
-    <a href="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif" ><figure class= "post_image" >
-    <img src="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif"  alt="gone" style="width: 300px;"/>
-    </figure></a>
+  
+<a href="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif" ><figure class= "post_image" >
+<img src="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif"  alt="gone" style="width: 300px;"/>
+</figure></a>
 
 ### Time 
 
@@ -176,9 +175,9 @@ When you arrive at the negotiation event, you should practive effective listenin
 
 When someone attempts to achieve his objective at the expense of a perceived adversary. This style usually shows off within six separated steps:
 
-  - extreme initial positions: tough demand or ridiculous offers to influence the other side expectations
-  - limited authority: the real negotiation sends to the events delegated negotiators with no power to make concessions
-  - emotional tactics: people feel uneasy when confronted by irrationality and this can give an advantage to those able to exploit this behaviour
+  - **extreme initial positions**: tough demand or ridiculous offers to influence the other side expectations
+  - **limited authority**: the real negotiation sends to the events delegated negotiators with no power to make concessions
+  - **emotional tactics**: people feel uneasy when confronted by irrationality and this can give an advantage to those able to exploit this behaviour
     - tears (this guy is perfectly right, have you ever seen my wife crying?)
     - silence
       - create doubts about the reasons
@@ -188,11 +187,11 @@ When someone attempts to achieve his objective at the expense of a perceived adv
       - create uncertainty about the future
     - veiled threat
     - guilt
-  - adversary concessions viewed as weaknesses
+  - **adversary concessions viewed as weaknesses**
     - negotiation/compromise is not seen as a way to move forward
     - they are not going to reciprocate concessions
-  - stingy concessions (which follows from the previous)
-  - ignoring deadlines: acting as deadlines were not there to increase preassure on the other side.
+  - **stingy concessions** (which follows from the previous)
+  - **ignoring deadlines**: acting as deadlines were not there to increase preassure on the other side.
   
 This style is applicable if
   
@@ -200,7 +199,7 @@ This style is applicable if
   - you are able to not feel remorse afterward
   - the victim is not aware of you using the technique
   
-How to react to soviets. Possible alternatives:
+**How to react to soviets**. Possible alternatives:
 
   - walking away
   - beat him at his own game with counter moves
@@ -211,35 +210,34 @@ How to react to soviets. Possible alternatives:
  - In a collaborative win-win neogitation we are trying to produce an outcome that provides acceptable gain to all parties
  - How can get together in a way that will make the total pie bigger, so there's more to go around?. This is the difference between mentality of abudance and mentality of scarcity. The abundance is focused on the size of the pie while the scarcity is focused on the size of the slice.
  
-     <br>
-    <a href="/images/cake.png" ><figure class= "post_image" >
-    <img src="/images/cake.png"  alt="gone" style="width: 500px;"/>
-    </figure></a>
+<a href="/images/cake.png" ><figure class= "post_image" >
+<img src="/images/cake.png"  alt="gone" style="width: 500px;"/>
+</figure></a>
 
  
  - Negotiation is seen here as a process, a way of acting, that can develop understanding, belief, acceptance and trust.
-  - is not just an exchange of material objects.
-  - using the process to meet needs
+  - is **not just an exchange of material objects**.
+  - **using the process to meet needs**
     - start coming like velvet, stating your case moderately
     - address the other side with tact
       - people tend to behave the way you expect them to behave
       - try to see the problem from their point of view or frame of reference, listening with empathy
     - harmonizing or recongiling needs: it is important to understand that a collaborative negotiation is impossibile while the two sides see each other as adversaries. 
       - "one's feelings, attitudes, and real needs are concealed to avoid them being used against them"
-  - conflict is part of the process and part of life
+  - **conflict is part of the process** and part of life
     - all players and all supporters want the team to scoer but theyare in disagreement regarding how to obtain this
     - it is valuable to figure out why and how the disagreement developed
       - this is relevant also because the first step in gaining the cooperation from the other side is to recognize where both of you are positioned on the issue generating congflict and which are the differences.
       - the main sources of difference are:
-        - experience: you and I don't see things as **they** are, we see things as **we** are. To understand how you think I must get into your world
-        - information: people have been exposed to different data and have adquired different facts along the way.
+        - *experience*: you and I don't see things as **they** are, we see things as **we** are. To understand how you think I must get into your world
+        - *information*: people have been exposed to different data and have adquired different facts along the way.
           - If we are working from a different information base, we will end up poles apart. 
           - to solve the conflict we have to share the information, but also feelings and needs, to have a common ground.
-        - roles: divergent views are also a result of the part you have been given to play in the negotiation drama.
+        - *roles*: divergent views are also a result of the part you have been given to play in the negotiation drama.
           - some of this emotional content must be drained
           - we should train to ask ourself questions as "if I were in their place, may be I would have asked a similar question as well..."
           
-Successful collaborative negotiation lies in finding out what the other side really wants and showing them a way to get it, while you get what you want
+Successful collaborative negotiation lies in finding out what the other side really wants and showing them a way to get it, while you get what you want.
 
 ### More on the Win-Win technique
 
@@ -261,8 +259,8 @@ Crucial elements for reaching mutual satisfaction are
     - opposition is natural and even useful to sharp mind, increase skill
     - from a fair opposition you gain insight into yourself that will growth and development
     - the crucial point is not **if** you will have opposition but **which kind** of opponent you will have
-      - idea opponent, this is a positive opponent, which is challenging only a specific idea. Using collaborative techniques seen above it should be easy to come up with a win-win solution able to overcome the opposition. This does not mean to persuade the opponent that he was wrong. This means find together a better solution than the first one he was opposing
-      - visceral opponent, emotional adversary. This is the most dangerous one. He does not disagree with a single idea, he disagree with you as a whole or/and your organization. You should avoid to have such kind of opponents. How to avoid having visceral opponents?
+      - *idea opponent*, this is a positive opponent, which is challenging only a specific idea. Using collaborative techniques seen above it should be easy to come up with a win-win solution able to overcome the opposition. This does not mean to persuade the opponent that he was wrong. This means find together a better solution than the first one he was opposing
+      - *visceral opponent*, emotional adversary. This is the most dangerous one. He does not disagree with a single idea, he disagree with you as a whole or/and your organization. You should avoid to have such kind of opponents. How to avoid having visceral opponents?
         - avoid attacking "face", publicly undermining is reputation. This is a common cause of an idea opponent becoming a visceral opponent. 
           - train yourself to speak honestly to idea opponents without offending face sense
           - never forget the power of your attitude
@@ -289,7 +287,7 @@ A final note: compromise is not a win-win solution:
     
 # Has it worked? My final evaluation
 
-The book is useful if you want to understand the main drivers of negotiation. As always for this kind of books I strongly suggest you to try practicing the principles described while you are reading and right after you have concluded to read the book. This will really allow you to understand how effective it can be in your life.
+The book is useful if you want to understand the main drivers of negotiation. As always for this kind of books I strongly suggest you to **try practicing the principles described while you are reading the book** and right after you have concluded to read the book. This will really allow you to understand how effective it can be in your life.
 I have done this by myself applying those principles to two negotiations occurring during the period I was reading (related to my job and to home utilities), and I was amazed from the results obtained and the accuracy of the predictions made by Cohen on people's reaction to some given behaviour.
 
 If I would be required to suggest possible improvement I would suggest to review the structure of the book so to make it more clear and more fluent, also because some of the principles are introduced more than once ( like for instance the power of legitimacy). That said, I think that for this kind of books what is relevant is the juice rather than the appearance of the fruit, and the juice i really tasting :) .
