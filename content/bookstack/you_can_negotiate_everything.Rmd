@@ -1,0 +1,291 @@
+---
+draft : true
+title: "You can negotiate everything"
+params:
+  cover: "https://fupping.com/wp-content/uploads/2018/05/You-Can-Negotiate-Anything.jpg"
+featured: false
+author: "Herb Cohen"
+status: "read"
+---
+
+The first time you come across *You can negotiate everything* by Herb Cohen it can appears one of those books full of techniques to manipulate people and persuade them to do what you want. But if you move beyond this first impression you can find a useful book written by someone who certainly was effective in the pragmatic art of getting someone to agree with you, but was also persuaded that the best way to do this was to build a good relationship based on trust with the other side in every negotiation.
+
+<a target="_blank"  href="https://amzn.to/37t2ZIC"><img border="0" src="https://fupping.com/wp-content/uploads/2018/05/You-Can-Negotiate-Anything.jpg" class="post_image" style="width: 200px;"></a >
+
+This is a belief I profoundly share with the author and I am making also a project out of this (www.smoothjob.info if you are interested in the project). It was thus a pleasure for me to find this wiew in a book written from a so greatly experienced deal-maker.
+
+<a target="_blank"  href="www.smoothjob.info"><img border="0" src="https://smoothjob.info/wp-content/uploads/2019/09/SmoothJob-White-logo.png" class="post_image" style="width: 300px;"></a >
+
+Let's move on to the actual summary of the book which I hope will help you appreaciate the valuable content included in it.
+
+## What is negotiation?
+
+Negotiation is a field of knowledge and endeavor that focuses on gaining the favor of people from whome we want things. Three elements are always there in every negotiation:
+
+  - Information
+  - Time (pressure, deadline)
+  - Power
+  
+Every negotiation is a satisfaction of needs:
+
+  - if you let the other side understand that your need are not fully satisfied, you will let him understand also that his own will not be. For instance expressing criticism on a product you are negotiating is a clear sign that your are not willing to pay the full price the other side is asking for.
+  - if you make someone invest time in the negotiation, his cost-opportunity in case of leaving will rise
+    - he will be thus more willing to comply with your requests
+  - leverage the power of weakness
+    - learn to ask questions more than talking
+    - looking silly dismiss a lot of other side weapons
+    
+## About the three elements of a negotitation
+
+### Power 
+
+Power is a way of getting from one place to another. 
+
+  - It is neither good nor bad by itself: it is neutral
+  - it is needed to believe you are able to obtain/create/realize something rather than suffer everything
+  - believing you have power will give you the necessary self confidence. This will project the rigth image of self confidence and make others more willing to comply.
+  
+#### Sources of power
+
+  - **power of competition**
+  
+    - if you create competition around something you possess, what you have moves up in value (ideas, products, yourself, everything)
+    - you can create competition if you have alternative options ( more buyers for your product, more companies willing to hire you...). Never enter a negotiation without options!
+    - try to convey a sense of not needing what you are negotiating. This reminds me of this scene from *Gone with the wind*, I don't know why
+  
+    <br>
+    <a href="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif" ><figure class= "post_image" >
+    <img src="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif"  alt="gone" style="width: 300px;"/>
+    </figure></a>
+
+  - **power of legitimacy**
+    - we tend to comply with the "official" printed stuff. We tend not to question them.
+      - signs
+      - books
+    - this power can be used when it is advantageous and can be challenged when it is not
+      - to challenge you have to be able to show that what is written is general and generic, and it was not mentioned to cover the specific case you are talking about.
+        - "that is generic, is not my case"
+        - "where is my name on that book?"
+  - **power of risk taking**
+    - you must be willing to take risks while negotiating and this asks for
+      - courage
+      - common sense
+    if you have no options you can't take risk, you must accept whatever it comes. So don't enter a negotiation without options! Hve we already said that?
+    - risk-taking is intelligent if you know the odds
+      - genererically used to express the probability of positive outcome, but strictly speaking 
+      
+      $$\frac{number \quad of \quad positive \quad outcomes}{number \quad of \quad negative \quad outcomes}$$
+    - risk taking is intelligent if you are able to absorb the possible loss. This reminds me of the risk management concept of *risk appetite* meaning the quantity of risk a company is willing to take when performing its operations.
+  - **power of commitment**
+    - if people on your side are committed toward your same goal, you have more power. How do you obtain that?
+      - "people support what they help create"
+      - involvment begets commitment, commitment begets power
+  - **power of expertise** (we could also call it power of authority, as done by Robert Cialdini in his great book [*Influence, The psychology of persuasion*](https://amzn.to/2SJpjJI))
+    - if you are or looks as an expert, people will comply with you more easily
+    - if you are facing an expert don't be, and don't look, overimpressed. You could even try to look dumb, since no power has an expert when dealing with a dumb.
+  - **power of the knowledge of "needs"** 
+    - This comes in two levels
+      - the specific issue on demands, stated openly ( "I want you to buy my product")
+      - to real need, rarely verbalized ( "I want you to buy my product on cash, since I need liquidity right now")
+    - if you can establish a reasonable guess about what someone's needs are yuou can predict, with reasonable certainty, what will happen in any interaction
+      - it is worthwhile to study in advance your other side in negotiation
+  - **power of investment**
+    - make people invest in the negotiation, especially with beginning collaborative approach ( which could also become competitive later on).
+    - if you have something difficult to negotiate, like the privacy, keep it for the end, when the investment will have become big
+  - **power of rewarding of punishing**
+    - no one will ever negotiate with you in any significant way unless they are convinced that you can
+      - help them
+      - hurt them
+    - never defuse the perception of being able to help or hurt unles you get something in return
+      - don't become a paper tiger: don't eliminate options or reduce pressure unless you receive something in return
+  - **power of identification**
+    - people comply with you are similar to them(we could also call it power of liking, as done by Robert Cialdini in his [*Influence, The psychology of persuasion*](https://amzn.to/2SJpjJI))
+  - power of morality
+    - if you have common moral values, leverage them within your negotiation
+  - **power of precedent**
+    - current and past policies and practices are considered sacred, theyu are presented as the only way to do things.
+      - leverage this in your favour
+      - challenges this when you need highlighting differences between this case and precedent
+  - **power of persistence**, which can be simply be described as follows 
+    
+        <br>
+    <a href="https://media2.giphy.com/media/BgPrZdcAjLWmc/source.gif" ><figure class= "post_image" >
+    <img src="https://media2.giphy.com/media/BgPrZdcAjLWmc/source.gif"  alt="gone" style="width: 300px;"/>
+    </figure></a>
+  - **power of persuasive capacity**
+    - we don't get persuaded by logic, we rationalise with logic
+    - to persuade someone to believe/ buy or do something, you have to:
+      - put your reasons into analogies that reasonate with my experience
+      - your evidence must be so overhelming that I can't dispute
+      - my believing you must meet my existing needs and desires
+        - you should therefore show the immediate relevance and value of what you are saying in terms of meeting their needs and desires
+  - **power of caring , but not caring too much**, which once again reminds me of 
+
+    <br>
+    <a href="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif" ><figure class= "post_image" >
+    <img src="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif"  alt="gone" style="width: 300px;"/>
+    </figure></a>
+
+### Time 
+
+In any negotiation expect most significant concessions to occur close to the deadline
+
+  - it is crucial to understand the deadline of the other side
+    - the other side, cool and seren as they may appear always have a deadline
+    - deadline, also your own, are often more flexible than they appear
+  - be patient, it may be the that best thing to do when you do not know what to do is to do nothing
+  - do not reveal your deadline to not provide the other side a competitive advantage
+  - very often as you approach the deadline a shift of power will occur, presenting a creative solution or ever a turnaround by the other side.
+  
+### Information
+
+#### Before the negotiation event
+
+You should strart to collect information before the start of the actual negotiation
+  
+  - sources
+    - anyone who works with or for the other side
+    - adversary's competitors
+    - official sources
+
+relevant information we want to discover: the real limits and constraint of the other side
+
+  - budget
+  - deadline
+  - priorities
+  - needs
+  - costs
+
+Also to obtain acceptance of your proposals you have to provide information. When you first express a proposal you get a no. You should not take this as a position, it is better understood as a reaction. People need time to understand new proposals and accomodate to them. You have to be patient, reiterate your submission and provide each time additional information.
+  
+#### During the negotiation event
+
+When you arrive at the negotiation event, you should practive effective listening techniques. You should also become able to read cues in their context.
+
+  - unintentional cues
+  - verbal cues
+  - behavioural cues
+  
+### Styles of negotiation
+
+#### The soviet style (Win-Lose)
+
+When someone attempts to achieve his objective at the expense of a perceived adversary. This style usually shows off within six separated steps:
+
+  - extreme initial positions: tough demand or ridiculous offers to influence the other side expectations
+  - limited authority: the real negotiation sends to the events delegated negotiators with no power to make concessions
+  - emotional tactics: people feel uneasy when confronted by irrationality and this can give an advantage to those able to exploit this behaviour
+    - tears (this guy is perfectly right, have you ever seen my wife crying?)
+    - silence
+      - create doubts about the reasons
+      - produces further unrequested confessions
+    - walking out
+      - raises additional issues for the other side which is left alone
+      - create uncertainty about the future
+    - veiled threat
+    - guilt
+  - adversary concessions viewed as weaknesses
+    - negotiation/compromise is not seen as a way to move forward
+    - they are not going to reciprocate concessions
+  - stingy concessions (which follows from the previous)
+  - ignoring deadlines: acting as deadlines were not there to increase preassure on the other side.
+  
+This style is applicable if
+  
+  - the relationsihp is not continuing ( you can not have continous relationship with someone you have killed...)
+  - you are able to not feel remorse afterward
+  - the victim is not aware of you using the technique
+  
+How to react to soviets. Possible alternatives:
+
+  - walking away
+  - beat him at his own game with counter moves
+  - switch to a win-win relationship
+  
+#### Negotiation for mutual satisfaction (Win-Win)
+
+ - In a collaborative win-win neogitation we are trying to produce an outcome that provides acceptable gain to all parties
+ - How can get together in a way that will make the total pie bigger, so there's more to go around?. This is the difference between mentality of abudance and mentality of scarcity. The abundance is focused on the size of the pie while the scarcity is focused on the size of the slice.
+ 
+     <br>
+    <a href="https://www.dropbox.com/s/df3co0lbvp1snjd/cake.png?dl=0" ><figure class= "post_image" >
+    <img src="https://www.dropbox.com/s/df3co0lbvp1snjd/cake.png"  alt="gone" style="width: 300px;"/>
+    </figure></a>
+
+ 
+ - Negotiation is seen here as a process, a way of acting, that can develop understanding, belief, acceptance and trust.
+  - is not just an exchange of material objects.
+  - using the process to meet needs
+    - start coming like velvet, stating your case moderately
+    - address the other side with tact
+      - people tend to behave the way you expect them to behave
+      - try to see the problem from their point of view or frame of reference, listening with empathy
+    - harmonizing or recongiling needs: it is important to understand that a collaborative negotiation is impossibile while the two sides see each other as adversaries. 
+      - "one's feelings, attitudes, and real needs are concealed to avoid them being used against them"
+  - conflict is part of the process and part of life
+    - all players and all supporters want the team to scoer but theyare in disagreement regarding how to obtain this
+    - it is valuable to figure out why and how the disagreement developed
+      - this is relevant also because the first step in gaining the cooperation from the other side is to recognize where both of you are positioned on the issue generating congflict and which are the differences.
+      - the main sources of difference are:
+        - experience: you and I don't see things as **they** are, we see things as **we** are. To understand how you think I must get into your world
+        - information: people have been exposed to different data and have adquired different facts along the way.
+          - If we are working from a different information base, we will end up poles apart. 
+          - to solve the conflict we have to share the information, but also feelings and needs, to have a common ground.
+        - roles: divergent views are also a result of the part you have been given to play in the negotiation drama.
+          - some of this emotional content must be drained
+          - we should train to ask ourself questions as "if I were in their place, may be I would have asked a similar question as well..."
+          
+Successful collaborative negotiation lies in finding out what the other side really wants and showing them a way to get it, while you get what you want
+
+#### More on the Win-Win technique
+
+Crucial elements for reaching mutual satisfaction are 
+
+  - **building trust**: in a continouing relationship  the more trust you place in others, the more they will justify your faith. The activity can be divided into two time frames
+    - the process stage
+      - before the formal event is easier to build a good relationship, because your behaviour is taken at face value
+      - is the right time to analyze and diagnose the causes of the potential disagreement and therefore take action in the area of experience, information and role  before the event.
+    - the formal event
+      - start with a positivie approach, focusing on the problem you are both trying to solve and the kind of optimal solution you are both willing to obtain
+      - don't focus on **your** way to solve the issue, which is problably different from the one of the other side
+        - try to become one unite group of problem solvers rather than two opposite factions
+  - **gaining committment** from the other side's network/organization
+    - network/organization: family, boss, colleagues
+    - the network/organization heavily influences the other side's behaviour and decisions
+    - get the support of the network and you will influence the position and movement of the other side
+  - **dealing with opposition**
+    - opposition is natural and even useful to sharp mind, increase skill
+    - from a fair opposition you gain insight into yourself that will growth and development
+    - the crucial point is not **if** you will have opposition but **which kind** of opponent you will have
+      - idea opponent, this is a positive opponent, which is challenging only a specific idea. Using collaborative techniques seen above it should be easy to come up with a win-win solution able to overcome the opposition. This does not mean to persuade the opponent that he was wrong. This means find together a better solution than the first one he was opposing
+      - visceral opponent, emotional adversary. This is the most dangerous one. He does not disagree with a single idea, he disagree with you as a whole or/and your organization. You should avoid to have such kind of opponents. How to avoid having visceral opponents?
+        - avoid attacking "face", publicly undermining is reputation. This is a common cause of an idea opponent becoming a visceral opponent. 
+          - train yourself to speak honestly to idea opponents without offending face sense
+          - never forget the power of your attitude
+            - retrain yourself  from retaliation
+          
+              > "Nothing gives a person so much advantage over another as to remain always cool and unruffled under all circumstances." Thomas Jefferson 
+
+          - never judge the action and motives of others
+            - we can't look into hearts and minds so we can't know what imples or propels them.
+            - don't judge, don't make final verdicts
+              - substitute this with a hones and positive statement of your point of view and feelings
+              KO: A negotiator turns to an opponent across the table and remarks, "Your analysis of these data and the way you are figuring the costs are all wrong"
+              OK: "I must look at data differently than you. I feel that..."
+    - **moving up**: especially when dealing with large organization is effective to understand when to move up another level in the hierarchy
+      - the higher you go, the more likely you are to have your needs met,
+        - because people who are higher up understand that general rules were never ment to cover every specific situation, because there is an exception to every rule
+          - you have to be prepared to demonstrate that the framers of a given rule never intended to cover your unique facts ( see also power of legitimacy about this)
+        - in any case try not to negotiate with a person who lacks sufficient authority.
+        
+A final note: compromise is not a win-win solution:
+
+  - nobody is really satisfied
+  - nobody fully support the solution
+    
+# has it worked? My final evaluation
+
+The book is useful if you want to understand the main drivers of negotiation. As always for this kind of books I strongly suggest you to try practicing the principles described while you are reading and right after you have concluded to read the book. This will really allow you to understand how effective it can be in your life.
+I have done this by myself applying those principles to two negotiations occurring during the period I was reading (related to my job and to home utilities), and I was amazed from the results obtained and the accuracy of the predictions made by Cohen on people's reaction to some given behaviour.
+
+If I would be required to suggest possible improvement I would suggest to review the structure of the book so to make it more clear and more fluent, also because some of the principles are introduced more than once ( like for instance the power of legitimacy). That said, I think that for this kind of books what is relevant is the juice rather than the appearance of the fruit, and the juice i really tasting :) .
