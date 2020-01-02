@@ -1,5 +1,5 @@
 ---
-draft : true
+draft : false
 title: "You can negotiate everything"
 params:
   cover: "https://fupping.com/wp-content/uploads/2018/05/You-Can-Negotiate-Anything.jpg"
@@ -10,11 +10,14 @@ status: "read"
 
 The first time you come across *You can negotiate everything* by Herb Cohen it can appears one of those books full of techniques to manipulate people and persuade them to do what you want. But if you move beyond this first impression you can find a useful book written by someone who certainly was effective in the pragmatic art of getting someone to agree with you, but was also persuaded that the best way to do this was to build a good relationship based on trust with the other side in every negotiation.
 
-<a target="_blank"  href="https://amzn.to/37t2ZIC"><img border="0" src="https://fupping.com/wp-content/uploads/2018/05/You-Can-Negotiate-Anything.jpg" class="post_image" style="width: 200px;"></a >
+<a target="_blank"  href="https://amzn.to/37t2ZIC"><img src="https://fupping.com/wp-content/uploads/2018/05/You-Can-Negotiate-Anything.jpg" class="post_image" style="width: 200px;"></a >
 
 This is a belief I profoundly share with the author and I am making also a project out of this (www.smoothjob.info if you are interested in the project). It was thus a pleasure for me to find this wiew in a book written from a so greatly experienced deal-maker.
 
-<a target="_blank"  href="www.smoothjob.info"><img border="0" src="https://smoothjob.info/wp-content/uploads/2019/09/SmoothJob-White-logo.png" class="post_image" style="width: 300px;"></a >
+
+    <a target="_blank" href="www.smoothjob.info" ><figure class= "post_image" >
+    <img src="https://smoothjob.info/wp-content/uploads/2019/09/SmoothJob-White-logo.png"  alt="smoothjob" style="width: 300px;"/>
+    </figure></a>
 
 Let's move on to the actual summary of the book which I hope will help you appreaciate the valuable content included in it.
 
@@ -52,8 +55,8 @@ Power is a way of getting from one place to another.
     - if you create competition around something you possess, what you have moves up in value (ideas, products, yourself, everything)
     - you can create competition if you have alternative options ( more buyers for your product, more companies willing to hire you...). Never enter a negotiation without options!
     - try to convey a sense of not needing what you are negotiating. This reminds me of this scene from *Gone with the wind*, I don't know why
-  
-    <br>
+
+    
     <a href="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif" ><figure class= "post_image" >
     <img src="https://66.media.tumblr.com/a099e01c92ad95f2b8dc5ed55de92408/tumblr_mkwz36o3RC1rsiq0lo1_500.gif"  alt="gone" style="width: 300px;"/>
     </figure></a>
@@ -166,9 +169,9 @@ When you arrive at the negotiation event, you should practive effective listenin
   - verbal cues
   - behavioural cues
   
-### Styles of negotiation
+## Styles of negotiation
 
-#### The soviet style (Win-Lose)
+### The soviet style (Win-Lose)
 
 When someone attempts to achieve his objective at the expense of a perceived adversary. This style usually shows off within six separated steps:
 
@@ -202,14 +205,14 @@ How to react to soviets. Possible alternatives:
   - beat him at his own game with counter moves
   - switch to a win-win relationship
   
-#### Negotiation for mutual satisfaction (Win-Win)
+### Negotiation for mutual satisfaction (Win-Win)
 
  - In a collaborative win-win neogitation we are trying to produce an outcome that provides acceptable gain to all parties
  - How can get together in a way that will make the total pie bigger, so there's more to go around?. This is the difference between mentality of abudance and mentality of scarcity. The abundance is focused on the size of the pie while the scarcity is focused on the size of the slice.
  
      <br>
-    <a href="https://www.dropbox.com/s/df3co0lbvp1snjd/cake.png?dl=0" ><figure class= "post_image" >
-    <img src="https://www.dropbox.com/s/df3co0lbvp1snjd/cake.png"  alt="gone" style="width: 300px;"/>
+    <a href="/images/cake.png" ><figure class= "post_image" >
+    <img src="/images/cake.png"  alt="gone" style="width: 500px;"/>
     </figure></a>
 
  
@@ -237,7 +240,7 @@ How to react to soviets. Possible alternatives:
           
 Successful collaborative negotiation lies in finding out what the other side really wants and showing them a way to get it, while you get what you want
 
-#### More on the Win-Win technique
+### More on the Win-Win technique
 
 Crucial elements for reaching mutual satisfaction are 
 
@@ -283,7 +286,7 @@ A final note: compromise is not a win-win solution:
   - nobody is really satisfied
   - nobody fully support the solution
     
-# has it worked? My final evaluation
+# Has it worked? My final evaluation
 
 The book is useful if you want to understand the main drivers of negotiation. As always for this kind of books I strongly suggest you to try practicing the principles described while you are reading and right after you have concluded to read the book. This will really allow you to understand how effective it can be in your life.
 I have done this by myself applying those principles to two negotiations occurring during the period I was reading (related to my job and to home utilities), and I was amazed from the results obtained and the accuracy of the predictions made by Cohen on people's reaction to some given behaviour.
