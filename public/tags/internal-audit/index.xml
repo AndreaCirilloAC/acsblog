@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Internal Audit on Andrea Cirillo</title>
+    <title>internal audit on Andrea Cirillo</title>
     <link>/tags/internal-audit/</link>
-    <description>Recent content in Internal Audit on Andrea Cirillo</description>
+    <description>Recent content in internal audit on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Jul 2015 21:06:39 +0000</lastBuildDate>
@@ -18,8 +18,11 @@
       
       <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
       <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
-   on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
-Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
+ on average, fraud accounts for nearly the 5% of companies revenues
+ 
+Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.
+
+No surprise than if companies and scholars are increasingly looking for way to prevent fraud and spot it when it occurs.</description>
     </item>
     
     <item>

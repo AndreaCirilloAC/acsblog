@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.62.0" />
 
 
 <title>How to add a live chat to your Shiny app - Andrea Cirillo</title>
@@ -89,117 +89,68 @@
     
 
     <div class="article-content">
-      
-
-<p>As I am currently working on a <strong><a href="https://github.com/AndreaCirilloAC/Afraus">Fraud Analytics Web Application</a></strong> based on Shiny (currently on beta version, more later on this blog) I found myself asking: <strong>wouldn&rsquo;t be great to add live chat support</strong> to my Web Application visitors?</p>
-
+      <p>As I am currently working on a <strong><a href="https://github.com/AndreaCirilloAC/Afraus">Fraud Analytics Web Application</a></strong> based on Shiny (currently on beta version, more later on this blog) I found myself asking: <strong>wouldn't be great to add live chat support</strong> to my Web Application visitors?</p>
 <p>It would indeed!</p>
-
-<p>[caption id=&ldquo;attachment_490&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;200&rdquo;]<a href="https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png?w=300" alt="an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474" /></a> an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]</p>
-
+<p>[caption id=&quot;attachment_490&rdquo; align=&quot;aligncenter&rdquo; width=&quot;200&rdquo;]<a href="https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png?w=300" alt="an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474"></a> an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]</p>
 <p>But how to do it?</p>
-
-<p>Unfortunately, <strong><a href="https://www.google.it/search?q=how+to+add+live+chat+to+shiny&amp;oq=how+to+a&amp;aqs=chrome.0.69i59j69i61j69i65l2j69i57j69i60.1928j0j1&amp;sourceid=chrome&amp;es_sm=122&amp;ie=UTF-8">looking on Google</a></strong> didn&rsquo;t give any useful result.</p>
-
+<p>Unfortunately, <strong><a href="https://www.google.it/search?q=how+to+add+live+chat+to+shiny&amp;oq=how+to+a&amp;aqs=chrome.0.69i59j69i61j69i65l2j69i57j69i60.1928j0j1&amp;sourceid=chrome&amp;es_sm=122&amp;ie=UTF-8">looking on Google</a></strong> didn't give any useful result.</p>
 <p>Therefore I had to find it out by myself.</p>
-
-<!-- more -->
-
+<!-- raw HTML omitted -->
 <h2 id="step-by-step-tutorial">step by step tutorial</h2>
-
 <p>Going to the core, you can find here below a step-by-step tutorial on how to add a live chat to your Shiny App.</p>
-
 <p>I did it using <strong><a href="https://www.jivochat.com/">jivochat</a></strong> <a href="https://www.jivochat.com/,">,</a> mainly because it offers a good free entry-level; but with little changes you can replicate it with other chat services providers.</p>
-
 <h3 id="1-create-an-account-on-jivochat">1. Create an account on jivochat</h3>
-
 <p>just type jivochat.com into your address bar, and you will find on the top right the &lsquo;sign up&rsquo; button</p>
-
-<p> <img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_21_57-live-chat-software-for-websites-online-customers-support-e28094-jivochat.png?w=300" alt="signup jvochat" /></p>
-
+<p> <img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_21_57-live-chat-software-for-websites-online-customers-support-e28094-jivochat.png?w=300" alt="signup jvochat"></p>
 <h3 id="2-add-a-new-site">2. Add a new site</h3>
-
 <p>to add a new site, log in into jivochat and then press the &ldquo;Add site&rdquo; button</p>
-
-<p> <a href="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_22_52-jivochat-admin-panel.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_22_52-jivochat-admin-panel.png?w=300" alt="jivo add a site" /></a></p>
-
+<p> <a href="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_22_52-jivochat-admin-panel.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_22_52-jivochat-admin-panel.png?w=300" alt="jivo add a site"></a></p>
 <h3 id="3-specify-site-url-and-language">3. Specify Site Url and language</h3>
-
 <p>You will be prompted by a window asking you to specify the URL of your site and the chat language.</p>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_13-jivochat-admin-panel.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_13-jivochat-admin-panel.png?w=300" alt="site and language" /></a></p>
-
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_13-jivochat-admin-panel.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_13-jivochat-admin-panel.png?w=300" alt="site and language"></a></p>
 <h3 id="4-get-the-javascript-code">4. Get the Javascript Code</h3>
-
 <p>After pressing the &lsquo;Add&rsquo; button you will be prompted with a window showing the javascript code. Copy it and go to the next step</p>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_55-jivochat-admin-panel.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_55-jivochat-admin-panel.png?w=300" alt="javascript code" /></a></p>
-
-<h3 id="5-go-to-your-shiny-app-root-folder-and-create-a-create-a-txt-file-named-chat-js">5. Go to your Shiny App Root Folder and create a create a .txt file named &lsquo;chat.js&rsquo;</h3>
-
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_55-jivochat-admin-panel.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_23_55-jivochat-admin-panel.png?w=300" alt="javascript code"></a></p>
+<h3 id="5-go-to-your-shiny-app-root-folder-and-create-a-create-a-txt-file-named-chatjs">5. Go to your Shiny App Root Folder and create a create a .txt file named &lsquo;chat.js&rsquo;</h3>
 <p> into your App Root Folder ( the one created by Rstudio itself when you created the new app) <strong>create a .txt file</strong>, and then change it into a javascript file named &lsquo;chat.js&rsquo;. Be sure to change the file extension, removing the .txt default.</p>
-
 <p><code>if (you need help with that &amp; you are a Mac user)</code></p>
-
-<p><code>{ go to : [https://www.youtube.com/watch?v=pbEaKTcQcv4](https://www.youtube.com/watch?v=pbEaKTcQcv4)  }</code></p>
-
+<p><code>{ go to : [https://www.youtube.com/watch?v=pbEaKTcQcv4](https://www.youtube.com/watch?v=pbEaKTcQcv4)  } </code></p>
 <p><code>else if (you need help with that &amp; you are a Windows user)</code></p>
-
 <p><code>{go to: [http://www.wikihow.com/Change-a-File-Extension](http://www.wikihow.com/Change-a-File-Extension) }</code></p>
-
 <p><code>else{do some googling for help}</code></p>
-
-<p>I know what you are thinking : couldn&rsquo;t we <strong>just create a javascript file</strong>? Of course you can! But I was looking for a way anyone could follow, from beginners to experts.</p>
-
-<h3 id="6-remove-the-script-tags-from-chat-js">6. Remove the &ldquo;script&rdquo; tags from chat.js</h3>
-
+<p>I know what you are thinking : couldn't we <strong>just create a javascript file</strong>? Of course you can! But I was looking for a way anyone could follow, from beginners to experts.</p>
+<h3 id="6-remove-the-script-tags-from-chatjs">6. Remove the &ldquo;script&rdquo; tags from chat.js</h3>
 <p>you can open &lsquo;chat.js&rsquo; using Rstudio (link) itself or any other text editor.</p>
-
 <p>after removing the tags, your script should look like that:</p>
-
-<p>[code language=&ldquo;javascript&rdquo;]
+<p>[code language=&quot;javascript&rdquo;]
 function(){ var widget_id = &lsquo;u3ltusnn0Q&rsquo;;
 var s = document.createElement(&lsquo;script&rsquo;);
 s.type = &lsquo;text/javascript&rsquo;;
 s.async = true;
-s.src = &lsquo;//code.jivosite.com/script/widget/&rsquo;+widget_id;
+s.src = &lsquo;//code.jivosite.com/script/widget/&lsquo;+widget_id;
 var ss = document.getElementsByTagName(&lsquo;script&rsquo;)[0];
 ss.parentNode.insertBefore(s, ss);})();
 [/code]</p>
-
 <p>be sure that <strong>no change</strong> was introduced during the <strong>copy-paste job</strong>.</p>
-
-<h3 id="6-go-to-your-shiny-app-ui-r-file-and-insert-a-call-to-chat-js">6. Go to your Shiny App ui.R file and insert a call to chat.js</h3>
-
+<h3 id="6-go-to-your-shiny-app-uir-file-and-insert-a-call-to-chatjs">6. Go to your Shiny App ui.R file and insert a call to chat.js</h3>
 <p>you can do this adding the following code just after the function indicating the type of page Shiny is going to use (fluidpage(),navbarpage() etc):</p>
-
-<p>[code language=&ldquo;r&rdquo;]
+<p>[code language=&quot;r&rdquo;]
 tags$head(includeScript(&ldquo;chat.js&rdquo;))
 [/code]</p>
-
 <p>For instance, your code could look like that:</p>
-
-<p>[code language=&ldquo;r&rdquo;]
+<p>[code language=&quot;r&rdquo;]
 shinyUI(fluidPage(
 tags$head(includeScript(&ldquo;chat.js&rdquo;)),
 titlePanel(&ldquo;my very first chat&rdquo;)
 ))
 [/code]</p>
-
 <p>As you can see, we are simply adding into the head of the app html code a script, retrieved from the &lsquo;chat.js&rsquo; file.</p>
-
 <h3 id="7-enjoy-your-chat">7. Enjoy your chat</h3>
-
 <p>Everything is ready to start your chat support experience, but in order to see your chat actually working you will have to deploy your app, which can be easily done using <strong><a href="http://www.shinyapps.io">shinyapps.io</a></strong> .</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_59_48-afraus.png?w=265" alt="live chat support shiny" /></p>
-
+<p><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_59_48-afraus.png?w=265" alt="live chat support shiny"></p>
 <p>Moreover, jivochat gives you the possibility to <strong>change some settings</strong> within your chat, like colors and texts fonts. To do that you just have to go to the jivochat admin panel and press the &lsquo;settings&rsquo; button.</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_50_36-jivochat-admin-panel.png?w=300" alt="JivoChat Admin Panel" /></p>
-
+<p><img src="https://andreacirilloblog.files.wordpress.com/2015/05/2015-05-08-12_50_36-jivochat-admin-panel.png?w=300" alt="JivoChat Admin Panel"></p>
 <p>If you are planning to develop a Shiny app for professional or commercial purposes, adding a live chat support could be a good way to <strong>enhance user experience</strong>. This post showed you in details how to do it.</p>
-
 <p>As always <strong>feel free to comment</strong> for (kind) criticism and any possible ( related :)  ) question.</p>
 
     </div>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.62.0" />
 
 
 <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm - Andrea Cirillo</title>
@@ -89,214 +89,134 @@
     
 
     <div class="article-content">
-      
-
-<p>The last <strong><a href="http://www.acfe.com/rttn-summary.aspx">Report to the Nation published by ACFE</a></strong>, stated that on average, <strong>fraud</strong> accounts for nearly the <strong>5% of companies revenues</strong>.</p>
-
+      <p>The last <strong><a href="http://www.acfe.com/rttn-summary.aspx">Report to the Nation published by ACFE</a></strong>, stated that on average, <strong>fraud</strong> accounts for nearly the <strong>5% of companies revenues</strong>.</p>
+<!-- raw HTML omitted -->
 <blockquote>
-
-> 
-> on average, fraud accounts for nearly the 5% of companies revenues
-> 
-> 
-[![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X)</blockquote>
-
-<p><a href="http://www.acfe.com/rttn/images/cost-of-fraud-infographic.pdf"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/2015-07-01-14_00_34-www-acfe-com_rttn_images_cost-of-fraud-infographic-pdf.png" alt="ACFE Infographic: typical organization loses 5% of their revenues for fraud" /></a></p>
-
+<p>on average, fraud accounts for nearly the 5% of companies revenues</p>
+</blockquote>
+<p><a href="http://ctt.ec/q3j4X"><img src="http://clicktotweet.com/img/tweet-graphic-4.png" alt="Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+"></a><!-- raw HTML omitted --></p>
+<p><a href="http://www.acfe.com/rttn/images/cost-of-fraud-infographic.pdf"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/2015-07-01-14_00_34-www-acfe-com_rttn_images_cost-of-fraud-infographic-pdf.png" alt="ACFE Infographic: typical organization loses 5% of their revenues for fraud"></a></p>
 <p>Projecting this number for the whole world GDP, it results that the &ldquo;<strong>fraud</strong>-country&rdquo; produces something like a <strong>GDP 3 times greater than the Canadian GDP</strong>.</p>
-
-<!-- more -->
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-2.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-2.png" alt="Fraud GDP account 3X times Canadian GDP" /></a></p>
-
+<!-- raw HTML omitted -->
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-2.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-2.png" alt="Fraud GDP account 3X times Canadian GDP"></a></p>
 <p>No surprise than if <strong>companies and scholars</strong> are increasingly <strong>looking for way to prevent fraud</strong> and spot it when it occurs.</p>
-
 <p>Particularly flourishing is the <strong>interest</strong> in methods and <strong>mathematical models</strong> useful for <strong>fraud detection</strong>, i.e. fraud analytics models.</p>
-
-<p>[caption id=&ldquo;attachment_516&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;660&rdquo;]<a href="https://andreacirilloblog.files.wordpress.com/2015/07/image.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image.png" alt="fraud analytics interest from google trends" /></a> &lsquo;fraud analytics&rsquo; interest from 2009 to 2015, source: Google Trends[/caption]</p>
-
+<p>[caption id=&quot;attachment_516&rdquo; align=&quot;aligncenter&rdquo; width=&quot;660&rdquo;]<a href="https://andreacirilloblog.files.wordpress.com/2015/07/image.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image.png" alt="fraud analytics interest from google trends"></a> &lsquo;fraud analytics&rsquo; interest from 2009 to 2015, source: Google Trends[/caption]</p>
 <p>During my working experience I got interested in a particular family of those models: unsupervised models.</p>
-
 <h2 id="autonomous-models-for-fraud-detection">Autonomous models for fraud detection</h2>
-
 <p>As greatly stated by <a href="http://statweb.stanford.edu/~tibs/ElemStatLearn/"><strong>professors Hastie and Tibshirani</strong> </a>, <strong>unsupervised models</strong> are models that try to <strong>figure out things autonomously</strong>.</p>
-
 <p>In fraud analytics, unsupervised models are those that do not require <strong>any previous knowledge of fraud schemes</strong> affecting the population you are looking at.</p>
-
 <p>The reason why I decided to focus my attention to this family of models is simple:</p>
-
-<p>Unsupervised fraud analytics models can be a <strong>really powerful weapon</strong><strong>for companies</strong> facing frauds events.</p>
-
+<p>Unsupervised fraud analytics models can be a <strong>really powerful weapon****for companies</strong> facing frauds events.</p>
+<!-- raw HTML omitted -->
 <blockquote>
-
-> 
-> Unsupervised fraud analytics models can be a really powerful weapon for companies facing frauds events
-> 
-> 
-
-> 
-> [![Tweet: Unsupervised fraud analytics models can be a really powerful weapon for companies facing frauds events: http://ctt.ec/U1nb_+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/U1nb_)
-> 
-> </blockquote>
-
+<p>Unsupervised fraud analytics models can be a really powerful weapon for companies facing frauds events</p>
+</blockquote>
+<blockquote>
+<p><a href="http://ctt.ec/U1nb_"><img src="http://clicktotweet.com/img/tweet-graphic-4.png" alt="Tweet: Unsupervised fraud analytics models can be a really powerful weapon for companies facing frauds events: http://ctt.ec/U1nb_+"></a></p>
+<!-- raw HTML omitted -->
+</blockquote>
 <p>More specifically, those kind of models can be** applied when no previous fraud analytics** activity was** done** into the company in the past and no knowledge of undergoing fraud schemes is possessed.</p>
-
-<p>Doesn&rsquo;t sound sweet and magic?</p>
-
+<p>Doesn't sound sweet and magic?</p>
 <p>Unfortunately, <strong>fraud</strong> is quite multi-face phenomenon, and may assumes <strong>different connotations in different situations</strong>.</p>
-
 <p>From the analytical point of view, this means that it is <strong>not possible to find a model</strong> respecting the golden rule &ldquo;<strong>one size fits all</strong>&rdquo; (not a great academic jargon, I know&hellip;).</p>
-
 <h2 id="two-families-of-models">Two families of models</h2>
-
 <p>More formally, we can assume two main type of fraud analytics models:</p>
-
 <ul>
-<li><p><strong>distribution</strong> <strong>based</strong> models;</p></li>
-
-<li><p><strong>density based</strong> models.</p></li>
+<li>
+<p><strong>distribution</strong> <strong>based</strong> models;</p>
+</li>
+<li>
+<p><strong>density based</strong> models.</p>
+</li>
 </ul>
-
 <p>Those models look for different kind of frauds:</p>
-
 <ul>
-<li><p>the first for fraud that results in the <strong>population not following a distribution</strong> that otherwise should be followed;</p></li>
-
-<li><p>the second for fraud that results in <strong>values isolated from the rest</strong> of the population .</p></li>
+<li>
+<p>the first for fraud that results in the <strong>population not following a distribution</strong> that otherwise should be followed;</p>
+</li>
+<li>
+<p>the second for fraud that results in <strong>values isolated from the rest</strong> of the population .</p>
+</li>
 </ul>
-
 <p>Quite nice, but <strong>what kind of fraud schemes</strong> are we talking about?</p>
-
 <p>Not pretending to be exhaustive, we can give two examples:</p>
-
 <ul>
-<li><p>the <strong>_skimming_ scheme</strong>, consisting in not recording payments from customer, is easily caught by distribution models, because it results in not respecting the &ldquo;natural&rdquo; distribution of proceeds;</p></li>
-
-<li><p><em>frauds on <strong>Expense reimbursements</strong></em> are more likely to be detected by density based models, if they are in a small number.</p></li>
+<li>
+<p>the <strong><em>skimming</em> scheme</strong>, consisting in not recording payments from customer, is easily caught by distribution models, because it results in not respecting the &ldquo;natural&rdquo; distribution of proceeds;</p>
+</li>
+<li>
+<p><em>frauds on <strong>Expense reimbursements</strong></em> are more likely to be detected by density based models, if they are in a small number.</p>
+</li>
 </ul>
-
 <p>That said, <strong>what if we join those complementary families of models</strong> into one singular algorithm able to intercept a wider range of fraud events?</p>
-
-<p>There is some <strong>evidence from literature</strong> that this can lead to an** increased accuracy <strong>(see for instance</strong> <strong><a href="http://www.emeraldinsight.com/doi/abs/10.1108/02686900310495151">Hwang 2003</a></strong>  <strong>and</strong> <strong><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.14.7153">Wheeler 2000</a></strong> **) , and that led me to develop Afraus.</p>
-
+<p>There is some <strong>evidence from literature</strong> that this can lead to an** increased accuracy **(see for instance** **<a href="http://www.emeraldinsight.com/doi/abs/10.1108/02686900310495151">Hwang 2003</a>**  **and** **<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.14.7153">Wheeler 2000</a>** **) , and that led me to develop Afraus.</p>
 <h2 id="afraus-three-models-for-one-score">Afraus: three models for one score</h2>
-
 <p><strong>Afraus</strong> is developed leveraging the <strong>complementarity concept</strong>, and is built using three different fraud analytics models:</p>
-
 <ul>
-<li><p>the <strong>Benford&rsquo;s Law</strong>, an empirical law used as a distribution model;</p></li>
-
-<li><p>the <strong>Control Chart</strong>, a distribution model;</p></li>
-
-<li><p>the <strong>Local Outlier Factor</strong>, a density model.</p></li>
+<li>
+<p>the <strong>Benford's Law</strong>, an empirical law used as a distribution model;</p>
+</li>
+<li>
+<p>the <strong>Control Chart</strong>, a distribution model;</p>
+</li>
+<li>
+<p>the <strong>Local Outlier Factor</strong>, a density model.</p>
+</li>
 </ul>
-
 <p>The conjunct use of those three models resulted in an <strong>increased precision</strong> over a population of audited data, as showed in paragraph <em><strong>Does really it work? Looking at real data</strong></em></p>
-
 <p>But before going to the results, let us see more closely the model.</p>
-
-<h3 id="the-benford-s-law">The Benford&rsquo;s Law</h3>
-
-<p>This model tests the <strong>data against a theoretical distribution of first digits</strong>, highlighting those records that significantly deviates from that distribution. <strong>I have written</strong> about Benford&rsquo;s Law in a <strong><a href="https://andreacirilloblog.wordpress.com/2015/02/06/benfords_law_with_r/">previous quite  popular post</a></strong>, therefore I am not going to repeat myself here.</p>
-
-<p>It is enough to say that this test has proven to be <strong>effective</strong> for the most <strong>different kinds of anomalies</strong>, from <strong><a href="http://faculty.usfsp.edu/gkearns/Articles_Fraud/Benford%20Analysis%20Article.pdf">frauds in accounting data</a></strong>  to <strong><a href="http://arxiv.org/pdf/1504.04387.pdf">social network suspicious behaviour</a></strong> . Generally speaking, Benford&rsquo;s law is really good at looking for manipulation on datasets as a whole.</p>
-
+<h3 id="the-benfords-law">The Benford's Law</h3>
+<p>This model tests the <strong>data against a theoretical distribution of first digits</strong>, highlighting those records that significantly deviates from that distribution. <strong>I have written</strong> about Benford's Law in a <strong><a href="https://andreacirilloblog.wordpress.com/2015/02/06/benfords_law_with_r/">previous quite  popular post</a></strong>, therefore I am not going to repeat myself here.</p>
+<p>It is enough to say that this test has proven to be <strong>effective</strong> for the most <strong>different kinds of anomalies</strong>, from <strong><a href="http://faculty.usfsp.edu/gkearns/Articles_Fraud/Benford%20Analysis%20Article.pdf">frauds in accounting data</a></strong>  to <strong><a href="http://arxiv.org/pdf/1504.04387.pdf">social network suspicious behaviour</a></strong> . Generally speaking, Benford's law is really good at looking for manipulation on datasets as a whole.</p>
 <p>Afraus knows that, and uses it to understand how &lsquo;clean&rsquo; is the population of data considered, assigning a <strong>score from 1 to 100</strong> proportionate to the <strong>significant deviation</strong> from the expected frequency of the given digit. A 0 score is assigned to those records with no significant deviation.</p>
-
-<p>Before moving on I have to mention <strong>some cautions</strong> that you need to use when applying Benford&rsquo;s Law:</p>
-
-<p>as stated by <strong><a href="http://faculty.usfsp.edu/gkearns/Articles_Fraud/Benford%20Analysis%20Article.pdf">Durtschi, Hillison and Pacini</a> </strong>not all kind of population are suitable to be tested using Benford&rsquo;s Law, and even when they are, it is not obvious that they will comply with the Law, as clearly showed from professor <strong><a href="http://www.statlit.org/pdf/2013-Goodman-ASA.pdf">Goodman </a></strong>.</p>
-
-<h2 id="histogram-representing-a-typical-benford-test-https-andreacirilloblog-files-wordpress-com-2015-07-benford-png-w-300-https-andreacirilloblog-files-wordpress-com-2015-07-benford-png"><a href="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png?w=300" alt="histogram representing a typical Benford Test" /></a></h2>
-
+<p>Before moving on I have to mention <strong>some cautions</strong> that you need to use when applying Benford's Law:</p>
+<p>as stated by **<a href="http://faculty.usfsp.edu/gkearns/Articles_Fraud/Benford%20Analysis%20Article.pdf">Durtschi, Hillison and Pacini</a> **not all kind of population are suitable to be tested using Benford's Law, and even when they are, it is not obvious that they will comply with the Law, as clearly showed from professor <strong><a href="http://www.statlit.org/pdf/2013-Goodman-ASA.pdf">Goodman </a></strong>.</p>
+<h2 id="histogram-representing-a-typical-benford-testhttpsandreacirilloblogfileswordpresscom201507benfordpngw300httpsandreacirilloblogfileswordpresscom201507benfordpng"><a href="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png?w=300" alt="histogram representing a typical Benford Test"></a></h2>
 <h2 id="control-chart">Control Chart</h2>
-
 <p>Control charts are mainly known as a reliable tool for statistical process control.</p>
-
 <p>Those kind of models derive from data <strong>a center line, an upper and a lower bound</strong>, highlighting as &lsquo;<strong>out of control&rsquo; all records out of those limits</strong>.</p>
-
 <p>As showed by <strong><a href="http://www.qualitydigest.com/print/26333">Wheeler</a></strong>, even if those models assumes a normal distribution, they are also applicable to populations with non-normal distributions. This is mainly due to the <strong>robustness of the bounds derivation</strong>.</p>
-
 <p><strong>Afraus</strong> leverages the robustness of those charts to identify atypical data, calculating <strong>a score from 1 to 100 proportionate to the distance from the upper/lower bound</strong>, and assigning a 0 score to the records falling within the bounds.</p>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-3.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-3.png?w=300" alt="control_chart" /></a></p>
-
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-3.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-3.png?w=300" alt="control_chart"></a></p>
 <h3 id="local-outlier-factor">Local Outlier Factor</h3>
-
 <p>Local Outlier Factor is a <strong>k-NN algorithm</strong>, based on the concept of density: the <strong>more isolated is a record</strong>, the <strong>higher</strong> is the <strong>likelihood</strong> it is originating from <strong>fraud</strong>. Afraus uses the LOF to intercept isolated values.</p>
-
 <p>As for the two previous models,** Afraus assigns a score from 0 to 100** to each record within the population being analyzed.</p>
-
 <p>Given the formulation of the <a href="http://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf"><strong>Local Outlier Score</strong> </a>a 0 score is given to records less or equal to 1 and a 1 to 100 score is given tho the other records, using the maximum level of LOF to set the 100 score.</p>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-4.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-4.png?w=300" alt="Lof" /></a></p>
-
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-4.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-4.png?w=300" alt="Lof"></a></p>
 <h2 id="the-final-score">The final score</h2>
-
 <p>As seen within the previous paragraphs, <strong>Afraus leverages the concept of complementarity</strong>, joining together different models.</p>
-
 <p>For each model Afraus calculates a &ldquo;<strong>compliance-score&rdquo; ranging from 0 to 100.</strong> In order to express a <strong>synthetic judgment</strong> on each record, a <strong>final score is calculated.</strong></p>
-
 <p>This score is simply defined as <strong>the weighted average of the three &ldquo;compliance-scores&rdquo;</strong>.</p>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-5.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-5.png" alt="afraus score design" /></a></p>
-
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-5.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-5.png" alt="afraus score design"></a></p>
 <h2 id="how-can-i-give-it-a-try">How can I give it a try?</h2>
-
 <p>If you are interested in <strong>testing the algorithm</strong> I have developed a nice <strong>web application</strong>, based on <strong><a href="http://shiny.rstudio.com">Shiny</a></strong>, named Afraus:</p>
-
-<h4 id="try-the-afraus-web-app-https-afraus-shinyapps-io-afraus-app"><a href="https://afraus.shinyapps.io/Afraus_app">try the Afraus web app</a></h4>
-
-<p><a href="https://afraus.shinyapps.io/Afraus_app"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/immagine1.png" alt="afraus_web_app" /></a></p>
-
+<h4 id="try-the-afraus-web-apphttpsafrausshinyappsioafraus-app"><a href="https://afraus.shinyapps.io/Afraus_app">try the Afraus web app</a></h4>
+<p><a href="https://afraus.shinyapps.io/Afraus_app"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/immagine1.png" alt="afraus_web_app"></a></p>
 <p>Using the Afraus web application you can <strong>test the algorithm with your own custom data,</strong> and give a look to the results into details.</p>
-
 <p>Of course, I have <strong>already done some test</strong> on real data, and I am going to show you the <strong>results in the next paragraph</strong>.</p>
-
 <h2 id="does-it-really-work-looking-at-real-data">Does it really work? Looking at real data</h2>
-
-<p><strong> </strong></p>
-
+<p>** **</p>
 <p>As always is the case for fraud analytics, having developed a nice algorithm is not enough, you need to show that it works and does its job properly.</p>
-
 <p>Therefore In order to check the validity of the complementary concept, I have <strong>made the following test</strong>:</p>
-
 <p>I have applied the <strong>three models separately</strong> on a population of <strong>labelled data</strong> <strong>with frauds</strong>, resulting from a fraud audit, and <strong>then</strong> I have applied <strong>Afraus on the same population</strong>.</p>
-
 <p>After that I have <strong>determined</strong> the <strong><a href="https://en.wikipedia.org/wiki/Confusion_matrix">confusion matrix </a></strong> and the <strong><a href="https://en.wikipedia.org/wiki/Precision_and_recall">precision score </a></strong>, measuring how good performed Afraus against the single models it is made of.</p>
-
 <p>Those were the <strong>results</strong>:</p>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-6.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-6.png" alt="afraus results" /></a></p>
-
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-6.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-6.png" alt="afraus results"></a></p>
 <p>As you can see, <strong>Afraus brings a sensible improvement into the precision index</strong>, suggesting that a good way was taken.</p>
-
 <p>Nevertheless as is often the case, it seems to be <strong>quite a long journey</strong>, and more developments are coming.</p>
-
 <h2 id="could-it-work-better-currently-working-on"><strong>Could it work better? currently working on&hellip;</strong></h2>
-
-<p><strong> </strong></p>
-
+<p>** **</p>
 <p>As shown in previous paragraph, Afraus has shown to be an interesting unsupervised fraud detection algorithm, able to detect real cases of fraud having no previous hint at all.</p>
-
 <p>But, as said, I got interested into <strong>unsupervised models</strong> because they can make a <strong>good job for companies</strong> even when they have no previous knowledge about fraud and fraud detection.</p>
-
 <p>That is why, after smiling for a while at the graph above, I asked myself: <strong>how can I make that 0.17 growth</strong> always avoiding to ask the analyst any specification?</p>
-
 <p>This question led me to define the development path of Afraus: <strong>integrating more fraud detection models</strong>, dynamically chosen by the algorithm itself.</p>
-
 <p>This implies some <strong>conditional instructions</strong> based on <strong>tests of the assumptions</strong> taken for true from the different models.</p>
-
-<p>Let&rsquo;s make an <strong>example</strong>: we could <strong>integrate regression models </strong>and choose the type of regression equation <strong>based on the R squared</strong> parameter.</p>
-
+<p>Let's make an <strong>example</strong>: we could **integrate regression models **and choose the type of regression equation <strong>based on the R squared</strong> parameter.</p>
 <p>Afraus is currently developed in <strong>R language</strong>, and I am committing changing to the code on a <strong><a href="https://github.com/AndreaCirilloAC/Afraus">Github public repo</a></strong>, <strong>start watching</strong> it if you would like to keep an eye on the project.</p>
-
 <h2 id="conclusion"><strong>Conclusion</strong></h2>
-
 <p><strong>Fraud is a dangerous animal</strong>, threatening companies and the economy as a whole. Fraud Analytics can be a great ally into the battle with this public enemy, that is why it is receiving increasing attention from companies and academy. Among fraud analytics models, <strong>unsupervised models can be really precious for the first fraud detection</strong> activities in a company, and a complementary approach can make them even more precious.</p>
-
 <p>Knowing that, I have developed for professional purposes <strong>Afraus</strong>, an <strong>unsupervised fraud detection algorithm</strong> aimed at taking advantage of different models in order to easily scan population of data looking for fraud, without requiring any previous knowledge of undergoing fraud schemes or events affecting the data.</p>
-
 <p><strong>Have you ever tried this kind of approach?</strong> Which were your results?</p>
 
     </div>

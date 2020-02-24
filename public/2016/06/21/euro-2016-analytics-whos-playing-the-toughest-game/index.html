@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.62.0" />
 
 
 <title>Euro 2016 analytics: Who&#39;s playing the toughest game? - Andrea Cirillo</title>
@@ -76,7 +76,7 @@
 
   <article class="article">
     
-    <span class="article-duration">6 min read</span>
+    <span class="article-duration">5 min read</span>
     
 
     <h1 class="article-title">Euro 2016 analytics: Who&#39;s playing the toughest game?</h1>
@@ -89,120 +89,50 @@
     
 
     <div class="article-content">
-      
-
-<p>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&rsquo;s why after  browsing for a while <a href="http://www.uefa.com/uefaeuro/season=2016/statistics/index.html">statistics section of official EURO 2016 website</a> I decided to do some analysis on the data they share ( as at the 21th of June).</p>
-
+      <p>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That's why after  browsing for a while <a href="http://www.uefa.com/uefaeuro/season=2016/statistics/index.html">statistics section of official EURO 2016 website</a> I decided to do some analysis on the data they share ( as at the 21th of June).</p>
 <p>Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</p>
-
-<p>We can divide following analyses into two main parts: a first part were we analyse distribution of fouls and their incidence on matches outcome and a second part where ball possession in analysed, once again looking at relationship between this stat and matches outcome. Let&rsquo;s start with fouls then.</p>
-
-<h2 id="which-team-committed-the-greatest-number-of-fouls">which team committed the  greatest number of fouls?</h2>
-
+<p>We can divide following analyses into two main parts: a first part were we analyse distribution of fouls and their incidence on matches outcome and a second part where ball possession in analysed, once again looking at relationship between this stat and matches outcome. Let's start with fouls then.</p>
+<h2 id="which-teamcommitted-the-greatest-number-of-fouls">which team committed the  greatest number of fouls?</h2>
 <p>Here we are with the first question. And here it is the answer:</p>
-
-<h2 id="fouls-https-andreacirilloblog-files-wordpress-com-2016-06-fouls-png"><img src="https://andreacirilloblog.files.wordpress.com/2016/06/fouls.png" alt="_fouls" /></h2>
-
-<!-- more -->
-
-<p>Given that black countries are countries not playing the competition it seams <strong>Romania</strong> committed quite a great number of fouls. You may wonder: were them <strong>serious fouls?</strong> Let&rsquo;s have a look to the <strong>number of yellow and red cards</strong> to answer that legitimate question. Let&rsquo;s start from yellow cards:</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/yellow_cards.png" alt="yellow_cards" /></p>
-
-<p>Well, <strong>Romania togheter with Albania is standing at the top of yellow cards</strong> ranking as well. Getting to red cards we have to underline that we dont&rsquo; have a lot of data about them, since just two of them were assigned. Guess to whom? Albania and  Austria. All that summed up we can definitely say <strong>Albania am Romania played toughest  matche</strong>s overall. but was that worthing? Uhm I guess no, since <strong>both of them didn&rsquo;t get trough staging phas</strong>e. And this raise another interesting question:</p>
-
+<h2 id="-foulshttpsandreacirilloblogfileswordpresscom201606foulspng"><img src="https://andreacirilloblog.files.wordpress.com/2016/06/fouls.png" alt="_fouls"></h2>
+<!-- raw HTML omitted -->
+<p>Given that black countries are countries not playing the competition it seams <strong>Romania</strong> committed quite a great number of fouls. You may wonder: were them <strong>serious fouls?</strong> Let's have a look to the <strong>number of yellow and red cards</strong> to answer that legitimate question. Let's start from yellow cards:</p>
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/yellow_cards.png" alt="yellow_cards"></p>
+<p>Well, <strong>Romania togheter with Albania is standing at the top of yellow cards</strong> ranking as well. Getting to red cards we have to underline that we dont&rsquo; have a lot of data about them, since just two of them were assigned. Guess to whom? Albania and  Austria. All that summed up we can definitely say <strong>Albania am Romania played toughest  matche</strong>s overall. but was that worthing? Uhm I guess no, since <strong>both of them didn't get trough staging phas</strong>e. And this raise another interesting question:</p>
 <h2 id="is-there-a-correlation-between-number-of-fouls-and-number-of-wins">is there a correlation between number of fouls and number of wins?</h2>
-
-<p>to answer this technically silly question we can try to plot total number of fouls against number of wins by country team. let&rsquo;s have a look to the plot:</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/fouls_vs_wins.png" alt="fouls_vs_wins" /></p>
-
+<p>to answer this technically silly question we can try to plot total number of fouls against number of wins by country team. let's have a look to the plot:</p>
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/fouls_vs_wins.png" alt="fouls_vs_wins"></p>
 <p>we added a linear regression model to the scatter plot to investigate the hyphotesis of linear relationship but nothing happened, so **no, committing more fouls is not a winning strategy. **Let us ask one last reasonable question:</p>
-
 <h2 id="is-committing-more-fouls-at-least-a-good-strategy-in-order-to-reduce-goals-against">is committing more fouls at least a good strategy in order to reduce goals against?</h2>
-
-<p>Once again let&rsquo;s the data speak out:</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/fouls_vs_goals_against.png" alt="fouls_vs_goals_against" /></p>
-
+<p>Once again let's the data speak out:</p>
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/fouls_vs_goals_against.png" alt="fouls_vs_goals_against"></p>
 <p>ok, it could seems we can answer a sound yes, but I get a bit disturbed by that 52 romanian fouls so I am going to try to remove them and plot again:</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/plot_fouls_goals_no_rom.png" alt="plot_fouls_goals_no_rom" /></p>
-
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/plot_fouls_goals_no_rom.png" alt="plot_fouls_goals_no_rom"></p>
 <p>our first guess seems to be confirmed:<strong>number  of fouls commited is negatively correlated to the number of goals against suffered</strong>, which appears to be reasonable since we may assume a great number of fouls are committed to stop rivals from dangerous game actions.</p>
-
-<h2 id="who-s-keeping-the-ball-more-ball-possession-stats">who&rsquo;s keeping the ball more? ball possession stats</h2>
-
-<p>ball possession is a key start when analysing a football match, so let&rsquo;s start answering this introductory question: who&rsquo;s scoring the highest possession stat within this competition? Once again we can visualise it on a europe map:</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/ball_possession_map.png" alt="ball_possession_map.png" /></p>
-
+<h2 id="whoskeeping-the-ball-more-ball-possession-stats">who's keeping the ball more? ball possession stats</h2>
+<p>ball possession is a key start when analysing a football match, so let's start answering this introductory question: who's scoring the highest possession stat within this competition? Once again we can visualise it on a europe map:</p>
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/ball_possession_map.png" alt="ball_possession_map.png"></p>
 <p>giving a closer look to first five teams by ball possession we find a prevalence of north western europe countries:</p>
-
-<p><table cellpadding="0" cellspacing="0" >
-<tbody >
-<tr ></p>
-
-<p><td valign="middle" ><strong>Country</strong>
-</td></p>
-
-<p><td valign="middle" ><strong>Mean Possession</strong>
-</td>
-</tr>
-<tr ></p>
-
-<p><td valign="middle" >Germany
-</td></p>
-
-<p><td valign="middle" >71%
-</td>
-</tr>
-<tr ></p>
-
-<p><td valign="middle" >ukraine
-</td></p>
-
-<p><td valign="middle" >65%
-</td>
-</tr>
-<tr ></p>
-
-<p><td valign="middle" >portugal
-</td></p>
-
-<p><td valign="middle" >62%
-</td>
-</tr>
-<tr ></p>
-
-<p><td valign="middle" >spain
-</td></p>
-
-<p><td valign="middle" >62%
-</td>
-</tr>
-</tbody>
-</table>
-so here&rsquo;s come the question that has always stimulated my curiosity: ball possession is always considered a relevant topic, but is it correlated with matches victory? in other words:</p>
-
-<h2 id="increasing-ball-possession-increases-winning-likelihood">increasing ball possession increases winning likelihood?</h2>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="increasingball-possession-increases-winning-likelihood">increasing ball possession increases winning likelihood?</h2>
 <p>we are going to tackle this visually, plotting percentage of ball possession against a &ldquo;win_dummy&rdquo; variable, scoring 1 for win and 0 for defeat:</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/possession_truth.png" alt="possession_truth" /></p>
-
+<p><img src="https://andreacirilloblog.files.wordpress.com/2016/06/possession_truth.png" alt="possession_truth"></p>
 <p>as you can see we have also added an estimated logistic regression which visually enforces the truth already visible from raw data: there is no positive correlation, and apparently no correlation at all, between ball possession and matches outcome.</p>
-
 <h2 id="conclusions">Conclusions</h2>
-
 <p>within this post we tried to answer some questions about matches occured so far during UEFA EURO 2016 and we definitely found that being tough is not a good tactic to win your matches but at least can help you avoid suffering a great number of goals. Moreover we understood that ball possession is not related to matches outcome which seems to me a non obvious result. you can find below code employed for these analyses and if you are interested in reperforming them or even further explore raw data you can have a look to the <a href="https://github.com/AndreaCirilloAC/euro_2016_stat">Rstudio project I have uploaded on Github.</a></p>
-
 <p>That said: <strong>may the best win!</strong></p>
-
-<p>[code language=&ldquo;r&rdquo;]</p>
-
+<p>[code language=&quot;r&rdquo;]</p>
 <h1 id="load-required-packages">Load required packages</h1>
-
 <p>library(rio)
 library(plyr)
 library(dplyr)
@@ -210,13 +140,12 @@ library(choroplethr)
 library(choroplethrMaps)
 library(ggplot2)
 library(dummies)</p>
-
 <p>#data from <a href="http://www.uefa.com/uefaeuro/season=2016/statistics/index.html">http://www.uefa.com/uefaeuro/season=2016/statistics/index.html</a>
-players_stat &lt;- read.csv(&lsquo;players_stats.csv&rsquo;,sep = &ldquo;;&rdquo;)
+players_stat &lt;- read.csv(&lsquo;players_stats.csv&rsquo;,sep = &ldquo;;&quot;)
 players_stat$Team &lt;- tolower(players_stat$Team)
-team_stat &lt;- read.csv(&lsquo;team_stats.csv&rsquo; ,sep = &ldquo;;&rdquo;)
+team_stat &lt;- read.csv(&lsquo;team_stats.csv&rsquo; ,sep = &ldquo;;&quot;)
 team_stat$Team &lt;- tolower(team_stat$Team)
-possession_stat &lt;- read.csv(&lsquo;possession.csv&rsquo;, sep = &ldquo;;&rdquo;)
+possession_stat &lt;- read.csv(&lsquo;possession.csv&rsquo;, sep = &ldquo;;&quot;)
 possession_stat$team &lt;- tolower(possession_stat$team)
 #sum up fouls data from player view to team view
 by_team &lt;- group_by(players_stat,Team)
@@ -224,13 +153,9 @@ team_sums &lt;- summarise(by_team, sum(Yellow.Cards),
 sum(Red.Cards),
 sum(Fouls.Committed),
 sum(Fouls.Suffered))</p>
-
 <h1 id="subset-columns-to-plot-only-the-number-of-fouls-committed">subset columns to plot only the number of fouls committed</h1>
-
 <p>fouls_data &lt;- data.frame(&ldquo;region&rdquo; = team_sums$Team,&ldquo;value&rdquo; = team_sums$<code>sum(Fouls.Committed)</code>)</p>
-
 <h1 id="plot">plot</h1>
-
 <p>fouls_plot &lt;- country_choropleth(fouls_data,
 title = &ldquo;number of Fouls Committed by region&rdquo;,
 legend = &ldquo;# fouls&rdquo;,
@@ -239,71 +164,55 @@ xlim(-31.266001, 39.869301) +
 ylim(27.636311, 81.008797) +
 coord_map(&ldquo;lambert&rdquo;, lat0 = 27.636311, lat1 = 81.008797)
 fouls_plot</p>
-
 <p>#plot the number of yellow cards against country</p>
-
 <p>ggplot(team_sums,aes(x = Team,y = <code>sum(Yellow.Cards)</code>, fill = <code>sum(Yellow.Cards)</code> )) +
 geom_bar(stat = &lsquo;identity&rsquo;) +
 coord_flip()</p>
-
 <h1 id="merge-team-data">merge team data</h1>
-
 <p>total_stats &lt;- merge(team_sums,team_stat)</p>
-
 <p>#plot fouls committed against number of wins by country
 ggplot(total_stats,aes(x = total_stats$<code>sum(Fouls.Committed)</code>,y = total_stats$Wins, label = Team)) +
 geom_point() +
 geom_text(nudge_y = 0.2) +
 geom_smooth(method = &lsquo;lm&rsquo;, formula = y~x)</p>
-
 <h1 id="plot-fouls-committed-against-number-of-goals-against">plot fouls committed against number of goals against</h1>
-
 <p>ggplot(total_stats,aes(x = total_stats$<code>sum(Fouls.Committed)</code>,
 y = total_stats$Total.goals.against, label = Team)) +
 geom_point() +
 geom_text(nudge_y = 0.2) +
 geom_smooth(method = &lsquo;lm&rsquo;, formula = y~x)</p>
-
 <p>#remove romania and plot again
 total_stats_no_romania &lt;- total_stats[-16,]</p>
-
 <p>ggplot(total_stats_no_romania,aes(x = total_stats_no_romania$<code>sum(Fouls.Committed)</code>,
 y = total_stats_no_romania$Total.goals.against, label = Team)) +
 geom_point() +
 geom_text(nudge_y = 0.2) +
 geom_smooth(method = &lsquo;lm&rsquo;,formula = y~x)</p>
-
 <h1 id="ball-possession-analysis">ball possession analysis</h1>
-
 <p>#split dataset and merge back in order to have one record for each team
 possession_a &lt;- possession_stat[,-c(4,8)]
-possession_a$win &lt;- possession_a$score &gt; possession<em>a$score</em>
+possession_a$win &lt;- possession_a$score &gt; possession_a$score_
 possession_b &lt;- possession_stat[,-c(3,7)]
-possession_b$win &lt;- possession_b$score &lt; possession<em>b$score</em>
+possession_b$win &lt;- possession_b$score &lt; possession_b$score_
 possession_a &lt;- possession_a[,-5]
 possession_b &lt;- possession_b[,-4]
 colnames(possession_b) &lt;- colnames(possession_a)
 possession_tidy &lt;- rbind(possession_a,possession_b)
 dummy_win &lt;- as.data.frame(dummy(possession_tidy$win))
 possession_tidy$win_dummy &lt;- dummy_win[,2]</p>
-
 <p>#country possession stats</p>
-
 <p>by_team_pos &lt;- group_by(possession_tidy,team)
 team_means &lt;- summarise(by_team_pos, mean(possession))
 colnames(team_means) &lt;- c(&ldquo;region&rdquo;,&ldquo;value&rdquo;)</p>
-
 <p>possession_plot &lt;- country_choropleth(team_means,
 title = &ldquo;mean ball possession&rdquo;,
-legend=&ldquo;% possession&rdquo;,
+legend=&rdquo;% possession&rdquo;,
 num_colors=1)+
 xlim(-31.266001, 39.869301)+
 ylim(27.636311, 81.008797) +
 coord_map(&ldquo;lambert&rdquo;, lat0=27.636311, lat1=81.008797)
 possession_plot</p>
-
 <p>#logistic regression</p>
-
 <p>ggplot(data = possession_tidy,aes(x = possession)) +
 geom_point(aes(y = win_dummy)) +
 stat_smooth(aes(y = win_dummy),method = &ldquo;glm&rdquo;)

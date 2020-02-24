@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pubblications on Andrea Cirillo</title>
@@ -9,6 +9,17 @@
     
 	<atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>paletter speech</title>
+      <link>/publications/paletter_speech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/paletter_speech/</guid>
+      <description>On november 20th 2018 I was requested to make a keynote speech at the 9th MilanoR meeting, the most relevant italian meeting of R users.
+The main topic of the speech was one of my last coding fatigues: the Paletter package, a new R package able to derive an optimised colour palette from any kind of image.
+ You can also find a kind reportage of the evening directly on the official MilanoR blog, and the full deck of slides online.</description>
+    </item>
     
     <item>
       <title>R data mining</title>
@@ -28,7 +39,6 @@ What is a data mining crime book? It is a book stuctured to teach you data minin
       
       <guid>/publications/featured_book/</guid>
       <description>R data mining is a data mining crime book, a new kind of book we developed with good guys at Packt and the great statistician Enrico Pegoraro.
-
 What is a data mining crime book? It is a book stuctured to teach you data mining fundamentals while immersing you in a crime case.
 Within R data mining you will be immersed into the life of a wholesale company, where suddenly a misterious drop in profits arises.</description>
     </item>
@@ -42,17 +52,6 @@ Within R data mining you will be immersed into the life of a wholesale company, 
       <description>Rstudio for R Statistical computing Cookbook is an useful contribution to the R community, and especially for those just starting off with R.
 
 The book is a concentrated of recipes targeted to the average R user to get him from being in the mean to the become an outlier. Aside from statistical analogies, this book provides recipes to perform relevant activities within all phases of data analysis projects, and literally:</description>
-    </item>
-    
-    <item>
-      <title>paletter speech</title>
-      <link>/publications/paletter_speech/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publications/paletter_speech/</guid>
-      <description>On november 20th 2018 I was requested to make a keynote speech at the 9th MilanoR meeting, the most relevant italian meeting of R users.
-The main topic of the speech was one of my last coding fatigues: the Paletter package, a new R package able to derive an optimised colour palette from any kind of image.
- You can also find a kind reportage of the evening directly on the official MilanoR blog, and the full deck of slides online.</description>
     </item>
     
   </channel>

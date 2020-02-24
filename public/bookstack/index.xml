@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bookstack on Andrea Cirillo</title>
@@ -30,24 +30,6 @@
     </item>
     
     <item>
-      <title>The Visual Display of Quantitative Information</title>
-      <link>/bookstack/visual_display_of_quantitative_information/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bookstack/visual_display_of_quantitative_information/</guid>
-      <description>theory of data graphics maximise data-ink ratio, within reason maximise data density and the size of the data matrix, within reason treat graphics as paragraphs and shape them appropriately  integrity of data graphics always show data in their context try to produce a small lie factor show data variation, not design variation use as many dimensions as the number of dimensions in your data    I have recently completed a great reading: the famous Edward Tufte’s The visual display of quantitative information.</description>
-    </item>
-    
-    <item>
-      <title>You can negotiate everything</title>
-      <link>/bookstack/you_can_negotiate_everything/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/bookstack/you_can_negotiate_everything/</guid>
-      <description>What is negotiation? About the three elements of a negotitation Power Time Information  Styles of negotiation The soviet style (Win-Lose) Negotiation for mutual satisfaction (Win-Win) More on the Win-Win technique  Has it worked? My final evaluation   The first time you come across You can negotiate everything by Herb Cohen it can appears one of those books full of techniques to manipulate people and persuade them to do what you want.</description>
-    </item>
-    
-    <item>
       <title>the Pragmatic Programmer</title>
       <link>/bookstack/pragmatic_programmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -64,6 +46,24 @@
       <guid>/bookstack/seven_habits/</guid>
       <description>a really brief summary Be proactive Begin with the end in mind Put thirst things first think win-win Seek First to Understand, Then to be Understood Synergize sharpen the saw  has it worked? conclusions   a really brief summary All of the book listed within the bookstack were relevant book for me, but this one was actually crucial for my personal and professional development.
 I started reading it after being excluded from a talent program, while I was questioning my ability to construct effective relationship with others and being relevant part of a team.</description>
+    </item>
+    
+    <item>
+      <title>The Visual Display of Quantitative Information</title>
+      <link>/bookstack/visual_display_of_quantitative_information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bookstack/visual_display_of_quantitative_information/</guid>
+      <description>theory of data graphics maximise data-ink ratio, within reason maximise data density and the size of the data matrix, within reason treat graphics as paragraphs and shape them appropriately  integrity of data graphics always show data in their context try to produce a small lie factor show data variation, not design variation use as many dimensions as the number of dimensions in your data    I have recently completed a great reading: the famous Edward Tufte’s The visual display of quantitative information.</description>
+    </item>
+    
+    <item>
+      <title>You can negotiate everything</title>
+      <link>/bookstack/you_can_negotiate_everything/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bookstack/you_can_negotiate_everything/</guid>
+      <description>What is negotiation? About the three elements of a negotitation Power Time Information  Styles of negotiation The soviet style (Win-Lose) Negotiation for mutual satisfaction (Win-Win) More on the Win-Win technique  Has it worked? My final evaluation   The first time you come across You can negotiate everything by Herb Cohen it can appears one of those books full of techniques to manipulate people and persuade them to do what you want.</description>
     </item>
     
   </channel>

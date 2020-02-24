@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Analytics on Andrea Cirillo</title>
+    <title>analytics on Andrea Cirillo</title>
     <link>/tags/analytics/</link>
-    <description>Recent content in Analytics on Andrea Cirillo</description>
+    <description>Recent content in analytics on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
@@ -37,8 +37,8 @@
       <guid>/2017/04/12/why-are-you-being-so-silent/</guid>
       <description>It has being nearly half an year since the last post about workflower was out, why did I stay so silent for that long?
 I have three major updates to explain the silence:
- 📚 Good guys atPackt publishing asked me to write one more book about R and data mining, I suppose this is because the first one was well received
- 📦 I spend my spare time working on updateR so to get it ready to go on CRAN.</description>
+  📚 Good guys atPackt publishing asked me to write one more book about R and data mining, I suppose this is because the first one was well received
+  📦 I spend my spare time working on updateR so to get it ready to go on CRAN.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ I have three major updates to explain the silence:
       <pubDate>Wed, 21 Sep 2016 12:22:29 +0000</pubDate>
       
       <guid>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</guid>
-      <description>we all know R is the first choice for statistical analysis and data visualisation, but what about big data munging? tidyverse (or we&amp;rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is often the case this kind of activities being handled from some other coding language. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .</description>
+      <description>we all know R is the first choice for statistical analysis and data visualisation, but what about big data munging? tidyverse (or we&#39;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is often the case this kind of activities being handled from some other coding language. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .</description>
     </item>
     
     <item>
@@ -56,7 +56,7 @@ I have three major updates to explain the silence:
       <pubDate>Tue, 09 Aug 2016 20:30:16 +0000</pubDate>
       
       <guid>/2016/08/09/ggplot2-themes-examples/</guid>
-      <description>this short post is exactly what it seems: a showcase of all ggplot2 themes available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&amp;rsquo;s try this one&amp;hellip;&amp;rdquo;) and at the end I thought it could have be useful for my readers. At least this post will save you the time of trying all differents themes just to have a sense of how they look like.</description>
+      <description>this short post is exactly what it seems: a showcase of all ggplot2 themes available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&#39;s try this one&amp;hellip;&amp;quot;) and at the end I thought it could have be useful for my readers. At least this post will save you the time of trying all differents themes just to have a sense of how they look like.</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ I have three major updates to explain the silence:
       <pubDate>Tue, 21 Jun 2016 15:55:38 +0000</pubDate>
       
       <guid>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</guid>
-      <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&amp;rsquo;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
+      <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&#39;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
 Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</description>
     </item>
     
@@ -76,8 +76,8 @@ Just to be clear from the beginning: we are not talking of anything too rigourus
       
       <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
       <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
- changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
- became dad for the third time (and if you are guessing, it’s a boy!</description>
+  changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
+  became dad for the third time (and if you are guessing, it’s a boy!</description>
     </item>
     
     <item>
@@ -112,7 +112,8 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
       <guid>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
       <description>Because Afraus received a good interest, last month I override shinyapps.io free plan limits.
 That got me move my Shiny App on an Amazon AWS instance.
-Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.</description>
+Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.
+All this pain is removed by ramazon, an R package that I developed to take care of everything is needed to deploy a shiny app on an AWS instance.</description>
     </item>
     
     <item>
@@ -122,8 +123,11 @@ Well, it was not so straight forward: even if there is plenty of tutorials aroun
       
       <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
       <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
-   on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
-Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
+ on average, fraud accounts for nearly the 5% of companies revenues
+ 
+Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.
+
+No surprise than if companies and scholars are increasingly looking for way to prevent fraud and spot it when it occurs.</description>
     </item>
     
     <item>
@@ -132,11 +136,11 @@ Projecting this number for the whole world GDP, it results that the &amp;ldquo;f
       <pubDate>Mon, 11 May 2015 21:08:48 +0000</pubDate>
       
       <guid>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
-      <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&amp;rsquo;t be great to add live chat support to my Web Application visitors?
+      <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&#39;t be great to add live chat support to my Web Application visitors?
 It would indeed!
-[caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]
+[caption id=&amp;quot;attachment_490&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]
 But how to do it?
-Unfortunately, looking on Google didn&amp;rsquo;t give any useful result.</description>
+Unfortunately, looking on Google didn&#39;t give any useful result.</description>
     </item>
     
     <item>
@@ -167,7 +171,7 @@ the solution: linker In order to address this problem I am developing Linker, a 
       <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
 Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
 Feeling this way?
-[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
+[caption id=&amp;quot;attachment_273&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
     </item>
     
     <item>
@@ -176,8 +180,8 @@ Feeling this way?
       <pubDate>Wed, 05 Nov 2014 04:40:02 +0000</pubDate>
       
       <guid>/2014/11/05/best-pratice-for-scientific-computing/</guid>
-      <description>I reproduce here below principles from the amazing paper Best Practices for Scientific Computing, published on 2012 by a group of US and UK professors. The main purpose of the paper is to &amp;ldquo;teach&amp;rdquo; good programming habits shared from professional developers to people that weren&amp;rsquo;t born developer, and became developers just for professional purposes.
-Scientists spend an increasing amount of time building and using software. However, most scientists are never taught how to do this efficiently Best Practices for Scientific Computing    Write programs for people, not computers.</description>
+      <description>I reproduce here below principles from the amazing paper Best Practices for Scientific Computing, published on 2012 by a group of US and UK professors. The main purpose of the paper is to &amp;ldquo;teach&amp;rdquo; good programming habits shared from professional developers to people that weren&#39;t born developer, and became developers just for professional purposes.
+Best Practices for Scientific Computing    Write programs for people, not computers. 1. _a program should not require its readers to hold more than a handful of facts in memory at once_ 2.</description>
     </item>
     
     <item>
@@ -186,8 +190,8 @@ Scientists spend an increasing amount of time building and using software. Howev
       <pubDate>Mon, 27 Oct 2014 05:29:15 +0000</pubDate>
       
       <guid>/2014/10/27/excel-right-function-in-r/</guid>
-      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel right() function in th R language. Feel free to copy and use it.
-[code language=&amp;ldquo;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
+      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel _right()_ function in th R language. Feel free to copy and use it.
+[code language=&amp;quot;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
 you can find other function in the Excel functions in R post.</description>
     </item>
     
@@ -198,7 +202,7 @@ you can find other function in the Excel functions in R post.</description>
       
       <guid>/2014/10/27/excel-left-function-in-r/</guid>
       <description>as part of the excel functions in R, I have developed this custom function, emulating the excel left() function in th R language. Feel free to copy and use it.
-left = function (string,char){ substr(string,1,char)} you can find other function in theExcel functions in R post.</description>
+left = function (string,char){ substr(string,1,char)} you can find other function in the**Excel functions in R post**.</description>
     </item>
     
     <item>
@@ -207,7 +211,7 @@ left = function (string,char){ substr(string,1,char)} you can find other functio
       <pubDate>Sat, 25 Oct 2014 22:36:08 +0000</pubDate>
       
       <guid>/2014/10/25/excel-functions-in-r/</guid>
-      <description>I have started my &amp;rdquo;data-journey&amp;rdquo; from Excel, getting excited by formulas like VLookup(), right() and left().
+      <description>I have started my &amp;ldquo;data-journey&amp;rdquo; from Excel, getting excited by formulas like VLookup(), right() and left().
 then datasets got bigger, and I discovered that little spreadsheets were not enough, and look for something bigger and stronger, eventually coming to R.
 But as you know, ones never forget the first love.
 So, for fun and for practice, I have written down some of excel functions in R.
@@ -232,7 +236,7 @@ I hope you will enjoy.</description>
       <guid>/2014/09/13/functions-comparison-in-r/</guid>
       <description>Following the post about %in% operator, I received this tweet: https://twitter.com/benwhite21/status/510520550553165824
 I gave a look to the code kindly provided by Ben and then I asked myself: I know dplyr is a really nice package, but which snippet is faster?
-to answer the question I&amp;rsquo;ve put the two snippets in two functions:
+to answer the question I&#39;ve put the two snippets in two functions:
 #Ben snippet dplyr_snippet =function(object,column,vector){ filter(object,object[,column] %in% vector) } #AC snippet Rbase_snippet =function(object,column,vector){ object[object[,column] %in% vector,] }
 Then, thanks to the great package microbenchmark, I made a comparison between those two functions, testing the time of execution of both, for 100.</description>
     </item>
@@ -272,7 +276,7 @@ As a matter of fact, the standard R option is to use just on of the cores you ha
       <pubDate>Sat, 12 Jul 2014 07:27:24 +0000</pubDate>
       
       <guid>/2014/07/12/how-to-visualize-entertainment-expenditures-on-a-bubble-chart/</guid>
-      <description>I&amp;rsquo;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.
+      <description>I&#39;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.
 In response to that request I have developed a little Shiny app with an interesting reactive Bubble chart.
 The plot, made using ggplot2 package, is composed by: a categorical x value, represented by the clusters identified in the expenditures population A numerical y value, representing the total amount expended Points defined by the total amount of expenditure in the given cluster for each company subject.</description>
     </item>

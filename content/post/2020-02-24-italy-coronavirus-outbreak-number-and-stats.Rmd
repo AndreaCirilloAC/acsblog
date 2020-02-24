@@ -1,0 +1,24 @@
+---
+title: 'Italy Coronavirus Outbreak: number and stats'
+author: Andrea Cirillo
+date: '2020-02-24'
+slug: italy-coronavirus-outbreak-number-and-stats
+categories: []
+tags: []
+---
+
+## Italy NCOV-19 outbreak
+
+For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths. To do so I am regularly monitoring news from the italian official sources like "Regione Lombardia" and "Protezione Civile".
+
+You can find on a [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing)  the raw data I am collecting.
+
+Here is an attempt to visualize historical series of total confirmed cases and deaths
+
+<iframe width="701" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1237253114&amp;format=interactive"></iframe>
+
+and finally here a visualization of daily change in confirmed cases:
+
+<iframe width="701" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1722164618&amp;format=interactive"></iframe>
+
+Let's pray for this numbers getting better and better each day.

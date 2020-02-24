@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.62.0" />
 
 
 <title>How to list file and folders within a folder ( basic file  app) - Andrea Cirillo</title>
@@ -89,74 +89,39 @@
     
 
     <div class="article-content">
-      
-
-<p>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&hellip; By the way: <strong>have you ever wondered</strong> <strong>how to list all files and folders</strong> within a root folder just hitting a button<strong>?</strong></p>
-
-<p>I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **<a href="https://it.linkedin.com/in/cirilloandrea/it">I am an audito</a>r, **sorry about that): really time-consuming and not really value-adding activity.<!-- more --></p>
-
+      <p>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&hellip; By the way: <strong>have you ever wondered</strong> <strong>how to list all files and folders</strong> within a root folder just hitting a button**?**</p>
+<p>I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **<a href="https://it.linkedin.com/in/cirilloandrea/it">I am an audito</a>r, **sorry about that): really time-consuming and not really value-adding activity.<!-- raw HTML omitted --></p>
 <h2 id="the-problem-how-to-list-file-and-folders-within-a-folder">The problem: how to list file and folders within a folder</h2>
-
-<p>This is not an easy problem to solve, mainly because <strong>you don&rsquo;t know how many levels of nesting</strong> there will be in the choosen root folder and therefore you need to write down something enough robust to handle all possible situations.</p>
-
-<p>To address the problem,** I have developed** a really basic <strong>application</strong> that is able to list in a log file ( .txt format) all file and folders within a root folder:</p>
-
+<p>This is not an easy problem to solve, mainly because <strong>you don't know how many levels of nesting</strong> there will be in the choosen root folder and therefore you need to write down something enough robust to handle all possible situations.</p>
+<p>To address the problem,** I have developed** a really basic **application** that is able to list in a log file ( .txt format) all file and folders within a root folder:</p>
 <p>** Basic File.**</p>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2015/04/basic-file.png" alt="basic file print screen" /></p>
-
+<p><img src="https://andreacirilloblog.files.wordpress.com/2015/04/basic-file.png" alt="basic file print screen"></p>
 <p>I have done it for myself, but maybe you will find it useful as well.</p>
-
 <h2 id="how-does-it-works">How does it works</h2>
-
-<p><strong>Basic file</strong> doesn&rsquo;t require a lot of setting up:</p>
-
+<p><strong>Basic file</strong> doesn't require a lot of setting up:</p>
 <h3 id="1-select-the-root-folder-using-select-folder-button">1. select the root folder using &lsquo;select folder&rsquo; button</h3>
-
-<h3 id="select-https-andreacirilloblog-files-wordpress-com-2015-04-select-png-https-andreacirilloblog-files-wordpress-com-2015-04-select-png"><a href="https://andreacirilloblog.files.wordpress.com/2015/04/select.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/04/select.png" alt="select" /></a></h3>
-
-<h3 id="2-hit-the-scan-button">2. hit the ‘scan&rsquo; button .</h3>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/04/scan.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/04/scan.png" alt="scan" /></a></p>
-
+<h3 id="selecthttpsandreacirilloblogfileswordpresscom201504selectpnghttpsandreacirilloblogfileswordpresscom201504selectpng"><a href="https://andreacirilloblog.files.wordpress.com/2015/04/select.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/04/select.png" alt="select"></a></h3>
+<h3 id="2-hit-the-scan-button-">2. hit the ‘scan&rsquo; button .</h3>
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/04/scan.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/04/scan.png" alt="scan"></a></p>
 <p><strong>Basic File</strong> will let you instantly see the full list within the application.</p>
-
 <p>Moreover it will <strong>create a ‘log.txt&rsquo; file</strong> within the root folder with all the files and folder orderly listed. The log is accesible using the &lsquo;<strong>open log&rsquo; button.</strong></p>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2015/04/log.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/04/log.png" alt="log" /></a></p>
-
+<p><a href="https://andreacirilloblog.files.wordpress.com/2015/04/log.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/04/log.png" alt="log"></a></p>
 <p>You can easily copy the list from the application or from the log and do whatever you want with it.</p>
-
 <h2 id="download-the-application">Download the application</h2>
-
 <p>You can download the runnable application ( for Windows only) at the end of the post for free.</p>
-
 <p>If you are interested in giving a look to the code, I have uploaded it on the <a href="https://github.com/AndreaCirilloAC/BasicFile/"><strong>Basic File</strong> <strong>repository</strong></a> on GitHub.</p>
-
 <h2 id="up-to-you">Up to you</h2>
-
 <p>Do you know a faster/better way to list files and folders in a folder? I will be pleased to hear it from you.</p>
-
 <h2 id="thank-you-jtt-if-you-are-a-command-line-user">Thank you JTT! (if you are a command line user).</h2>
-
 <p>As suggested by JTT (unfortunately I was not able to retrieve your name), Command Line users can easily obtain the same result just using the command line.</p>
-
 <h3 id="1-set-the-folder-you-want-to-look-for-as-the-current-directory">1. set the folder you want to look for as the current directory</h3>
-
 <p><code>cd c:\Some_folder</code></p>
-
 <h3 id="2-give-the-following-input-to-the-command-line">2. give the following input to the command line</h3>
-
 <p><code>dir /s /b &gt; name_of_the_file_where _you_want_to_store_the_files_list.txt</code></p>
-
 <h3 id="3-look-for-a-file-with-the-given-name-into-the-given-directory">3. look for a file with the given name into the given directory.</h3>
-
-<p><img src="https://andreacirilloblog.files.wordpress.com/2015/04/2015-07-22-13_37_26-c__users_2000333_desktop.png" alt="file" /></p>
-
+<p><img src="https://andreacirilloblog.files.wordpress.com/2015/04/2015-07-22-13_37_26-c__users_2000333_desktop.png" alt="file"></p>
 <p>thank you JTT! As said, all (kind) comments are welcome.</p>
-
-<h4 id="download-the-application-then-click-setup-exe-https-drive-google-com-file-d-0b0l997rly7xstjhpzxetb3lsoee-view-usp-sharing"><a href="https://drive.google.com/file/d/0B0l997rly7XSTjhPZXEtb3lsOEE/view?usp=sharing">download the application (then click &lsquo;setup.exe&rsquo;)</a></h4>
-
+<h4 id="download-the-application-then-click-setupexehttpsdrivegooglecomfiled0b0l997rly7xstjhpzxetb3lsoeeviewuspsharing"><a href="https://drive.google.com/file/d/0B0l997rly7XSTjhPZXEtb3lsOEE/view?usp=sharing">download the application (then click &lsquo;setup.exe&rsquo;)</a></h4>
 <p>If you found Basic file useful, you may be interested in <strong>other App I developed</strong> for <strong>analytics and productivity purposes</strong>. Find them out at <strong><a href="https://andreacirilloblog.wordpress.com/software/">software page</a></strong></p>
 
     </div>

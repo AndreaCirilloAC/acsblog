@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data on Andrea Cirillo</title>
+    <title>data on Andrea Cirillo</title>
     <link>/tags/data/</link>
-    <description>Recent content in Data on Andrea Cirillo</description>
+    <description>Recent content in data on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Jun 2016 15:55:38 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 21 Jun 2016 15:55:38 +0000</pubDate>
       
       <guid>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</guid>
-      <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&amp;rsquo;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
+      <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&#39;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
 Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</description>
     </item>
     
@@ -28,8 +28,11 @@ Just to be clear from the beginning: we are not talking of anything too rigourus
       
       <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
       <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
-   on average, fraud accounts for nearly the 5% of companies revenues   [![Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+](http://clicktotweet.com/img/tweet-graphic-4.png)](http://ctt.ec/q3j4X) 
-Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.</description>
+ on average, fraud accounts for nearly the 5% of companies revenues
+ 
+Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.
+
+No surprise than if companies and scholars are increasingly looking for way to prevent fraud and spot it when it occurs.</description>
     </item>
     
     <item>
@@ -47,8 +50,8 @@ Projecting this number for the whole world GDP, it results that the &amp;ldquo;f
       <pubDate>Tue, 28 Oct 2014 13:02:25 +0000</pubDate>
       
       <guid>/2014/10/28/download-data-to-excel-from-web/</guid>
-      <description> This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
-Download data into excel select &amp;rdquo;data&amp;rdquo; tab select &amp;rdquo;from web&amp;rdquo;  input the desidered web URL click &amp;rdquo;go&amp;rdquo; button **select **data you want to download click &amp;rdquo;import&amp;rdquo; button Refresh downloaded data select &amp;rdquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
+      <description>This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
+Download data into excel select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;from web&amp;rdquo;  input the desidered web URL click &amp;ldquo;go&amp;rdquo; button **select **data you want to download click &amp;ldquo;import&amp;rdquo; button  Refresh downloaded data select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
     </item>
     
     <item>
@@ -57,8 +60,8 @@ Download data into excel select &amp;rdquo;data&amp;rdquo; tab select &amp;rdq
       <pubDate>Mon, 27 Oct 2014 05:29:15 +0000</pubDate>
       
       <guid>/2014/10/27/excel-right-function-in-r/</guid>
-      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel right() function in th R language. Feel free to copy and use it.
-[code language=&amp;ldquo;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
+      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel _right()_ function in th R language. Feel free to copy and use it.
+[code language=&amp;quot;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
 you can find other function in the Excel functions in R post.</description>
     </item>
     
@@ -69,7 +72,7 @@ you can find other function in the Excel functions in R post.</description>
       
       <guid>/2014/10/27/excel-left-function-in-r/</guid>
       <description>as part of the excel functions in R, I have developed this custom function, emulating the excel left() function in th R language. Feel free to copy and use it.
-left = function (string,char){ substr(string,1,char)} you can find other function in theExcel functions in R post.</description>
+left = function (string,char){ substr(string,1,char)} you can find other function in the**Excel functions in R post**.</description>
     </item>
     
   </channel>

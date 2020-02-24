@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Productivity on Andrea Cirillo</title>
+    <title>productivity on Andrea Cirillo</title>
     <link>/categories/productivity/</link>
-    <description>Recent content in Productivity on Andrea Cirillo</description>
+    <description>Recent content in productivity on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate>
@@ -28,8 +28,8 @@
       <guid>/2017/04/12/why-are-you-being-so-silent/</guid>
       <description>It has being nearly half an year since the last post about workflower was out, why did I stay so silent for that long?
 I have three major updates to explain the silence:
- 📚 Good guys atPackt publishing asked me to write one more book about R and data mining, I suppose this is because the first one was well received
- 📦 I spend my spare time working on updateR so to get it ready to go on CRAN.</description>
+  📚 Good guys atPackt publishing asked me to write one more book about R and data mining, I suppose this is because the first one was well received
+  📦 I spend my spare time working on updateR so to get it ready to go on CRAN.</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ I have three major updates to explain the silence:
       <pubDate>Tue, 17 May 2016 16:00:14 +0000</pubDate>
       
       <guid>/2016/05/17/a-checklist-for-your-weekly-review-gtd-methodology/</guid>
-      <description>I was crafting this checklist for my personal use, and then I found myself thinking: why should&amp;rsquo;nt I share this useful handful of bullets with my readers? So here we are, find below an useful checklist for your weekly review. The checklist is derived directly from the official GTD book by our great friend David Allen. The greatest quality of the checklist is the minimalist approach: just what you really need to read is written within each point, so that you get through your review as quick as possible.</description>
+      <description>I was crafting this checklist for my personal use, and then I found myself thinking: why should&#39;nt I share this useful handful of bullets with my readers? So here we are, find below an useful checklist for your weekly review. The checklist is derived directly from the official GTD book by our great friend David Allen. The greatest quality of the checklist is the minimalist approach: just what you really need to read is written within each point, so that you get through your review as quick as possible.</description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ I have three major updates to explain the silence:
       <pubDate>Wed, 01 Apr 2015 20:29:04 +0000</pubDate>
       
       <guid>/2015/04/01/how-to-list-file/</guid>
-      <description>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: have you ever wondered how to list all files and folders within a root folder just hitting a button?
+      <description>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: have you ever wondered how to list all files and folders within a root folder just hitting a button**?**
 I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **I am an auditor, **sorry about that): really time-consuming and not really value-adding activity.</description>
     </item>
     
@@ -57,8 +57,8 @@ I have been looking for something like that quite a lot of times, for instance w
       <pubDate>Tue, 28 Oct 2014 13:02:25 +0000</pubDate>
       
       <guid>/2014/10/28/download-data-to-excel-from-web/</guid>
-      <description> This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
-Download data into excel select &amp;rdquo;data&amp;rdquo; tab select &amp;rdquo;from web&amp;rdquo;  input the desidered web URL click &amp;rdquo;go&amp;rdquo; button **select **data you want to download click &amp;rdquo;import&amp;rdquo; button Refresh downloaded data select &amp;rdquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
+      <description>This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
+Download data into excel select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;from web&amp;rdquo;  input the desidered web URL click &amp;ldquo;go&amp;rdquo; button **select **data you want to download click &amp;ldquo;import&amp;rdquo; button  Refresh downloaded data select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
     </item>
     
     <item>

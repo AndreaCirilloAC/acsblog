@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Amazon on Andrea Cirillo</title>
+    <title>amazon on Andrea Cirillo</title>
     <link>/tags/amazon/</link>
-    <description>Recent content in Amazon on Andrea Cirillo</description>
+    <description>Recent content in amazon on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 10 Sep 2015 09:19:43 +0000</lastBuildDate>
@@ -32,7 +32,8 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
       <guid>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
       <description>Because Afraus received a good interest, last month I override shinyapps.io free plan limits.
 That got me move my Shiny App on an Amazon AWS instance.
-Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.</description>
+Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.
+All this pain is removed by ramazon, an R package that I developed to take care of everything is needed to deploy a shiny app on an AWS instance.</description>
     </item>
     
   </channel>

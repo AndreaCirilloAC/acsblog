@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chat on Andrea Cirillo</title>
+    <title>chat on Andrea Cirillo</title>
     <link>/tags/chat/</link>
-    <description>Recent content in Chat on Andrea Cirillo</description>
+    <description>Recent content in chat on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 May 2015 21:08:48 +0000</lastBuildDate>
@@ -17,11 +17,11 @@
       <pubDate>Mon, 11 May 2015 21:08:48 +0000</pubDate>
       
       <guid>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
-      <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&amp;rsquo;t be great to add live chat support to my Web Application visitors?
+      <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&#39;t be great to add live chat support to my Web Application visitors?
 It would indeed!
-[caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]
+[caption id=&amp;quot;attachment_490&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]
 But how to do it?
-Unfortunately, looking on Google didn&amp;rsquo;t give any useful result.</description>
+Unfortunately, looking on Google didn&#39;t give any useful result.</description>
     </item>
     
   </channel>

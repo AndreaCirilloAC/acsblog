@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.62.0" />
 
 
 <title>Rename a Data Frame Within a Function Passing an Argument - Andrea Cirillo</title>
@@ -90,27 +90,19 @@
 
     <div class="article-content">
       <p>This is not actually a real post but rather a code snippet surrounded by text.</p>
-
 <p>Nevertheless I think it is a quite useful one: have you ever found yourself writing a function where <strong>a data frame is created</strong>, wanting to name that data frame based on a custom argument passed to the function?</p>
-
 <p>For instance, the output of your function is a really nice data frame name in a really trivial way, like &ldquo;result&rdquo;.</p>
-
 <p>But your dream is to <strong>let the user</strong> (or some piece of code behind the function) <strong>specify the data frame name, passing it as an argument</strong> of your function.</p>
-
-<p>To achieve that you need to look at <strong>_assign _function</strong>, which let&rsquo;s you access the hash table of a given environment (_pos _argument) and change the value of a given variable.</p>
-
+<p>To achieve that you need to look at <strong>_assign _function</strong>, which let's you access the hash table of a given environment (_pos _argument) and change the value of a given variable.</p>
 <p>Find below a working function which applies this idea:</p>
-
-<p>[code language=&ldquo;r&rdquo;]
+<p>[code language=&quot;r&rdquo;]
 rename_df  =  function(choosen_name){
 data_set  =  data.frame(column_A = c(1,4,6,7,8),column_B = c(seq(1:5)))
 title  =  choosen_name
 assign(title,data_set,pos = &ldquo;.GlobalEnv&rdquo;)
 }
 [/code]</p>
-
 <p>Have you found any other way to get here? I would love to here it!</p>
-
 <p>p.s.: wondering why I chose that image? well, is Adam naming animals.. :)</p>
 
     </div>

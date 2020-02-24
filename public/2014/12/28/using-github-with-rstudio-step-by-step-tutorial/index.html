@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.31.1" />
+<meta name="generator" content="Hugo 0.62.0" />
 
 
 <title>How to use Github with Rstudio : step-by-step tutorial - Andrea Cirillo</title>
@@ -89,55 +89,35 @@
     
 
     <div class="article-content">
-      
-
-<p>Pushing to my Github repository directly from the Rstudio project, avoiding that annoying &ldquo;copy &amp; paste&rdquo; job. Since it is one of <strong><a href="https://andreacirilloblog.wordpress.com/2014/11/05/best-pratice-for-scientific-computing/">Best Practices for Scientific Computing</a></strong>, I have been struggling for a while with this problem.  Now that I managed to solve the problem, I think you may find useful the detailed tutorial that follows. I am not going to explain you the reason why you should use Github with your  Rstudio project, but if you are asking this to yourself, you may find useful a <strong><a href="http://stackoverflow.com/questions/1408450/why-should-i-use-version-control">Stack Overflow discussion </a></strong>on the topic.</p>
-
+      <p>Pushing to my Github repository directly from the Rstudio project, avoiding that annoying &ldquo;copy &amp; paste&rdquo; job. Since it is one of <strong><a href="https://andreacirilloblog.wordpress.com/2014/11/05/best-pratice-for-scientific-computing/">Best Practices for Scientific Computing</a></strong>, I have been struggling for a while with this problem.  Now that I managed to solve the problem, I think you may find useful the detailed tutorial that follows. I am not going to explain you the reason why you should use Github with your  Rstudio project, but if you are asking this to yourself, you may find useful a **<a href="http://stackoverflow.com/questions/1408450/why-should-i-use-version-control">Stack Overflow discussion </a>**on the topic.</p>
 <h2 id="0-download-last-git-version">0. download last git version</h2>
-
-<p>you can download the last git version from <strong><a href="http://git-scm.com">Git website</a></strong> <img src="https://andreacirilloblog.files.wordpress.com/2014/12/logo2x.png" alt="git logo" /></p>
-
-<!-- more -->
-
-<h2 id="1-link-git-to-rstudio">1. link git to Rstudio</h2>
-
-<p>to make the link, first open the &ldquo;global options&rdquo; <a href="https://andreacirilloblog.files.wordpress.com/2014/12/global-options.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/global-options.png?w=300" alt="global options" /></a> after selecting the &ldquo;GIT/SVN&rdquo; tab, you will have to find the &ldquo;git.exe&rdquo; file within your Mac (if you are using Windows, give a look to the comment by Rajesh here below). <a href="https://andreacirilloblog.files.wordpress.com/2014/12/fin-git.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/fin-git.png?w=300" alt="fin git" /></a></p>
-
-<h2 id="2-launch-a-terminal-shell">2. launch a terminal/shell</h2>
-
-<p>the quickest way to launch a terminal/shell, from whatever operative system you are working in, is within Rstudio itself, in the <em>tools</em> menu, as observed by<a href="http://had.co.nz"> <strong>Hadley Wickham</strong></a> in his comment below. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/launch-shell.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/launch-shell.png" alt="launch shell" /></a></p>
-
-<h2 id="3-type-those-words">3.type those words</h2>
-
+<p>you can download the last git version from <strong><a href="http://git-scm.com">Git website</a></strong> <img src="https://andreacirilloblog.files.wordpress.com/2014/12/logo2x.png" alt="git logo"></p>
+<!-- raw HTML omitted -->
+<h2 id="1-linkgit-to-rstudio">1. link git to Rstudio</h2>
+<p>to make the link, first open the &ldquo;global options&rdquo; <a href="https://andreacirilloblog.files.wordpress.com/2014/12/global-options.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/global-options.png?w=300" alt="global options"></a> after selecting the &ldquo;GIT/SVN&rdquo; tab, you will have to find the &ldquo;git.exe&rdquo; file within your Mac (if you are using Windows, give a look to the comment by Rajesh here below). <a href="https://andreacirilloblog.files.wordpress.com/2014/12/fin-git.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/fin-git.png?w=300" alt="fin git"></a></p>
+<h2 id="2-launch-a-terminalshell">2. launch a terminal/shell</h2>
+<p>the quickest way to launch a terminal/shell, from whatever operative system you are working in, is within Rstudio itself, in the <em>tools</em> menu, as observed by<a href="http://had.co.nz"> <strong>Hadley Wickham</strong></a> in his comment below. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/launch-shell.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/launch-shell.png" alt="launch shell"></a></p>
+<h2 id="3typethose-words">3.type those words</h2>
 <p>once you have your terminal session open, you just have to type-in those words:</p>
-
 <ul>
-<li><p><code>git config --global user.name &quot;AndreaCirilloAC&quot;</code></p></li>
-
-<li><p><code>git config --global user.email &quot;andreacirilloac@gmail.com&quot; </code></p></li>
+<li>
+<p><code>git config --global user.name &quot;AndreaCirilloAC&quot;</code></p>
+</li>
+<li>
+<p><code>git config --global user.email &quot;andreacirilloac@gmail.com&quot; </code></p>
+</li>
 </ul>
-
 <p>you have to do this once in your life, or at least once for each user on your Mac&hellip; Just to be sure&hellip; you should put <strong>your username</strong> and and <strong>your e-mail address</strong>&hellip;</p>
-
-<h2 id="4-create-a-repository-on-github">4. create a repository on Github</h2>
-
-<p><a href="https://andreacirilloblog.files.wordpress.com/2014/12/repository1.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/repository1.png?w=300" alt="repository" /></a></p>
-
+<h2 id="4create-a-repository-on-github">4. create a repository on Github</h2>
+<p><a href="https://andreacirilloblog.files.wordpress.com/2014/12/repository1.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/repository1.png?w=300" alt="repository"></a></p>
 <h2 id="5-copy-the-repository-ssh-address">5. copy the repository ssh address</h2>
-
-<p>the link between GithHub and Rstudio will be the Github repository address. Be sure to copy it  from the repo main page, <strong>using the SSH &ldquo;version&rdquo;</strong>, as shown in the picture. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/copy-address.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/copy-address.png?w=300" alt="copy address" /></a> I am suggesting the SSH address, due to <a href="https://github.com/OHI-Science/ohicore/issues/104"><strong>a bug</strong> </a>on latest Rstudio Version.</p>
-
+<p>the link between GithHub and Rstudio will be the Github repository address. Be sure to copy it  from the repo main page, <strong>using the SSH &ldquo;version&rdquo;</strong>, as shown in the picture. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/copy-address.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/copy-address.png?w=300" alt="copy address"></a> I am suggesting the SSH address, due to <a href="https://github.com/OHI-Science/ohicore/issues/104"><strong>a bug</strong> </a>on latest Rstudio Version.</p>
 <h2 id="6-create-a-new-rstudio-project">6. create a new Rstudio project</h2>
-
-<p>after selecting the _new project _control, select the <em>version control</em> option <a href="https://andreacirilloblog.files.wordpress.com/2014/12/new-project.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/new-project.png?w=300" alt="new project" /></a> and then select the _git _option <a href="https://andreacirilloblog.files.wordpress.com/2014/12/choose-git.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/choose-git.png?w=300" alt="choose git" /></a></p>
-
+<p>after selecting the _new project _control, select the <em>version control</em> option <a href="https://andreacirilloblog.files.wordpress.com/2014/12/new-project.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/new-project.png?w=300" alt="new project"></a> and then select the _git _option <a href="https://andreacirilloblog.files.wordpress.com/2014/12/choose-git.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/choose-git.png?w=300" alt="choose git"></a></p>
 <h2 id="7-paste-the-copied-address">7. paste the copied address</h2>
-
-<p>here it comes the moment to use the address copied at point 5. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/paste-ssh.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/paste-ssh.png?w=300" alt="paste ssh" /></a></p>
-
+<p>here it comes the moment to use the address copied at point 5. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/paste-ssh.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/paste-ssh.png?w=300" alt="paste ssh"></a></p>
 <h2 id="8-give-it-a-try">8. give it a try</h2>
-
-<p>just to be sure everything is ok, you can commit whatever you like back to your Github repo. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/commit-1.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/commit-1.png?w=300" alt="commit 1" /></a> <a href="https://andreacirilloblog.files.wordpress.com/2014/12/commit-2.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/commit-2.png?w=300" alt="commit 2" /></a> the one that follows will be the output that will assures you your changes have been pushed to the Repository online. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/screen-shot-2014-12-26-at-22-41-45.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/screen-shot-2014-12-26-at-22-41-45.png?w=300" alt="result" /></a> I hope it was clear enough, but if you need any further clarification do not hesitate to ask for it here below or on twitter <strong><a href="https://twitter.com">@andreacirilloac</a></strong> .</p>
+<p>just to be sure everything is ok, you can commit whatever you like back to your Github repo. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/commit-1.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/commit-1.png?w=300" alt="commit 1"></a> <a href="https://andreacirilloblog.files.wordpress.com/2014/12/commit-2.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/commit-2.png?w=300" alt="commit 2"></a> the one that follows will be the output that will assures you your changes have been pushed to the Repository online. <a href="https://andreacirilloblog.files.wordpress.com/2014/12/screen-shot-2014-12-26-at-22-41-45.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/screen-shot-2014-12-26-at-22-41-45.png?w=300" alt="result"></a> I hope it was clear enough, but if you need any further clarification do not hesitate to ask for it here below or on twitter <strong><a href="https://twitter.com">@andreacirilloac</a></strong> .</p>
 
     </div>
 
