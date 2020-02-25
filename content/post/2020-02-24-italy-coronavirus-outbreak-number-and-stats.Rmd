@@ -9,16 +9,26 @@ tags: []
 
 ## Italy NCOV-19 outbreak
 
-For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths. To do so I am regularly monitoring news from the italian official sources like "Regione Lombardia" and "Protezione Civile".
+For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths (since I live in Italy, it is not difficult to guess the personal reason...). I am thus regularly monitoring news from the italian official sources like "Regione Lombardia" and "Protezione Civile".
 
 You can find on a [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing)  the raw data I am collecting.
 
+### numer of confirmed cases and deaths in Italy
+
 Here is an attempt to visualize historical series of total confirmed cases and deaths
 
-<iframe width="701" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1237253114&amp;format=interactive"></iframe>
+<iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1237253114&amp;format=interactive"></iframe>
+
+### daily change in confirmed cases in Italy
 
 and finally here a visualization of daily change in confirmed cases:
 
-<iframe width="701" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1722164618&amp;format=interactive"></iframe>
+<iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=149494019&amp;format=interactive"></iframe>
 
 Let's pray for this numbers getting better and better each day.
+
+### daily change in confirmed cases in Lombardy
+
+As you probably already know the most serious coronavirus outbreak started directly in Lombardy, where I currently live and I am writing from. I am therefore taking separared note of number related this region. You can find them on the [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing) and the daily change plotted below:
+
+<iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1977910349&amp;format=interactive"></iframe>
