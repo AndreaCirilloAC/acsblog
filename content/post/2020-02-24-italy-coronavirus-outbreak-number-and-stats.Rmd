@@ -7,20 +7,61 @@ categories: []
 tags: []
 ---
 
-```{r eval=FALSE}
+```{r eval=TRUE, echo=FALSE}
 library(rio)
 library(tidyverse)
 library(lubridate)
 
 world_data <- import("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+Lombardy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv",
+                     sep = ",") %>% 
+  mutate(date = lubridate::parse_date_time(day,"dmy")) %>% 
+  select(date,`confirmed Lombardy`)
 
-
-china <- world_data %>% 
+hubei <- world_data %>% 
   select(-c(Lat, Long)) %>% 
   gather(key= "date", value = "confirmed", -c(`Province/State`, `Country/Region`)) %>% 
     janitor::clean_names() %>% 
-  mutate(date = lubridate::parse_date_time(date,"mdy")) %>%
-  filter(country_region == "Mainland China")
+  mutate(date = lubridate::parse_date_time(date,"mdy"),
+         confirmed_hubei = confirmed) %>%
+  filter(province_state == "Hubei") %>% 
+  select(date,confirmed_hubei) 
+n_hubei <- nrow(hubei)  
+hubei %>% 
+mutate(t = seq(from =1,
+               to = n_hubei,
+               by = 1)) %>%
+# mutate(t = seq(from =10,
+#                to = n_hubei+9,
+#                by = 1)) %>% 
+  select(-date)-> hubei_mined
+
+n_lombardy <- nrow(Lombardy_data)
+
+Lombardy_data %>% 
+  mutate(t = seq(from =1,
+               to = n_lombardy,
+               by = 1)) %>% 
+  select(-date)-> lombardy
+
+hubei_mined %>% 
+  left_join(lombardy) %>% 
+  mutate(delta_lombardy = c(0,diff(`confirmed Lombardy`)),
+         delta_hubei    = c(0,diff(confirmed_hubei)),
+         delta_perc_lombardy = delta_lombardy/(lag(`confirmed Lombardy`)),
+         delta_perc_hubei = delta_hubei/(lag(confirmed_hubei)))-> hubei_lombardy
+
+hubei_lombardy %>%
+  select(t,delta_perc_hubei,delta_perc_lombardy) %>% 
+  gather(key = "region", value= "percentage_variation", -t) %>%
+  mutate(region = gsub("delta_perc_","",region)) %>% 
+  ggplot(aes(x = t, y = percentage_variation, group = region, colour = region))+
+  geom_line()+
+  geom_point()
+
+
+
+  
 ```
 
 
@@ -30,7 +71,7 @@ For personal reasons I am trying to track the number of NCOV-19 confirmed cases 
 
 You can find on a [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing)  the raw data I am collecting.
 
-### numer of confirmed cases and deaths in Italy
+### number of confirmed cases and deaths in Italy
 
 Here is an attempt to visualize historical series of total confirmed cases and deaths
 
@@ -49,3 +90,24 @@ Let's pray for this numbers getting better and better each day.
 As you probably already know the most serious coronavirus outbreak started directly in Lombardy, where I currently live and I am writing from. I am therefore taking separared note of number related this region. You can find them on the [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing) and the daily change plotted below:
 
 <iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1977910349&amp;format=interactive"></iframe>
+
+### comparison between Lombardy and Hubei province
+
+```{r}
+hubei_lombardy %>%
+  select(t,`confirmed Lombardy`,confirmed_hubei) %>% 
+  gather(key = "region", value= "confirmed", -t) %>%
+  mutate(region = gsub("_","",gsub("confirmed","",region))) %>% 
+  ggplot(aes(x = t, y = confirmed, group =region, colour = region, label = scales::comma(confirmed)))+
+  geom_smooth()+
+  geom_point()+
+  geom_line()+
+  scale_y_log10(labels = scales::comma)+
+  ggrepel::geom_text_repel(size = 2, colour = "grey20")+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title = "comparison between Lombardy and Hube Epidemiology curve",
+       subtitle = "values on Log10 scale",
+       caption = "source: Hubei data from https://systems.jhu.edu/research/public-health/ncov/, Lombardy data from 'Regione Lombardia' news service https://www.lombardianotizie.online")
+```
+
