@@ -19,11 +19,6 @@
 
 
 
-
-<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
-
-
-
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 <link rel="stylesheet" href="/css/github-widget.css"  type="text/css" />
@@ -81,7 +76,7 @@
 
   <article class="article">
     
-    <span class="article-duration">3 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">Italy Coronavirus Outbreak: numbers and stats</h1>
@@ -107,20 +102,6 @@
 </ul>
 </div>
 
-<pre><code>## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
-<pre><code>## ✓ ggplot2 3.2.1     ✓ purrr   0.3.3
-## ✓ tibble  2.1.3     ✓ dplyr   0.8.3
-## ✓ tidyr   1.0.0     ✓ stringr 1.4.0
-## ✓ readr   1.3.1     ✓ forcats 0.4.0</code></pre>
-<pre><code>## ── Conflicts ───────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()</code></pre>
-<pre><code>## 
-## Attaching package: &#39;lubridate&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:base&#39;:
-## 
-##     date</code></pre>
-<pre><code>## Joining, by = &quot;t&quot;</code></pre>
 <div id="italy-ncov-19-outbreak" class="section level2">
 <h2>Italy NCOV-19 outbreak</h2>
 <p>For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths (since I live in Italy, it is not difficult to guess the personal reason…). I am thus regularly monitoring news from the italian official sources like “Regione Lombardia” and “Protezione Civile”.</p>
@@ -137,28 +118,6 @@
 <iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=149494019&amp;format=interactive">
 </iframe>
 <p>It is interesting to compare this trend with the one observed in Mainland China</p>
-<pre class="r"><code>world_data %&gt;% select(-c(Lat, Long)) %&gt;% 
-  gather(key= &quot;date&quot;, value = &quot;confirmed&quot;, -c(`Province/State`, `Country/Region`)) %&gt;% 
-    janitor::clean_names() %&gt;% 
-  mutate(date = lubridate::parse_date_time(date,&quot;mdy&quot;),
-         confirmed_hubei = confirmed) %&gt;% 
-  filter(country_region == &quot;Mainland China&quot;) %&gt;% 
-  group_by(date) %&gt;% 
-  summarise(confirmed = sum(confirmed)) %&gt;% 
-  mutate(delta    = c(0,diff(confirmed)),
-         delta_perc = delta/(lag(confirmed))) %&gt;% 
-  ggplot(aes(x = date, y = delta_perc, label = round(delta_perc,2)))+
-  geom_line(colour = &quot;gray80&quot;)+
-  geom_point(colour =&quot;navyblue&quot;)+
-  theme_minimal()+
-  ggrepel::geom_text_repel()+
-  labs(title = &quot;daily change in total confirmed cases in Mainland China&quot;,
-       source = &quot;https://systems.jhu.edu/research/public-health/ncov/&quot;,
-       y = &quot;daily change&quot;,
-       x = &quot;date&quot;)</code></pre>
-<pre><code>## Warning: Removed 1 rows containing missing values (geom_path).</code></pre>
-<pre><code>## Warning: Removed 1 rows containing missing values (geom_point).</code></pre>
-<pre><code>## Warning: Removed 1 rows containing missing values (geom_text_repel).</code></pre>
 <p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>The italian level is aligned with the one observed in China during the first part of the outbreak.</p>
 </div>
@@ -171,26 +130,6 @@
 <div id="comparison-between-lombardy-and-hubei-province" class="section level3">
 <h3>comparison between Lombardy and Hubei province</h3>
 <p>Since Lombardy is the first place where coronavirus really appeared in Italy, and it currently is the region where the main outbreak is observed, I thought it would have been interesting to compare the shape of the cumulated number of confirmed cases measured in Lombardy with the same number measured in Hubei from the beginning of the outbreak.</p>
-<pre class="r"><code>hubei_lombardy %&gt;%
-  select(t,`confirmed Lombardy`,confirmed_hubei) %&gt;% 
-  gather(key = &quot;region&quot;, value= &quot;confirmed&quot;, -t) %&gt;%
-  mutate(region = gsub(&quot;_&quot;,&quot;&quot;,gsub(&quot;confirmed&quot;,&quot;&quot;,region))) %&gt;% 
-  ggplot(aes(x = t, y = confirmed, group =region, colour = region, label = scales::comma(confirmed)))+
-  #geom_smooth(fullrange = TRUE)+
-  geom_point()+
-  geom_line()+
-  scale_y_log10(labels = scales::comma)+
-  ggrepel::geom_text_repel(size = 3, colour = &quot;grey20&quot;)+
-  theme_minimal()+
-  theme(legend.position = &quot;bottom&quot;)+
-  labs(title = &quot;comparison between Lombardy and Hubei daily number of cumulated cases\nfrom the beginning of the outbreak&quot;,
-       subtitle = &quot;values on Log10 scale&quot;,
-       caption = &quot;source: Hubei data from https://systems.jhu.edu/research/public-health/ncov/,\nLombardy data from &#39;Regione Lombardia&#39; news service https://www.lombardianotizie.online&quot;,
-       x = &quot;days from beginning of the outbreak (22 of January for Hubei, 20 of February for Lombardy)&quot;,
-       y = &quot;total confirmed cases&quot;)</code></pre>
-<pre><code>## Warning: Removed 28 rows containing missing values (geom_point).</code></pre>
-<pre><code>## Warning: Removed 28 rows containing missing values (geom_path).</code></pre>
-<pre><code>## Warning: Removed 28 rows containing missing values (geom_text_repel).</code></pre>
 <p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p>We can see quite a similar pattern, even if at the moment it is not possible to predict which will be the final shape of the curve.</p>
 </div>
@@ -248,18 +187,6 @@ s.setAttribute('data-timestamp', +new Date());
 
     
 
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-
-
-
     
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45180202-10"></script>
 <script>
@@ -274,9 +201,6 @@ s.setAttribute('data-timestamp', +new Date());
 <script src="/js/github-widget.js"></script>
 
     
-<script src="/js/math-code.js"></script>
-<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ea38207c9143ded9017ecd6bc/16e24337904a6a6da755e4f20.js");</script>
 

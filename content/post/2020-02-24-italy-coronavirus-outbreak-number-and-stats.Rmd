@@ -7,7 +7,7 @@ categories: []
 tags: []
 ---
 
-```{r eval=TRUE, echo=FALSE}
+```{r eval=TRUE, echo=FALSE, warning=FALSE, message= FALSE}
 library(rio)
 library(tidyverse)
 library(lubridate)
@@ -86,7 +86,7 @@ and finally here a visualization of daily change in confirmed cases:
 
 It is interesting to compare this trend with the one observed in Mainland China
 
-```{r}
+```{r echo = FALSE, warning = FALSE, message= FALSE}
 world_data %>% select(-c(Lat, Long)) %>% 
   gather(key= "date", value = "confirmed", -c(`Province/State`, `Country/Region`)) %>% 
     janitor::clean_names() %>% 
@@ -101,7 +101,7 @@ world_data %>% select(-c(Lat, Long)) %>%
   geom_line(colour = "gray80")+
   geom_point(colour ="navyblue")+
   theme_minimal()+
-  ggrepel::geom_text_repel()+
+  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3)+
   labs(title = "daily change in total confirmed cases in Mainland China",
        source = "https://systems.jhu.edu/research/public-health/ncov/",
        y = "daily change",
@@ -120,7 +120,7 @@ As you probably already know the most serious coronavirus outbreak started direc
 
 Since Lombardy is the first place where coronavirus really appeared in Italy, and it currently is the region where the main outbreak is observed, I thought it would have been interesting to compare the shape of the cumulated number of confirmed cases measured in Lombardy with the same number measured in Hubei from the beginning of the outbreak.
 
-```{r}
+```{r echo = FALSE, warning= FALSE, message= FALSE}
 hubei_lombardy %>%
   select(t,`confirmed Lombardy`,confirmed_hubei) %>% 
   gather(key = "region", value= "confirmed", -t) %>%
@@ -130,7 +130,7 @@ hubei_lombardy %>%
   geom_point()+
   geom_line()+
   scale_y_log10(labels = scales::comma)+
-  ggrepel::geom_text_repel(size = 3, colour = "grey20")+
+  ggrepel::geom_text_repel(size = 3, colour = "grey20", segment.alpha = 0.2, segment.size = 0.3)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title = "comparison between Lombardy and Hubei daily number of cumulated cases\nfrom the beginning of the outbreak",
