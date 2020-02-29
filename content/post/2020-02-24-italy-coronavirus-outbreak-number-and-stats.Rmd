@@ -36,6 +36,7 @@ mutate(t = seq(from =1,
 #                by = 1)) %>% 
   select(-date)-> hubei_mined
 
+
 n_lombardy <- nrow(Lombardy_data)
 
 Lombardy_data %>% 
@@ -51,13 +52,13 @@ hubei_mined %>%
          delta_perc_lombardy = delta_lombardy/(lag(`confirmed Lombardy`)),
          delta_perc_hubei = delta_hubei/(lag(confirmed_hubei)))-> hubei_lombardy
 
-hubei_lombardy %>%
-  select(t,delta_perc_hubei,delta_perc_lombardy) %>% 
-  gather(key = "region", value= "percentage_variation", -t) %>%
-  mutate(region = gsub("delta_perc_","",region)) %>% 
-  ggplot(aes(x = t, y = percentage_variation, group = region, colour = region))+
-  geom_line()+
-  geom_point()
+# hubei_lombardy %>%
+#   select(t,delta_perc_hubei,delta_perc_lombardy) %>%
+#   gather(key = "region", value= "percentage_variation", -t) %>%
+#   mutate(region = gsub("delta_perc_","",region)) %>%
+#   ggplot(aes(x = t, y = percentage_variation, group = region, colour = region))+
+#   geom_line()+
+#   geom_point()
 
 
 
@@ -83,7 +84,31 @@ and finally here a visualization of daily change in confirmed cases:
 
 <iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=149494019&amp;format=interactive"></iframe>
 
-Let's pray for this numbers getting better and better each day.
+It is interesting to compare this trend with the one observed in Mainland China
+
+```{r}
+world_data %>% select(-c(Lat, Long)) %>% 
+  gather(key= "date", value = "confirmed", -c(`Province/State`, `Country/Region`)) %>% 
+    janitor::clean_names() %>% 
+  mutate(date = lubridate::parse_date_time(date,"mdy"),
+         confirmed_hubei = confirmed) %>% 
+  filter(country_region == "Mainland China") %>% 
+  group_by(date) %>% 
+  summarise(confirmed = sum(confirmed)) %>% 
+  mutate(delta    = c(0,diff(confirmed)),
+         delta_perc = delta/(lag(confirmed))) %>% 
+  ggplot(aes(x = date, y = delta_perc, label = round(delta_perc,2)))+
+  geom_line(colour = "gray80")+
+  geom_point(colour ="navyblue")+
+  theme_minimal()+
+  ggrepel::geom_text_repel()+
+  labs(title = "daily change in total confirmed cases in Mainland China",
+       source = "https://systems.jhu.edu/research/public-health/ncov/",
+       y = "daily change",
+       x = "date")
+```
+
+The italian level is aligned with the one observed in China during the first part of the outbreak.
 
 ### daily change in confirmed cases in Lombardy
 
@@ -108,7 +133,7 @@ hubei_lombardy %>%
   ggrepel::geom_text_repel(size = 3, colour = "grey20")+
   theme_minimal()+
   theme(legend.position = "bottom")+
-  labs(title = "comparison between Lombardy and Hube daily number of cumulated cases\nfrom the beginning of the outbreak",
+  labs(title = "comparison between Lombardy and Hubei daily number of cumulated cases\nfrom the beginning of the outbreak",
        subtitle = "values on Log10 scale",
        caption = "source: Hubei data from https://systems.jhu.edu/research/public-health/ncov/,\nLombardy data from 'Regione Lombardia' news service https://www.lombardianotizie.online",
        x = "days from beginning of the outbreak (22 of January for Hubei, 20 of February for Lombardy)",
