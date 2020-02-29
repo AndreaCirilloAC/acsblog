@@ -93,21 +93,26 @@ As you probably already know the most serious coronavirus outbreak started direc
 
 ### comparison between Lombardy and Hubei province
 
+Since Lombardy is the first place where coronavirus really appeared in Italy, and it currently is the region where the main outbreak is observed, I thought it would have been interesting to compare the shape of the cumulated number of confirmed cases measured in Lombardy with the same number measured in Hubei from the beginning of the outbreak.
+
 ```{r}
 hubei_lombardy %>%
   select(t,`confirmed Lombardy`,confirmed_hubei) %>% 
   gather(key = "region", value= "confirmed", -t) %>%
   mutate(region = gsub("_","",gsub("confirmed","",region))) %>% 
   ggplot(aes(x = t, y = confirmed, group =region, colour = region, label = scales::comma(confirmed)))+
-  geom_smooth()+
+  #geom_smooth(fullrange = TRUE)+
   geom_point()+
   geom_line()+
   scale_y_log10(labels = scales::comma)+
-  ggrepel::geom_text_repel(size = 2, colour = "grey20")+
+  ggrepel::geom_text_repel(size = 3, colour = "grey20")+
   theme_minimal()+
   theme(legend.position = "bottom")+
-  labs(title = "comparison between Lombardy and Hube Epidemiology curve",
+  labs(title = "comparison between Lombardy and Hube daily number of cumulated cases\nfrom the beginning of the outbreak",
        subtitle = "values on Log10 scale",
-       caption = "source: Hubei data from https://systems.jhu.edu/research/public-health/ncov/, Lombardy data from 'Regione Lombardia' news service https://www.lombardianotizie.online")
+       caption = "source: Hubei data from https://systems.jhu.edu/research/public-health/ncov/,\nLombardy data from 'Regione Lombardia' news service https://www.lombardianotizie.online",
+       x = "days from beginning of the outbreak (22 of January for Hubei, 20 of February for Lombardy)",
+       y = "total confirmed cases")
 ```
 
+We can see quite a similar pattern, even if at the moment it is not possible to predict which will be the final shape of the curve. 
