@@ -13,7 +13,27 @@
   </url>
   
   <url>
+    <loc>/tags/data-analysis/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-analytics/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dataviz/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/02/24/italy-coronavirus-outbreak-number-and-stats/</loc>
+    <lastmod>2020-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-02-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -24,11 +44,6 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/dataviz/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -49,11 +64,6 @@
   
   <url>
     <loc>/tags/report/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -110,16 +120,6 @@
   <url>
     <loc>/2018/07/13/getting-to-know-the-new-definition-of-default/</loc>
     <lastmod>2018-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/data-analysis/</loc>
-    <lastmod>2018-05-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/data-analytics/</loc>
-    <lastmod>2018-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -553,7 +553,15 @@
   </url>
   
   <url>
+    <loc>/bookstack/so_good_ignore_you/</loc>
+  </url>
+  
+  <url>
     <loc>/software/</loc>
+  </url>
+  
+  <url>
+    <loc>/bookstack/pragmatic_programmer/</loc>
   </url>
   
   <url>

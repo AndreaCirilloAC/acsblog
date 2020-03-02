@@ -6,10 +6,19 @@
     <description>Recent content in data analysis on Andrea Cirillo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Italy Coronavirus Outbreak: numbers and stats</title>
+      <link>/2020/02/24/italy-coronavirus-outbreak-number-and-stats/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/02/24/italy-coronavirus-outbreak-number-and-stats/</guid>
+      <description>Italy NCOV-19 outbreak number of confirmed cases and deaths in Italy daily change in confirmed cases in Italy daily change in confirmed cases in Lombardy comparison between Lombardy and Hubei province    Italy NCOV-19 outbreak For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths (since I live in Italy, it is not difficult to guess the personal reason…).</description>
+    </item>
     
     <item>
       <title>how to use PaletteR to automagically build palettes from pictures</title>

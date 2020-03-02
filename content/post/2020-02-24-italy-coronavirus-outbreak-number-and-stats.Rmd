@@ -4,7 +4,13 @@ author: Andrea Cirillo
 date: '2020-02-24'
 slug: italy-coronavirus-outbreak-number-and-stats
 categories: []
-tags: []
+tags: 
+  - dataviz
+  - data analysis
+  - data analytics
+output: 
+  html_document: 
+    fig_width: 10
 ---
 
 ```{r eval=TRUE, echo=FALSE, warning=FALSE, message= FALSE}
@@ -17,6 +23,10 @@ Lombardy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsbl
                      sep = ",") %>% 
   mutate(date = lubridate::parse_date_time(day,"dmy")) %>% 
   select(date,`confirmed Lombardy`)
+
+italy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv", sep = ",") %>% 
+  mutate(date = lubridate::parse_date_time(day,"dmy")) %>%
+  select(date,confirmed, deaths)
 
 hubei <- world_data %>% 
   select(-c(Lat, Long)) %>% 
@@ -76,13 +86,41 @@ You can find on a [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_
 
 Here is an attempt to visualize historical series of total confirmed cases and deaths
 
-<iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1237253114&amp;format=interactive"></iframe>
+```{r echo = FALSE, warning= FALSE, message= FALSE}
+italy_data %>% 
+  gather(key = "metric", value = "value", -date  ) %>% 
+  ggplot(aes(x = date, y = value, group = metric, colour = metric, label = value))+
+  geom_line()+
+  geom_point()+
+  ggrepel::geom_text_repel(colour = "gray20")+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title= "number of confirmed cases and deaths",
+       subtitle= "log 10 scale",
+       x = "date", y = "number of cases", caption = "source: italian 'Protezione Civile'")+
+  scale_y_log10()
+```
 
 ### daily change in confirmed cases in Italy
 
 and finally here a visualization of daily change in confirmed cases:
 
-<iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=149494019&amp;format=interactive"></iframe>
+
+```{r echo = FALSE, warning= FALSE, message= FALSE}
+italy_data %>% 
+  select(date, confirmed) %>%
+  mutate(delta = c(0,diff(confirmed)),
+         delta_perc = (delta/(lag(confirmed))) ) %>% 
+         ggplot(aes(x = date,y = delta_perc, label = round(delta_perc,2)))+
+  geom_line(colour = "gray80")+
+  geom_point(colour ="navyblue")+
+    ggrepel::geom_text_repel(colour = "gray20")+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title= "daily percentage change in total confirmed cases, Italy",
+       x = "date", y = "% change in confirmed cases", caption = "source: italian 'Protezione Civile'")
+```
+
 
 It is interesting to compare this trend with the one observed in Mainland China
 
@@ -103,18 +141,31 @@ world_data %>% select(-c(Lat, Long)) %>%
   theme_minimal()+
   ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3)+
   labs(title = "daily change in total confirmed cases in Mainland China",
-       source = "https://systems.jhu.edu/research/public-health/ncov/",
-       y = "daily change",
-       x = "date")
+      y = "% change in confirmed cases",
+       x = "date",caption = "source: https://systems.jhu.edu/research/public-health/ncov/")
 ```
 
-The italian level is aligned with the one observed in China during the first part of the outbreak.
+The italian level is aligned with the chinese one during the first part of the outbreak.
 
 ### daily change in confirmed cases in Lombardy
 
 As you probably already know the most serious coronavirus outbreak started directly in Lombardy, where I currently live and I am writing from. I am therefore taking separared note of number related this region. You can find them on the [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing) and the daily change plotted below:
 
-<iframe width="771.5" height="298.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQqYSXIWhkvqYLklYJn8WNgQ4Owd36_eJJidd07QFlPoKIkDIX3xGyEAAxv7Wjr8EF49g7O_TxHKyvv/pubchart?oid=1977910349&amp;format=interactive"></iframe>
+```{r echo = FALSE, warning= FALSE, message= FALSE}
+Lombardy_data %>% 
+   mutate(delta_lombardy = c(0,diff(`confirmed Lombardy`)),
+         delta_perc = delta_lombardy/(lag(`confirmed Lombardy`))) %>% 
+  ggplot(aes(x = date, y = delta_perc,label = round(delta_perc,2)))+
+  geom_line(colour = "gray80")+
+  geom_point(colour ="navyblue")+
+  theme_minimal()+
+  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3)+
+  labs(title = "daily change in total confirmed cases in Lombardy",
+       source = "",
+      y = "% change in confirmed cases",
+       x = "date",caption = "source: 'Regione Lombardia' news service https://www.lombardianotizie.online")
+```
+
 
 ### comparison between Lombardy and Hubei province
 
