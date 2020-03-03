@@ -1,13 +1,14 @@
-day,confirmed,deaths,confirmed Lombardy,daily change,daily change Lombardy,notes
-20/02/2020,4,0,4,,,
-21/02/2020,21,1,14,425.00%,250.00%,confirmed Lombardy as of 19:00 official Lombardy bullettin
-22/02/2020,79,2,47,276.19%,235.71%,
-23/02/2020,157,4,112,98.73%,138.30%,confirmed Lombardy as of 18:30 official Lombardy bullettin
-24/02/2020,230,7,206,46.50%,83.93%,
-25/02/2020,322,11,240,40.00%,16.50%,
-26/02/2020,447,12,305,38.82%,27.08%,confirmed Lombardy as of 20:45 official Lombardy bullettin
-27/02/2020,650,14,403,45.41%,32.13%,prossima rottura della serie per scelta di considerare solo gli ospedalizzati e non i senza sintomi
-28/02/2020,821,21,531,26.31%,31.76%,
-29/02/2020,888,23,615,8.16%,15.82%,
-01/03/2020,1577,34,984,39.80%,60.00%,
-02/03/2020,2036,52,1254,29.11%,27.44%,
+day,confirmed,deaths,confirmed Lombardy,daily change,daily change Lombardy, intensive care italy,notes
+20/02/2020,4,0,4,,,,
+21/02/2020,21,1,14,425.00%,250.00%,,confirmed Lombardy as of 19:00 official Lombardy bullettin
+22/02/2020,79,2,47,276.19%,235.71%,,
+23/02/2020,157,4,112,98.73%,138.30%,,confirmed Lombardy as of 18:30 official Lombardy bullettin
+24/02/2020,230,7,206,46.50%,83.93%,,
+25/02/2020,322,11,240,40.00%,16.50%,,
+26/02/2020,447,12,305,38.82%,27.08%,,confirmed Lombardy as of 20:45 official Lombardy bullettin
+27/02/2020,650,14,403,45.41%,32.13%,,prossima rottura della serie per scelta di considerare solo gli ospedalizzati e non i senza sintomi
+28/02/2020,821,21,531,26.31%,31.76%,,
+29/02/2020,888,23,615,8.16%,15.82%,,
+01/03/2020,1577,34,984,39.80%,60.00%,,
+02/03/2020,2036,52,1254,29.11%,27.44%,,
+03/03/2020,2502,79,1520,22.89%,21.21%,229,inizio data log su intensive care
