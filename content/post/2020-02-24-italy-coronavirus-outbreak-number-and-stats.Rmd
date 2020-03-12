@@ -130,17 +130,17 @@ world_data %>% select(-c(Lat, Long)) %>%
     janitor::clean_names() %>% 
   mutate(date = lubridate::parse_date_time(date,"mdy"),
          confirmed_hubei = confirmed) %>% 
-  filter(country_region == "Mainland China") %>% 
+  filter(country_region == "China") %>% 
   group_by(date) %>% 
   summarise(confirmed = sum(confirmed)) %>% 
   mutate(delta    = c(0,diff(confirmed)),
          delta_perc = delta/(lag(confirmed))) %>% 
-  ggplot(aes(x = date, y = delta_perc, label = round(delta_perc,2)))+
+  ggplot(aes(x = date, y = delta_perc, label = round(delta_perc,3)))+
   geom_line(colour = "gray80")+
   geom_point(colour ="navyblue")+
   theme_minimal()+
   ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3)+
-  labs(title = "daily change in total confirmed cases in Mainland China",
+  labs(title = "daily change in total confirmed cases in China",
       y = "% change in confirmed cases",
        x = "date",caption = "source: https://systems.jhu.edu/research/public-health/ncov/")
 ```
