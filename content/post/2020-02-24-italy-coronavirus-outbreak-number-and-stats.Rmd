@@ -191,4 +191,4 @@ hubei_lombardy %>%
        y = "total confirmed cases")
 ```
 
-We can see quite a similar pattern, even if at the moment it is not possible to predict which will be the final shape of the curve. 
+Unfortunately, Lombardy pattern looks quite different from day 5 on, with a steeper increase compared to the chinese one. This is also the reason that guided the adoption from the Italian Government of a nearly complete lock-down of the Country.
