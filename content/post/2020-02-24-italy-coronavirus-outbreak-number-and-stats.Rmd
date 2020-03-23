@@ -62,13 +62,6 @@ hubei_mined %>%
          delta_perc_lombardy = delta_lombardy/(lag(`confirmed Lombardy`)),
          delta_perc_hubei = delta_hubei/(lag(confirmed_hubei)))-> hubei_lombardy
 
-# hubei_lombardy %>%
-#   select(t,delta_perc_hubei,delta_perc_lombardy) %>%
-#   gather(key = "region", value= "percentage_variation", -t) %>%
-#   mutate(region = gsub("delta_perc_","",region)) %>%
-#   ggplot(aes(x = t, y = percentage_variation, group = region, colour = region))+
-#   geom_line()+
-#   geom_point()
 
 
 
