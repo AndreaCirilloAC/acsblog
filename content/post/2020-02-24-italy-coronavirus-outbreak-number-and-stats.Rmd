@@ -23,11 +23,13 @@ world_data <- import("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/
 Lombardy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv",
                      sep = ",") %>% 
   mutate(date = lubridate::parse_date_time(day,"dmy")) %>% 
-  select(date,`confirmed Lombardy`)
+  select(date,`confirmed Lombardy`) %>% 
+  mutate(daily_new_cases = c(0,diff(`confirmed Lombardy`)))
 
 italy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv", sep = ",") %>% 
   mutate(date = lubridate::parse_date_time(day,"dmy")) %>%
-  select(date,confirmed, deaths)
+  select(date,confirmed, deaths) %>% 
+   mutate(daily_new_cases = c(0,diff(confirmed)))
 
 hubei <- world_data %>% 
   select(-c(Lat, Long)) %>% 
@@ -141,6 +143,22 @@ world_data %>% select(-c(Lat, Long)) %>%
 
 The italian level is aligned with the chinese one during the first part of the outbreak.
 
+### daily confirmed cases in Italy
+
+The most waited day from the beginning of the outbreak is the one in which the number of daily confirmed new cases will reach its peak and we will start to see a reduction of new cases within the subsequent days. Let's thus monitor this metric as well in the following plot:
+
+```{r}
+italy_data %>% 
+  ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
+geom_bar(stat= 'identity')+
+      ggrepel::geom_text_repel(colour = "gray20")+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title= "daily new cases, Italy",
+       x = "date", y = "% change in confirmed cases", caption = "source: italian 'Protezione Civile'")
+```
+
+
 ### daily change in confirmed cases in Lombardy
 
 As you probably already know the most serious coronavirus outbreak started directly in Lombardy, where I currently live and I am writing from. I am therefore taking separared note of number related this region. You can find them on the [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing) and the daily change plotted below:
@@ -186,3 +204,20 @@ hubei_lombardy %>%
 ```
 
 Unfortunately, Lombardy pattern looks quite different from day 5 on, with a steeper increase compared to the chinese one. This is also the reason that guided the adoption from the Italian Government of a nearly complete lock-down of the Country.
+
+### daily new cases
+
+As done for Italy as a whole, let's monitor the number of daily new cases for Lombardy as well:
+
+```{r}
+Lombardy_data %>% 
+  ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
+geom_bar(stat= 'identity')+
+      ggrepel::geom_text_repel(colour = "gray20")+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title= "daily new cases, Lombardy",
+          x = "date",caption = "source: 'Regione Lombardia' news service https://www.lombardianotizie.online")
+
+```
+
