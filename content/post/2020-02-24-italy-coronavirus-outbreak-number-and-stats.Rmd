@@ -84,6 +84,7 @@ Here is an attempt to visualize historical series of total confirmed cases and d
 
 ```{r echo = FALSE, warning= FALSE, message= FALSE}
 italy_data %>% 
+  select(-daily_new_cases) %>% 
   gather(key = "metric", value = "value", -date  ) %>% 
   ggplot(aes(x = date, y = value, group = metric, colour = metric, label = value))+
   geom_line()+
@@ -147,7 +148,7 @@ The italian level is aligned with the chinese one during the first part of the o
 
 The most waited day from the beginning of the outbreak is the one in which the number of daily confirmed new cases will reach its peak and we will start to see a reduction of new cases within the subsequent days. Let's thus monitor this metric as well in the following plot:
 
-```{r}
+```{r echo = FALSE, warning= FALSE, message= FALSE}
 italy_data %>% 
   ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
 geom_bar(stat= 'identity')+
@@ -209,7 +210,7 @@ Unfortunately, Lombardy pattern looks quite different from day 5 on, with a stee
 
 As done for Italy as a whole, let's monitor the number of daily new cases for Lombardy as well:
 
-```{r}
+```{r echo = FALSE, warning= FALSE, message= FALSE}
 Lombardy_data %>% 
   ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
 geom_bar(stat= 'identity')+

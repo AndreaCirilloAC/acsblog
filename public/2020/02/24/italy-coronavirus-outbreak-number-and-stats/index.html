@@ -19,11 +19,6 @@
 
 
 
-
-<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
-
-
-
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 <link rel="stylesheet" href="/css/github-widget.css"  type="text/css" />
@@ -81,7 +76,7 @@
 
   <article class="article">
     
-    <span class="article-duration">3 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">Italy Coronavirus Outbreak: numbers and stats</h1>
@@ -129,14 +124,6 @@
 <div id="daily-confirmed-cases-in-italy" class="section level3">
 <h3>daily confirmed cases in Italy</h3>
 <p>The most waited day from the beginning of the outbreak is the one in which the number of daily confirmed new cases will reach its peak and we will start to see a reduction of new cases within the subsequent days. Let’s thus monitor this metric as well in the following plot:</p>
-<pre class="r"><code>italy_data %&gt;% 
-  ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
-geom_bar(stat= &#39;identity&#39;)+
-      ggrepel::geom_text_repel(colour = &quot;gray20&quot;)+
-  theme_minimal()+
-  theme(legend.position = &quot;bottom&quot;)+
-  labs(title= &quot;daily new cases, Italy&quot;,
-       x = &quot;date&quot;, y = &quot;% change in confirmed cases&quot;, caption = &quot;source: italian &#39;Protezione Civile&#39;&quot;)</code></pre>
 <p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 </div>
 <div id="daily-change-in-confirmed-cases-in-lombardy" class="section level3">
@@ -153,14 +140,6 @@ geom_bar(stat= &#39;identity&#39;)+
 <div id="daily-new-cases" class="section level3">
 <h3>daily new cases</h3>
 <p>As done for Italy as a whole, let’s monitor the number of daily new cases for Lombardy as well:</p>
-<pre class="r"><code>Lombardy_data %&gt;% 
-  ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
-geom_bar(stat= &#39;identity&#39;)+
-      ggrepel::geom_text_repel(colour = &quot;gray20&quot;)+
-  theme_minimal()+
-  theme(legend.position = &quot;bottom&quot;)+
-  labs(title= &quot;daily new cases, Lombardy&quot;,
-          x = &quot;date&quot;,caption = &quot;source: &#39;Regione Lombardia&#39; news service https://www.lombardianotizie.online&quot;)</code></pre>
 <p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 </div>
 </div>
@@ -216,18 +195,6 @@ s.setAttribute('data-timestamp', +new Date());
       </footer>
 
     
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
-
-
-
-<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
-<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-
-
 
     
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45180202-10"></script>
