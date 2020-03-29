@@ -19,6 +19,11 @@
 
 
 
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 <link rel="stylesheet" href="/css/github-widget.css"  type="text/css" />
@@ -76,7 +81,7 @@
 
   <article class="article">
     
-    <span class="article-duration">2 min read</span>
+    <span class="article-duration">3 min read</span>
     
 
     <h1 class="article-title">Italy Coronavirus Outbreak: numbers and stats</h1>
@@ -96,8 +101,10 @@
 <li><a href="#italy-ncov-19-outbreak">Italy NCOV-19 outbreak</a><ul>
 <li><a href="#number-of-confirmed-cases-and-deaths-in-italy">number of confirmed cases and deaths in Italy</a></li>
 <li><a href="#daily-change-in-confirmed-cases-in-italy">daily change in confirmed cases in Italy</a></li>
+<li><a href="#daily-confirmed-cases-in-italy">daily confirmed cases in Italy</a></li>
 <li><a href="#daily-change-in-confirmed-cases-in-lombardy">daily change in confirmed cases in Lombardy</a></li>
 <li><a href="#comparison-between-lombardy-and-hubei-province">comparison between Lombardy and Hubei province</a></li>
+<li><a href="#daily-new-cases">daily new cases</a></li>
 </ul></li>
 </ul>
 </div>
@@ -119,16 +126,42 @@
 <p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>The italian level is aligned with the chinese one during the first part of the outbreak.</p>
 </div>
+<div id="daily-confirmed-cases-in-italy" class="section level3">
+<h3>daily confirmed cases in Italy</h3>
+<p>The most waited day from the beginning of the outbreak is the one in which the number of daily confirmed new cases will reach its peak and we will start to see a reduction of new cases within the subsequent days. Let’s thus monitor this metric as well in the following plot:</p>
+<pre class="r"><code>italy_data %&gt;% 
+  ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
+geom_bar(stat= &#39;identity&#39;)+
+      ggrepel::geom_text_repel(colour = &quot;gray20&quot;)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;daily new cases, Italy&quot;,
+       x = &quot;date&quot;, y = &quot;% change in confirmed cases&quot;, caption = &quot;source: italian &#39;Protezione Civile&#39;&quot;)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+</div>
 <div id="daily-change-in-confirmed-cases-in-lombardy" class="section level3">
 <h3>daily change in confirmed cases in Lombardy</h3>
 <p>As you probably already know the most serious coronavirus outbreak started directly in Lombardy, where I currently live and I am writing from. I am therefore taking separared note of number related this region. You can find them on the <a href="https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing">Google Sheet</a> and the daily change plotted below:</p>
-<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
 </div>
 <div id="comparison-between-lombardy-and-hubei-province" class="section level3">
 <h3>comparison between Lombardy and Hubei province</h3>
 <p>Since Lombardy is the first place where coronavirus really appeared in Italy, and it currently is the region where the main outbreak is observed, I thought it would have been interesting to compare the shape of the cumulated number of confirmed cases measured in Lombardy with the same number measured in Hubei from the beginning of the outbreak.</p>
-<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 <p>Unfortunately, Lombardy pattern looks quite different from day 5 on, with a steeper increase compared to the chinese one. This is also the reason that guided the adoption from the Italian Government of a nearly complete lock-down of the Country.</p>
+</div>
+<div id="daily-new-cases" class="section level3">
+<h3>daily new cases</h3>
+<p>As done for Italy as a whole, let’s monitor the number of daily new cases for Lombardy as well:</p>
+<pre class="r"><code>Lombardy_data %&gt;% 
+  ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
+geom_bar(stat= &#39;identity&#39;)+
+      ggrepel::geom_text_repel(colour = &quot;gray20&quot;)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;daily new cases, Lombardy&quot;,
+          x = &quot;date&quot;,caption = &quot;source: &#39;Regione Lombardia&#39; news service https://www.lombardianotizie.online&quot;)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 </div>
 </div>
 
@@ -183,6 +216,18 @@ s.setAttribute('data-timestamp', +new Date());
       </footer>
 
     
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45180202-10"></script>
