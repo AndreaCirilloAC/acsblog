@@ -89,7 +89,7 @@ italy_data %>%
   ggplot(aes(x = date, y = value, group = metric, colour = metric, label = value))+
   geom_line()+
   geom_point()+
-  ggrepel::geom_text_repel(colour = "gray20")+
+  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3, size = 2.5)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title= "number of confirmed cases and deaths",
@@ -111,7 +111,7 @@ italy_data %>%
          ggplot(aes(x = date,y = delta_perc, label = round(delta_perc,2)))+
   geom_line(colour = "gray80")+
   geom_point(colour ="navyblue")+
-    ggrepel::geom_text_repel(colour = "gray20")+
+    ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3, size = 2.5)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title= "daily percentage change in total confirmed cases, Italy",
@@ -136,7 +136,7 @@ world_data %>% select(-c(Lat, Long)) %>%
   geom_line(colour = "gray80")+
   geom_point(colour ="navyblue")+
   theme_minimal()+
-  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3)+
+  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3, size = 2.5)+
   labs(title = "daily change in total confirmed cases in China",
       y = "% change in confirmed cases",
        x = "date",caption = "source: https://systems.jhu.edu/research/public-health/ncov/")
@@ -152,7 +152,7 @@ The most waited day from the beginning of the outbreak is the one in which the n
 italy_data %>% 
   ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
 geom_bar(stat= 'identity')+
-      ggrepel::geom_text_repel(colour = "gray20")+
+       geom_text(colour = "gray20", size = 2.5, nudge_y = 100)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title= "daily new cases, Italy",
@@ -172,7 +172,7 @@ Lombardy_data %>%
   geom_line(colour = "gray80")+
   geom_point(colour ="navyblue")+
   theme_minimal()+
-  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3)+
+  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3, size = 2.5)+
   labs(title = "daily change in total confirmed cases in Lombardy",
        source = "",
       y = "% change in confirmed cases",
@@ -193,6 +193,7 @@ hubei_lombardy %>%
   #geom_smooth(fullrange = TRUE)+
   geom_point()+
   geom_line()+
+geom_text( size = 2.5, check_overlap = TRUE, colour = "gray20", nudge_x = -2)+
   scale_y_log10(labels = scales::comma)+
 #  ggrepel::geom_text_repel(size = 3, colour = "grey20", segment.alpha = 0.2, segment.size = 0.3)+
   theme_minimal()+
@@ -214,7 +215,7 @@ As done for Italy as a whole, let's monitor the number of daily new cases for Lo
 Lombardy_data %>% 
   ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
 geom_bar(stat= 'identity')+
-      ggrepel::geom_text_repel(colour = "gray20")+
+      geom_text(colour = "gray20", size = 2.5, nudge_y = 100)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title= "daily new cases, Lombardy",
