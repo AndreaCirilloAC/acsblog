@@ -20,16 +20,33 @@ library(tidyverse)
 library(lubridate)
 
 world_data <- import("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
-Lombardy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv",
-                     sep = ",") %>% 
-  mutate(date = lubridate::parse_date_time(day,"dmy")) %>% 
-  select(date,`confirmed Lombardy`) %>% 
-  mutate(daily_new_cases = c(0,diff(`confirmed Lombardy`)))
+# Lombardy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv",
+#                      sep = ",") %>% 
+#   mutate(date = lubridate::parse_date_time(day,"dmy")) %>% 
+#   select(date,`confirmed Lombardy`) %>% 
+#   mutate(daily_new_cases = c(0,diff(`confirmed Lombardy`)))
+# 
+# italy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv", sep = ",") %>% 
+#   mutate(date = lubridate::parse_date_time(day,"dmy")) %>%
+#   select(date,confirmed, deaths) %>% 
+#    mutate(daily_new_cases = c(0,diff(confirmed)))
 
-italy_data <- import("https://raw.githubusercontent.com/AndreaCirilloAC/acsblog/master/static/NCOV-19%20-%20data.csv", sep = ",") %>% 
-  mutate(date = lubridate::parse_date_time(day,"dmy")) %>%
+regions_data <- import("https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv") %>% 
+  mutate(date = as.POSIXct(data))
+
+italian_data_raw <-import("https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-andamento-nazionale/dpc-covid19-ita-andamento-nazionale.csv") %>% 
+  mutate(date = as.POSIXct(data))
+
+italian_data_raw %>%
+  mutate(confirmed = totale_casi, deaths = deceduti) %>% 
   select(date,confirmed, deaths) %>% 
-   mutate(daily_new_cases = c(0,diff(confirmed)))
+  mutate(daily_new_cases = c(0,diff(confirmed)))-> italy_data
+
+regions_data %>% 
+  filter(denominazione_regione == "Lombardia") %>% 
+  mutate(`confirmed Lombardy` = totale_casi) %>% 
+select(date,`confirmed Lombardy`) %>% 
+  mutate(daily_new_cases = c(0,diff(`confirmed Lombardy`)))-> Lombardy_data
 
 hubei <- world_data %>% 
   select(-c(Lat, Long)) %>% 
@@ -76,7 +93,7 @@ hubei_mined %>%
 
 For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths (since I live in Italy, it is not difficult to guess the personal reason...). I am thus regularly monitoring news from the italian official sources like "Regione Lombardia" and "Protezione Civile".
 
-You can find on a [Google Sheet](https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing)  the raw data I am collecting.
+You can find the data on the official [italian repository on Github](https://github.com/pcm-dpc/COVID-19)  the raw data I am collecting.
 
 ### number of confirmed cases and deaths in Italy
 
