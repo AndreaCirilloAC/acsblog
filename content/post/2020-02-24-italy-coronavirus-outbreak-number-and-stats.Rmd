@@ -106,7 +106,7 @@ italy_data %>%
   ggplot(aes(x = date, y = value, group = metric, colour = metric, label = value))+
   geom_line()+
   geom_point()+
-  ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3, size = 2.5)+
+  #ggrepel::geom_text_repel( segment.alpha = 0.2, segment.size = 0.3, size = 2.5)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title= "number of confirmed cases and deaths",
@@ -168,8 +168,9 @@ The most waited day from the beginning of the outbreak is the one in which the n
 ```{r echo = FALSE, warning= FALSE, message= FALSE}
 italy_data %>% 
   ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
-geom_bar(stat= 'identity')+
-       geom_text(colour = "gray20", size = 2.5, nudge_y = 100)+
+geom_bar(stat= 'identity', colour = "white", fill = "gray60")+
+      geom_smooth(se = FALSE, colour = "cornflowerblue")+
+      geom_text(colour = "gray20", size = 2.5, nudge_y = 100, check_overlap = TRUE)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title= "daily new cases, Italy",
@@ -231,8 +232,9 @@ As done for Italy as a whole, let's monitor the number of daily new cases for Lo
 ```{r echo = FALSE, warning= FALSE, message= FALSE}
 Lombardy_data %>% 
   ggplot(aes(x = date,y = daily_new_cases, label = daily_new_cases))+
-geom_bar(stat= 'identity')+
-      geom_text(colour = "gray20", size = 2.5, nudge_y = 100)+
+geom_bar(stat= 'identity', colour = "white", fill = "gray60")+
+      geom_smooth(se = FALSE, colour = "cornflowerblue")+
+      geom_text(colour = "gray20", size = 2.5, nudge_y = 100, check_overlap = TRUE)+
   theme_minimal()+
   theme(legend.position = "bottom")+
   labs(title= "daily new cases, Lombardy",
