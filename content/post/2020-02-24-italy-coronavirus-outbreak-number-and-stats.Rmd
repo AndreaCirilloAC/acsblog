@@ -42,6 +42,13 @@ italian_data_raw %>%
   select(date,confirmed, deaths) %>% 
   mutate(daily_new_cases = c(0,diff(confirmed)))-> italy_data
 
+italian_data_raw %>%
+  mutate(ICU = terapia_intensiva) %>%
+  mutate(total_active_cases = totale_positivi) %>%
+  mutate(daily_new_ICU = c(0,diff(ICU))) %>%
+  mutate(icu_active_ratio = ICU/total_active_cases ) %>%
+  select(date, ICU,daily_new_ICU, total_active_cases, icu_active_ratio) -> italy_icu
+
 regions_data %>% 
   filter(denominazione_regione == "Lombardia") %>% 
   mutate(`confirmed Lombardy` = totale_casi) %>% 
@@ -241,4 +248,49 @@ geom_bar(stat= 'identity', colour = "white", fill = "gray60")+
           x = "date",caption = "source: 'Regione Lombardia' news service https://www.lombardianotizie.online")
 
 ```
+
+### ICU numbers
+
+```{r}
+italy_icu %>% 
+  ggplot(aes(x = date,y = daily_new_ICU, label = daily_new_ICU))+
+geom_bar(stat= 'identity', colour = "white", fill = "gray60")+
+      geom_text(colour = "gray20", size = 2.5, nudge_y =5, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title= "daily new ICU, Italy",
+          x = "date",caption = "source: Protezione Civile")
+```
+
+
+This is the number of total ICU
+
+```{r}
+italy_icu %>% 
+  ggplot(aes(x = date,y = ICU, label = ICU))+
+geom_bar(stat= 'identity', colour = "white", fill = "gray60")+
+      geom_text(colour = "gray20", size = 2.5, nudge_y =5, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title= "Total number of ICU, Italy",
+          x = "date",caption = "source: Protezione Civile")
+```
+
+
+Let's try one more analysis, computing the number of total ICU as a ratio of total active cases.
+
+```{r}
+
+italy_icu %>% 
+  ggplot(aes(x = date,y = icu_active_ratio, label = round(icu_active_ratio,3)*100))+
+geom_bar(stat= 'identity', colour = "white", fill = "gray60")+
+      geom_text(colour = "gray20", size = 2.5, nudge_y =0.001, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = "bottom")+
+  labs(title= "icu as a share of active cases , Italy",
+          x = "date",caption = "source: Protezione Civile")+
+  scale_y_continuous(labels = scales::percent)
+
+```
+
 
