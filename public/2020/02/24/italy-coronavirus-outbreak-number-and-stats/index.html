@@ -19,6 +19,11 @@
 
 
 
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 <link rel="stylesheet" href="/css/github-widget.css"  type="text/css" />
@@ -76,7 +81,7 @@
 
   <article class="article">
     
-    <span class="article-duration">2 min read</span>
+    <span class="article-duration">3 min read</span>
     
 
     <h1 class="article-title">Italy Coronavirus Outbreak: numbers and stats</h1>
@@ -100,6 +105,7 @@
 <li><a href="#daily-change-in-confirmed-cases-in-lombardy">daily change in confirmed cases in Lombardy</a></li>
 <li><a href="#comparison-between-lombardy-and-hubei-province">comparison between Lombardy and Hubei province</a></li>
 <li><a href="#daily-new-cases">daily new cases</a></li>
+<li><a href="#icu-numbers">ICU numbers</a></li>
 </ul></li>
 </ul>
 </div>
@@ -141,6 +147,39 @@
 <h3>daily new cases</h3>
 <p>As done for Italy as a whole, let’s monitor the number of daily new cases for Lombardy as well:</p>
 <p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+</div>
+<div id="icu-numbers" class="section level3">
+<h3>ICU numbers</h3>
+<pre class="r"><code>italy_icu %&gt;% 
+  ggplot(aes(x = date,y = daily_new_ICU, label = daily_new_ICU))+
+geom_bar(stat= &#39;identity&#39;, colour = &quot;white&quot;, fill = &quot;gray60&quot;)+
+      geom_text(colour = &quot;gray20&quot;, size = 2.5, nudge_y =5, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;daily new ICU, Italy&quot;,
+          x = &quot;date&quot;,caption = &quot;source: Protezione Civile&quot;)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>This is the number of total ICU</p>
+<pre class="r"><code>italy_icu %&gt;% 
+  ggplot(aes(x = date,y = ICU, label = ICU))+
+geom_bar(stat= &#39;identity&#39;, colour = &quot;white&quot;, fill = &quot;gray60&quot;)+
+      geom_text(colour = &quot;gray20&quot;, size = 2.5, nudge_y =5, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;Total number of ICU, Italy&quot;,
+          x = &quot;date&quot;,caption = &quot;source: Protezione Civile&quot;)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p>Let’s try one more analysis, computing the number of total ICU as a ratio of total active cases.</p>
+<pre class="r"><code>italy_icu %&gt;% 
+  ggplot(aes(x = date,y = icu_active_ratio, label = round(icu_active_ratio,3)*100))+
+geom_bar(stat= &#39;identity&#39;, colour = &quot;white&quot;, fill = &quot;gray60&quot;)+
+      geom_text(colour = &quot;gray20&quot;, size = 2.5, nudge_y =0.001, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;icu as a share of active cases , Italy&quot;,
+          x = &quot;date&quot;,caption = &quot;source: Protezione Civile&quot;)+
+  scale_y_continuous(labels = scales::percent)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
 </div>
 </div>
 
@@ -195,6 +234,18 @@ s.setAttribute('data-timestamp', +new Date());
       </footer>
 
     
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45180202-10"></script>
