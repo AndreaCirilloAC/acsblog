@@ -3,22 +3,17 @@ title: "Un Taccuino"
 subtitle: "the very beginning"
 ---
 
-**Benvenuto**, I am an Italian [**quantitative analyst**](https://www.linkedin.com/in/cirilloandrea/) well versed into **statistical learning**, **data mining** and **data visualization** disciplines. 
+Hi, I am Andrea Cirillo, this is my personal website. I am used to carry always with me a small pocket notebook, which in italian is said taccuino, and I consider this website in someway a digital version of that notebook.
 
-I am the guy behind some beloved **#rstats packages** like [**updateR for Mac**](http://www.andreacirillo.com/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/), [**paletteR**](http://www.andreacirillo.com/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/) and **Ramazon**. You can find more about my software within the [software page](/software). 
+You can find in the blog some structured and unstructured thought, mainly about AI and management.
 
-Within this website you can find:
+If you want some inspiration for a new book on this topics, you can give a look to the Bookstack page.
 
--  Well crafted [**blog posts**](/post) mainly about analytics and R but also about miscellaneous stuff like productivity and work-life balance
--  My [**book stack**](/bookstack), I.e. book I have read and I recommend because they were relevant for my personal and professional development (and I guess it will be the same for you). 
+Wanna say 'Hello'? Nice idea! Let's connect trough Linkedin!
 
-If you have heard about my ***R data mining*** book you can find more info within the box below. 
+Ciao,
 
-Finally if you want to get in touch with me I suggest you to visit the [contacts](/contacts) page.
-Cheers,
-
-<img src="/images/firma.png" width=30%>
-
+A
 
 
 
