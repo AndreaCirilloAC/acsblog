@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  {{ if and .IsHome .Content }}
+  <div class="archive">
+      {{ .Content }}
+    </div>
+    
+  {{ else }}
+  <div class="content">
+      {{ .Content}}  
+
+  </div>  
+  
+  <div >
+{{ range (where .Data.Pages "Section" "!=" "")}}
+
+<a href="{{ .RelPermalink }}" class="archive-item-link" >  <h2>{{ .Title}}</h2></a>
+
+<p class ="post-summary">{{.Summary}}</p>
+
+{{ end }}
+
+{{ end }}
+  </div>
+<div>{{ partial "featured.html" .}}</div>
+
+
+</main>
+
+{{ partial "footer.html" . }}

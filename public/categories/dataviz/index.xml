@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataviz on Andrea Cirillo</title>
+    <link>post/categories/dataviz/</link>
+    <description>Recent content in dataviz on Andrea Cirillo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="post/categories/dataviz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the paletteR Gallery </title>
+      <link>post/2019/11/26/introducing-the-paletter-gallery/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>post/2019/11/26/introducing-the-paletter-gallery/</guid>
+      <description>celebrating beauty add your own masterpiece discover more about paletteR celebrating beauty PaletteR, the package that allows you to create an optimized palette from an image, has been staying around for nearly two years, and #rstats users have made a lot of great stuff with it. I had therefore took the time to collect what I have found around the web, just to celebrate this beauty. You can find them below in a slideshow.</description>
+    </item>
+    
+    <item>
+      <title>introducing vizscorer: a bot advisor to improve your ggplot plots</title>
+      <link>post/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>post/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</guid>
+      <description>introducing vizscorer: a bot advisor to improve your ggplot plots How to measure a good plot? Preparing a training dataset of plots How to train Machine Learning to recognize a good plot? Can Machine learning talk back to humans? Putting all together: vizscorer and the scorer_bot Where to go from here and how to help introducing vizscorer: a bot advisor to improve your ggplot plots One of the most frustrating issues I face in my professional life is the plentitude of ineffective reports generated within my company.</description>
+    </item>
+    
+    <item>
+      <title>how to use PaletteR to automagically build palettes from pictures</title>
+      <link>post/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>post/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</guid>
+      <description>Introducing paletter Installing paletter Creating a palette from your image Functional specification Reading a picture into the RGB colourspace Processing the RGB image trough kmeans Moving to the hsv colours space Removing outliers Optimising palette How to apply paletteR in ggplot2 Join us I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the Pinacoteca di Brera, a 200 centuries old museum.</description>
+    </item>
+    
+    <item>
+      <title>Learning Dataviz Principles and Theory from Tufte</title>
+      <link>post/2018/02/10/summarising-tufte-theory-of-graphics-and-integrity-principles/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>post/2018/02/10/summarising-tufte-theory-of-graphics-and-integrity-principles/</guid>
+      <description>theory of data graphics maximise data-ink ratio, within reason maximise data density and the size of the data matrix, within reason treat graphics as paragraphs and shape them appropriately integrity of data graphics always show data in their context try to produce a small lie factor show data variation, not design variation use as many dimensions as the number of dimensions in your data how to apply Tufte’s principles in R I have recently completed a great reading: Edward Tufte’s The visual display of quantitative information.</description>
+    </item>
+    
+  </channel>
+</rss>

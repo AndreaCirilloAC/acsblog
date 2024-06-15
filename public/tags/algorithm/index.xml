@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithm on Andrea Cirillo</title>
+    <link>post/tags/algorithm/</link>
+    <description>Recent content in algorithm on Andrea Cirillo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="post/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>introducing vizscorer: a bot advisor to improve your ggplot plots</title>
+      <link>post/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>post/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</guid>
+      <description>introducing vizscorer: a bot advisor to improve your ggplot plots How to measure a good plot? Preparing a training dataset of plots How to train Machine Learning to recognize a good plot? Can Machine learning talk back to humans? Putting all together: vizscorer and the scorer_bot Where to go from here and how to help introducing vizscorer: a bot advisor to improve your ggplot plots One of the most frustrating issues I face in my professional life is the plentitude of ineffective reports generated within my company.</description>
+    </item>
+    
+    <item>
+      <title>UpdateR package: update R version with a function (on MAC OSX)</title>
+      <link>post/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>post/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
+      <description>Mac version of updateR function: the UpdateR package how to install the updateR package how to update R version using the updateR package behind the scenes: how updateR works verify that user is running a unix machine get last R version from CRAN run command line commands within R accomplisments and further developments feel free to complain with me I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.</description>
+    </item>
+    
+    <item>
+      <title>Over 50 practical recipes for data analysis with R in one book</title>
+      <link>post/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
+      <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
+      
+      <guid>post/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
+      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
+changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
+became dad for the third time (and if you are guessing, it’s a boy!</description>
+    </item>
+    
+    <item>
+      <title>how to list loaded packages in R: ramazon gets cleaver</title>
+      <link>post/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
+      <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
+      
+      <guid>post/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
+      <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
+In the next hours things got growing by themselves, with pleasant results like the following:
+https://twitter.com/DoodlingData/status/635057258888605696
+The R community found ramazon a really helpful package.
+And I actually think it is: Amazon AWS is nowadays one of the most common tools for online web applications and websites hosting.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
+      <link>post/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
+      <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
+      
+      <guid>post/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
+      <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
+on average, fraud accounts for nearly the 5% of companies revenues
+Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.
+No surprise than if companies and scholars are increasingly looking for way to prevent fraud and spot it when it occurs.</description>
+    </item>
+    
+    <item>
+      <title>Catching Fraud with Benford&#39;s law (and another Shiny App)</title>
+      <link>post/2015/02/06/benfords_law_with_r/</link>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>post/2015/02/06/benfords_law_with_r/</guid>
+      <description>In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What ‘Benford’s Law’ stands for? Nice stuff, but what can I do with Benford’s Law? You can find fraud with it Some precautions BenfordeR: another lean shiny application performing a benford analysis plotting results detecting suspected records What’s next In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.</description>
+    </item>
+    
+    <item>
+      <title>Querying Google With R</title>
+      <link>post/2014/11/19/querying-google-with-r/</link>
+      <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
+      
+      <guid>post/2014/11/19/querying-google-with-r/</guid>
+      <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
+Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
+Feeling this way?
+[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
+    </item>
+    
+  </channel>
+</rss>

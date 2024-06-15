@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<title>How to Visualize Entertainment Expenditures on a Bubble Chart - Andrea Cirillo</title>
+<meta property="og:title" content="How to Visualize Entertainment Expenditures on a Bubble Chart - Andrea Cirillo">
+
+
+
+  
+
+
+
+
+
+<link href="/post/index.xml" rel="alternate" type="application/rss+xml" title="Andrea Cirillo" />
+
+
+
+<link rel="stylesheet" href="/post/css/fonts.css" media="all">
+<link rel="stylesheet" href="/post/css/main.css" media="all">
+<link rel="stylesheet" href="/post/css/github-widget.css"  type="text/css" />
+
+
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    
+  </head>
+  <body>
+    <div class="wrapper">
+            <header class="header">
+        <nav class="nav">
+<div class = "nav-anchor">
+  <a href="/" class="nav-logo">
+    <img src="/post/images/aclogo.ico"
+         width="40"
+         height="40"
+         alt="Logo">
+  </a>
+
+
+  <h1 href="/" class="nav-title" >Andrea Cirillo</h1>
+</div>
+  <ul class="nav-links">
+    
+    <li><a href="post/about/">about</a></li>
+    
+    <li><a href="post/post/">blog</a></li>
+    
+    <li><a href="https://personalandrea.notion.site/Bookstack-WIP-544d095a8d9e4125bfb722a62e4a05ce">bookstack</a></li>
+    
+    <li><a href="post/contacts/">contacts</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+      
+
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">How to Visualize Entertainment Expenditures on a Bubble Chart</h1>
+    
+    
+    <span class="article-date">2014/07/12</span>
+    
+    
+    <span><h3>andreacirilloac</h3></span>
+    
+
+    <div class="article-content">
+      <p><a href="https://andreacirilloblog.files.wordpress.com/2014/07/categorical-bubble-chart.png"><img src="https://andreacirilloblog.files.wordpress.com/2014/07/categorical-bubble-chart.png" alt="Bubble Chart Categorical Variables Expenditures Analytics"></a></p>
+<p>I&rsquo;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.</p>
+<p>In response to that request I have developed a <a href="https://andreacirillo.shinyapps.io/Entertainment_Expenditures/">little Shiny app</a> with an interesting reactive Bubble chart.</p>
+<p>The plot, made using <a href="http://ggplot2.org">ggplot2</a> package, is composed by:
+a categorical x value, represented by the clusters identified in the expenditures population
+A numerical y value, representing the total amount expended
+Points defined by the total amount of expenditure in the given cluster for each company subject.
+Morover, point size is given by the ratio between amount regularly passed through Account Receivable Process and total amount of expenditure for that subject in that cluster.</p>
+<p>The advantage i found in developing such a plot is the possibility to get a lot of information at a glance.</p>
+<p>Reactivity is given by two sliders that let you decide the period and the range you want to analyze.</p>
+<p><a href="https://github.com/AndreaCirilloAC/Entertainment_Expenditures">Full code</a> (with italian comments, sorry about that) is given on GitHub, but let me underline some details:</p>
+<p>Labels are made <a href="http://stat.ethz.ch/R-manual/R-devel/library/base/html/paste.html">pasting</a> subjects names and the amount show, in order to give you both information at once.</p>
+<p>Colours are automatically assigned by ggplot function simply by specifying</p>
+<p><code>col=factors(Soggetto)</code></p>
+<p>Point size is simply obtained by putting
+<code> size=rapporto</code></p>
+<p>Hope you will find at least colorful the job.
+Going on talking about colours: does anyone knows how to make point solid in this case?</p>
+<p>Any feedback will be appreciated, but please be kind!</p>
+
+    </div>
+
+ 
+<div class = "comment-disclaimer-title">
+  comments disclaimer
+</div>
+
+    <div class="comment-disclaimer">
+
+thank you for taking the time to comment. If the comment you are about to write is related to a piece of code I wrote, please reach its Github respository and place there any request of improvement or report of bugs. 
+</div>
+
+    <div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://andreacirillo.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+
+
+
+
+
+
+
+  </article>
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/post/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/post/images/hugo-logo.png" width="22" height="22"></a> and <a href="https://bookdown.org/yihui/blogdown/" class="footer-links-kudos">  <img src="/post/images/hex-blogdown.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45180202-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45180202-10');
+</script>
+
+    
+<script src="/js/github-widget.js"></script>
+
+    
+
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/ea38207c9143ded9017ecd6bc/16e24337904a6a6da755e4f20.js");</script>
+
+
+  </body>
+  
+  <script src="https://my.hellobar.com/a21e2e804c53c9537c50fc5967d63727cceb2166.js" type="text/javascript" charset="utf-8" async="async"></script>
+</html>
+
