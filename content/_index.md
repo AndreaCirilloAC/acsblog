@@ -3,13 +3,13 @@ title: "Un Taccuino"
 subtitle: "the very beginning"
 ---
 
-Hi, I am Andrea Cirillo, this is my personal website. I am used to carry always with me a small pocket notebook, which in italian is said taccuino, and I consider this website in someway a digital version of that notebook.
+Hi, I'm **Andrea Cirillo**, and this is my personal website. I always carry a small pocket notebook with me, which in Italian is called a "taccuino". I use that notebook to catch smaller and bigger ideas ( together with grocery lists, sketches, to do lists ...). I consider this website just a digital version of that taccuino.
 
-You can find in the blog some structured and unstructured thought, mainly about AI and management.
+In the [Blog](/post/post), you'll find structured and less structured thoughts, mainly about **AI** and **Management**.
 
-If you want some inspiration for a new book on this topics, you can give a look to the Bookstack page.
+If you're looking for inspiration for a new book on these topics, you can check out the [Bookstack](https://personalandrea.notion.site/Bookstack-WIP-544d095a8d9e4125bfb722a62e4a05ce) page.
 
-Wanna say 'Hello'? Nice idea! Let's connect trough Linkedin!
+Want to say ‘Hello’ or get in touch? Great idea! Let’s connect through [LinkedIn](https://www.linkedin.com/in/cirilloandrea/)!
 
 Ciao,
 

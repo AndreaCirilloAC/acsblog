@@ -12,15 +12,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/"
     weight = -120
 [[menu.main]]
-    name = "about (LNKD)"
+    name = "About (LNKD)"
     url = "https://www.linkedin.com/in/cirilloandrea/"
     weight = -110
 [[menu.main]]
-    name = "blog"
+    name = "Blog"
     url = "/post/"
     weight = -80
 [[menu.main]]
-    name = "bookstack (WIP)"
+    name = "Bookstack (WIP)"
     url = "https://personalandrea.notion.site/Bookstack-WIP-544d095a8d9e4125bfb722a62e4a05ce"
     weight = -80
 [params]

@@ -2,5 +2,5 @@
 title: "blog"
 ---
 
-Personal thoughts about technical stuff I encountered during my journey.
+Personal thoughts mainly about AI and Management.
 You can also select a specific tag to read all post related to it.
