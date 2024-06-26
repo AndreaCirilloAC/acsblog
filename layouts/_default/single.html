@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  <article class="article">
+    {{ if eq .Section "post" }}
+    <span class="article-duration">{{ .ReadingTime }} min read</span>
+    {{ end }}
+
+    <h1 class="article-title">{{ .Title }}</h1>
+    
+    {{ if eq .Section "post" }}
+    <span class="article-date">{{ .Date.Format "2006/01/02" }}</span>
+    {{ end }}
+    {{with .Params.author}}
+    <span><h3>{{.}}</h3></span>
+    {{end}}
+
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+
+ {{ if eq .Section "post"  }}
+<div class = "comment-disclaimer-title">
+  comments disclaimer
+</div>
+
+    <div class="comment-disclaimer">
+
+thank you for taking the time to comment. If the comment you are about to write is related to a piece of code I wrote, please reach its Github respository and place there any request of improvement or report of bugs. 
+</div>
+
+    {{partial "disqus.html" .}}
+
+{{ end }}
+
+
+
+
+  </article>
+{{if eq .Params.Title "contacts"}}
+
+{{end}}
+</main>
+
+{{ partial "footer.html" . }}
