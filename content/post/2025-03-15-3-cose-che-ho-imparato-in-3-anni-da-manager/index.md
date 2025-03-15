@@ -9,7 +9,7 @@ tags:
   - productivity
 ---
 
-3 anni fa, circa, sono stato nominato per la prima volta Head of di un team. Un team del quale prima ero membro. Ho sempre avuto una certa passione per il management, nel senso che nel tempo sono andato ragionando su quali fossero i modi migliori per far lavorare bene insieme le persone. Se lo sto facendo bene o male chiedetelo ai fantastici #ADAAPeople, nel frattempo queste sono tre cose che ho imparato e che condivido per capire che ne pensate e perché possano essere utili a chi sta iniziando quel fantastico (e faticoso e infinito) viaggio che è diventare manager.
+3 anni fa, circa, sono stato nominato per la prima volta Head of di un team. Un team del quale prima ero membro. Ho sempre avuto una certa passione per il management, nel senso che nel tempo sono andato ragionando su quali fossero i modi migliori per far lavorare bene insieme le persone. Se lo sto facendo bene o male chiedetelo ai fantastici **#ADAAPeople**, nel frattempo queste sono tre cose che ho imparato e che condivido per capire che ne pensate e perché possano essere utili a chi sta iniziando quel fantastico (e faticoso e infinito) viaggio che è diventare manager.
 
 ## "Lo voglio anch'io!", ovvero l'equità prima di tutto
 
@@ -35,7 +35,7 @@ Se non sarete equi vi troverete in un mare di problemi e di scontentezza, di voc
 
 Qui non voglio aggiungere molto al mare di letteratura su questo tema (per esempio: <https://hbr.org/topic/subject/giving-feedback).> Io dirò solo una cosa: **e daglielo sto feedback!** Lo so, è difficile, lo so che sei di corsa, lo so che a volte non ci pensi\... ma glielo devi proprio dare sto feedback.
 
-Sono un grande patito della comunicazione aperta nel team (qualcuno degli #ADAApeople potrebbe anche dire che mi piace troppo parlare :)) ma qui siamo proprio alla comunicazione di base. Nella riunione è intervenuto in maniera troppo disorganizzata e poco chiara creando confusione con il vostro cliente (esterno o interno)? L'analisi che vi ha consegnato sconta diverse ingenuità e hai dovuto rilavorarla più di quanto avresti voluto? E diteglielo! Come può crescere se non glielo dici? Non dare per scontato che ci arriverà da solo, e soprattutto che sappia come migliorare.
+Sono un grande patito della comunicazione aperta nel team (qualcuno degli **#ADAApeople** potrebbe anche dire che mi piace troppo parlare :)) ma qui siamo proprio alla comunicazione di base. Nella riunione è intervenuto in maniera troppo disorganizzata e poco chiara creando confusione con il vostro cliente (esterno o interno)? L'analisi che vi ha consegnato sconta diverse ingenuità e hai dovuto rilavorarla più di quanto avresti voluto? E diteglielo! Come può crescere se non glielo dici? Non dare per scontato che ci arriverà da solo, e soprattutto che sappia come migliorare.
 
 > **come manager sei lì per quello: per farlo crescere, per fargli esprimere il suo potenziale.**
 
