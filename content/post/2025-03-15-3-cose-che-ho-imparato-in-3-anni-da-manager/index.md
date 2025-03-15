@@ -73,6 +73,6 @@ Altrimenti sai cosa insegni? A fare lo stesso. Vedendo il tuo esempio penseranno
 
 Tre parole - equità, feedback e accountability - che rappresentano pilastri fondamentali per un manager, IMHO. Di per sè non sono concetti complicati, il difficile è darseli come stelle polari e applicarli quotidianamente. La vera sfida del management non è conoscere queste regole, ma metterle in pratica ogni giorno, anche quando sarebbe più comodo non farlo.
 
-> **Ci riuscirai sempre? No, probabilmente no, ma una quarta cosa che ho imparato è questa: le persone riconoscono la sincerità e l'impegno che metti nel tuo lavoro. Quando vedono che "ci stai provando" davvero, lo apprezzano profondamente, e questo crea già una solida base per costruire relazioni efficaci e produttive all'interno del team.**
+> Ci riuscirai sempre? No, probabilmente no, ma una quarta cosa che ho imparato è questa: le persone riconoscono la sincerità e l'impegno che metti nel tuo lavoro. Quando vedono che "ci stai provando" davvero, lo apprezzano profondamente, e questo crea già una solida base per costruire relazioni efficaci e produttive all'interno del team.
 
 O no?
