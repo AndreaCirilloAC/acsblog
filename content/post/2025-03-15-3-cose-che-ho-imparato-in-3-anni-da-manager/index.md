@@ -9,8 +9,6 @@ tags:
   - productivity
 ---
 
-# 3 che ho imparato che in 3 anni da manager
-
 3 anni fa, circa, sono stato nominato per la prima volta Head of di un team. Un team del quale prima ero membro. Ho sempre avuto una certa passione per il management, nel senso che nel tempo sono andato ragionando su quali fossero i modi migliori per far lavorare bene insieme le persone. Se lo sto facendo bene o male chiedetelo ai fantastici #ADAAPeople, nel frattempo queste sono tre cose che ho imparato e che condivido per capire che ne pensate e perché possano essere utili a chi sta iniziando quel fantastico (e faticoso e infinito) viaggio che è diventare manager.
 
 ## "Lo voglio anch'io!", ovvero l'equità prima di tutto
@@ -19,9 +17,9 @@ L'equità è un principio che l'uomo sente fin dai primissimi giorni della sua v
 
 Cosa vuol dire questo per un manager? Vuol dire forse che devi premiare tutti allo stesso modo? Che devi dare ogni 5 anni una promozione a ciascuno a rotazione? No, non potresti fare niente di peggio!
 
-Non si tratta di uguaglianza, ma di equità.
+Non si tratta di uguaglianza, ma di equità. Cioè:
 
-> *Cioè trattare tutti secondo gli stessi criteri e dare a tutti le medesime opportunità.*
+> **come manager sei chiamato a trattare tutti secondo gli stessi criteri e dare a tutti le medesime opportunità.**
 
 Sì va be', ma nel concreto? Nel concreto, per esempio:
 
@@ -35,21 +33,21 @@ Se non sarete equi vi troverete in un mare di problemi e di scontentezza, di voc
 
 ## Diglielo ti prego, diglielo: il feedback
 
-Qui non voglio aggiungere molto al mare di letteratura su questo tema (per esempio: <https://hbr.org/topic/subject/giving-feedback).> Io dirò solo una cosa: e daglielo sto feedback! Lo so, è difficile, lo so che sei di corsa, lo so che a volte non ci pensi\... ma glielo devi proprio dare sto feedback.
+Qui non voglio aggiungere molto al mare di letteratura su questo tema (per esempio: <https://hbr.org/topic/subject/giving-feedback).> Io dirò solo una cosa: **e daglielo sto feedback!** Lo so, è difficile, lo so che sei di corsa, lo so che a volte non ci pensi\... ma glielo devi proprio dare sto feedback.
 
 Sono un grande patito della comunicazione aperta nel team (qualcuno degli #ADAApeople potrebbe anche dire che mi piace troppo parlare :)) ma qui siamo proprio alla comunicazione di base. Nella riunione è intervenuto in maniera troppo disorganizzata e poco chiara creando confusione con il vostro cliente (esterno o interno)? L'analisi che vi ha consegnato sconta diverse ingenuità e hai dovuto rilavorarla più di quanto avresti voluto? E diteglielo! Come può crescere se non glielo dici? Non dare per scontato che ci arriverà da solo, e soprattutto che sappia come migliorare.
 
-> *Tu come manager sei lì per quello: per farlo crescere, per fargli esprimere il suo potenziale.*
+> **come manager sei lì per quello: per farlo crescere, per fargli esprimere il suo potenziale.**
 
 E tu mi dici: ma è tanto scomodo dare questi feedback\... poi si mette a discutere perché non è d'accordo\... meglio non dire niente e fare come si può, protocollo "pesce nel barile".
 
-Qui la chiave è partire dai fatti. Ho promesso che non mi infilerò nella parte tecnica del feedback, ma la chiave è essere oggettivi. Mai giudicare il collega ("tu sei\...") ma sempre parlare dei fatti: osservanti e non giudicanti. Chiarire gli effetti del comportamento sui risultati finali.
+Qui **la chiave è partire dai fatti**. Ho promesso che non mi infilerò nella parte tecnica del feedback, ma la chiave è essere oggettivi. Mai giudicare il collega ("tu sei\...") ma sempre parlare dei fatti: **osservanti e non giudicanti**. Chiarire gli effetti del comportamento sui risultati finali.
 
-E come si fa? Te li devi annotare. Fatti un journal dove annoti i fatti, così eviti di [basarti solo sugli ultimi che ti ricordi.](https://en.wikipedia.org/wiki/Recency_bias)
+E come si fa? Te li devi annotare. **Fatti un journal** dove annoti i fatti, così eviti di [basarti solo sugli ultimi che ti ricordi.](https://en.wikipedia.org/wiki/Recency_bias)
 
 ## Fai come vorresti fosse fatto a te: l'accountability
 
-Alcuni, bontà loro, vivono ancora il management come un privilegio. Quasi come appartenere ad una casta per la quale valgono regole diverse da quelle che valgono per i collaboratori.
+Alcuni, bontà loro, vivono ancora **il management come un privilegio**. Quasi come appartenere ad una casta per la quale valgono regole diverse da quelle che valgono per i collaboratori.
 
 Per esempio:
 
@@ -61,15 +59,13 @@ Per esempio:
 
 Ecco una strada sicura per creare disamore nel team e far calare le performance.
 
-> Fare il capo è un servizio, tu sei a servizio del tuo team.
+> **fare il capo è un servizio, tu sei a servizio del tuo team.**
 
 Certo hai delle prerogative, certo hai un ruolo di governo, di indirizzo e coordinamento, ma non sei ontologicamente diverso dai tuoi collaboratori, non appartieni a una specie a sé.
 
-Le regole del gioco che valgono per loro, valgono anche per te. E l'accountability è una chiave fondamentale nel gioco: devi essere affidabile, devi stare attento alle piccole cose. Se prendi degli impegni li devi mantenere, non ti puoi nascondere dietro un dito, perché il manager, come il re, quando è nudo lo si vede.
+**Le regole del gioco che valgono per loro, valgono anche per te.** E l'accountability è una chiave fondamentale nel gioco: devi essere affidabile, devi stare attento alle piccole cose. Se prendi degli impegni li devi mantenere, non ti puoi nascondere dietro un dito, perché il manager, come il re, quando è nudo lo si vede.
 
-E se non ce la fai? E se avevi detto che avresti fatto una certa cosa in un certo tempo e non ci riesci? Chiedi scusa.
-
-Sì hai letto bene: chiedi scusa. Non fare finta di niente, trincerandoti nel silenzio e andando avanti come se niente fosse. Riconoscilo e chiedi scusa.
+**E se non ce la fai?** E se avevi detto che avresti fatto una certa cosa in un certo tempo e non ci riesci? **Chiedi scusa.** Non fare finta di niente, trincerandoti nel silenzio e andando avanti come se niente fosse. Riconoscilo e chiedi scusa.
 
 Altrimenti sai cosa insegni? A fare lo stesso. Vedendo il tuo esempio penseranno che sia giusto nascondersi, accampare scuse e non rispettare le deadline e arrivare in ritardo etc. etc.
 
