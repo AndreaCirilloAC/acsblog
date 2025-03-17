@@ -1,0 +1,102 @@
+---
+title: 'Italy Coronavirus Outbreak: numbers and stats'
+author: Andrea Cirillo
+date: '2020-02-24'
+slug: italy-coronavirus-outbreak-number-and-stats
+categories: []
+tags: 
+  - dataviz
+  - data analysis
+  - data analytics
+output: 
+  html_document: 
+    fig_width: 10
+---
+
+
+<div id="TOC">
+<ul>
+<li><a href="#italy-ncov-19-outbreak">Italy NCOV-19 outbreak</a><ul>
+<li><a href="#number-of-confirmed-cases-and-deaths-in-italy">number of confirmed cases and deaths in Italy</a></li>
+<li><a href="#daily-change-in-confirmed-cases-in-italy">daily change in confirmed cases in Italy</a></li>
+<li><a href="#daily-confirmed-cases-in-italy">daily confirmed cases in Italy</a></li>
+<li><a href="#daily-change-in-confirmed-cases-in-lombardy">daily change in confirmed cases in Lombardy</a></li>
+<li><a href="#comparison-between-lombardy-and-hubei-province">comparison between Lombardy and Hubei province</a></li>
+<li><a href="#daily-new-cases">daily new cases</a></li>
+<li><a href="#icu-numbers">ICU numbers</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="italy-ncov-19-outbreak" class="section level2">
+<h2>Italy NCOV-19 outbreak</h2>
+<p>For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths (since I live in Italy, it is not difficult to guess the personal reason…). I am thus regularly monitoring news from the italian official sources like “Regione Lombardia” and “Protezione Civile”.</p>
+<p>You can find the data on the official <a href="https://github.com/pcm-dpc/COVID-19">italian repository on Github</a> the raw data I am collecting.</p>
+<div id="number-of-confirmed-cases-and-deaths-in-italy" class="section level3">
+<h3>number of confirmed cases and deaths in Italy</h3>
+<p>Here is an attempt to visualize historical series of total confirmed cases and deaths</p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="daily-change-in-confirmed-cases-in-italy" class="section level3">
+<h3>daily change in confirmed cases in Italy</h3>
+<p>and finally here a visualization of daily change in confirmed cases:</p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>It is interesting to compare this trend with the one observed in Mainland China</p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>The italian level is aligned with the chinese one during the first part of the outbreak.</p>
+</div>
+<div id="daily-confirmed-cases-in-italy" class="section level3">
+<h3>daily confirmed cases in Italy</h3>
+<p>The most waited day from the beginning of the outbreak is the one in which the number of daily confirmed new cases will reach its peak and we will start to see a reduction of new cases within the subsequent days. Let’s thus monitor this metric as well in the following plot:</p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+</div>
+<div id="daily-change-in-confirmed-cases-in-lombardy" class="section level3">
+<h3>daily change in confirmed cases in Lombardy</h3>
+<p>As you probably already know the most serious coronavirus outbreak started directly in Lombardy, where I currently live and I am writing from. I am therefore taking separared note of number related this region. You can find them on the <a href="https://docs.google.com/spreadsheets/d/1mnhZe6_5m1wtLqDaTU-JzXrAHd0OKV7Uhrkh6G2BFn0/edit?usp=sharing">Google Sheet</a> and the daily change plotted below:</p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+</div>
+<div id="comparison-between-lombardy-and-hubei-province" class="section level3">
+<h3>comparison between Lombardy and Hubei province</h3>
+<p>Since Lombardy is the first place where coronavirus really appeared in Italy, and it currently is the region where the main outbreak is observed, I thought it would have been interesting to compare the shape of the cumulated number of confirmed cases measured in Lombardy with the same number measured in Hubei from the beginning of the outbreak.</p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Unfortunately, Lombardy pattern looks quite different from day 5 on, with a steeper increase compared to the chinese one. This is also the reason that guided the adoption from the Italian Government of a nearly complete lock-down of the Country.</p>
+</div>
+<div id="daily-new-cases" class="section level3">
+<h3>daily new cases</h3>
+<p>As done for Italy as a whole, let’s monitor the number of daily new cases for Lombardy as well:</p>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+</div>
+<div id="icu-numbers" class="section level3">
+<h3>ICU numbers</h3>
+<pre class="r"><code>italy_icu %&gt;% 
+  ggplot(aes(x = date,y = daily_new_ICU, label = daily_new_ICU))+
+geom_bar(stat= &#39;identity&#39;, colour = &quot;white&quot;, fill = &quot;gray60&quot;)+
+      geom_text(colour = &quot;gray20&quot;, size = 2.5, nudge_y =5, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;daily new ICU, Italy&quot;,
+          x = &quot;date&quot;,caption = &quot;source: Protezione Civile&quot;)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>This is the number of total ICU</p>
+<pre class="r"><code>italy_icu %&gt;% 
+  ggplot(aes(x = date,y = ICU, label = ICU))+
+geom_bar(stat= &#39;identity&#39;, colour = &quot;white&quot;, fill = &quot;gray60&quot;)+
+      geom_text(colour = &quot;gray20&quot;, size = 2.5, nudge_y =5, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;Total number of ICU, Italy&quot;,
+          x = &quot;date&quot;,caption = &quot;source: Protezione Civile&quot;)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p>Let’s try one more analysis, computing the number of total ICU as a ratio of total active cases.</p>
+<pre class="r"><code>italy_icu %&gt;% 
+  ggplot(aes(x = date,y = icu_active_ratio, label = round(icu_active_ratio,3)*100))+
+geom_bar(stat= &#39;identity&#39;, colour = &quot;white&quot;, fill = &quot;gray60&quot;)+
+      geom_text(colour = &quot;gray20&quot;, size = 2.5, nudge_y =0.001, check_overlap = TRUE)+
+  theme_minimal()+
+  theme(legend.position = &quot;bottom&quot;)+
+  labs(title= &quot;icu as a share of active cases , Italy&quot;,
+          x = &quot;date&quot;,caption = &quot;source: Protezione Civile&quot;)+
+  scale_y_continuous(labels = scales::percent)</code></pre>
+<p><img src="/post/2020-02-24-italy-coronavirus-outbreak-number-and-stats_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+</div>
+</div>
