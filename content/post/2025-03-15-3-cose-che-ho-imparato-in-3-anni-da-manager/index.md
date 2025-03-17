@@ -5,12 +5,13 @@ date: '2025-03-15'
 slug: 3-cose-che-ho-imparato-in-3-anni-da-manager
 categories: []
 tags: 
-  - management
   - productivity
-image_preview: 'bubble_alternative.jpg'
+  - management
 ---
 
-3 anni fa, circa, sono stato nominato per la prima volta Head of di un team. Un team del quale prima ero membro. Ho sempre avuto una certa passione per il management, nel senso che nel tempo sono andato ragionando su quali fossero i modi migliori per far lavorare bene insieme le persone. Se lo sto facendo bene o male chiedetelo ai fantastici **#ADAAPeople**, nel frattempo queste sono tre cose che ho imparato e che condivido per capire che ne pensate e perché possano essere utili a chi sta iniziando quel fantastico (e faticoso e infinito) viaggio che è diventare manager.
+Tre anni fa, circa, sono stato nominato per la prima volta Head of di un team. Un team del quale prima ero membro. Ho sempre avuto una certa passione per il management, nel senso che nel tempo sono andato ragionando su quali fossero i modi migliori per far lavorare bene insieme le persone. Se lo sto facendo bene o male chiedetelo ai fantastici **#ADAAPeople**,un team di circa venti persone, nel frattempo queste sono tre cose che ho imparato e che condivido per capire che ne pensate e perché possano essere utili a chi sta iniziando quel fantastico (e faticoso e infinito) viaggio che è diventare manager.
+
+![](images/Lorenzo_Lotto_-_Three_studies_of_a_goldsmith_from_different_angles-3.jpg)
 
 ## "Lo voglio anch'io!", ovvero l'equità prima di tutto
 
