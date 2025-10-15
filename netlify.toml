@@ -1,7 +1,3 @@
 [build]
-command = "hugo --gc --minify"
+command = ""         # niente build: Netlify pubblica così com’è
 publish = "public"
-
-[build.environment]
-HUGO_VERSION = "0.151.1"   # <-- metti qui la tua versione locale
-HUGO_EXTENDED = "true"
