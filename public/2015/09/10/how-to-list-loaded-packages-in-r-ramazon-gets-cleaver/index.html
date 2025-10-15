@@ -86,6 +86,7 @@ I shared the <strong><a href="https://github.com/AndreaCirilloAC/ramazon">code o
 <p>And I actually think it is: <strong>Amazon AWS</strong> is nowadays one of the <strong>most common</strong> tools for online <strong>web applications</strong> and <strong>websites hosting.</strong></p>
 <p>The possibility to get <strong>your Shiny App on it just running a function</strong> make it even more desirable for the amusing R people.</p>
 <p>Therefore, even if I developed ramazon for personal purposes , I now <strong>feel some kind of responsibility</strong> to further develop it and take it updated.</p>
+<!-- more -->
 <p>Well, to be honest: is <strong>not such a bad feeling&hellip;</strong></p>
 <p><a href="https://andreacirilloblog.files.wordpress.com/2015/09/giphy-1.gif"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/giphy-1.gif" alt="giphy (1)"></a></p>
 <h2 id="a-matter-of-packages">A matter of packages</h2>
@@ -133,15 +134,15 @@ environ &lt;- data.frame(&ldquo;envs&rdquo; = search(),stringsAsFactors = FALSE)
 [/code]</p>
 <p>the result will be something like the one below:</p>
 <p>[code language=&ldquo;r&rdquo;]
-<!-- raw HTML omitted --><!-- raw HTML omitted -->envs<!-- raw HTML omitted --><!-- raw HTML omitted -->
-1        .<!-- raw HTML omitted -->GlobalEnv<!-- raw HTML omitted -->
+<span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">envs</span></span>
+1        .<span class="hiddenSpellError" pre="1 " data-mce-bogus="1">GlobalEnv</span>
 2     package:stats
 3  package:graphics
-4 package:<!-- raw HTML omitted -->grDevices<!-- raw HTML omitted -->
-5     package:<!-- raw HTML omitted -->utils<!-- raw HTML omitted -->
+4 package:<span class="hiddenSpellError" pre="" data-mce-bogus="1">grDevices</span>
+5     package:<span class="hiddenSpellError" pre="" data-mce-bogus="1">utils</span>
 6  package:datasets
 7   package:methods
-8         <!-- raw HTML omitted -->Autoloads<!-- raw HTML omitted -->
+8         <span class="hiddenSpellError" pre="8 " data-mce-bogus="1">Autoloads</span>
 9      package:base
 [/code]</p>
 <p>As you can see, <strong>there are</strong> <strong>some</strong> <strong>unneeded values</strong> (.GlobalEnv and Autoloads), and all packages are preceded by the &ldquo;package:&rdquo; wording. We are going to handle this within the next paragraph.</p>
@@ -158,7 +159,7 @@ packages &lt;- gsub(&ldquo;package:&rdquo;,&quot;&quot;,environ)
 <p>The main output of the <code>ramazon()</code> function, as explained in <strong><a href="https://andreacirilloblog.wordpress.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">the previous post</a></strong>, is a bash script.</p>
 <p>in order to install all the required packages <strong>ramazon needs to create a system command</strong> similar to the following one:</p>
 <p>[code language=&ldquo;r&rdquo;]
-<!-- raw HTML omitted --><!-- raw HTML omitted -->sudo<!-- raw HTML omitted --><!-- raw HTML omitted --> su -\-c &quot;R <!-- raw HTML omitted -->-e<!-- raw HTML omitted --> \&ldquo;install.packages(c(&ldquo;shiny&rdquo;,&quot;<!-- raw HTML omitted -->ggplot2<!-- raw HTML omitted -->&rdquo;), <!-- raw HTML omitted -->repos<!-- raw HTML omitted --> = &lsquo;<a href="http://cran.rstudio.com/'">http://cran.rstudio.com/'</a>, dep = TRUE)\&quot;<br>
+<span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">sudo</span></span> su -\-c &quot;R <span class="hiddenSpellError" pre="" data-mce-bogus="1">-e</span> \&ldquo;install.packages(c(&ldquo;shiny&rdquo;,&quot;<span class="hiddenSpellError" pre="" data-mce-bogus="1">ggplot2</span>&rdquo;), <span class="hiddenSpellError" pre="" data-mce-bogus="1">repos</span> = &lsquo;<a href="http://cran.rstudio.com/'">http://cran.rstudio.com/'</a>, dep = TRUE)\&quot;<br>
 [/code]</p>
 <p>First of all we need to create the <strong>vector containing the needed packages</strong>.</p>
 <p>This is obtained with a <strong>sequence of <code>paste()</code> functions</strong>:</p>
@@ -166,7 +167,7 @@ packages &lt;- gsub(&ldquo;package:&rdquo;,&quot;&quot;,environ)
 packages &lt;- paste(&quot;&rsquo;&quot;,packages,&quot;&rsquo;&quot;,sep =&quot;&quot;)
 packages &lt;- paste(packages,&quot;,&quot;,collapse = &ldquo;&rdquo;)
 packages &lt;- paste(&ldquo;c(&quot;,packages,sep =&rdquo;&quot;)
-packages &lt;- <!-- raw HTML omitted --><!-- raw HTML omitted -->substr<!-- raw HTML omitted --><!-- raw HTML omitted -->(packages,1,(<!-- raw HTML omitted -->nchar<!-- raw HTML omitted -->(packages)-1))
+packages &lt;- <span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">substr</span></span>(packages,1,(<span class="hiddenSpellError" pre="" data-mce-bogus="1">nchar</span>(packages)-1))
 packages &lt;- paste(packages, &ldquo;)&quot;,sep =&rdquo;&quot;)
 [/code]</p>
 <p>finally, we have to <strong>deal with escape characters</strong> contained within the system command.</p>
@@ -175,7 +176,7 @@ packages &lt;- paste(packages, &ldquo;)&quot;,sep =&rdquo;&quot;)
 <p>Here it is the complete code for this alchemical job:</p>
 <p>[code language=&ldquo;r&rdquo;]
 sink(&ldquo;bash_script.txt&rdquo;, append = TRUE)
-message &lt;- cat(&quot;<!-- raw HTML omitted --><!-- raw HTML omitted -->sudo<!-- raw HTML omitted --><!-- raw HTML omitted --> su -\-c &quot;R <!-- raw HTML omitted -->-e<!-- raw HTML omitted --> \&quot;install.packages(&quot;,packages,&quot;, <!-- raw HTML omitted -->repos<!-- raw HTML omitted --> = &lsquo;<a href="http://cran.rstudio.com/'">http://cran.rstudio.com/'</a>, dep = TRUE)\&quot;&quot;&quot;)
+message &lt;- cat(&quot;<span class="mceItemHidden" data-mce-bogus="1"><span class="hiddenSpellError" pre="" data-mce-bogus="1">sudo</span></span> su -\-c &quot;R <span class="hiddenSpellError" pre="" data-mce-bogus="1">-e</span> \&quot;install.packages(&quot;,packages,&quot;, <span class="hiddenSpellError" pre="" data-mce-bogus="1">repos</span> = &lsquo;<a href="http://cran.rstudio.com/'">http://cran.rstudio.com/'</a>, dep = TRUE)\&quot;&quot;&quot;)
 sink()
 [/code]</p>
 <p>And here we are: ramazon automatically detects and install all required packages for your Shiny App on the AWS server.</p>

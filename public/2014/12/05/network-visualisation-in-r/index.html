@@ -83,6 +83,7 @@
 <h3 id="the-solution-linker">the solution: linker</h3>
 <p>In order to address this problem I am developing <strong><a href="https://andreacirillo.shinyapps.io/linker/">Linker</a></strong>, a <a href="https://andreacirillo.shinyapps.io/linker/"><strong>lean shiny app</strong></a> that take 1 to 1 links as an input and gives as output a <strong>network map</strong>:</p>
 <p>[caption id=&ldquo;attachment_324&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;]<a href="https://andreacirillo.shinyapps.io/linker/"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/the-linker.png?w=300" alt="the Linker"></a> click the picture to reach the app[/caption]</p>
+<!-- more -->
 <p>**<a href="https://andreacirillo.shinyapps.io/linker/">Linker</a> **is packed with a demo network, but you can easily load your dataset following the tutorial below.</p>
 <p><img src="https://andreacirilloblog.files.wordpress.com/2014/12/network.png?w=300" alt="network"></p>
 <h3 id="how-to-use-linker--and-some-code-specs">how to use linker ( and some code specs)</h3>
@@ -91,15 +92,32 @@
 <p><a href="https://andreacirillo.shinyapps.io/linker/"><strong>Linker</strong></a> is only able to read <strong>.csv datasets</strong>, structured as <strong>&ldquo;hedge-to-hedge&rdquo; tables.</strong></p>
 <p>This mean you will have to create a two-column table, having on each row a link.</p>
 <p>For instance, suppose A is linked with B, C is linked with A and B is linked with D; this will be your dataset:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<table >
+<tr >
+from
+to
+</tr>
+<tbody >
+<tr >
+<td align="left" >A
+</td>
+<td align="left" >B
+</td>
+</tr>
+<tr >
+<td align="left" >C
+</td>
+<td align="left" >A
+</td>
+</tr>
+<tr >
+<td align="left" >B
+</td>
+<td align="left" >D
+</td>
+</tr>
+</tbody>
+</table>
 <p>be sure to <strong>set &ldquo;;&rdquo; as a separator</strong> in your .csv file.</p>
 <h3 id="upload119-loading-data"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/upload119-e1417793516892.png" alt="upload119"> loading data</h3>
 <p>using the &rsquo;load file&rsquo; control you can choose the dataset to load.</p>
@@ -108,6 +126,9 @@
 <p>Linker leverages the great features builted in the **<a href="http://cran.r-project.org/web/packages/linkcomm">linkComm package </a>**by Alex T. Kalinka and Alain Guenoche .</p>
 <p>Therefore, the first step required is to create a <strong>linkComm object</strong>, containing the network map and informations about founded communities.</p>
 <p>This object is obtained through the <strong>getLinksCommunities()</strong> function. This function takes your dataset as an input and, applying a clustering method, gives as an output the network map aggregated by community.</p>
+<!-- more -->
+<!-- more -->
+<!-- more -->
 <p>[code language=&ldquo;r&rdquo;]
 links_graph &lt;- getLinkCommunities(links_file(),hcmethod=&ldquo;mcquitty&rdquo;,
 use.all.edges = TRUE)
