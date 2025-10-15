@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>twitter on Un nuovo Taccuino</title>
+    <title>Twitter on Un nuovo Taccuino</title>
     <link>/tags/twitter/</link>
-    <description>Recent content in twitter on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Twitter on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Oct 2014 12:16:24 +0000</lastBuildDate><atom:link href="/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Oct 2014 12:16:24 +0000</lastBuildDate>
+    <atom:link href="/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mining Twitter with R</title>
       <link>/2014/10/09/mining-twitter-with-r/</link>
       <pubDate>Thu, 09 Oct 2014 12:16:24 +0000</pubDate>
-      
       <guid>/2014/10/09/mining-twitter-with-r/</guid>
-      <description>Great tutorial on text mining with twitter byPaeng Angnakoon
-[youtube=http://youtu.be/mJVcANlkxU8]</description>
+      <description>&lt;p&gt;Great tutorial on text mining with twitter by&lt;a href=&#34;https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ&#34;&gt;Paeng Angnakoon&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://youtu.be/mJVcANlkxU8]&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

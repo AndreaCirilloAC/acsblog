@@ -17,7 +17,9 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Un nuovo Taccuino" />
+
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
 
 
 
@@ -84,7 +86,6 @@ I shared the <strong><a href="https://github.com/AndreaCirilloAC/ramazon">code o
 <p>And I actually think it is: <strong>Amazon AWS</strong> is nowadays one of the <strong>most common</strong> tools for online <strong>web applications</strong> and <strong>websites hosting.</strong></p>
 <p>The possibility to get <strong>your Shiny App on it just running a function</strong> make it even more desirable for the amusing R people.</p>
 <p>Therefore, even if I developed ramazon for personal purposes , I now <strong>feel some kind of responsibility</strong> to further develop it and take it updated.</p>
-<!-- raw HTML omitted -->
 <p>Well, to be honest: is <strong>not such a bad feeling&hellip;</strong></p>
 <p><a href="https://andreacirilloblog.files.wordpress.com/2015/09/giphy-1.gif"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/giphy-1.gif" alt="giphy (1)"></a></p>
 <h2 id="a-matter-of-packages">A matter of packages</h2>
@@ -95,10 +96,10 @@ I shared the <strong><a href="https://github.com/AndreaCirilloAC/ramazon">code o
 <p>In the following lines I would like to highlights <strong>some code specs</strong> that could be interesting for the R programmers.</p>
 <h2 id="how-ramazon-lists-loaded-packages">How ramazon lists loaded packages</h2>
 <p>This is how ramazon detects and installs al required packages.</p>
-<h3 id="broom-100httpsandreacirilloblogfileswordpresscom201509broom-100pnghttpsandreacirilloblogfileswordpresscom201509broom-100pngclean-the-r-environment"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/broom-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/broom-100.png" alt="Broom-100"></a>clean the R environment</h3>
+<h3 id="broom-100clean-the-r-environment"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/broom-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/broom-100.png" alt="Broom-100"></a>clean the R environment</h3>
 <p>using the <code>detach()</code> function, with no arguments, we are able to <strong>unload all loaded packages</strong>,</p>
 <p>Doing this, we can be sure that <strong>no unneeded package will be installed</strong> on the AWS server.</p>
-<h3 id="run-command-100httpsandreacirilloblogfileswordpresscom201509run-command-100pnghttpsandreacirilloblogfileswordpresscom201509run-command-100pngsource-the-app-r-files"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/run-command-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/run-command-100.png" alt="Run Command-100"></a>source the app .R files</h3>
+<h3 id="run-command-100source-the-app-r-files"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/run-command-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/run-command-100.png" alt="Run Command-100"></a>source the app .R files</h3>
 <p>with this step, ramazon <strong>run the app source files</strong> in order to <strong>load all required packages</strong> within the current R environment.</p>
 <p>Shiny apps can be written using:</p>
 <ul>
@@ -124,7 +125,7 @@ source(&ldquo;app.R&rdquo;)}
 source(&ldquo;global.R&rdquo;)
 }</p>
 <p>[/code]</p>
-<h3 id="data-sheet-100httpsandreacirilloblogfileswordpresscom201509data-sheet-100pnghttpsandreacirilloblogfileswordpresscom201509data-sheet-100pngstore-all-loaded-packages-within-a-dataframe"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/data-sheet-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/data-sheet-100.png" alt="Data Sheet-100"></a>store all loaded packages within a data.frame</h3>
+<h3 id="data-sheet-100store-all-loaded-packages-within-a-dataframe"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/data-sheet-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/data-sheet-100.png" alt="Data Sheet-100"></a>store all loaded packages within a data.frame</h3>
 <p>Now is time to get a list of all loaded packages.</p>
 <p>To get this done, We use the <strong><code>search()</code> function</strong>, assigning the output to a <strong>data.frame object</strong>.</p>
 <p>[code language=&ldquo;r&rdquo;]
@@ -144,7 +145,7 @@ environ &lt;- data.frame(&ldquo;envs&rdquo; = search(),stringsAsFactors = FALSE)
 9      package:base
 [/code]</p>
 <p>As you can see, <strong>there are</strong> <strong>some</strong> <strong>unneeded values</strong> (.GlobalEnv and Autoloads), and all packages are preceded by the &ldquo;package:&rdquo; wording. We are going to handle this within the next paragraph.</p>
-<h3 id="grid-100httpsandreacirilloblogfileswordpresscom201509grid-100pnghttpsandreacirilloblogfileswordpresscom201509grid-100pngclean-the-dataframe"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/grid-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/grid-100.png" alt="Grid-100"></a>clean the data.frame</h3>
+<h3 id="grid-100clean-the-dataframe"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/grid-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/grid-100.png" alt="Grid-100"></a>clean the data.frame</h3>
 <p>Leveraging the <code>grepl()</code> function <strong>ramazon removes all rows not containing &ldquo;package&rdquo;</strong>, excluding that way all non-package records:</p>
 <p>[code language=&ldquo;r&rdquo;]
 environ &lt;- environ[grepl(&ldquo;package&rdquo;,environ[,1]),]
@@ -153,7 +154,7 @@ environ &lt;- environ[grepl(&ldquo;package&rdquo;,environ[,1]),]
 <p>[code language=&ldquo;r&rdquo;]
 packages &lt;- gsub(&ldquo;package:&rdquo;,&quot;&quot;,environ)
 [/code]</p>
-<h3 id="source-code-100httpsandreacirilloblogfileswordpresscom201509source-code-100pnghttpsandreacirilloblogfileswordpresscom201509source-code-100pngwrite-the-system-command"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/source-code-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/source-code-100.png" alt="Source Code-100"></a>write the system command</h3>
+<h3 id="source-code-100write-the-system-command"><a href="https://andreacirilloblog.files.wordpress.com/2015/09/source-code-100.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/09/source-code-100.png" alt="Source Code-100"></a>write the system command</h3>
 <p>The main output of the <code>ramazon()</code> function, as explained in <strong><a href="https://andreacirilloblog.wordpress.com/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/">the previous post</a></strong>, is a bash script.</p>
 <p>in order to install all the required packages <strong>ramazon needs to create a system command</strong> similar to the following one:</p>
 <p>[code language=&ldquo;r&rdquo;]
@@ -234,7 +235,9 @@ s.setAttribute('data-timestamp', +new Date());
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+      
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
           </li>
           
         </ul>

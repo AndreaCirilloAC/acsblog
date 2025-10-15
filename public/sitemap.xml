@@ -310,13 +310,17 @@
   </url><url>
     <loc>/1/01/01/</loc>
   </url><url>
+    <loc>/1/01/01/</loc>
+  </url><url>
+    <loc>/untitled/</loc>
+  </url><url>
     <loc>/about/</loc>
   </url><url>
     <loc>/bookstack/</loc>
   </url><url>
-    <loc>/tags/contacts/</loc>
-  </url><url>
     <loc>/contacts/</loc>
+  </url><url>
+    <loc>/tags/contacts/</loc>
   </url><url>
     <loc>/bookstack/deep_work/</loc>
   </url><url>

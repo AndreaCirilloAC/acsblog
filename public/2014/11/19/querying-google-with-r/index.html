@@ -17,7 +17,9 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Un nuovo Taccuino" />
+
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
 
 
 
@@ -81,7 +83,6 @@
 <p>Feeling this way?</p>
 <p>[caption id=&ldquo;attachment_273&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;]<a href="https://www.flickr.com/photos/fdctsevilla/3986993934/in/photolist-7yt67z-75jooJ-8csRbm-8cpv3n-7yt69v-7yt4VV-83yhRB-838qAL-7yt5Le-7ywTEw"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/pain_el-bibliomata-e1415634103336.jpg?w=300" alt=""></a> &ldquo;Pain and fear, pain and fear for me&rdquo; - Oliver Twist[/caption]</p>
 <p>I was.</p>
-<!-- raw HTML omitted -->
 <p>Therefore, I have started developing a lean Shiny app, <strong>the <a href="https://andreacirillo.shinyapps.io/google_ranker_app">Google Ranker App</a></strong> that simply asks you for the website and the keyword, carrying on all the rest.</p>
 <p><a href="https://andreacirillo.shinyapps.io/google_ranker_app/"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/google_ranker_app_screenshot.png?w=300" alt="Google_Ranker_app_screenshot"></a></p>
 <h2 id="algorithm-specs"><strong>Algorithm specs</strong></h2>
@@ -89,7 +90,7 @@
 <p>_ _</p>
 <p>As all the Shiny Apps , the Google_ranker_app is based on <strong><a href="http://www.r-project.org/">R language</a>.</strong></p>
 <p>You  can download the whole reproducible R Studio Project using the button at the end of the post, but I would like to strikeout some of the algorithm components, giving a look to some details and the to the big picture:</p>
-<h3 id="search100httpsandreacirilloblogfileswordpresscom201411search100pngw300"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/search100.png?w=300" alt="search100"></h3>
+<h3 id="search100"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/search100.png?w=300" alt="search100"></h3>
 <p>querying google via URL</p>
 <p>the queryng job is done leveraging the getForm() function in the <strong><a href="http://www.omegahat.org/RCurl/">RCurl package</a></strong>:</p>
 <p>[code language=&ldquo;r&rdquo;]
@@ -101,7 +102,7 @@ ie=&ldquo;ISO-8859-1&rdquo;, q=gsub(&quot; &ldquo;,&quot;+&quot;,keyword), btnG=
 <p>[code language=&ldquo;r&rdquo;]
 web_page = htmlTreeParse(web_page)
 [/code]</p>
-<h3 id="httpsandreacirilloblogfileswordpresscom201411search100pnghttpsandreacirilloblogfileswordpresscom201411virtual2-e1415699518337png"><a href="https://andreacirilloblog.files.wordpress.com/2014/11/search100.png"> </a><img src="https://andreacirilloblog.files.wordpress.com/2014/11/virtual2-e1415699518337.png" alt=""></h3>
+<h3 id="heading"><a href="https://andreacirilloblog.files.wordpress.com/2014/11/search100.png"> </a><img src="https://andreacirilloblog.files.wordpress.com/2014/11/virtual2-e1415699518337.png" alt=""></h3>
 <p>handling error 302</p>
 <p>When I started developing the Google Ranker App, one of the first obstacles was the error 302: &ldquo;the document has moved to&hellip;[link]&rdquo;. The error was a message returned by google when I make some subsequent repetion of the query.</p>
 <p>Again, no official guide from Google is provided, but the error seems to be something related to repetitive query from the same IP, that let Google think you are some kind of robot.</p>
@@ -113,7 +114,7 @@ scan_result[(i/10)+1] = 200}
 <p>the grepl() function, from R base package, return a boolean value after looking for a pattern in a string.</p>
 <p>I used this function to look for &ldquo;302 Moved&rdquo; pattern in order to intercept the mentioned error, and distinguish it from the absence of the website on the SERP page.
 As you can see, in case the pattern is present, the scan_result object, at [(i/10)+1] index assume value 200. We will look to the purpose of scan_result  later, at <em>crafting an user-friendly output</em> paragraph.</p>
-<h3 id="visibility1httpsandreacirilloblogfileswordpresscom201411visibility1-e1415699646701pngw75h75crop1"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/visibility1-e1415699646701.png?w=75&amp;h=75&amp;crop=1" alt="visibility1"></h3>
+<h3 id="visibility1"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/visibility1-e1415699646701.png?w=75&amp;h=75&amp;crop=1" alt="visibility1"></h3>
 <p>evaluating the presence of the given website</p>
 <p>in order to evaluate the presence of the given website in the SERP, we use the grep() function, similar to the grepl() function but designed to obtain the matching index of the given pattern in the given string.</p>
 <p>[code language=&ldquo;r&rdquo;]
@@ -125,7 +126,7 @@ else
 rm(web_page)}}
 [/code]</p>
 <p>in case of match, the mentioned scan_result object , at the mentioned index, will assume value [(i/10)+1], in case of none-match it will assume value 100. Just look to the next paragph to see the reason why.</p>
-<h3 id="ic_extension_black_48dphttpsandreacirilloblogfileswordpresscom201411ic_extension_black_48dp-e1415715636345png"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/ic_extension_black_48dp-e1415715636345.png" alt="ic_extension_black_48dp"></h3>
+<h3 id="ic_"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/ic_extension_black_48dp-e1415715636345.png" alt="ic_extension_black_48dp"></h3>
 <p>Making things stick togheter: the serp_scanner function</p>
 <p>All of the code chunks reproduced togheter are included in a custom function: the serp_scanner() function:</p>
 <p>[code language=&ldquo;r&rdquo;]
@@ -161,7 +162,7 @@ the result of each cycle is assigned to the scan_result object, a vector of leng
 </li>
 </ul>
 <p>we are going to look to the reason why of those two last cases in the next paragraph.</p>
-<h3 id="user158httpsandreacirilloblogfileswordpresscom201411user158-e1415699777761png"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/user158-e1415699777761.png" alt="user158"></h3>
+<h3 id="user158"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/user158-e1415699777761.png" alt="user158"></h3>
 <p>Crafting an user friendly output.</p>
 <p>The result you see at point 4 in the Google Ranker App user interface, is crafted starting from the serp_scanner() result, for the website and keyword given by the user ( points 1 and 2).
 More precisely, the App looks for the minimum in the scan_result vector:</p>
@@ -197,7 +198,7 @@ else{ paste(&ldquo;the website appears on SERP page n&rdquo;,min( result),&ldquo
 <p>self-explaining, am I right?</p>
 <p>In order to obtain full understanding of the code you can download (for free) the whole R Studio project using the button below.</p>
 <p>If you found the Google Ranker App useful, you may be interested in <strong>other Shiny Apps I developed</strong> for <strong>analytics and productivity purposes</strong>. Find them out at <strong><a href="https://andreacirilloblog.wordpress.com/software/">software page</a></strong></p>
-<h4 id="download-the-r-studio-project-of-google-ranker-apphttpwwwevernotecomlafx1mdh7u7njsy2i95rwvbixfceff04mjbe"><a href="http://www.evernote.com/l/AFx1mdH7u7NJSY2i95RwVbIXfCEff04MjBE/">download the R studio project of Google Ranker App</a></h4>
+<h4 id="download-the-r-studio-project-of-google-ranker-app"><a href="http://www.evernote.com/l/AFx1mdH7u7NJSY2i95RwVbIXfCEff04MjBE/">download the R studio project of Google Ranker App</a></h4>
 <p>Icons made by <a href="http://www.google.com">Google</a> from <a href="http://www.flaticon.com">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
 
     </div>
@@ -242,7 +243,9 @@ s.setAttribute('data-timestamp', +new Date());
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+      
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
           </li>
           
         </ul>

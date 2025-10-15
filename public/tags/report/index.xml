@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>report on Un nuovo Taccuino</title>
+    <title>Report on Un nuovo Taccuino</title>
     <link>/tags/report/</link>
-    <description>Recent content in report on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Report on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/report/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/report/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing the paletteR Gallery </title>
       <link>/2019/11/26/introducing-the-paletter-gallery/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>/2019/11/26/introducing-the-paletter-gallery/</guid>
-      <description>celebrating beauty add your own masterpiece discover more about paletteR celebrating beauty PaletteR, the package that allows you to create an optimized palette from an image, has been staying around for nearly two years, and #rstats users have made a lot of great stuff with it. I had therefore took the time to collect what I have found around the web, just to celebrate this beauty. You can find them below in a slideshow.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#celebrating-beauty&#34;&gt;celebrating beauty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#add-your-own-masterpiece&#34;&gt;add your own masterpiece&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#discover-more-about-paletter&#34;&gt;discover more about paletteR&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div id=&#34;celebrating-beauty&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;celebrating beauty&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/AndreaCirilloAC/paletter&#34;&gt;PaletteR&lt;/a&gt;, the package that allows you to create an optimized palette from an image, has been staying around for nearly two years, and #rstats users have made a lot of great stuff with it. I had therefore took the time to collect what I have found around the web, just to celebrate this beauty. You can find them below in a slideshow.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>a quick ride on pagedown: create PDFs from Rmarkdown </title>
       <link>/2019/01/27/a-quick-ride-on-pagedown-create-pdf-from-rmarkdown/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>/2019/01/27/a-quick-ride-on-pagedown-create-pdf-from-rmarkdown/</guid>
-      <description>Do we really need a package like pagedown? installing pagedown selecting the preferred template filling in and rendering the template finally obtaining the desired PDF file my suggestions for improvements I recently came across the good talk by the always good Yiuhi Xie at the Rstudio conference about Pagedown. You can see it by yourself reaching out the rstudio website or clicking the image below:
-Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build beautiful PDFs documents from our beloved Rmarkdown.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#do-we-really-need-a-package-like-pagedown&#34;&gt;Do we really need a package like pagedown?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#installing-pagedown&#34;&gt;installing pagedown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#selecting-the-preferred-template&#34;&gt;selecting the preferred template&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#filling-in-and-rendering-the-template&#34;&gt;filling in and rendering the template&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#finally-obtaining-the-desired-pdf-file&#34;&gt;finally obtaining the desired PDF file&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#my-suggestions-for-improvements&#34;&gt;my suggestions for improvements&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;I recently came across the good talk by the always good Yiuhi Xie at the Rstudio conference about Pagedown.&#xA;You can see it by yourself reaching out the rstudio website or clicking the image below:&lt;/p&gt;&#xA;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css&#34; &gt;&#xA;&lt;figure class=&#34;post_image&#34;&gt;&#xA;&lt;img src=&#34;/images/pagedown/yuhi.png&#34;  alt=&#34;pagedown&#34; style=&#34;width: 400px;&#34;/&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build beautiful PDFs documents from our beloved Rmarkdown.&#xA;More precisely it takes Rmarkdown files and render them into html files already “paged” and ready to be saved/converted into PDF.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>contacts on Un nuovo Taccuino</title>
+    <title>Contacts on Un nuovo Taccuino</title>
     <link>/tags/contacts/</link>
-    <description>Recent content in contacts on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/contacts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Contacts on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/contacts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>contacts</title>
       <link>/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/contacts/</guid>
-      <description>I do not have a general purposes email ( I actually used to have one but it got irredeemably full of spam) but I carefully crafted three main channels to get exposed to all relevant and promising opportunities.
-You can find them below:
-Proposals of Blog Post/Speaches author at andreacirillo.com
-Collaboration proposals you can use my linkedin profile to get in touch with me for proposals of every kind of collaboration, either requesting to connect or sending inmail messages: linkedin profile</description>
+      <description>&lt;p&gt;I do not have a general purposes email ( I actually used to have one but it got irredeemably full of spam) but I carefully &lt;strong&gt;crafted three main channels&lt;/strong&gt; to get exposed to all relevant and promising opportunities.&lt;/p&gt;&#xA;&lt;p&gt;You can find them below:&lt;/p&gt;&#xA;&lt;div id=&#34;proposals-of-blog-postspeaches&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;Proposals of Blog Post/Speaches&lt;/h3&gt;&#xA;&lt;p&gt;author &lt;em&gt;at&lt;/em&gt; andreacirillo.com&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;collaboration-proposals&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;Collaboration proposals&lt;/h3&gt;&#xA;&lt;p&gt;you can use my linkedin profile to get in touch with me for proposals of every kind of collaboration, either requesting to connect or sending inmail messages:&#xA;&lt;a href=&#34;https://www.linkedin.com/in/cirilloandrea/&#34;&gt;linkedin profile&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

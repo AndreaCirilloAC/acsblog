@@ -17,7 +17,9 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Un nuovo Taccuino" />
+
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
 
 
 
@@ -84,7 +86,6 @@
 <p><a href="http://ctt.ec/q3j4X"><img src="http://clicktotweet.com/img/tweet-graphic-4.png" alt="Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+"></a><!-- raw HTML omitted --></p>
 <p><a href="http://www.acfe.com/rttn/images/cost-of-fraud-infographic.pdf"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/2015-07-01-14_00_34-www-acfe-com_rttn_images_cost-of-fraud-infographic-pdf.png" alt="ACFE Infographic: typical organization loses 5% of their revenues for fraud"></a></p>
 <p>Projecting this number for the whole world GDP, it results that the &ldquo;<strong>fraud</strong>-country&rdquo; produces something like a <strong>GDP 3 times greater than the Canadian GDP</strong>.</p>
-<!-- raw HTML omitted -->
 <p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-2.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-2.png" alt="Fraud GDP account 3X times Canadian GDP"></a></p>
 <p>No surprise than if <strong>companies and scholars</strong> are increasingly <strong>looking for way to prevent fraud</strong> and spot it when it occurs.</p>
 <p>Particularly flourishing is the <strong>interest</strong> in methods and <strong>mathematical models</strong> useful for <strong>fraud detection</strong>, i.e. fraud analytics models.</p>
@@ -159,7 +160,7 @@
 <p>Afraus knows that, and uses it to understand how &lsquo;clean&rsquo; is the population of data considered, assigning a <strong>score from 1 to 100</strong> proportionate to the <strong>significant deviation</strong> from the expected frequency of the given digit. A 0 score is assigned to those records with no significant deviation.</p>
 <p>Before moving on I have to mention <strong>some cautions</strong> that you need to use when applying Benford&rsquo;s Law:</p>
 <p>as stated by **<a href="http://faculty.usfsp.edu/gkearns/Articles_Fraud/Benford%20Analysis%20Article.pdf">Durtschi, Hillison and Pacini</a> **not all kind of population are suitable to be tested using Benford&rsquo;s Law, and even when they are, it is not obvious that they will comply with the Law, as clearly showed from professor <strong><a href="http://www.statlit.org/pdf/2013-Goodman-ASA.pdf">Goodman </a></strong>.</p>
-<h2 id="histogram-representing-a-typical-benford-testhttpsandreacirilloblogfileswordpresscom201507benfordpngw300httpsandreacirilloblogfileswordpresscom201507benfordpng"><a href="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png?w=300" alt="histogram representing a typical Benford Test"></a></h2>
+<h2 id="histogram-representing-a-typical-benford-test"><a href="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/benford.png?w=300" alt="histogram representing a typical Benford Test"></a></h2>
 <h2 id="control-chart">Control Chart</h2>
 <p>Control charts are mainly known as a reliable tool for statistical process control.</p>
 <p>Those kind of models derive from data <strong>a center line, an upper and a lower bound</strong>, highlighting as &lsquo;<strong>out of control&rsquo; all records out of those limits</strong>.</p>
@@ -178,7 +179,7 @@
 <p><a href="https://andreacirilloblog.files.wordpress.com/2015/07/image-5.png"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/image-5.png" alt="afraus score design"></a></p>
 <h2 id="how-can-i-give-it-a-try">How can I give it a try?</h2>
 <p>If you are interested in <strong>testing the algorithm</strong> I have developed a nice <strong>web application</strong>, based on <strong><a href="http://shiny.rstudio.com">Shiny</a></strong>, named Afraus:</p>
-<h4 id="try-the-afraus-web-apphttpsafrausshinyappsioafraus_app"><a href="https://afraus.shinyapps.io/Afraus_app">try the Afraus web app</a></h4>
+<h4 id="try-the-afraus-web-app"><a href="https://afraus.shinyapps.io/Afraus_app">try the Afraus web app</a></h4>
 <p><a href="https://afraus.shinyapps.io/Afraus_app"><img src="https://andreacirilloblog.files.wordpress.com/2015/07/immagine1.png" alt="afraus_web_app"></a></p>
 <p>Using the Afraus web application you can <strong>test the algorithm with your own custom data,</strong> and give a look to the results into details.</p>
 <p>Of course, I have <strong>already done some test</strong> on real data, and I am going to show you the <strong>results in the next paragraph</strong>.</p>
@@ -248,7 +249,9 @@ s.setAttribute('data-timestamp', +new Date());
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+      
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
           </li>
           
         </ul>

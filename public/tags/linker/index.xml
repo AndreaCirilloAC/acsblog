@@ -4,18 +4,16 @@
     <title>Linker on Un nuovo Taccuino</title>
     <link>/tags/linker/</link>
     <description>Recent content in Linker on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2014 15:10:34 +0000</lastBuildDate><atom:link href="/tags/linker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Dec 2014 15:10:34 +0000</lastBuildDate>
+    <atom:link href="/tags/linker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network Visualisation With R</title>
       <link>/2014/12/05/network-visualisation-in-r/</link>
       <pubDate>Fri, 05 Dec 2014 15:10:34 +0000</pubDate>
-      
       <guid>/2014/12/05/network-visualisation-in-r/</guid>
-      <description>The main reason why After all, I am still an Internal Auditor. Therefore I often face one of the typical internal auditors problems: understand links between people and companies, in order to discover the existence of hidden communities that could expose the company to unknown risks.
-the solution: linker In order to address this problem I am developing Linker, a lean shiny app that take 1 to 1 links as an input and gives as output a network map:</description>
+      <description>&lt;h3 id=&#34;the-main-reason-why&#34;&gt;The main reason why&lt;/h3&gt;&#xA;&lt;p&gt;After all,&lt;a href=&#34;it.linkedin.com/in/cirilloandrea/&#34;&gt; I am still an Internal Auditor&lt;/a&gt;. Therefore I often face one of the typical &lt;strong&gt;internal auditors problems&lt;/strong&gt;: understand links between people and companies, in order to &lt;strong&gt;discover&lt;/strong&gt; the existence of &lt;strong&gt;hidden communities&lt;/strong&gt; that could expose the company to &lt;strong&gt;unknown risks&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-solution-linker&#34;&gt;the solution: linker&lt;/h3&gt;&#xA;&lt;p&gt;In order to address this problem I am developing &lt;strong&gt;&lt;a href=&#34;https://andreacirillo.shinyapps.io/linker/&#34;&gt;Linker&lt;/a&gt;&lt;/strong&gt;, a &lt;a href=&#34;https://andreacirillo.shinyapps.io/linker/&#34;&gt;&lt;strong&gt;lean shiny app&lt;/strong&gt;&lt;/a&gt; that take 1 to 1 links as an input and gives as output a &lt;strong&gt;network map&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>excel spreadsheet on Un nuovo Taccuino</title>
+    <title>Excel Spreadsheet on Un nuovo Taccuino</title>
     <link>/tags/excel-spreadsheet/</link>
-    <description>Recent content in excel spreadsheet on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Excel Spreadsheet on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Oct 2014 13:02:25 +0000</lastBuildDate><atom:link href="/tags/excel-spreadsheet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Oct 2014 13:02:25 +0000</lastBuildDate>
+    <atom:link href="/tags/excel-spreadsheet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>download data to excel from web</title>
       <link>/2014/10/28/download-data-to-excel-from-web/</link>
       <pubDate>Tue, 28 Oct 2014 13:02:25 +0000</pubDate>
-      
       <guid>/2014/10/28/download-data-to-excel-from-web/</guid>
-      <description>This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
-Download data into excel select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;from web&amp;rdquo; input the desidered web URL click &amp;ldquo;go&amp;rdquo; button **select **data you want to download click &amp;ldquo;import&amp;rdquo; button Refresh downloaded data select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
+      <description>&lt;p&gt;This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.&lt;/p&gt;&#xA;&lt;h2 id=&#34;download-data-into-excel&#34;&gt;Download data into excel&lt;/h2&gt;&#xA;&lt;h3 id=&#34;selectdata-tab&#34;&gt;&lt;strong&gt;select&lt;/strong&gt; &amp;ldquo;data&amp;rdquo; tab&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image1.png?w=300&#34; alt=&#34;download data in excel&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;selectfrom-web&#34;&gt;&lt;strong&gt;select&lt;/strong&gt; &amp;ldquo;from web&amp;rdquo;&lt;/h3&gt;&#xA;&lt;p&gt; &lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-2.png?w=300&#34; alt=&#34;from web selection&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;input-the-desidered-weburl&#34;&gt;&lt;strong&gt;input&lt;/strong&gt; the desidered web URL&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-3.png?w=300&#34; alt=&#34;input web URL&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;clickgo-button&#34;&gt;&lt;strong&gt;click&lt;/strong&gt; &amp;ldquo;go&amp;rdquo; button&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-5.png?w=300&#34; alt=&#34;go button click&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;select-data-you-want-to-download&#34;&gt;**select **data you want to download&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-4.png?w=300&#34; alt=&#34;data selection&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;clickimport-button&#34;&gt;&lt;strong&gt;click&lt;/strong&gt; &amp;ldquo;import&amp;rdquo; button&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-6.png?w=300&#34; alt=&#34;import button click&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;refresh-downloaded-data&#34;&gt;Refresh downloaded data&lt;/h2&gt;&#xA;&lt;h3 id=&#34;selectdata-tab-1&#34;&gt;&lt;strong&gt;select&lt;/strong&gt; &amp;ldquo;data&amp;rdquo; tab&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-9.png?w=300&#34; alt=&#34;Image [9]&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>excel right() function in R</title>
       <link>/2014/10/27/excel-right-function-in-r/</link>
       <pubDate>Mon, 27 Oct 2014 05:29:15 +0000</pubDate>
-      
       <guid>/2014/10/27/excel-right-function-in-r/</guid>
-      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel right() function in th R language. Feel free to copy and use it.
-[code language=&amp;ldquo;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
-you can find other function in the Excel functions in R post.</description>
+      <description>&lt;p&gt;as part of the** &lt;a href=&#34;http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/&#34;&gt;excel functions in R&lt;/a&gt;,** I have developed this custom function, reproducing the excel &lt;em&gt;right()&lt;/em&gt; function in th R language. Feel free to copy and use it.&lt;/p&gt;&#xA;&lt;p&gt;[code language=&amp;ldquo;r&amp;rdquo;]&#xA;right = function (string, char){&#xA;substr(string,nchar(string)-(char-1),nchar(string))}&#xA;[/code]&lt;/p&gt;&#xA;&lt;p&gt;you can find other function in the &lt;strong&gt;&lt;a href=&#34;http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/&#34;&gt;Excel functions in R post&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>excel functions in R</title>
       <link>/2014/10/25/excel-functions-in-r/</link>
       <pubDate>Sat, 25 Oct 2014 22:36:08 +0000</pubDate>
-      
       <guid>/2014/10/25/excel-functions-in-r/</guid>
-      <description>I have started my &amp;ldquo;data-journey&amp;rdquo; from Excel, getting excited by formulas like VLookup(), right() and left().
-then datasets got bigger, and I discovered that little spreadsheets were not enough, and look for something bigger and stronger, eventually coming to R.
-But as you know, ones never forget the first love.
-So, for fun and for practice, I have written down some of excel functions in R.
-I hope you will enjoy.</description>
+      <description>&lt;p&gt;I have started my &amp;ldquo;data-journey&amp;rdquo; from Excel, getting excited by formulas like VLookup(), right() and left().&lt;/p&gt;&#xA;&lt;p&gt;then datasets got bigger, and I discovered that little spreadsheets were not enough, and look for something bigger and stronger, eventually coming to R.&lt;/p&gt;&#xA;&lt;p&gt;But as you know, &lt;strong&gt;&lt;a href=&#34;http://youtu.be/KAImMLplrPI&#34;&gt;ones never forget the first love&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;So, for fun and for practice, I have written down some of excel functions in R.&lt;/p&gt;&#xA;&lt;p&gt;I hope you will enjoy.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

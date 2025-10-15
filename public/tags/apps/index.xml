@@ -1,72 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>apps on Un nuovo Taccuino</title>
+    <title>Apps on Un nuovo Taccuino</title>
     <link>/tags/apps/</link>
-    <description>Recent content in apps on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Apps on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate><atom:link href="/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
+    <atom:link href="/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
       <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
       <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
-      
       <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
-      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
-changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
-became dad for the third time (and if you are guessing, it’s a boy!</description>
+      <description>&lt;p&gt;Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january.&lt;strong&gt;..&lt;/strong&gt; you may be wondering: what have you done along this long time? Well, quite a lot indeed:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;changed my job&lt;/strong&gt; ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;became dad&lt;/strong&gt; for the third time (and if you are guessing, it’s a boy!)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>how to list loaded packages in R: ramazon gets cleaver</title>
       <link>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
       <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
-      
       <guid>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
-      <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
-In the next hours things got growing by themselves, with pleasant results like the following:
-https://twitter.com/DoodlingData/status/635057258888605696
-The R community found ramazon a really helpful package.
-And I actually think it is: Amazon AWS is nowadays one of the most common tools for online web applications and websites hosting.</description>
+      <description>&lt;p&gt;It &lt;strong&gt;was&lt;/strong&gt; around &lt;strong&gt;midnight&lt;/strong&gt; here &lt;strong&gt;in Italy&lt;/strong&gt;:&#xA;I shared the &lt;strong&gt;&lt;a href=&#34;https://github.com/AndreaCirilloAC/ramazon&#34;&gt;code on Github&lt;/a&gt;&lt;/strong&gt;, published a post on G+, Linkedin and Twitter and then &lt;strong&gt;went to bed&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In the next hours things got growing by themselves, with pleasant results like the following:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://twitter.com/DoodlingData/status/635057258888605696&#34;&gt;https://twitter.com/DoodlingData/status/635057258888605696&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The R community found &lt;strong&gt;ramazon&lt;/strong&gt; a really &lt;strong&gt;helpful package&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;And I actually think it is: &lt;strong&gt;Amazon AWS&lt;/strong&gt; is nowadays one of the &lt;strong&gt;most common&lt;/strong&gt; tools for online &lt;strong&gt;web applications&lt;/strong&gt; and &lt;strong&gt;websites hosting.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
       <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
       <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
-      
       <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
-      <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
-on average, fraud accounts for nearly the 5% of companies revenues
-Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.
-No surprise than if companies and scholars are increasingly looking for way to prevent fraud and spot it when it occurs.</description>
+      <description>&lt;p&gt;The last &lt;strong&gt;&lt;a href=&#34;http://www.acfe.com/rttn-summary.aspx&#34;&gt;Report to the Nation published by ACFE&lt;/a&gt;&lt;/strong&gt;, stated that on average, &lt;strong&gt;fraud&lt;/strong&gt; accounts for nearly the &lt;strong&gt;5% of companies revenues&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;on average, fraud accounts for nearly the 5% of companies revenues&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://ctt.ec/q3j4X&#34;&gt;&lt;img src=&#34;http://clicktotweet.com/img/tweet-graphic-4.png&#34; alt=&#34;Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+&#34;&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.acfe.com/rttn/images/cost-of-fraud-infographic.pdf&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2015/07/2015-07-01-14_00_34-www-acfe-com_rttn_images_cost-of-fraud-infographic-pdf.png&#34; alt=&#34;ACFE Infographic: typical organization loses 5% of their revenues for fraud&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Projecting this number for the whole world GDP, it results that the &amp;ldquo;&lt;strong&gt;fraud&lt;/strong&gt;-country&amp;rdquo; produces something like a &lt;strong&gt;GDP 3 times greater than the Canadian GDP&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to add a live chat to your Shiny app</title>
       <link>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</link>
       <pubDate>Mon, 11 May 2015 21:08:48 +0000</pubDate>
-      
       <guid>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
-      <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&amp;rsquo;t be great to add live chat support to my Web Application visitors?
-It would indeed!
-[caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]
-But how to do it?
-Unfortunately, looking on Google didn&amp;rsquo;t give any useful result.</description>
+      <description>&lt;p&gt;As I am currently working on a &lt;strong&gt;&lt;a href=&#34;https://github.com/AndreaCirilloAC/Afraus&#34;&gt;Fraud Analytics Web Application&lt;/a&gt;&lt;/strong&gt; based on Shiny (currently on beta version, more later on this blog) I found myself asking: &lt;strong&gt;wouldn&amp;rsquo;t be great to add live chat support&lt;/strong&gt; to my Web Application visitors?&lt;/p&gt;&#xA;&lt;p&gt;It would indeed!&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;]&lt;a href=&#34;https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png?w=300&#34; alt=&#34;an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474&#34;&gt;&lt;/a&gt; an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Querying Google With R</title>
       <link>/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
-      
       <guid>/2014/11/19/querying-google-with-r/</guid>
-      <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
-Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
-Feeling this way?
-[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
+      <description>&lt;p&gt;If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.&lt;/p&gt;&#xA;&lt;p&gt;Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.&lt;/p&gt;&#xA;&lt;p&gt;Feeling this way?&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;a href=&#34;https://www.flickr.com/photos/fdctsevilla/3986993934/in/photolist-7yt67z-75jooJ-8csRbm-8cpv3n-7yt69v-7yt4VV-83yhRB-838qAL-7yt5Le-7ywTEw&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/11/pain_el-bibliomata-e1415634103336.jpg?w=300&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

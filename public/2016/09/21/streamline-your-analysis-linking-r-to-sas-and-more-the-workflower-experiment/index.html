@@ -17,7 +17,9 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Un nuovo Taccuino" />
+
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
 
 
 
@@ -80,7 +82,6 @@
 
     <div class="article-content">
       <p>we all know <strong>R</strong> is the <strong>first choice</strong> for <strong>statistical analysis</strong> and data visualisation, but what about <strong>big data munging</strong>? <a href="https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0/">tidyverse</a> (or we&rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is <strong>often the case</strong> this kind of activities being handled from some <strong>other coding language</strong>. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .dta .xpt and other). So let’s assume you are <strong>an R enthusiast</strong> like I am, and you do <strong>with R all of your work</strong>, reporting included, wouldn’t be great to have <strong>some</strong> nitty gritty <strong>way to merge</strong> together all these <strong>languages in a streamlined workflow?</strong></p>
-<!-- raw HTML omitted -->
 <p>Yes, we all know <strong>great products</strong> like <strong>microsoft Azure and sas viya</strong>, but you know what? They <strong>don’t come free</strong>, and this can sometime become an obstacle. Moreover all of them involve some kind of <strong>sophisticated setup</strong> to go trough. But what if we could reach some <strong>useful results</strong> just leveraging <strong>a useful r package and a cleaver setup</strong>? We actually can do this and I’ll show you how within coming paragraphs.</p>
 <h2 id="the-main-character-rio-package">the main character: rio package</h2>
 <p>I met rio package some years ago, and since then, I never stopped using it. What <strong>rio package</strong> basically does is <strong>automagically guessing the file type you are trying to import</strong> and subsequently calling the proper function to effectively import within your R workspace. All you have to do is <strong>running the <em>import()</em> function</strong>, enclosing in brackets the complete path to your data file, or relative path if within your working directory. be sure to include file extension within the path string.</p>
@@ -191,7 +192,9 @@ s.setAttribute('data-timestamp', +new Date());
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+      
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
           </li>
           
         </ul>

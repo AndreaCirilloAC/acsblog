@@ -17,7 +17,9 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Un nuovo Taccuino" />
+
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
 
 
 
@@ -81,12 +83,11 @@
 <h3 id="the-solution-linker">the solution: linker</h3>
 <p>In order to address this problem I am developing <strong><a href="https://andreacirillo.shinyapps.io/linker/">Linker</a></strong>, a <a href="https://andreacirillo.shinyapps.io/linker/"><strong>lean shiny app</strong></a> that take 1 to 1 links as an input and gives as output a <strong>network map</strong>:</p>
 <p>[caption id=&ldquo;attachment_324&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;]<a href="https://andreacirillo.shinyapps.io/linker/"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/the-linker.png?w=300" alt="the Linker"></a> click the picture to reach the app[/caption]</p>
-<!-- raw HTML omitted -->
 <p>**<a href="https://andreacirillo.shinyapps.io/linker/">Linker</a> **is packed with a demo network, but you can easily load your dataset following the tutorial below.</p>
 <p><img src="https://andreacirilloblog.files.wordpress.com/2014/12/network.png?w=300" alt="network"></p>
 <h3 id="how-to-use-linker--and-some-code-specs">how to use linker ( and some code specs)</h3>
 <p>the one that follow is a tutorial with some focus on code, if you are interested in giving a look to the full reprocudibile Rstudio project, I make it available at the end of the post.</p>
-<h3 id="decribing-datahttpsandreacirilloblogfileswordpresscom201412view12-e1417793436708png-describing-data"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/view12-e1417793436708.png" alt="decribing data"> describing data</h3>
+<h3 id="decribing-data-describing-data"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/view12-e1417793436708.png" alt="decribing data"> describing data</h3>
 <p><a href="https://andreacirillo.shinyapps.io/linker/"><strong>Linker</strong></a> is only able to read <strong>.csv datasets</strong>, structured as <strong>&ldquo;hedge-to-hedge&rdquo; tables.</strong></p>
 <p>This mean you will have to create a two-column table, having on each row a link.</p>
 <p>For instance, suppose A is linked with B, C is linked with A and B is linked with D; this will be your dataset:</p>
@@ -100,16 +101,13 @@
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>be sure to <strong>set &ldquo;;&rdquo; as a separator</strong> in your .csv file.</p>
-<h3 id="upload119httpsandreacirilloblogfileswordpresscom201412upload119-e1417793516892png-loading-data"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/upload119-e1417793516892.png" alt="upload119"> loading data</h3>
+<h3 id="upload119-loading-data"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/upload119-e1417793516892.png" alt="upload119"> loading data</h3>
 <p>using the &rsquo;load file&rsquo; control you can choose the dataset to load.</p>
 <p><img src="https://andreacirilloblog.files.wordpress.com/2014/12/screenclip.png" alt="ScreenClip"></p>
-<h3 id="circles23httpsandreacirilloblogfileswordpresscom201412circles23-e1417793559403png-connecting-dots"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/circles23-e1417793559403.png" alt="circles23"> connecting dots</h3>
+<h3 id="circles23-connecting-dots"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/circles23-e1417793559403.png" alt="circles23"> connecting dots</h3>
 <p>Linker leverages the great features builted in the **<a href="http://cran.r-project.org/web/packages/linkcomm">linkComm package </a>**by Alex T. Kalinka and Alain Guenoche .</p>
 <p>Therefore, the first step required is to create a <strong>linkComm object</strong>, containing the network map and informations about founded communities.</p>
 <p>This object is obtained through the <strong>getLinksCommunities()</strong> function. This function takes your dataset as an input and, applying a clustering method, gives as an output the network map aggregated by community.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 <p>[code language=&ldquo;r&rdquo;]
 links_graph &lt;- getLinkCommunities(links_file(),hcmethod=&ldquo;mcquitty&rdquo;,
 use.all.edges = TRUE)
@@ -123,13 +121,13 @@ use.all.edges = TRUE)
 <p>the parameter <strong>use.all.edges</strong> is set to <strong>TRUE</strong> in order to show in the network all member of your networks.</p>
 </li>
 </ul>
-<h3 id="round51httpsandreacirilloblogfileswordpresscom201412round51-e1417793538897png-plotting-the-map"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/round51-e1417793538897.png" alt="round51"> Plotting the map</h3>
+<h3 id="round51-plotting-the-map"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/round51-e1417793538897.png" alt="round51"> Plotting the map</h3>
 <p>as soon as Linker creates the getLinkCommunities object, it will return, in the&quot;network map&quot; area, a visual representation of your network.</p>
 <p>the default graph is the <strong>spencer circle,</strong> a graph developed by Rob Spencer starting from a 2010 <a href="http://arxiv.org/abs/0903.3178">paper by Yong-Yeol Ahn , James P. Bagrow and Sune Lehmann .</a></p>
 <p>If you prefer, you can change the graphing layout  to circle.</p>
 <p><img src="https://andreacirilloblog.files.wordpress.com/2014/12/screenclip-2.png" alt="graph type choice"></p>
 <p>I think this second way is a bit more clearer, even if is not as impacting as the Spencer Circle.</p>
-<h3 id="search100httpsandreacirilloblogfileswordpresscom201412graduate32-e1417793548346png-advanced-topics"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/graduate32-e1417793548346.png" alt="search100"> Advanced topics</h3>
+<h3 id="search100-advanced-topics"><img src="https://andreacirilloblog.files.wordpress.com/2014/12/graduate32-e1417793548346.png" alt="search100"> Advanced topics</h3>
 <h4 id="highligthing-most-relevant-subjects">highligthing most relevant subjects</h4>
 <p>not all the subjects in your network have got the same relevance. If you want to <strong>focus</strong> just on the <strong>most influent subjects,</strong> you can use the &ldquo;number of communities&rdquo; option.</p>
 <p>This option lets you focus on subjects being part of** at least n communities**, starting from one to infinite.</p>
@@ -153,7 +151,7 @@ clusterids = c(as.numeric(input$selected_communities))
 <p>if you want to export your map, just right-click on the map and select &ldquo;save image&rdquo;.</p>
 <h3 id="the-rstudio-project">the Rstudio Project.</h3>
 <p>to download the full project, just click the button below.</p>
-<h4 id="download-the-linker-r-studio-project-apphttpswwwevernotecomlafztyudnrevbrakecs6qa60eddl7ovgkvc4"><a href="https://www.evernote.com/l/AFztyUdNreVBRaKECS6QA60eddL7OvgKVc4">download the Linker R studio project App</a></h4>
+<h4 id="download-the-linker-r-studio-project-app"><a href="https://www.evernote.com/l/AFztyUdNreVBRaKECS6QA60eddL7OvgKVc4">download the Linker R studio project App</a></h4>
 <p>If you found Linker useful, you may be interested in <strong>other Shiny Apps I developed</strong> for <strong>analytics and productivity purposes</strong>. Find them out at <strong><a href="https://andreacirilloblog.wordpress.com/software/">software page</a></strong></p>
 <p>Icons made by <a href="http://www.google.com">Google</a> from <a href="http://www.flaticon.com">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p>
 
@@ -199,7 +197,9 @@ s.setAttribute('data-timestamp', +new Date());
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+      
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
           </li>
           
         </ul>

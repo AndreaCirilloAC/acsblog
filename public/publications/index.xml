@@ -4,39 +4,29 @@
     <title>pubblications on Un nuovo Taccuino</title>
     <link>/publications/</link>
     <description>Recent content in pubblications on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>paletter speech</title>
       <link>/publications/paletter_speech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/publications/paletter_speech/</guid>
-      <description>On november 20th 2018 I was requested to make a keynote speech at the 9th MilanoR meeting, the most relevant italian meeting of R users.
-The main topic of the speech was one of my last coding fatigues: the Paletter package, a new R package able to derive an optimised colour palette from any kind of image.
-You can also find a kind reportage of the evening directly on the official MilanoR blog, and the full deck of slides online.</description>
+      <description>&lt;p&gt;On november 20th 2018 I was requested to &lt;strong&gt;make a keynote speech&lt;/strong&gt; at the &lt;strong&gt;9th MilanoR meeting&lt;/strong&gt;, the most relevant &lt;strong&gt;italian meeting of R users&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The main topic of the speech was one of my last coding fatigues: &lt;strong&gt;the &lt;a href=&#34;https://github.com/AndreaCirilloAC/paletter&#34;&gt;Paletter&lt;/a&gt; package&lt;/strong&gt;, a new R package able to &lt;strong&gt;derive&lt;/strong&gt; an optimised &lt;strong&gt;colour palette&lt;/strong&gt; from &lt;strong&gt;any&lt;/strong&gt; kind of &lt;strong&gt;image&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/NIVUOm5aFOA?start=1450&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&#xA;&lt;/iframe&gt;&#xA;&lt;p&gt;You can also find a kind reportage of the evening directly on the official &lt;a href=&#34;http://www.milanor.net/blog/9th-milanor-dataviz-presentations-photos/&#34;&gt;MilanoR blog&lt;/a&gt;, and the full &lt;a href=&#34;http://www.milanor.net/blog/wp-content/uploads/2017/12/paletter-Cirillo-1.pdf&#34;&gt;deck of slides online&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>R data mining</title>
       <link>/publications/featured_book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/publications/featured_book/</guid>
-      <description>R data mining is a data mining crime book, a new kind of book we developed with good guys at Packt and the great statistician Enrico Pegoraro.
-What is a data mining crime book? It is a book stuctured to teach you data mining fundamentals while immersing you in a crime case.
-Within R data mining you will be immersed into the life of a wholesale company, where suddenly a misterious drop in profits arises.</description>
+      <description>&lt;p&gt;&lt;strong&gt;R data mining&lt;/strong&gt; is a &lt;strong&gt;data mining crime book&lt;/strong&gt;, a new kind of book we developed with good guys at Packt and the great statistician Enrico Pegoraro.&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;What is a data mining crime book? It is a book stuctured to &lt;strong&gt;teach you data mining&lt;/strong&gt; fundamentals &lt;strong&gt;while immersing&lt;/strong&gt; you &lt;strong&gt;in a crime case&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Within R data mining you will be immersed into the life of a wholesale company, where suddenly a misterious drop in profits arises. You will be then caught into the&#xA;analyses performed to discover where this drop comes from and why.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rstudio for R Statistical computing Cookbook</title>
       <link>/publications/rstudio_cookbook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/publications/rstudio_cookbook/</guid>
-      <description>Rstudio for R Statistical computing Cookbook is an useful contribution to the R community, and especially for those just starting off with R.
-The book is a concentrated of recipes targeted to the average R user to get him from being in the mean to the become an outlier. Aside from statistical analogies, this book provides recipes to perform relevant activities within all phases of data analysis projects, and literally:</description>
+      <description>&lt;p&gt;&lt;strong&gt;Rstudio for R Statistical computing Cookbook&lt;/strong&gt; is an useful contribution to the R community, and especially for those just starting off with R.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://amzn.to/2VijOAK&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2016/05/rstudio-for-r-statistical-computing-cookbook_cover.png&#34; alt=&#34;rstudio r statistical computing cookbook cover. over 50 practical and useful recipes to help you perform data analysis with R by unleashing every native rstudio feature&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The book is a concentrated of recipes targeted to the average R user to get him from being in the mean to the become an outlier. Aside from statistical analogies, this book provides recipes to perform relevant activities within all phases of data analysis projects, and literally:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

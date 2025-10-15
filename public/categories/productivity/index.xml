@@ -1,71 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>productivity on Un nuovo Taccuino</title>
+    <title>Productivity on Un nuovo Taccuino</title>
     <link>/categories/productivity/</link>
-    <description>Recent content in productivity on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Productivity on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>a quick ride on pagedown: create PDFs from Rmarkdown </title>
       <link>/2019/01/27/a-quick-ride-on-pagedown-create-pdf-from-rmarkdown/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>/2019/01/27/a-quick-ride-on-pagedown-create-pdf-from-rmarkdown/</guid>
-      <description>Do we really need a package like pagedown? installing pagedown selecting the preferred template filling in and rendering the template finally obtaining the desired PDF file my suggestions for improvements I recently came across the good talk by the always good Yiuhi Xie at the Rstudio conference about Pagedown. You can see it by yourself reaching out the rstudio website or clicking the image below:
-Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build beautiful PDFs documents from our beloved Rmarkdown.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#do-we-really-need-a-package-like-pagedown&#34;&gt;Do we really need a package like pagedown?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#installing-pagedown&#34;&gt;installing pagedown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#selecting-the-preferred-template&#34;&gt;selecting the preferred template&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#filling-in-and-rendering-the-template&#34;&gt;filling in and rendering the template&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#finally-obtaining-the-desired-pdf-file&#34;&gt;finally obtaining the desired PDF file&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#my-suggestions-for-improvements&#34;&gt;my suggestions for improvements&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;I recently came across the good talk by the always good Yiuhi Xie at the Rstudio conference about Pagedown.&#xA;You can see it by yourself reaching out the rstudio website or clicking the image below:&lt;/p&gt;&#xA;&lt;a href=&#34;https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css&#34; &gt;&#xA;&lt;figure class=&#34;post_image&#34;&gt;&#xA;&lt;img src=&#34;/images/pagedown/yuhi.png&#34;  alt=&#34;pagedown&#34; style=&#34;width: 400px;&#34;/&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build beautiful PDFs documents from our beloved Rmarkdown.&#xA;More precisely it takes Rmarkdown files and render them into html files already “paged” and ready to be saved/converted into PDF.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Why are you being so silent?</title>
       <link>/2017/04/12/why-are-you-being-so-silent/</link>
       <pubDate>Wed, 12 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>/2017/04/12/why-are-you-being-so-silent/</guid>
-      <description>It has being nearly half an year since the last post about workflower was out, why did I stay so silent for that long?
-I have three major updates to explain the silence:
-📚 Good guys at Packt publishing asked me to write one more book about R and data mining, I suppose this is because the first one was well received
-📦 I spend my spare time working on updateR so to get it ready to go on CRAN.</description>
+      <description>&lt;p&gt;It has being nearly half an year since the last post about &lt;a href=&#34;https://andreacirilloblog.wordpress.com/2016/09/21/%F0%9F%93%8A-streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment-%F0%9F%96%A5/&#34;&gt;workflower&lt;/a&gt; was out, why did I stay so silent for that long?&lt;/p&gt;&#xA;&lt;p&gt;I have three &lt;strong&gt;major updates&lt;/strong&gt; to explain the silence:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;📚 Good guys at&lt;a href=&#34;https://www.packtpub.com&#34;&gt; Packt publishing&lt;/a&gt; asked me to write &lt;a href=&#34;https://www.amazon.it/gp/product/1787124460?ie=UTF8&amp;amp;tag=andreacirillo-21&amp;amp;camp=3414&amp;amp;linkCode=xm2&amp;amp;creativeASIN=1787124460&#34;&gt;one more book&lt;/a&gt; about R and data mining, I suppose this is because &lt;a href=&#34;https://andreacirilloblog.wordpress.com/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/&#34;&gt;the first one&lt;/a&gt; was well received&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;📦 I spend my spare time working on &lt;a href=&#34;https://andreacirilloblog.wordpress.com/2015/10/22/updater-package-update-r-version-with-a-function-on-mac-osx/&#34;&gt;updateR&lt;/a&gt; so to get it ready to go on CRAN. We make it so shining and bright that it got noticed by our beloved &lt;strong&gt;Tal Galili&lt;/strong&gt; and we are now working togheter to &lt;a href=&#34;https://github.com/RobertMyles/installr&#34;&gt;merge it into his great package installR&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>a Checklist for your weekly review (GTD methodology)</title>
       <link>/2016/05/17/a-checklist-for-your-weekly-review-gtd-methodology/</link>
       <pubDate>Tue, 17 May 2016 16:00:14 +0000</pubDate>
-      
       <guid>/2016/05/17/a-checklist-for-your-weekly-review-gtd-methodology/</guid>
-      <description>I was crafting this checklist for my personal use, and then I found myself thinking: why should&amp;rsquo;nt I share this useful handful of bullets with my readers? So here we are, find below an useful checklist for your weekly review. The checklist is derived directly from the official GTD book by our great friend David Allen. The greatest quality of the checklist is the minimalist approach: just what you really need to read is written within each point, so that you get through your review as quick as possible.</description>
+      <description>&lt;p&gt;I was crafting this checklist for my personal use, and then I found myself thinking: why should&amp;rsquo;nt I share this useful handful of bullets with my readers? So here we are, find below an useful checklist for your weekly review. The checklist is derived directly from the &lt;a href=&#34;http://gettingthingsdone.com&#34;&gt;official GTD book&lt;/a&gt; by our great friend David Allen. The greatest quality of the checklist is the minimalist approach: just what you really need to read is written within each point, so that you get through your review as quick as possible. Enjoy!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to list file and folders within a folder ( basic file  app)</title>
       <link>/2015/04/01/how-to-list-file/</link>
       <pubDate>Wed, 01 Apr 2015 20:29:04 +0000</pubDate>
-      
       <guid>/2015/04/01/how-to-list-file/</guid>
-      <description>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: have you ever wondered how to list all files and folders within a root folder just hitting a button**?**
-I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **I am an auditor, **sorry about that): really time-consuming and not really value-adding activity.</description>
+      <description>&lt;p&gt;I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: &lt;strong&gt;have you ever wondered&lt;/strong&gt; &lt;strong&gt;how to list all files and folders&lt;/strong&gt; within a root folder just hitting a button**?**&lt;/p&gt;&#xA;&lt;p&gt;I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **&lt;a href=&#34;https://it.linkedin.com/in/cirilloandrea/it&#34;&gt;I am an audito&lt;/a&gt;r, **sorry about that): really time-consuming and not really value-adding activity.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>download data to excel from web</title>
       <link>/2014/10/28/download-data-to-excel-from-web/</link>
       <pubDate>Tue, 28 Oct 2014 13:02:25 +0000</pubDate>
-      
       <guid>/2014/10/28/download-data-to-excel-from-web/</guid>
-      <description>This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.
-Download data into excel select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;from web&amp;rdquo; input the desidered web URL click &amp;ldquo;go&amp;rdquo; button **select **data you want to download click &amp;ldquo;import&amp;rdquo; button Refresh downloaded data select &amp;ldquo;data&amp;rdquo; tab select &amp;ldquo;connections&amp;rdquo; select your connection click &amp;ldquo;refresh&amp;rdquo; button </description>
+      <description>&lt;p&gt;This simple tutorial will show you how to download data into an excel spreadsheet, creating a web query.&lt;/p&gt;&#xA;&lt;h2 id=&#34;download-data-into-excel&#34;&gt;Download data into excel&lt;/h2&gt;&#xA;&lt;h3 id=&#34;selectdata-tab&#34;&gt;&lt;strong&gt;select&lt;/strong&gt; &amp;ldquo;data&amp;rdquo; tab&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image1.png?w=300&#34; alt=&#34;download data in excel&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;selectfrom-web&#34;&gt;&lt;strong&gt;select&lt;/strong&gt; &amp;ldquo;from web&amp;rdquo;&lt;/h3&gt;&#xA;&lt;p&gt; &lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-2.png?w=300&#34; alt=&#34;from web selection&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;input-the-desidered-weburl&#34;&gt;&lt;strong&gt;input&lt;/strong&gt; the desidered web URL&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-3.png?w=300&#34; alt=&#34;input web URL&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;clickgo-button&#34;&gt;&lt;strong&gt;click&lt;/strong&gt; &amp;ldquo;go&amp;rdquo; button&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-5.png?w=300&#34; alt=&#34;go button click&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;select-data-you-want-to-download&#34;&gt;**select **data you want to download&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-4.png?w=300&#34; alt=&#34;data selection&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;clickimport-button&#34;&gt;&lt;strong&gt;click&lt;/strong&gt; &amp;ldquo;import&amp;rdquo; button&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-6.png?w=300&#34; alt=&#34;import button click&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;refresh-downloaded-data&#34;&gt;Refresh downloaded data&lt;/h2&gt;&#xA;&lt;h3 id=&#34;selectdata-tab-1&#34;&gt;&lt;strong&gt;select&lt;/strong&gt; &amp;ldquo;data&amp;rdquo; tab&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/10/image-9.png?w=300&#34; alt=&#34;Image [9]&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Put Equations into Evernote</title>
       <link>/2014/09/11/equations-in-evernote/</link>
       <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
-      
       <guid>/2014/09/11/equations-in-evernote/</guid>
-      <description>Problem Solution Tutorial 1. find Grapher among your applications 2. write the equation 3. copy the equation as TIFF 4. paste the equation into Evernote other ways to insert equations into evernote Problem Some time ago I was looking for an easy way to put some math writing within my Evernote notes trough my Mac device. Even if there is no official solution to the problem and the feature request is still pending within Evernote dedicated forum, I finally came out with a very simple way to solve your problem out.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#problem&#34;&gt;Problem&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#solution&#34;&gt;Solution&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#tutorial&#34;&gt;Tutorial&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#find-grapher-among-your-applications&#34;&gt;1. find Grapher among your applications&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#write-the-equation&#34;&gt;2. write the equation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#copy-the-equation-as-tiff&#34;&gt;3. copy the equation as &lt;span&gt;TIFF&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#paste-the-equation-into-evernote&#34;&gt;4. paste the equation into Evernote&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#other-ways-to-insert-equations-into-evernote&#34;&gt;other ways to insert equations into evernote&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div id=&#34;problem&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Some time ago I was looking for an easy way to put some math writing within my Evernote notes trough my Mac device. Even if there is no official solution to the problem and the feature request is &lt;a href=&#34;https://discussion.evernote.com/topic/111535-writing-math-symbols-and-equations/&#34;&gt;still pending within Evernote dedicated forum&lt;/a&gt;, I finally came out with a very simple way to solve your problem out.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

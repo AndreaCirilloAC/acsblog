@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sas on Un nuovo Taccuino</title>
+    <title>Sas on Un nuovo Taccuino</title>
     <link>/tags/sas/</link>
-    <description>Recent content in sas on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Sas on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Sep 2016 12:22:29 +0000</lastBuildDate><atom:link href="/tags/sas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Sep 2016 12:22:29 +0000</lastBuildDate>
+    <atom:link href="/tags/sas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>streamline your analyses linking R to sas and more: the workfloweR</title>
       <link>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</link>
       <pubDate>Wed, 21 Sep 2016 12:22:29 +0000</pubDate>
-      
       <guid>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</guid>
-      <description>we all know R is the first choice for statistical analysis and data visualisation, but what about big data munging? tidyverse (or we&amp;rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is often the case this kind of activities being handled from some other coding language. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .</description>
+      <description>&lt;p&gt;we all know &lt;strong&gt;R&lt;/strong&gt; is the &lt;strong&gt;first choice&lt;/strong&gt; for &lt;strong&gt;statistical analysis&lt;/strong&gt; and data visualisation, but what about &lt;strong&gt;big data munging&lt;/strong&gt;? &lt;a href=&#34;https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0/&#34;&gt;tidyverse&lt;/a&gt; (or we&amp;rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is &lt;strong&gt;often the case&lt;/strong&gt; this kind of activities being handled from some &lt;strong&gt;other coding language&lt;/strong&gt;. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .dta .xpt and other). So let’s assume you are &lt;strong&gt;an R enthusiast&lt;/strong&gt; like I am, and you do &lt;strong&gt;with R all of your work&lt;/strong&gt;, reporting included, wouldn’t be great to have &lt;strong&gt;some&lt;/strong&gt; nitty gritty &lt;strong&gt;way to merge&lt;/strong&gt; together all these &lt;strong&gt;languages in a streamlined workflow?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

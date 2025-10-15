@@ -4,20 +4,16 @@
     <title>SEO on Un nuovo Taccuino</title>
     <link>/tags/seo/</link>
     <description>Recent content in SEO on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2014 04:15:30 +0000</lastBuildDate><atom:link href="/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Nov 2014 04:15:30 +0000</lastBuildDate>
+    <atom:link href="/tags/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Querying Google With R</title>
       <link>/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
-      
       <guid>/2014/11/19/querying-google-with-r/</guid>
-      <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
-Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
-Feeling this way?
-[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
+      <description>&lt;p&gt;If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.&lt;/p&gt;&#xA;&lt;p&gt;Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.&lt;/p&gt;&#xA;&lt;p&gt;Feeling this way?&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;a href=&#34;https://www.flickr.com/photos/fdctsevilla/3986993934/in/photolist-7yt67z-75jooJ-8csRbm-8cpv3n-7yt69v-7yt4VV-83yhRB-838qAL-7yt5Le-7ywTEw&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/11/pain_el-bibliomata-e1415634103336.jpg?w=300&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

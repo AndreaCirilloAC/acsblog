@@ -1,86 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>algorithm on Un nuovo Taccuino</title>
+    <title>Algorithm on Un nuovo Taccuino</title>
     <link>/tags/algorithm/</link>
-    <description>Recent content in algorithm on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Algorithm on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>introducing vizscorer: a bot advisor to improve your ggplot plots</title>
       <link>/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</link>
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>/2018/11/12/introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots/</guid>
-      <description>introducing vizscorer: a bot advisor to improve your ggplot plots How to measure a good plot? Preparing a training dataset of plots How to train Machine Learning to recognize a good plot? Can Machine learning talk back to humans? Putting all together: vizscorer and the scorer_bot Where to go from here and how to help introducing vizscorer: a bot advisor to improve your ggplot plots One of the most frustrating issues I face in my professional life is the plentitude of ineffective reports generated within my company.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots&#34;&gt;introducing vizscorer: a bot advisor to improve your ggplot plots&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#how-to-measure-a-good-plot&#34;&gt;How to measure a good plot?&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#preparing-a-training-dataset-of-plots&#34;&gt;Preparing a training dataset of plots&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#how-to-train-machine-learning-to-recognize-a-good-plot&#34;&gt;How to train Machine Learning to recognize a good plot?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#can-machine-learning-talk-back-to-humans&#34;&gt;Can Machine learning talk back to humans?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#putting-all-together-vizscorer-and-the-scorer_bot&#34;&gt;Putting all together: vizscorer and the scorer_bot&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#where-to-go-from-here-and-how-to-help&#34;&gt;Where to go from here and how to help&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div id=&#34;introducing-vizscorer-a-bot-advisor-to-improve-your-ggplot-plots&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;introducing vizscorer: a bot advisor to improve your ggplot plots&lt;/h1&gt;&#xA;&lt;p&gt;One of the most frustrating issues I face in my professional life is the plentitude of ineffective reports generated within my company. Wherever I look around me is plenty of junk charts, like barplot showing useless 3D effects or ambiguous and crowded pie charts. I do understand the root causes of this desperate state of the art: people have always less time to dedicate to reports crafting, and even less to dedicate to their plot. In the crazy and speedy-going working life, my colleagues have no time and for learning data visualization principles. Even so, this remains quite a big problem since a lot of time and money-wasting consequences come from poorly crafted reports and plots:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>UpdateR package: update R version with a function (on MAC OSX)</title>
       <link>/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</link>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>/2018/03/10/updater-package-update-r-version-with-a-function-on-mac-osx/</guid>
-      <description>Mac version of updateR function: the UpdateR package how to install the updateR package how to update R version using the updateR package behind the scenes: how updateR works verify that user is running a unix machine get last R version from CRAN run command line commands within R accomplisments and further developments feel free to complain with me I personally really appreciate the InstallR package from Tal galilli, since it lets you install a great number of tools needed for working with R just running a function.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#mac-version-of-updater-function-the-updater-package&#34;&gt;Mac version of updateR function: the UpdateR package&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#how-to-install-the-updater-package&#34;&gt;how to install the updateR package&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#how-to-update-r-version-using-the-updater-package&#34;&gt;how to update R version using the updateR package&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#behind-the-scenes-how-updater-works&#34;&gt;behind the scenes: how updateR works&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#verify-that-user-is-running-a-unix-machine&#34;&gt;verify that user is running a unix machine&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#get-last-r-version-from-cran&#34;&gt;get last R version from CRAN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#run-command-line-commands-within-r&#34;&gt;run command line commands within R&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#accomplisments-and-further-developments&#34;&gt;accomplisments and further developments&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#feel-free-to-complain-with-me&#34;&gt;feel free to complain with me&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;I personally really appreciate the &lt;a href=&#34;https://cran.r-project.org/web/packages/installr/installr.pdf&#34;&gt;InstallR package&lt;/a&gt; from &lt;a href=&#34;https://twitter.com/talgalili&#34;&gt;Tal galilli&lt;/a&gt;, since it lets you install a great number of tools needed for working with R just running a function.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
       <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
       <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
-      
       <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
-      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
-changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
-became dad for the third time (and if you are guessing, it’s a boy!</description>
+      <description>&lt;p&gt;Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january.&lt;strong&gt;..&lt;/strong&gt; you may be wondering: what have you done along this long time? Well, quite a lot indeed:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;changed my job&lt;/strong&gt; ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;became dad&lt;/strong&gt; for the third time (and if you are guessing, it’s a boy!)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>how to list loaded packages in R: ramazon gets cleaver</title>
       <link>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
       <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
-      
       <guid>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
-      <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
-In the next hours things got growing by themselves, with pleasant results like the following:
-https://twitter.com/DoodlingData/status/635057258888605696
-The R community found ramazon a really helpful package.
-And I actually think it is: Amazon AWS is nowadays one of the most common tools for online web applications and websites hosting.</description>
+      <description>&lt;p&gt;It &lt;strong&gt;was&lt;/strong&gt; around &lt;strong&gt;midnight&lt;/strong&gt; here &lt;strong&gt;in Italy&lt;/strong&gt;:&#xA;I shared the &lt;strong&gt;&lt;a href=&#34;https://github.com/AndreaCirilloAC/ramazon&#34;&gt;code on Github&lt;/a&gt;&lt;/strong&gt;, published a post on G+, Linkedin and Twitter and then &lt;strong&gt;went to bed&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In the next hours things got growing by themselves, with pleasant results like the following:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://twitter.com/DoodlingData/status/635057258888605696&#34;&gt;https://twitter.com/DoodlingData/status/635057258888605696&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The R community found &lt;strong&gt;ramazon&lt;/strong&gt; a really &lt;strong&gt;helpful package&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;And I actually think it is: &lt;strong&gt;Amazon AWS&lt;/strong&gt; is nowadays one of the &lt;strong&gt;most common&lt;/strong&gt; tools for online &lt;strong&gt;web applications&lt;/strong&gt; and &lt;strong&gt;websites hosting.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
       <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
       <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
-      
       <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
-      <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
-on average, fraud accounts for nearly the 5% of companies revenues
-Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.
-No surprise than if companies and scholars are increasingly looking for way to prevent fraud and spot it when it occurs.</description>
+      <description>&lt;p&gt;The last &lt;strong&gt;&lt;a href=&#34;http://www.acfe.com/rttn-summary.aspx&#34;&gt;Report to the Nation published by ACFE&lt;/a&gt;&lt;/strong&gt;, stated that on average, &lt;strong&gt;fraud&lt;/strong&gt; accounts for nearly the &lt;strong&gt;5% of companies revenues&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;on average, fraud accounts for nearly the 5% of companies revenues&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://ctt.ec/q3j4X&#34;&gt;&lt;img src=&#34;http://clicktotweet.com/img/tweet-graphic-4.png&#34; alt=&#34;Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+&#34;&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.acfe.com/rttn/images/cost-of-fraud-infographic.pdf&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2015/07/2015-07-01-14_00_34-www-acfe-com_rttn_images_cost-of-fraud-infographic-pdf.png&#34; alt=&#34;ACFE Infographic: typical organization loses 5% of their revenues for fraud&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Projecting this number for the whole world GDP, it results that the &amp;ldquo;&lt;strong&gt;fraud&lt;/strong&gt;-country&amp;rdquo; produces something like a &lt;strong&gt;GDP 3 times greater than the Canadian GDP&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Catching Fraud with Benford&#39;s law (and another Shiny App)</title>
       <link>/2015/02/06/benfords_law_with_r/</link>
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>/2015/02/06/benfords_law_with_r/</guid>
-      <description>In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What ‘Benford’s Law’ stands for? Nice stuff, but what can I do with Benford’s Law? You can find fraud with it Some precautions BenfordeR: another lean shiny application performing a benford analysis plotting results detecting suspected records What’s next In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#in-the-early-900-frank-benford-observed-that-1-was-more-frequent-as-first-digit-in-his-own-logarithms-manual.&#34;&gt;In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#more-than-one-hundred-years-later-we-can-use-this-curious-findingto-look-for-fraud-on-populations-of-data.&#34;&gt;More than one hundred years later, we can use this curious finding to look for fraud on populations of data.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#just-give-a-try-to-the-shiny-app&#34;&gt;&lt;strong&gt;&lt;span&gt;just give a try to the shiny app&lt;/span&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#what-benfords-law-stands-for&#34;&gt;What ‘Benford’s Law’ stands for?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#nice-stuff-but-what-can-i-do-with-benfords-law&#34;&gt;Nice stuff, but what can I do with Benford’s Law?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#you-can-find-fraud-with-it&#34;&gt;You can find fraud with it&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#some-precautions&#34;&gt;Some precautions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#benforder-another-lean-shiny-application&#34;&gt;BenfordeR: another lean shiny application&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#performing-a-benford-analysis&#34;&gt;performing a benford analysis&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#plotting-results&#34;&gt;plotting results&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#detecting-suspected-records&#34;&gt;detecting suspected records&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#whats-next&#34;&gt;What’s next&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div id=&#34;in-the-early-900-frank-benford-observed-that-1-was-more-frequent-as-first-digit-in-his-own-logarithms-manual.&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;more-than-one-hundred-years-later-we-can-use-this-curious-findingto-look-for-fraud-on-populations-of-data.&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;More than one hundred years later, we can use this curious finding to look for fraud on populations of data.&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;just-give-a-try-to-the-shiny-app&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;&lt;strong&gt;&lt;a href=&#34;https://andreacirillo.shinyapps.io/BenfordeR/&#34;&gt;just give a try to the shiny app&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;what-benfords-law-stands-for&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;What ‘Benford’s Law’ stands for?&lt;/h2&gt;&#xA;&lt;p&gt;Around 1938 &lt;a href=&#34;http://en.wikipedia.org/wiki/Frank_Benford&#34;&gt;&lt;strong&gt;Frank Benford&lt;/strong&gt;&lt;/a&gt;, a physicist at the General Electrics research laboratories, &lt;strong&gt;observed&lt;/strong&gt; that logarithmic tables were more worn within first pages: was this casual or due to an actual &lt;strong&gt;prevalence of numbers&lt;/strong&gt; &lt;strong&gt;near 1 as first digits?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Querying Google With R</title>
       <link>/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
-      
       <guid>/2014/11/19/querying-google-with-r/</guid>
-      <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
-Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
-Feeling this way?
-[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
+      <description>&lt;p&gt;If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.&lt;/p&gt;&#xA;&lt;p&gt;Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.&lt;/p&gt;&#xA;&lt;p&gt;Feeling this way?&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;a href=&#34;https://www.flickr.com/photos/fdctsevilla/3986993934/in/photolist-7yt67z-75jooJ-8csRbm-8cpv3n-7yt69v-7yt4VV-83yhRB-838qAL-7yt5Le-7ywTEw&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/11/pain_el-bibliomata-e1415634103336.jpg?w=300&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

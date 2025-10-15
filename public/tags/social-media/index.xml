@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>social media on Un nuovo Taccuino</title>
+    <title>Social Media on Un nuovo Taccuino</title>
     <link>/tags/social-media/</link>
-    <description>Recent content in social media on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Social Media on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate><atom:link href="/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2016 14:00:46 +0000</lastBuildDate>
+    <atom:link href="/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
       <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
       <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
-      
       <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
-      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
-changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
-became dad for the third time (and if you are guessing, it’s a boy!</description>
+      <description>&lt;p&gt;Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january.&lt;strong&gt;..&lt;/strong&gt; you may be wondering: what have you done along this long time? Well, quite a lot indeed:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;changed my job&lt;/strong&gt; ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;became dad&lt;/strong&gt; for the third time (and if you are guessing, it’s a boy!)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Querying Google With R</title>
       <link>/2014/11/19/querying-google-with-r/</link>
       <pubDate>Wed, 19 Nov 2014 04:15:30 +0000</pubDate>
-      
       <guid>/2014/11/19/querying-google-with-r/</guid>
-      <description>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
-Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
-Feeling this way?
-[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]</description>
+      <description>&lt;p&gt;If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.&lt;/p&gt;&#xA;&lt;p&gt;Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.&lt;/p&gt;&#xA;&lt;p&gt;Feeling this way?&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_273&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;a href=&#34;https://www.flickr.com/photos/fdctsevilla/3986993934/in/photolist-7yt67z-75jooJ-8csRbm-8cpv3n-7yt69v-7yt4VV-83yhRB-838qAL-7yt5Le-7ywTEw&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/11/pain_el-bibliomata-e1415634103336.jpg?w=300&#34; alt=&#34;&#34;&gt;&lt;/a&gt; &amp;ldquo;Pain and fear, pain and fear for me&amp;rdquo; - Oliver Twist[/caption]&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -17,7 +17,9 @@
 
 
 
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Un nuovo Taccuino" />
+
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
 
 
 
@@ -72,8 +74,26 @@
       <a href="/2019/01/27/a-quick-ride-on-pagedown-create-pdf-from-rmarkdown/" class="archive-item-link">a quick ride on pagedown: create PDFs from Rmarkdown </a>
       <span class="archive-item-date">
         2019/01/27</span><br>
-        <p class ="post-summary">Do we really need a package like pagedown? installing pagedown selecting the preferred template filling in and rendering the template finally obtaining the desired PDF file my suggestions for improvements I recently came across the good talk by the always good Yiuhi Xie at the Rstudio conference about Pagedown. You can see it by yourself reaching out the rstudio website or clicking the image below:
-Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build beautiful PDFs documents from our beloved Rmarkdown.</p>
+        <p class ="post-summary"><div id="TOC">
+<ul>
+<li><a href="#do-we-really-need-a-package-like-pagedown">Do we really need a package like pagedown?</a></li>
+<li><a href="#installing-pagedown">installing pagedown</a></li>
+<li><a href="#selecting-the-preferred-template">selecting the preferred template</a></li>
+<li><a href="#filling-in-and-rendering-the-template">filling in and rendering the template</a></li>
+<li><a href="#finally-obtaining-the-desired-pdf-file">finally obtaining the desired PDF file</a></li>
+<li><a href="#my-suggestions-for-improvements">my suggestions for improvements</a></li>
+</ul>
+</div>
+
+<p>I recently came across the good talk by the always good Yiuhi Xie at the Rstudio conference about Pagedown.
+You can see it by yourself reaching out the rstudio website or clicking the image below:</p>
+<a href="https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css" >
+<figure class="post_image">
+<img src="/images/pagedown/yuhi.png"  alt="pagedown" style="width: 400px;"/>
+</figure>
+<p></a></p>
+<p>Pagedown is a newly released package ( still in experimentary status) with a really promising mission: help you build beautiful PDFs documents from our beloved Rmarkdown.
+More precisely it takes Rmarkdown files and render them into html files already “paged” and ready to be saved/converted into PDF.</p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/rstudio">Rstudio </a>/<a class="post-tags" href="/tags/rmarkdown">rmarkdown </a>/<a class="post-tags" href="/tags/report">report </a>/</p>
@@ -87,7 +107,25 @@ Pagedown is a newly released package ( still in experimentary status) with a rea
       <a href="/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/" class="archive-item-link">how to use PaletteR to automagically build palettes from pictures</a>
       <span class="archive-item-date">
         2018/05/08</span><br>
-        <p class ="post-summary">Introducing paletter Installing paletter Creating a palette from your image Functional specification Reading a picture into the RGB colourspace Processing the RGB image trough kmeans Moving to the hsv colours space Removing outliers Optimising palette How to apply paletteR in ggplot2 Join us I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the Pinacoteca di Brera, a 200 centuries old museum.</p>
+        <p class ="post-summary"><div id="TOC">
+<ul>
+<li><a href="#introducing-paletter">Introducing paletter</a><ul>
+<li><a href="#installing-paletter">Installing paletter</a></li>
+<li><a href="#creating-a-palette-from-your-image">Creating a palette from your image</a></li>
+</ul></li>
+<li><a href="#functional-specification">Functional specification</a><ul>
+<li><a href="#reading-a-picture-into-the-rgb-colourspace">Reading a picture into the RGB colourspace</a></li>
+<li><a href="#processing-the-rgb-image-trough-kmeans">Processing the RGB image trough kmeans</a></li>
+<li><a href="#moving-to-the-hsv-colours-space">Moving to the hsv colours space</a></li>
+<li><a href="#removing-outliers">Removing outliers</a></li>
+<li><a href="#optimising-palette">Optimising palette</a></li>
+</ul></li>
+<li><a href="#how-to-apply-paletter-in-ggplot2">How to apply paletteR in ggplot2</a></li>
+<li><a href="#join-us">Join us</a></li>
+</ul>
+</div>
+
+<p>I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the <a href="http://pinacotecabrera.org/">Pinacoteca di Brera</a>, a 200 centuries old museum. This museum is full of incredible paintings from the Renaissance period. During my visit I was particularly impressed from one of them: “La Vergine con il Bambino, angeli e Santi”, by Piero della Francesca.</p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/paletter">paletteR </a>/<a class="post-tags" href="/tags/r">R </a>/<a class="post-tags" href="/tags/rstudio">Rstudio </a>/<a class="post-tags" href="/tags/dataviz">dataviz </a>/<a class="post-tags" href="/tags/data-analysis">data analysis </a>/<a class="post-tags" href="/tags/data-analytics">data analytics </a>/<a class="post-tags" href="/tags/my_packages">my_packages </a>/</p>
@@ -101,8 +139,8 @@ Pagedown is a newly released package ( still in experimentary status) with a rea
       <a href="/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/" class="archive-item-link">Euro 2016 analytics: Who&#39;s playing the toughest game?</a>
       <span class="archive-item-date">
         2016/06/21</span><br>
-        <p class ="post-summary">I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&rsquo;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
-Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</p>
+        <p class ="post-summary"><p>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&rsquo;s why after  browsing for a while <a href="http://www.uefa.com/uefaeuro/season=2016/statistics/index.html">statistics section of official EURO 2016 website</a> I decided to do some analysis on the data they share ( as at the 21th of June).</p>
+<p>Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/analytics">analytics </a>/<a class="post-tags" href="/tags/data">data </a>/<a class="post-tags" href="/tags/data-analysis">data analysis </a>/<a class="post-tags" href="/tags/data-analytics">data analytics </a>/<a class="post-tags" href="/tags/github">Github </a>/<a class="post-tags" href="/tags/r">R </a>/<a class="post-tags" href="/tags/rstudio">Rstudio </a>/<a class="post-tags" href="/tags/soccer">soccer </a>/</p>
@@ -113,9 +151,13 @@ Just to be clear from the beginning: we are not talking of anything too rigourus
       <a href="/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/" class="archive-item-link">Over 50 practical recipes for data analysis with R in one book</a>
       <span class="archive-item-date">
         2016/05/11</span><br>
-        <p class ="post-summary">Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
-changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
-became dad for the third time (and if you are guessing, it’s a boy!</p>
+        <p class ="post-summary"><p>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january.<strong>..</strong> you may be wondering: what have you done along this long time? Well, quite a lot indeed:</p>
+<ul>
+<li>
+<p><strong>changed my job</strong> ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)</p>
+</li>
+<li>
+<p><strong>became dad</strong> for the third time (and if you are guessing, it’s a boy!)</p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/algorithm">algorithm </a>/<a class="post-tags" href="/tags/analytics">analytics </a>/<a class="post-tags" href="/tags/apps">apps </a>/<a class="post-tags" href="/tags/computer-science">computer science </a>/<a class="post-tags" href="/tags/data-analysis">data analysis </a>/<a class="post-tags" href="/tags/data-analytics">data analytics </a>/<a class="post-tags" href="/tags/github">Github </a>/<a class="post-tags" href="/tags/r">R </a>/<a class="post-tags" href="/tags/rstudio">Rstudio </a>/<a class="post-tags" href="/tags/shiny">shiny </a>/<a class="post-tags" href="/tags/shiny-apps">shiny apps </a>/<a class="post-tags" href="/tags/social-media">social media </a>/<a class="post-tags" href="/tags/social-media-analytics">social media analytics </a>/<a class="post-tags" href="/tags/tutorials">tutorials </a>/<a class="post-tags" href="/tags/web-query">web query </a>/</p>
@@ -129,9 +171,9 @@ became dad for the third time (and if you are guessing, it’s a boy!</p>
       <a href="/2015/12/14/rename-a-data-frame-within-a-function-passing-an-argument/" class="archive-item-link">Rename a Data Frame Within a Function Passing an Argument</a>
       <span class="archive-item-date">
         2015/12/14</span><br>
-        <p class ="post-summary">This is not actually a real post but rather a code snippet surrounded by text.
-Nevertheless I think it is a quite useful one: have you ever found yourself writing a function where a data frame is created, wanting to name that data frame based on a custom argument passed to the function?
-For instance, the output of your function is a really nice data frame name in a really trivial way, like &ldquo;result&rdquo;.</p>
+        <p class ="post-summary"><p>This is not actually a real post but rather a code snippet surrounded by text.</p>
+<p>Nevertheless I think it is a quite useful one: have you ever found yourself writing a function where <strong>a data frame is created</strong>, wanting to name that data frame based on a custom argument passed to the function?</p>
+<p>For instance, the output of your function is a really nice data frame name in a really trivial way, like &ldquo;result&rdquo;.</p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/analytics">analytics </a>/<a class="post-tags" href="/tags/r">R </a>/<a class="post-tags" href="/tags/rstudio">Rstudio </a>/</p>
@@ -142,11 +184,12 @@ For instance, the output of your function is a really nice data frame name in a 
       <a href="/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/" class="archive-item-link">how to list loaded packages in R: ramazon gets cleaver</a>
       <span class="archive-item-date">
         2015/09/10</span><br>
-        <p class ="post-summary">It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
-In the next hours things got growing by themselves, with pleasant results like the following:
-https://twitter.com/DoodlingData/status/635057258888605696
-The R community found ramazon a really helpful package.
-And I actually think it is: Amazon AWS is nowadays one of the most common tools for online web applications and websites hosting.</p>
+        <p class ="post-summary"><p>It <strong>was</strong> around <strong>midnight</strong> here <strong>in Italy</strong>:
+I shared the <strong><a href="https://github.com/AndreaCirilloAC/ramazon">code on Github</a></strong>, published a post on G+, Linkedin and Twitter and then <strong>went to bed</strong>.</p>
+<p>In the next hours things got growing by themselves, with pleasant results like the following:</p>
+<p><a href="https://twitter.com/DoodlingData/status/635057258888605696">https://twitter.com/DoodlingData/status/635057258888605696</a></p>
+<p>The R community found <strong>ramazon</strong> a really <strong>helpful package</strong>.</p>
+<p>And I actually think it is: <strong>Amazon AWS</strong> is nowadays one of the <strong>most common</strong> tools for online <strong>web applications</strong> and <strong>websites hosting.</strong></p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/algorithm">algorithm </a>/<a class="post-tags" href="/tags/amazon">amazon </a>/<a class="post-tags" href="/tags/analytics">analytics </a>/<a class="post-tags" href="/tags/apps">apps </a>/<a class="post-tags" href="/tags/aws">aws </a>/<a class="post-tags" href="/tags/data-analytics">data analytics </a>/<a class="post-tags" href="/tags/r">R </a>/<a class="post-tags" href="/tags/rstudio">Rstudio </a>/<a class="post-tags" href="/tags/shiny">shiny </a>/<a class="post-tags" href="/tags/shiny-apps">shiny apps </a>/</p>
@@ -160,7 +203,7 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
       <a href="/2014/12/28/using-github-with-rstudio-step-by-step-tutorial/" class="archive-item-link">How to use Github with Rstudio : step-by-step tutorial</a>
       <span class="archive-item-date">
         2014/12/28</span><br>
-        <p class ="post-summary">Pushing to my Github repository directly from the Rstudio project, avoiding that annoying &ldquo;copy &amp; paste&rdquo; job. Since it is one of Best Practices for Scientific Computing, I have been struggling for a while with this problem. Now that I managed to solve the problem, I think you may find useful the detailed tutorial that follows. I am not going to explain you the reason why you should use Github with your Rstudio project, but if you are asking this to yourself, you may find useful a **Stack Overflow discussion **on the topic.</p>
+        <p class ="post-summary"><p>Pushing to my Github repository directly from the Rstudio project, avoiding that annoying &ldquo;copy &amp; paste&rdquo; job. Since it is one of <strong><a href="https://andreacirilloblog.wordpress.com/2014/11/05/best-pratice-for-scientific-computing/">Best Practices for Scientific Computing</a></strong>, I have been struggling for a while with this problem.  Now that I managed to solve the problem, I think you may find useful the detailed tutorial that follows. I am not going to explain you the reason why you should use Github with your  Rstudio project, but if you are asking this to yourself, you may find useful a **<a href="http://stackoverflow.com/questions/1408450/why-should-i-use-version-control">Stack Overflow discussion </a>**on the topic.</p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/github">Github </a>/<a class="post-tags" href="/tags/repository">repository </a>/<a class="post-tags" href="/tags/rstudio">Rstudio </a>/<a class="post-tags" href="/tags/tutorials">tutorials </a>/</p>
@@ -171,10 +214,10 @@ And I actually think it is: Amazon AWS is nowadays one of the most common tools 
       <a href="/2014/11/19/querying-google-with-r/" class="archive-item-link">Querying Google With R</a>
       <span class="archive-item-date">
         2014/11/19</span><br>
-        <p class ="post-summary">If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.
-Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.
-Feeling this way?
-[caption id=&ldquo;attachment_273&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;] &ldquo;Pain and fear, pain and fear for me&rdquo; - Oliver Twist[/caption]</p>
+        <p class ="post-summary"><p>If you have a blog you may want to discover how your website is performing for given keywords on Google Search Engine. As we all know, this topic is not a trivial one.</p>
+<p>Problem is that the analogycal solution would be quite time-consuming, requiring you to search your website for every single keyword, on many many pages.</p>
+<p>Feeling this way?</p>
+<p>[caption id=&ldquo;attachment_273&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo;]<a href="https://www.flickr.com/photos/fdctsevilla/3986993934/in/photolist-7yt67z-75jooJ-8csRbm-8cpv3n-7yt69v-7yt4VV-83yhRB-838qAL-7yt5Le-7ywTEw"><img src="https://andreacirilloblog.files.wordpress.com/2014/11/pain_el-bibliomata-e1415634103336.jpg?w=300" alt=""></a> &ldquo;Pain and fear, pain and fear for me&rdquo; - Oliver Twist[/caption]</p></p>
         
         <p><bold>tags:</bold>
         <a class="post-tags" href="/tags/algorithm">algorithm </a>/<a class="post-tags" href="/tags/analytics">analytics </a>/<a class="post-tags" href="/tags/apps">apps </a>/<a class="post-tags" href="/tags/google">google </a>/<a class="post-tags" href="/tags/r">R </a>/<a class="post-tags" href="/tags/rstudio">Rstudio </a>/<a class="post-tags" href="/tags/seo">SEO </a>/<a class="post-tags" href="/tags/shiny">shiny </a>/<a class="post-tags" href="/tags/shiny-apps">shiny apps </a>/<a class="post-tags" href="/tags/social-media">social media </a>/<a class="post-tags" href="/tags/social-media-analytics">social media analytics </a>/<a class="post-tags" href="/tags/web-query">web query </a>/</p>
@@ -189,7 +232,9 @@ Feeling this way?
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+      
+  <link rel="alternate" type="application/rss&#43;xml" title="Un nuovo Taccuino" href="/index.xml">
+
           </li>
           
         </ul>

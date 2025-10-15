@@ -1,206 +1,138 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data analysis on Un nuovo Taccuino</title>
+    <title>Data Analysis on Un nuovo Taccuino</title>
     <link>/tags/data-analysis/</link>
-    <description>Recent content in data analysis on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Data Analysis on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Italy Coronavirus Outbreak: numbers and stats</title>
       <link>/2020/02/24/italy-coronavirus-outbreak-number-and-stats/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>/2020/02/24/italy-coronavirus-outbreak-number-and-stats/</guid>
-      <description>Italy NCOV-19 outbreak number of confirmed cases and deaths in Italy daily change in confirmed cases in Italy daily confirmed cases in Italy daily change in confirmed cases in Lombardy comparison between Lombardy and Hubei province daily new cases ICU numbers Italy NCOV-19 outbreak For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths (since I live in Italy, it is not difficult to guess the personal reason…).</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#italy-ncov-19-outbreak&#34;&gt;Italy NCOV-19 outbreak&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#number-of-confirmed-cases-and-deaths-in-italy&#34;&gt;number of confirmed cases and deaths in Italy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#daily-change-in-confirmed-cases-in-italy&#34;&gt;daily change in confirmed cases in Italy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#daily-confirmed-cases-in-italy&#34;&gt;daily confirmed cases in Italy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#daily-change-in-confirmed-cases-in-lombardy&#34;&gt;daily change in confirmed cases in Lombardy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#comparison-between-lombardy-and-hubei-province&#34;&gt;comparison between Lombardy and Hubei province&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#daily-new-cases&#34;&gt;daily new cases&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#icu-numbers&#34;&gt;ICU numbers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div id=&#34;italy-ncov-19-outbreak&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;Italy NCOV-19 outbreak&lt;/h2&gt;&#xA;&lt;p&gt;For personal reasons I am trying to track the number of NCOV-19 confirmed cases in Italy as well as the number of deaths (since I live in Italy, it is not difficult to guess the personal reason…). I am thus regularly monitoring news from the italian official sources like “Regione Lombardia” and “Protezione Civile”.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>how to use PaletteR to automagically build palettes from pictures</title>
       <link>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/</guid>
-      <description>Introducing paletter Installing paletter Creating a palette from your image Functional specification Reading a picture into the RGB colourspace Processing the RGB image trough kmeans Moving to the hsv colours space Removing outliers Optimising palette How to apply paletteR in ggplot2 Join us I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the Pinacoteca di Brera, a 200 centuries old museum.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#introducing-paletter&#34;&gt;Introducing paletter&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#installing-paletter&#34;&gt;Installing paletter&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#creating-a-palette-from-your-image&#34;&gt;Creating a palette from your image&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#functional-specification&#34;&gt;Functional specification&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#reading-a-picture-into-the-rgb-colourspace&#34;&gt;Reading a picture into the RGB colourspace&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#processing-the-rgb-image-trough-kmeans&#34;&gt;Processing the RGB image trough kmeans&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#moving-to-the-hsv-colours-space&#34;&gt;Moving to the hsv colours space&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#removing-outliers&#34;&gt;Removing outliers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#optimising-palette&#34;&gt;Optimising palette&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#how-to-apply-paletter-in-ggplot2&#34;&gt;How to apply paletteR in ggplot2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#join-us&#34;&gt;Join us&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;I live in Italy, and more precisely in Milan, a city known for fashion and design events. During a lunch break I was visiting the &lt;a href=&#34;http://pinacotecabrera.org/&#34;&gt;Pinacoteca di Brera&lt;/a&gt;, a 200 centuries old museum. This museum is full of incredible paintings from the Renaissance period. During my visit I was particularly impressed from one of them: “La Vergine con il Bambino, angeli e Santi”, by Piero della Francesca.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>streamline your analyses linking R to sas and more: the workfloweR</title>
       <link>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</link>
       <pubDate>Wed, 21 Sep 2016 12:22:29 +0000</pubDate>
-      
       <guid>/2016/09/21/streamline-your-analysis-linking-r-to-sas-and-more-the-workflower-experiment/</guid>
-      <description>we all know R is the first choice for statistical analysis and data visualisation, but what about big data munging? tidyverse (or we&amp;rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is often the case this kind of activities being handled from some other coding language. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .</description>
+      <description>&lt;p&gt;we all know &lt;strong&gt;R&lt;/strong&gt; is the &lt;strong&gt;first choice&lt;/strong&gt; for &lt;strong&gt;statistical analysis&lt;/strong&gt; and data visualisation, but what about &lt;strong&gt;big data munging&lt;/strong&gt;? &lt;a href=&#34;https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0/&#34;&gt;tidyverse&lt;/a&gt; (or we&amp;rsquo;d better say hadleyverse 😏) has been doing a lot in this field, nevertheless it is &lt;strong&gt;often the case&lt;/strong&gt; this kind of activities being handled from some &lt;strong&gt;other coding language&lt;/strong&gt;. Moreover, sometimes you get as an input pieces of analyses performed with other kind of languages or, what is worst, piece of databases packed in proprietary format (like .dta .xpt and other). So let’s assume you are &lt;strong&gt;an R enthusiast&lt;/strong&gt; like I am, and you do &lt;strong&gt;with R all of your work&lt;/strong&gt;, reporting included, wouldn’t be great to have &lt;strong&gt;some&lt;/strong&gt; nitty gritty &lt;strong&gt;way to merge&lt;/strong&gt; together all these &lt;strong&gt;languages in a streamlined workflow?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ggplot2 themes examples</title>
       <link>/2016/08/09/ggplot2-themes-examples/</link>
       <pubDate>Tue, 09 Aug 2016 20:30:16 +0000</pubDate>
-      
       <guid>/2016/08/09/ggplot2-themes-examples/</guid>
-      <description>this short post is exactly what it seems: a showcase of all ggplot2 themes available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&amp;rsquo;s try this one&amp;hellip;&amp;rdquo;) and at the end I thought it could have be useful for my readers. At least this post will save you the time of trying all differents themes just to have a sense of how they look like.</description>
+      <description>&lt;p&gt;this short post is exactly what it seems: &lt;strong&gt;a showcase of all ggplot2 themes&lt;/strong&gt; available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&amp;rsquo;s try this one&amp;hellip;&amp;rdquo;) and at the end I thought &lt;strong&gt;it could have be useful for my readers&lt;/strong&gt;. At least this post will &lt;strong&gt;save you the time of trying all&lt;/strong&gt; differents themes just to have a sense of how they look like.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Euro 2016 analytics: Who&#39;s playing the toughest game?</title>
       <link>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</link>
       <pubDate>Tue, 21 Jun 2016 15:55:38 +0000</pubDate>
-      
       <guid>/2016/06/21/euro-2016-analytics-whos-playing-the-toughest-game/</guid>
-      <description>I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&amp;rsquo;s why after browsing for a while statistics section of official EURO 2016 website I decided to do some analysis on the data they share ( as at the 21th of June).
-Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.</description>
+      <description>&lt;p&gt;I am really enjoying Uefa Euro 2016 Footbal Competition, even because our national team has done pretty well so far. That&amp;rsquo;s why after  browsing for a while &lt;a href=&#34;http://www.uefa.com/uefaeuro/season=2016/statistics/index.html&#34;&gt;statistics section of official EURO 2016 website&lt;/a&gt; I decided to do some analysis on the data they share ( as at the 21th of June).&lt;/p&gt;&#xA;&lt;p&gt;Just to be clear from the beginning: we are not talking of anything too rigourus, but just about some interesting questions with related answers gathered mainly through data visualisation.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Over 50 practical recipes for data analysis with R in one book</title>
       <link>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</link>
       <pubDate>Wed, 11 May 2016 14:00:46 +0000</pubDate>
-      
       <guid>/2016/05/11/over-50-practical-recipes-for-data-analysis-with-r-in-one-book/</guid>
-      <description>Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january... you may be wondering: what have you done along this long time? Well, quite a lot indeed:
-changed my job ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)
-became dad for the third time (and if you are guessing, it’s a boy!</description>
+      <description>&lt;p&gt;Ah, writing a blog post! This is a pleasure I was forgetting, and you can guess it looking at last post date of publication: it was around january.&lt;strong&gt;..&lt;/strong&gt; you may be wondering: what have you done along this long time? Well, quite a lot indeed:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;changed my job&lt;/strong&gt; ( I am now working @ Intesa Sanpaolo Banking Group on Basel III statistical models)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;became dad&lt;/strong&gt; for the third time (and if you are guessing, it’s a boy!)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ramazon: Deploy your Shiny App on AWS with a Function</title>
       <link>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</link>
       <pubDate>Tue, 18 Aug 2015 21:47:00 +0000</pubDate>
-      
       <guid>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
-      <description>Because Afraus received a good interest, last month I override shinyapps.io free plan limits.
-That got me move my Shiny App on an Amazon AWS instance.
-Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.
-All this pain is removed by ramazon, an R package that I developed to take care of everything is needed to deploy a shiny app on an AWS instance.</description>
+      <description>&lt;p&gt;Because &lt;a href=&#34;/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/&#34;&gt;&lt;strong&gt;Afraus&lt;/strong&gt; &lt;/a&gt;received a good interest, last month I override shinyapps.io &lt;strong&gt;&lt;a href=&#34;http://www.shinyapps.io/#pricing&#34;&gt;free plan limits&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;That got me move my Shiny App on an &lt;strong&gt;Amazon AWS instance&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Well, it was not so straight forward: even if there is &lt;strong&gt;plenty of tutorials&lt;/strong&gt; around the web, &lt;strong&gt;every one&lt;/strong&gt; seems to &lt;strong&gt;miss a part&lt;/strong&gt;: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, &lt;strong&gt;error-prone process&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;All this pain is removed by &lt;strong&gt;ramazon&lt;/strong&gt;, an &lt;strong&gt;R package&lt;/strong&gt; that I developed to take care of everything is needed &lt;strong&gt;to deploy a shiny app on an AWS instance&lt;/strong&gt;. An early disclaimer for Windows users: &lt;strong&gt;only Apple OS X is supported&lt;/strong&gt; at the moment.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Introducing Afraus: an Unsupervised Fraud Detection Algorithm</title>
       <link>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</link>
       <pubDate>Thu, 02 Jul 2015 21:06:39 +0000</pubDate>
-      
       <guid>/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/</guid>
-      <description>The last Report to the Nation published by ACFE, stated that on average, fraud accounts for nearly the 5% of companies revenues.
-on average, fraud accounts for nearly the 5% of companies revenues
-Projecting this number for the whole world GDP, it results that the &amp;ldquo;fraud-country&amp;rdquo; produces something like a GDP 3 times greater than the Canadian GDP.
-No surprise than if companies and scholars are increasingly looking for way to prevent fraud and spot it when it occurs.</description>
+      <description>&lt;p&gt;The last &lt;strong&gt;&lt;a href=&#34;http://www.acfe.com/rttn-summary.aspx&#34;&gt;Report to the Nation published by ACFE&lt;/a&gt;&lt;/strong&gt;, stated that on average, &lt;strong&gt;fraud&lt;/strong&gt; accounts for nearly the &lt;strong&gt;5% of companies revenues&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;on average, fraud accounts for nearly the 5% of companies revenues&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://ctt.ec/q3j4X&#34;&gt;&lt;img src=&#34;http://clicktotweet.com/img/tweet-graphic-4.png&#34; alt=&#34;Tweet: on average, fraud accounts for nearly the 5% of companies revenues. http://ctt.ec/u5E6x+&#34;&gt;&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.acfe.com/rttn/images/cost-of-fraud-infographic.pdf&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2015/07/2015-07-01-14_00_34-www-acfe-com_rttn_images_cost-of-fraud-infographic-pdf.png&#34; alt=&#34;ACFE Infographic: typical organization loses 5% of their revenues for fraud&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Projecting this number for the whole world GDP, it results that the &amp;ldquo;&lt;strong&gt;fraud&lt;/strong&gt;-country&amp;rdquo; produces something like a &lt;strong&gt;GDP 3 times greater than the Canadian GDP&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to add a live chat to your Shiny app</title>
       <link>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</link>
       <pubDate>Mon, 11 May 2015 21:08:48 +0000</pubDate>
-      
       <guid>/2015/05/11/how-to-add-live-chat-to-your-shiny-app/</guid>
-      <description>As I am currently working on a Fraud Analytics Web Application based on Shiny (currently on beta version, more later on this blog) I found myself asking: wouldn&amp;rsquo;t be great to add live chat support to my Web Application visitors?
-It would indeed!
-[caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;] an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]
-But how to do it?
-Unfortunately, looking on Google didn&amp;rsquo;t give any useful result.</description>
+      <description>&lt;p&gt;As I am currently working on a &lt;strong&gt;&lt;a href=&#34;https://github.com/AndreaCirilloAC/Afraus&#34;&gt;Fraud Analytics Web Application&lt;/a&gt;&lt;/strong&gt; based on Shiny (currently on beta version, more later on this blog) I found myself asking: &lt;strong&gt;wouldn&amp;rsquo;t be great to add live chat support&lt;/strong&gt; to my Web Application visitors?&lt;/p&gt;&#xA;&lt;p&gt;It would indeed!&lt;/p&gt;&#xA;&lt;p&gt;[caption id=&amp;ldquo;attachment_490&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;200&amp;rdquo;]&lt;a href=&#34;https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2015/05/ancient-chatting.png?w=300&#34; alt=&#34;an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474&#34;&gt;&lt;/a&gt; an ancient example of chatting - Camera degli Sposi, Andrea Mantegna 1465 -1474[/caption]&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Catching Fraud with Benford&#39;s law (and another Shiny App)</title>
       <link>/2015/02/06/benfords_law_with_r/</link>
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>/2015/02/06/benfords_law_with_r/</guid>
-      <description>In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual. More than one hundred years later, we can use this curious finding to look for fraud on populations of data. just give a try to the shiny app What ‘Benford’s Law’ stands for? Nice stuff, but what can I do with Benford’s Law? You can find fraud with it Some precautions BenfordeR: another lean shiny application performing a benford analysis plotting results detecting suspected records What’s next In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.</description>
+      <description>&lt;div id=&#34;TOC&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#in-the-early-900-frank-benford-observed-that-1-was-more-frequent-as-first-digit-in-his-own-logarithms-manual.&#34;&gt;In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#more-than-one-hundred-years-later-we-can-use-this-curious-findingto-look-for-fraud-on-populations-of-data.&#34;&gt;More than one hundred years later, we can use this curious finding to look for fraud on populations of data.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#just-give-a-try-to-the-shiny-app&#34;&gt;&lt;strong&gt;&lt;span&gt;just give a try to the shiny app&lt;/span&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#what-benfords-law-stands-for&#34;&gt;What ‘Benford’s Law’ stands for?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#nice-stuff-but-what-can-i-do-with-benfords-law&#34;&gt;Nice stuff, but what can I do with Benford’s Law?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#you-can-find-fraud-with-it&#34;&gt;You can find fraud with it&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#some-precautions&#34;&gt;Some precautions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#benforder-another-lean-shiny-application&#34;&gt;BenfordeR: another lean shiny application&lt;/a&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#performing-a-benford-analysis&#34;&gt;performing a benford analysis&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#plotting-results&#34;&gt;plotting results&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#detecting-suspected-records&#34;&gt;detecting suspected records&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#whats-next&#34;&gt;What’s next&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div id=&#34;in-the-early-900-frank-benford-observed-that-1-was-more-frequent-as-first-digit-in-his-own-logarithms-manual.&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;In the early ‘900 Frank Benford observed that ’1’ was more frequent as first digit in his own logarithms manual.&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;more-than-one-hundred-years-later-we-can-use-this-curious-findingto-look-for-fraud-on-populations-of-data.&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;More than one hundred years later, we can use this curious finding to look for fraud on populations of data.&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;just-give-a-try-to-the-shiny-app&#34; class=&#34;section level3&#34;&gt;&#xA;&lt;h3&gt;&lt;strong&gt;&lt;a href=&#34;https://andreacirillo.shinyapps.io/BenfordeR/&#34;&gt;just give a try to the shiny app&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;what-benfords-law-stands-for&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;What ‘Benford’s Law’ stands for?&lt;/h2&gt;&#xA;&lt;p&gt;Around 1938 &lt;a href=&#34;http://en.wikipedia.org/wiki/Frank_Benford&#34;&gt;&lt;strong&gt;Frank Benford&lt;/strong&gt;&lt;/a&gt;, a physicist at the General Electrics research laboratories, &lt;strong&gt;observed&lt;/strong&gt; that logarithmic tables were more worn within first pages: was this casual or due to an actual &lt;strong&gt;prevalence of numbers&lt;/strong&gt; &lt;strong&gt;near 1 as first digits?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Network Visualisation With R</title>
       <link>/2014/12/05/network-visualisation-in-r/</link>
       <pubDate>Fri, 05 Dec 2014 15:10:34 +0000</pubDate>
-      
       <guid>/2014/12/05/network-visualisation-in-r/</guid>
-      <description>The main reason why After all, I am still an Internal Auditor. Therefore I often face one of the typical internal auditors problems: understand links between people and companies, in order to discover the existence of hidden communities that could expose the company to unknown risks.
-the solution: linker In order to address this problem I am developing Linker, a lean shiny app that take 1 to 1 links as an input and gives as output a network map:</description>
+      <description>&lt;h3 id=&#34;the-main-reason-why&#34;&gt;The main reason why&lt;/h3&gt;&#xA;&lt;p&gt;After all,&lt;a href=&#34;it.linkedin.com/in/cirilloandrea/&#34;&gt; I am still an Internal Auditor&lt;/a&gt;. Therefore I often face one of the typical &lt;strong&gt;internal auditors problems&lt;/strong&gt;: understand links between people and companies, in order to &lt;strong&gt;discover&lt;/strong&gt; the existence of &lt;strong&gt;hidden communities&lt;/strong&gt; that could expose the company to &lt;strong&gt;unknown risks&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-solution-linker&#34;&gt;the solution: linker&lt;/h3&gt;&#xA;&lt;p&gt;In order to address this problem I am developing &lt;strong&gt;&lt;a href=&#34;https://andreacirillo.shinyapps.io/linker/&#34;&gt;Linker&lt;/a&gt;&lt;/strong&gt;, a &lt;a href=&#34;https://andreacirillo.shinyapps.io/linker/&#34;&gt;&lt;strong&gt;lean shiny app&lt;/strong&gt;&lt;/a&gt; that take 1 to 1 links as an input and gives as output a &lt;strong&gt;network map&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>excel right() function in R</title>
       <link>/2014/10/27/excel-right-function-in-r/</link>
       <pubDate>Mon, 27 Oct 2014 05:29:15 +0000</pubDate>
-      
       <guid>/2014/10/27/excel-right-function-in-r/</guid>
-      <description>as part of the** excel functions in R,** I have developed this custom function, reproducing the excel right() function in th R language. Feel free to copy and use it.
-[code language=&amp;ldquo;r&amp;rdquo;] right = function (string, char){ substr(string,nchar(string)-(char-1),nchar(string))} [/code]
-you can find other function in the Excel functions in R post.</description>
+      <description>&lt;p&gt;as part of the** &lt;a href=&#34;http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/&#34;&gt;excel functions in R&lt;/a&gt;,** I have developed this custom function, reproducing the excel &lt;em&gt;right()&lt;/em&gt; function in th R language. Feel free to copy and use it.&lt;/p&gt;&#xA;&lt;p&gt;[code language=&amp;ldquo;r&amp;rdquo;]&#xA;right = function (string, char){&#xA;substr(string,nchar(string)-(char-1),nchar(string))}&#xA;[/code]&lt;/p&gt;&#xA;&lt;p&gt;you can find other function in the &lt;strong&gt;&lt;a href=&#34;http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/&#34;&gt;Excel functions in R post&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>excel left() function in R</title>
       <link>/2014/10/27/excel-left-function-in-r/</link>
       <pubDate>Mon, 27 Oct 2014 05:27:23 +0000</pubDate>
-      
       <guid>/2014/10/27/excel-left-function-in-r/</guid>
-      <description>as part of the excel functions in R, I have developed this custom function, emulating the excel left() function in th R language. Feel free to copy and use it.
-left = function (string,char){ substr(string,1,char)} you can find other function in the** Excel functions in R post**.</description>
+      <description>&lt;p&gt;as part of the &lt;strong&gt;&lt;a href=&#34;http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/&#34;&gt;excel functions in R&lt;/a&gt;&lt;/strong&gt;, I have developed this custom function, emulating the excel left() function in th R language. Feel free to copy and use it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;left--function-stringchar&#34;&gt;left = function (string,char){&lt;/h2&gt;&#xA;&lt;h2 id=&#34;substrstring1char&#34;&gt; substr(string,1,char)}&lt;/h2&gt;&#xA;&lt;p&gt;you can find other function in the**&lt;a href=&#34;http://andreacirilloblog.wordpress.com/2014/10/25/excel-functions-in-r/&#34;&gt; Excel functions in R post&lt;/a&gt;**.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mining Twitter with R</title>
       <link>/2014/10/09/mining-twitter-with-r/</link>
       <pubDate>Thu, 09 Oct 2014 12:16:24 +0000</pubDate>
-      
       <guid>/2014/10/09/mining-twitter-with-r/</guid>
-      <description>Great tutorial on text mining with twitter byPaeng Angnakoon
-[youtube=http://youtu.be/mJVcANlkxU8]</description>
+      <description>&lt;p&gt;Great tutorial on text mining with twitter by&lt;a href=&#34;https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ&#34;&gt;Paeng Angnakoon&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[youtube=http://youtu.be/mJVcANlkxU8]&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Answering to Ben ( functions comparison in R)</title>
       <link>/2014/09/13/functions-comparison-in-r/</link>
       <pubDate>Sat, 13 Sep 2014 15:05:34 +0000</pubDate>
-      
       <guid>/2014/09/13/functions-comparison-in-r/</guid>
-      <description>Following the post about %in% operator, I received this tweet: https://twitter.com/benwhite21/status/510520550553165824
-I gave a look to the code kindly provided by Ben and then I asked myself: I know dplyr is a really nice package, but which snippet is faster?
-to answer the question I&amp;rsquo;ve put the two snippets in two functions:
-#Ben snippet dplyr_snippet =function(object,column,vector){ filter(object,object[,column] %in% vector) } #AC snippet Rbase_snippet =function(object,column,vector){ object[object[,column] %in% vector,] }
-Then, thanks to the great package microbenchmark, I made a comparison between those two functions, testing the time of execution of both, for 100.</description>
+      <description>&lt;p&gt;Following &lt;a href=&#34;http://andreacirilloblog.wordpress.com/2014/09/02/r-subset-data-frame/&#34;&gt;the post about %in% operator,&lt;/a&gt; I received this tweet:&#xA;&lt;a href=&#34;https://twitter.com/benwhite21/status/510520550553165824&#34;&gt;https://twitter.com/benwhite21/status/510520550553165824&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I gave a look to &lt;a href=&#34;https://gist.github.com/benmwhite/87c50d98c886dfb846e0&#34;&gt;the code kindly provided by Ben&lt;/a&gt; and then I asked myself:&#xA;I know &lt;a href=&#34;http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html&#34;&gt;dplyr&lt;/a&gt; is a really nice package,  but which snippet is faster?&lt;/p&gt;&#xA;&lt;p&gt;to answer the question I&amp;rsquo;ve put the two snippets in two functions:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;#Ben snippet dplyr_snippet =function(object,column,vector){ filter(object,object[,column] %in% vector) } #AC snippet Rbase_snippet =function(object,column,vector){ object[object[,column] %in% vector,] }&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Then, thanks to the great &lt;a href=&#34;http://cran.r-project.org/web/packages/microbenchmark/microbenchmark.pdf&#34;&gt;package microbenchmark&lt;/a&gt;, I made a comparison between those two functions, testing the time of execution of both, for 100.000 times.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Code snippet: subsetting data frame in R by vector</title>
       <link>/2014/09/02/r-subset-data-frame/</link>
       <pubDate>Tue, 02 Sep 2014 08:05:36 +0000</pubDate>
-      
       <guid>/2014/09/02/r-subset-data-frame/</guid>
-      <description>Problem: you haveto subset a data frame using as criteria the exact match of a vector content.
-for instance:
-you have a dataset with some attributes, and you have a vector with some values of one of the attributes. You want to make a filter based on the values in the vector. Example: sales records, each record is a deal.
-The vector is a list of selected customers you are interested in.</description>
+      <description>&lt;h3 id=&#34;problem&#34;&gt;Problem:&lt;/h3&gt;&#xA;&lt;p&gt;you haveto subset a data frame using as criteria the exact match of a vector content.&lt;/p&gt;&#xA;&lt;p&gt;for instance:&lt;/p&gt;&#xA;&lt;h4 id=&#34;you-have-a-dataset-with-some-attributes-and-you-have-a-vector-with-some-values-of-one-of-the-attributes-you-want-to-make-a-filter-based-on-the-values-in-the-vector&#34;&gt;you have a dataset with some attributes, and you have a vector with some values of one of the attributes. You want to make a filter based on the values in the vector.&lt;/h4&gt;&#xA;&lt;p&gt;Example: sales records, each record is a deal.&lt;/p&gt;&#xA;&lt;p&gt;The vector is a list of selected customers you are interested in.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Saturation with Parallel Computation in R</title>
       <link>/2014/07/28/parallel_computation_in_r/</link>
       <pubDate>Mon, 28 Jul 2014 20:14:41 +0000</pubDate>
-      
       <guid>/2014/07/28/parallel_computation_in_r/</guid>
-      <description>I have just saturated all my PC:
-full is the 4gb RAM
-and so is the CPU (I7 4770 @3.4 GHZ)
-Parallel Computation in R which is my secret?
-the doParallel package for R on mac
-The package lets you make some very useful parallel computation, giving you the possibility to use all the potentiality of your CPU.
-As a matter of fact, the standard R option is to use just on of the cores you have got on your PC.</description>
+      <description>&lt;p&gt;I have just saturated all my PC:&lt;/p&gt;&#xA;&lt;p&gt;full is the 4gb RAM&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://andreacirilloblog.files.wordpress.com/2014/07/full-in-e1406577873178.jpg&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/07/full-in-e1406577873178.jpg&#34; alt=&#34;Full-in&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;and so is the CPU (I7 4770 @3.4 GHZ)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://andreacirilloblog.files.wordpress.com/2014/07/full-in1-e1406577829980.jpg&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/07/full-in1-e1406577829980.jpg&#34; alt=&#34;full-in&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;parallel-computation-in-r&#34;&gt;&lt;strong&gt;Parallel Computation in R&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;which is my secret?&lt;/p&gt;&#xA;&lt;p&gt;the &lt;a href=&#34;http://cran.r-project.org/web/packages/doParallel/vignettes/gettingstartedParallel.pdf&#34;&gt;doParallel package&lt;/a&gt; for R on mac&lt;/p&gt;&#xA;&lt;p&gt;The package lets you make some very useful parallel computation, giving you the possibility to use all the potentiality of your CPU.&lt;/p&gt;&#xA;&lt;p&gt;As a matter of fact, the standard R option is to use  just on of the cores you have got on your PC.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Visualize Entertainment Expenditures on a Bubble Chart</title>
       <link>/2014/07/12/how-to-visualize-entertainment-expenditures-on-a-bubble-chart/</link>
       <pubDate>Sat, 12 Jul 2014 07:27:24 +0000</pubDate>
-      
       <guid>/2014/07/12/how-to-visualize-entertainment-expenditures-on-a-bubble-chart/</guid>
-      <description>I&amp;rsquo;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.
-In response to that request I have developed a little Shiny app with an interesting reactive Bubble chart.
-The plot, made using ggplot2 package, is composed by: a categorical x value, represented by the clusters identified in the expenditures population A numerical y value, representing the total amount expended Points defined by the total amount of expenditure in the given cluster for each company subject.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://andreacirilloblog.files.wordpress.com/2014/07/categorical-bubble-chart.png&#34;&gt;&lt;img src=&#34;https://andreacirilloblog.files.wordpress.com/2014/07/categorical-bubble-chart.png&#34; alt=&#34;Bubble Chart Categorical Variables Expenditures Analytics&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been recently asked to analyze some Board entertainment expenditures in order to acquire sufficient assurance about their nature and responsible.&lt;/p&gt;&#xA;&lt;p&gt;In response to that request I have developed a &lt;a href=&#34;https://andreacirillo.shinyapps.io/Entertainment_Expenditures/&#34;&gt;little Shiny app&lt;/a&gt; with an interesting reactive Bubble chart.&lt;/p&gt;&#xA;&lt;p&gt;The plot, made using &lt;a href=&#34;http://ggplot2.org&#34;&gt;ggplot2&lt;/a&gt; package, is composed by:&#xA;a categorical x value, represented by the clusters identified in the expenditures population&#xA;A numerical y value, representing the total amount expended&#xA;Points defined by the total amount of expenditure in the given cluster for each company subject.&#xA;Morover, point size is given by the ratio between amount regularly passed through Account Receivable Process and total amount of expenditure for that subject in that cluster.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

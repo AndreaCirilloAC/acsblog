@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hacking on Un nuovo Taccuino</title>
+    <title>Hacking on Un nuovo Taccuino</title>
     <link>/tags/hacking/</link>
-    <description>Recent content in hacking on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hacking on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Aug 2016 20:30:16 +0000</lastBuildDate><atom:link href="/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Aug 2016 20:30:16 +0000</lastBuildDate>
+    <atom:link href="/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ggplot2 themes examples</title>
       <link>/2016/08/09/ggplot2-themes-examples/</link>
       <pubDate>Tue, 09 Aug 2016 20:30:16 +0000</pubDate>
-      
       <guid>/2016/08/09/ggplot2-themes-examples/</guid>
-      <description>this short post is exactly what it seems: a showcase of all ggplot2 themes available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&amp;rsquo;s try this one&amp;hellip;&amp;rdquo;) and at the end I thought it could have be useful for my readers. At least this post will save you the time of trying all differents themes just to have a sense of how they look like.</description>
+      <description>&lt;p&gt;this short post is exactly what it seems: &lt;strong&gt;a showcase of all ggplot2 themes&lt;/strong&gt; available within the ggplot2 package. I was doing such a list for myself ( you know that feeling &amp;hellip;&amp;ldquo;how would it look like with this theme? let&amp;rsquo;s try this one&amp;hellip;&amp;rdquo;) and at the end I thought &lt;strong&gt;it could have be useful for my readers&lt;/strong&gt;. At least this post will &lt;strong&gt;save you the time of trying all&lt;/strong&gt; differents themes just to have a sense of how they look like.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ramazon: Deploy your Shiny App on AWS with a Function</title>
       <link>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</link>
       <pubDate>Tue, 18 Aug 2015 21:47:00 +0000</pubDate>
-      
       <guid>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
-      <description>Because Afraus received a good interest, last month I override shinyapps.io free plan limits.
-That got me move my Shiny App on an Amazon AWS instance.
-Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.
-All this pain is removed by ramazon, an R package that I developed to take care of everything is needed to deploy a shiny app on an AWS instance.</description>
+      <description>&lt;p&gt;Because &lt;a href=&#34;/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/&#34;&gt;&lt;strong&gt;Afraus&lt;/strong&gt; &lt;/a&gt;received a good interest, last month I override shinyapps.io &lt;strong&gt;&lt;a href=&#34;http://www.shinyapps.io/#pricing&#34;&gt;free plan limits&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;That got me move my Shiny App on an &lt;strong&gt;Amazon AWS instance&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Well, it was not so straight forward: even if there is &lt;strong&gt;plenty of tutorials&lt;/strong&gt; around the web, &lt;strong&gt;every one&lt;/strong&gt; seems to &lt;strong&gt;miss a part&lt;/strong&gt;: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, &lt;strong&gt;error-prone process&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;All this pain is removed by &lt;strong&gt;ramazon&lt;/strong&gt;, an &lt;strong&gt;R package&lt;/strong&gt; that I developed to take care of everything is needed &lt;strong&gt;to deploy a shiny app on an AWS instance&lt;/strong&gt;. An early disclaimer for Windows users: &lt;strong&gt;only Apple OS X is supported&lt;/strong&gt; at the moment.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to list file and folders within a folder ( basic file  app)</title>
       <link>/2015/04/01/how-to-list-file/</link>
       <pubDate>Wed, 01 Apr 2015 20:29:04 +0000</pubDate>
-      
       <guid>/2015/04/01/how-to-list-file/</guid>
-      <description>I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: have you ever wondered how to list all files and folders within a root folder just hitting a button**?**
-I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **I am an auditor, **sorry about that): really time-consuming and not really value-adding activity.</description>
+      <description>&lt;p&gt;I know, we are not talking about analytics and no, this is not going to set me as a great data scientist&amp;hellip; By the way: &lt;strong&gt;have you ever wondered&lt;/strong&gt; &lt;strong&gt;how to list all files and folders&lt;/strong&gt; within a root folder just hitting a button**?**&lt;/p&gt;&#xA;&lt;p&gt;I have been looking for something like that quite a lot of times, for instance when asked to write down an index of all the working papers pertaining to a specific audit ( yes, **&lt;a href=&#34;https://it.linkedin.com/in/cirilloandrea/it&#34;&gt;I am an audito&lt;/a&gt;r, **sorry about that): really time-consuming and not really value-adding activity.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

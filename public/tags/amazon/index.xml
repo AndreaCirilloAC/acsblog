@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>amazon on Un nuovo Taccuino</title>
+    <title>Amazon on Un nuovo Taccuino</title>
     <link>/tags/amazon/</link>
-    <description>Recent content in amazon on Un nuovo Taccuino</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Amazon on Un nuovo Taccuino</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2015 09:19:43 +0000</lastBuildDate><atom:link href="/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Sep 2015 09:19:43 +0000</lastBuildDate>
+    <atom:link href="/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>how to list loaded packages in R: ramazon gets cleaver</title>
       <link>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</link>
       <pubDate>Thu, 10 Sep 2015 09:19:43 +0000</pubDate>
-      
       <guid>/2015/09/10/how-to-list-loaded-packages-in-r-ramazon-gets-cleaver/</guid>
-      <description>It was around midnight here in Italy: I shared the code on Github, published a post on G+, Linkedin and Twitter and then went to bed.
-In the next hours things got growing by themselves, with pleasant results like the following:
-https://twitter.com/DoodlingData/status/635057258888605696
-The R community found ramazon a really helpful package.
-And I actually think it is: Amazon AWS is nowadays one of the most common tools for online web applications and websites hosting.</description>
+      <description>&lt;p&gt;It &lt;strong&gt;was&lt;/strong&gt; around &lt;strong&gt;midnight&lt;/strong&gt; here &lt;strong&gt;in Italy&lt;/strong&gt;:&#xA;I shared the &lt;strong&gt;&lt;a href=&#34;https://github.com/AndreaCirilloAC/ramazon&#34;&gt;code on Github&lt;/a&gt;&lt;/strong&gt;, published a post on G+, Linkedin and Twitter and then &lt;strong&gt;went to bed&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In the next hours things got growing by themselves, with pleasant results like the following:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://twitter.com/DoodlingData/status/635057258888605696&#34;&gt;https://twitter.com/DoodlingData/status/635057258888605696&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The R community found &lt;strong&gt;ramazon&lt;/strong&gt; a really &lt;strong&gt;helpful package&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;And I actually think it is: &lt;strong&gt;Amazon AWS&lt;/strong&gt; is nowadays one of the &lt;strong&gt;most common&lt;/strong&gt; tools for online &lt;strong&gt;web applications&lt;/strong&gt; and &lt;strong&gt;websites hosting.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ramazon: Deploy your Shiny App on AWS with a Function</title>
       <link>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</link>
       <pubDate>Tue, 18 Aug 2015 21:47:00 +0000</pubDate>
-      
       <guid>/2015/08/18/deploy-your-shiny-app-on-aws-with-a-function/</guid>
-      <description>Because Afraus received a good interest, last month I override shinyapps.io free plan limits.
-That got me move my Shiny App on an Amazon AWS instance.
-Well, it was not so straight forward: even if there is plenty of tutorials around the web, every one seems to miss a part: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, error-prone process.
-All this pain is removed by ramazon, an R package that I developed to take care of everything is needed to deploy a shiny app on an AWS instance.</description>
+      <description>&lt;p&gt;Because &lt;a href=&#34;/2015/07/02/introducing-afraus-an-unsupervised-fraud-detection-algorithm/&#34;&gt;&lt;strong&gt;Afraus&lt;/strong&gt; &lt;/a&gt;received a good interest, last month I override shinyapps.io &lt;strong&gt;&lt;a href=&#34;http://www.shinyapps.io/#pricing&#34;&gt;free plan limits&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;That got me move my Shiny App on an &lt;strong&gt;Amazon AWS instance&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Well, it was not so straight forward: even if there is &lt;strong&gt;plenty of tutorials&lt;/strong&gt; around the web, &lt;strong&gt;every one&lt;/strong&gt; seems to &lt;strong&gt;miss a part&lt;/strong&gt;: upgrading R version, removing shiny-server examples&amp;hellip; And even having all info it is still quite a long, &lt;strong&gt;error-prone process&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;All this pain is removed by &lt;strong&gt;ramazon&lt;/strong&gt;, an &lt;strong&gt;R package&lt;/strong&gt; that I developed to take care of everything is needed &lt;strong&gt;to deploy a shiny app on an AWS instance&lt;/strong&gt;. An early disclaimer for Windows users: &lt;strong&gt;only Apple OS X is supported&lt;/strong&gt; at the moment.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
