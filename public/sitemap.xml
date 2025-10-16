@@ -2,7 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/ai/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/post/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2025/10/16/please-don-t-build-your-own-co-pilot-and-learn-to-do-your-job-first/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/productivity/</loc>
     <lastmod>2025-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -35,9 +47,6 @@
     <loc>/categories/analytics/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/dataviz/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,9 +60,6 @@
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/2019/01/27/a-quick-ride-on-pagedown-create-pdf-from-rmarkdown/</loc>
-    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/productivity/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/rmarkdown/</loc>

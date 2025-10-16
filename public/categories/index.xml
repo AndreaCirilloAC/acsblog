@@ -6,8 +6,22 @@
     <description>Recent content in Categories on Un nuovo Taccuino</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>/categories/ai/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>/categories/productivity/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/categories/productivity/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Analytics</title>
       <link>/categories/analytics/</link>
@@ -20,13 +34,6 @@
       <link>/categories/dataviz/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/categories/dataviz/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>/categories/productivity/</link>
-      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/productivity/</guid>
       <description></description>
     </item>
   </channel>
